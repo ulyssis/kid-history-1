@@ -1,0 +1,2604 @@
+[
+  {
+    "id": "uruk-urban",
+    "startYear": -3500,
+    "endYear": -3100,
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        45.64,
+        31.32
+      ]
+    },
+    "i18n": {
+      "en": {
+        "name": "Rise of Uruk",
+        "location": "Southern Mesopotamia",
+        "consequence": "One of the world’s first large cities — writing and temples follow."
+      },
+      "de": {
+        "name": "Aufstieg von Uruk",
+        "location": "Südmesopotamien",
+        "consequence": "Eine der ersten Großstädte der Welt — Schrift und Tempel folgen."
+      },
+      "zh": {
+        "name": "乌鲁克兴起",
+        "location": "南美索不达米亚",
+        "consequence": "世界最早大城市之一——文字与神庙随之出现。"
+      }
+    },
+    "sources": [
+      {
+        "label": "Metropolitan Museum of Art – Heilbrunn Timeline",
+        "url": "https://www.metmuseum.org/toah/"
+      },
+      {
+        "label": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/"
+      }
+    ]
+  },
+  {
+    "id": "egypt-unification",
+    "startYear": -3100,
+    "endYear": -3100,
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        31.2,
+        26.5
+      ]
+    },
+    "i18n": {
+      "en": {
+        "name": "Unification of Egypt",
+        "location": "Nile Valley",
+        "consequence": "Upper and Lower Egypt united under early pharaohs."
+      },
+      "de": {
+        "name": "Einigung Ägyptens",
+        "location": "Niltal",
+        "consequence": "Ober- und Unterägypten unter frühen Pharaonen vereint."
+      },
+      "zh": {
+        "name": "埃及统一",
+        "location": "尼罗河谷",
+        "consequence": "上下埃及在早期法老统治下统一。"
+      }
+    },
+    "sources": [
+      {
+        "label": "British Museum",
+        "url": "https://www.britishmuseum.org/"
+      },
+      {
+        "label": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/"
+      }
+    ]
+  },
+  {
+    "id": "cuneiform",
+    "startYear": -3200,
+    "endYear": -3000,
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        45.6,
+        31.3
+      ]
+    },
+    "i18n": {
+      "en": {
+        "name": "Invention of cuneiform",
+        "location": "Sumer",
+        "consequence": "Clay-tablet writing records trade, laws, and stories."
+      },
+      "de": {
+        "name": "Erfindung der Keilschrift",
+        "location": "Sumer",
+        "consequence": "Tontafel-Schrift hält Handel, Gesetze und Geschichten fest."
+      },
+      "zh": {
+        "name": "楔形文字发明",
+        "location": "苏美尔",
+        "consequence": "泥板文字记录贸易、法律与故事。"
+      }
+    },
+    "sources": [
+      {
+        "label": "Metropolitan Museum of Art – Heilbrunn Timeline",
+        "url": "https://www.metmuseum.org/toah/"
+      },
+      {
+        "label": "British Museum",
+        "url": "https://www.britishmuseum.org/"
+      }
+    ]
+  },
+  {
+    "id": "great-pyramid",
+    "startYear": -2560,
+    "endYear": -2540,
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        31.13,
+        29.98
+      ]
+    },
+    "i18n": {
+      "en": {
+        "name": "Great Pyramid of Giza",
+        "location": "Giza, Egypt",
+        "consequence": "Massive royal tomb shows state power and engineering."
+      },
+      "de": {
+        "name": "Große Pyramide von Gizeh",
+        "location": "Gizeh, Ägypten",
+        "consequence": "Riesiges Königsgrab zeigt Staatsmacht und Technik."
+      },
+      "zh": {
+        "name": "吉萨大金字塔",
+        "location": "埃及吉萨",
+        "consequence": "巨大王陵展现国家力量与工程能力。"
+      }
+    },
+    "sources": [
+      {
+        "label": "UNESCO World Heritage",
+        "url": "https://whc.unesco.org/"
+      },
+      {
+        "label": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/"
+      }
+    ]
+  },
+  {
+    "id": "indus-cities",
+    "startYear": -2600,
+    "endYear": -1900,
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            67,
+            24
+          ],
+          [
+            75,
+            24
+          ],
+          [
+            75,
+            31
+          ],
+          [
+            67,
+            31
+          ],
+          [
+            67,
+            24
+          ]
+        ]
+      ]
+    },
+    "i18n": {
+      "en": {
+        "name": "Harappan city culture",
+        "location": "Indus Valley",
+        "consequence": "Planned cities with drains and standardized weights."
+      },
+      "de": {
+        "name": "Harappa-Stadtkultur",
+        "location": "Industal",
+        "consequence": "Geplante Städte mit Abwasser und einheitlichen Maßen."
+      },
+      "zh": {
+        "name": "哈拉帕城市文化",
+        "location": "印度河流域",
+        "consequence": "规划城市，有排水与标准度量。"
+      }
+    },
+    "sources": [
+      {
+        "label": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/"
+      },
+      {
+        "label": "UNESCO World Heritage",
+        "url": "https://whc.unesco.org/"
+      }
+    ]
+  },
+  {
+    "id": "akkadian-empire",
+    "startYear": -2334,
+    "endYear": -2154,
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        44.1,
+        33.4
+      ]
+    },
+    "i18n": {
+      "en": {
+        "name": "Akkadian Empire",
+        "location": "Mesopotamia",
+        "consequence": "Sargon’s realm links many city-states under one king."
+      },
+      "de": {
+        "name": "Akkadisches Reich",
+        "location": "Mesopotamien",
+        "consequence": "Sargons Reich verbindet viele Stadtstaaten unter einem König."
+      },
+      "zh": {
+        "name": "阿卡德帝国",
+        "location": "美索不达米亚",
+        "consequence": "萨尔贡的统治把众多城邦置于一王之下。"
+      }
+    },
+    "sources": [
+      {
+        "label": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/"
+      },
+      {
+        "label": "Metropolitan Museum of Art – Heilbrunn Timeline",
+        "url": "https://www.metmuseum.org/toah/"
+      }
+    ]
+  },
+  {
+    "id": "hammurabi",
+    "startYear": -1754,
+    "endYear": -1750,
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        44.4,
+        32.5
+      ]
+    },
+    "i18n": {
+      "en": {
+        "name": "Code of Hammurabi",
+        "location": "Babylon",
+        "consequence": "Famous law collection carved in stone for public view."
+      },
+      "de": {
+        "name": "Kodex Hammurabi",
+        "location": "Babylon",
+        "consequence": "Berühmte Rechtssammlung in Stein für alle sichtbar."
+      },
+      "zh": {
+        "name": "汉谟拉比法典",
+        "location": "巴比伦",
+        "consequence": "著名法律汇编刻于石上公开展示。"
+      }
+    },
+    "sources": [
+      {
+        "label": "Musée du Louvre",
+        "url": "https://www.louvre.fr/"
+      },
+      {
+        "label": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/"
+      }
+    ]
+  },
+  {
+    "id": "minoan-palaces",
+    "startYear": -1900,
+    "endYear": -1450,
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        24.8,
+        35.3
+      ]
+    },
+    "i18n": {
+      "en": {
+        "name": "Minoan palaces",
+        "location": "Crete",
+        "consequence": "Palace centers run trade across the Aegean Sea."
+      },
+      "de": {
+        "name": "Minoische Paläste",
+        "location": "Kreta",
+        "consequence": "Palastzentren steuern den Handel in der Ägäis."
+      },
+      "zh": {
+        "name": "米诺斯宫殿",
+        "location": "克里特",
+        "consequence": "宫殿中心掌管爱琴海贸易。"
+      }
+    },
+    "sources": [
+      {
+        "label": "Metropolitan Museum of Art – Heilbrunn Timeline",
+        "url": "https://www.metmuseum.org/toah/"
+      },
+      {
+        "label": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/"
+      }
+    ]
+  },
+  {
+    "id": "exodus-memory",
+    "startYear": -1250,
+    "endYear": -1200,
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        34.5,
+        30.5
+      ]
+    },
+    "i18n": {
+      "en": {
+        "name": "Late Bronze Age upheavals",
+        "location": "Eastern Mediterranean",
+        "consequence": "Migrations and collapses reshape many kingdoms."
+      },
+      "de": {
+        "name": "Umbrüche der Spätbronzezeit",
+        "location": "Östliches Mittelmeer",
+        "consequence": "Wanderungen und Zusammenbrüche formen Reiche neu."
+      },
+      "zh": {
+        "name": "青铜时代晚期动荡",
+        "location": "东地中海",
+        "consequence": "迁徙与崩溃重塑诸多王国。"
+      }
+    },
+    "sources": [
+      {
+        "label": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/"
+      },
+      {
+        "label": "Cambridge Ancient History (overview)",
+        "url": "https://www.cambridge.org/core/series/cambridge-ancient-history/"
+      }
+    ]
+  },
+  {
+    "id": "sea-peoples",
+    "startYear": -1200,
+    "endYear": -1175,
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        32,
+        34
+      ]
+    },
+    "i18n": {
+      "en": {
+        "name": "Sea Peoples conflicts",
+        "location": "Levant & Egypt",
+        "consequence": "Coastal raids mark the end of the Bronze Age order."
+      },
+      "de": {
+        "name": "Seekrieger-Konflikte",
+        "location": "Levant & Ägypten",
+        "consequence": "Küstenangriffe markieren das Ende der Bronzezeitordnung."
+      },
+      "zh": {
+        "name": "海上民族冲突",
+        "location": "黎凡特与埃及",
+        "consequence": "沿海袭扰标志着青铜时代秩序的终结。"
+      }
+    },
+    "sources": [
+      {
+        "label": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/"
+      },
+      {
+        "label": "British Museum",
+        "url": "https://www.britishmuseum.org/"
+      }
+    ]
+  },
+  {
+    "id": "iron-age",
+    "startYear": -1200,
+    "endYear": -800,
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        40,
+        38
+      ]
+    },
+    "i18n": {
+      "en": {
+        "name": "Spread of ironworking",
+        "location": "Near East",
+        "consequence": "Iron tools and weapons become more common."
+      },
+      "de": {
+        "name": "Ausbreitung der Eisenverarbeitung",
+        "location": "Naher Osten",
+        "consequence": "Eisenwerkzeuge und -waffen werden häufiger."
+      },
+      "zh": {
+        "name": "铁器工艺传播",
+        "location": "近东",
+        "consequence": "铁制工具与武器日益普及。"
+      }
+    },
+    "sources": [
+      {
+        "label": "Metropolitan Museum of Art – Heilbrunn Timeline",
+        "url": "https://www.metmuseum.org/toah/"
+      },
+      {
+        "label": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/"
+      }
+    ]
+  },
+  {
+    "id": "olympics",
+    "startYear": -776,
+    "endYear": -776,
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        21.63,
+        37.64
+      ]
+    },
+    "i18n": {
+      "en": {
+        "name": "First Olympic Games (traditional date)",
+        "location": "Olympia, Greece",
+        "consequence": "Pan-Hellenic festival becomes a shared Greek tradition."
+      },
+      "de": {
+        "name": "Erste Olympische Spiele (Traditionsdatum)",
+        "location": "Olympia, Griechenland",
+        "consequence": "Panhellenisches Fest wird gemeinsame griechische Tradition."
+      },
+      "zh": {
+        "name": "首届奥运会（传统纪年）",
+        "location": "希腊奥林匹亚",
+        "consequence": "泛希腊节日成为共享传统。"
+      }
+    },
+    "sources": [
+      {
+        "label": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/"
+      },
+      {
+        "label": "UNESCO World Heritage",
+        "url": "https://whc.unesco.org/"
+      }
+    ]
+  },
+  {
+    "id": "rome-founding",
+    "startYear": -753,
+    "endYear": -753,
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        12.48,
+        41.89
+      ]
+    },
+    "i18n": {
+      "en": {
+        "name": "Traditional founding of Rome",
+        "location": "Rome, Italy",
+        "consequence": "Later Romans date their city’s start to this year."
+      },
+      "de": {
+        "name": "Traditionelle Gründung Roms",
+        "location": "Rom, Italien",
+        "consequence": "Spätere Römer datieren den Stadtbeginn auf dieses Jahr."
+      },
+      "zh": {
+        "name": "罗马建城（传统）",
+        "location": "意大利罗马",
+        "consequence": "后世罗马人将建城定于此年。"
+      }
+    },
+    "sources": [
+      {
+        "label": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/"
+      }
+    ]
+  },
+  {
+    "id": "neo-assyria",
+    "startYear": -900,
+    "endYear": -612,
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            40,
+            33
+          ],
+          [
+            48,
+            33
+          ],
+          [
+            48,
+            38
+          ],
+          [
+            40,
+            38
+          ],
+          [
+            40,
+            33
+          ]
+        ]
+      ]
+    },
+    "i18n": {
+      "en": {
+        "name": "Neo-Assyrian Empire",
+        "location": "Northern Mesopotamia",
+        "consequence": "A powerful military state dominates the Near East."
+      },
+      "de": {
+        "name": "Neuassyrisches Reich",
+        "location": "Nordmesopotamien",
+        "consequence": "Ein mächtiger Militärstaat beherrscht den Nahen Osten."
+      },
+      "zh": {
+        "name": "新亚述帝国",
+        "location": "北美索不达米亚",
+        "consequence": "强大军事国家主宰近东。"
+      }
+    },
+    "sources": [
+      {
+        "label": "British Museum",
+        "url": "https://www.britishmuseum.org/"
+      },
+      {
+        "label": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/"
+      }
+    ]
+  },
+  {
+    "id": "babylon-fall-assyria",
+    "startYear": -612,
+    "endYear": -612,
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        42.68,
+        36.36
+      ]
+    },
+    "i18n": {
+      "en": {
+        "name": "Fall of Nineveh",
+        "location": "Assyria",
+        "consequence": "Assyria’s capital falls; power shifts to Babylon and Media."
+      },
+      "de": {
+        "name": "Fall Ninives",
+        "location": "Assyrien",
+        "consequence": "Assyriens Hauptstadt fällt; Macht wandert nach Babylon und Medien."
+      },
+      "zh": {
+        "name": "尼尼微陷落",
+        "location": "亚述",
+        "consequence": "亚述都城陷落；权力转向巴比伦与米底。"
+      }
+    },
+    "sources": [
+      {
+        "label": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/"
+      }
+    ]
+  },
+  {
+    "id": "cyrus-persia",
+    "startYear": -550,
+    "endYear": -530,
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        53,
+        32
+      ]
+    },
+    "i18n": {
+      "en": {
+        "name": "Cyrus founds Achaemenid Empire",
+        "location": "Persia",
+        "consequence": "A vast empire connects Egypt to Central Asia."
+      },
+      "de": {
+        "name": "Kyros gründet das Achämenidenreich",
+        "location": "Persien",
+        "consequence": "Ein riesiges Reich verbindet Ägypten mit Zentralasien."
+      },
+      "zh": {
+        "name": "居鲁士建立阿契美尼德帝国",
+        "location": "波斯",
+        "consequence": "庞大帝国连接埃及与中亚。"
+      }
+    },
+    "sources": [
+      {
+        "label": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/"
+      },
+      {
+        "label": "Metropolitan Museum of Art – Heilbrunn Timeline",
+        "url": "https://www.metmuseum.org/toah/"
+      }
+    ]
+  },
+  {
+    "id": "confucius",
+    "startYear": -551,
+    "endYear": -479,
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        117,
+        35.5
+      ]
+    },
+    "i18n": {
+      "en": {
+        "name": "Life of Confucius",
+        "location": "Lu, China",
+        "consequence": "His teachings shape ethics and government for centuries."
+      },
+      "de": {
+        "name": "Leben des Konfuzius",
+        "location": "Lu, China",
+        "consequence": "Seine Lehren prägen Ethik und Herrschaft über Jahrhunderte."
+      },
+      "zh": {
+        "name": "孔子生平",
+        "location": "中国鲁国",
+        "consequence": "其思想深刻影响后世伦理与政治。"
+      }
+    },
+    "sources": [
+      {
+        "label": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/"
+      },
+      {
+        "label": "Metropolitan Museum of Art – Heilbrunn Timeline",
+        "url": "https://www.metmuseum.org/toah/"
+      }
+    ]
+  },
+  {
+    "id": "buddha",
+    "startYear": -480,
+    "endYear": -400,
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        83,
+        27.5
+      ]
+    },
+    "i18n": {
+      "en": {
+        "name": "Life of the Buddha (approx.)",
+        "location": "Northern India",
+        "consequence": "Buddhism begins and later spreads across Asia."
+      },
+      "de": {
+        "name": "Leben des Buddha (ca.)",
+        "location": "Nordindien",
+        "consequence": "Der Buddhismus entsteht und breitet sich später in Asien aus."
+      },
+      "zh": {
+        "name": "佛陀生平（约）",
+        "location": "北印度",
+        "consequence": "佛教兴起并后来传遍亚洲。"
+      }
+    },
+    "sources": [
+      {
+        "label": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/"
+      },
+      {
+        "label": "UNESCO World Heritage",
+        "url": "https://whc.unesco.org/"
+      }
+    ]
+  },
+  {
+    "id": "marathon",
+    "startYear": -490,
+    "endYear": -490,
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        23.97,
+        38.15
+      ]
+    },
+    "i18n": {
+      "en": {
+        "name": "Battle of Marathon",
+        "location": "Attica, Greece",
+        "consequence": "Athens stops a Persian landing; Greek city-states gain confidence."
+      },
+      "de": {
+        "name": "Schlacht bei Marathon",
+        "location": "Attika, Griechenland",
+        "consequence": "Athen stoppt eine persische Landung; griechische Poleis gewinnen Mut."
+      },
+      "zh": {
+        "name": "马拉松战役",
+        "location": "希腊阿提卡",
+        "consequence": "雅典击退波斯登陆；希腊城邦信心增强。"
+      }
+    },
+    "sources": [
+      {
+        "label": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/"
+      }
+    ]
+  },
+  {
+    "id": "alexander",
+    "startYear": -336,
+    "endYear": -323,
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        22,
+        40.5
+      ]
+    },
+    "i18n": {
+      "en": {
+        "name": "Alexander the Great’s campaigns",
+        "location": "From Macedonia to India",
+        "consequence": "Hellenistic culture spreads across a huge conquered realm."
+      },
+      "de": {
+        "name": "Feldzüge Alexanders des Großen",
+        "location": "Von Makedonien bis Indien",
+        "consequence": "Hellenistische Kultur verbreitet sich über ein riesiges Reich."
+      },
+      "zh": {
+        "name": "亚历山大大帝远征",
+        "location": "从马其顿到印度",
+        "consequence": "希腊化文化传遍广阔征服地。"
+      }
+    },
+    "sources": [
+      {
+        "label": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/"
+      },
+      {
+        "label": "Metropolitan Museum of Art – Heilbrunn Timeline",
+        "url": "https://www.metmuseum.org/toah/"
+      }
+    ]
+  },
+  {
+    "id": "ashoka",
+    "startYear": -268,
+    "endYear": -232,
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        78,
+        25
+      ]
+    },
+    "i18n": {
+      "en": {
+        "name": "Ashoka of the Maurya Empire",
+        "location": "India",
+        "consequence": "After conquest he promotes Buddhist ethics across his realm."
+      },
+      "de": {
+        "name": "Ashoka im Maurya-Reich",
+        "location": "Indien",
+        "consequence": "Nach Eroberungen fördert er buddhistische Ethik im Reich."
+      },
+      "zh": {
+        "name": "孔雀帝国阿育王",
+        "location": "印度",
+        "consequence": "征战后在全国推行佛教伦理。"
+      }
+    },
+    "sources": [
+      {
+        "label": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/"
+      },
+      {
+        "label": "UNESCO World Heritage",
+        "url": "https://whc.unesco.org/"
+      }
+    ]
+  },
+  {
+    "id": "qin-unify",
+    "startYear": -221,
+    "endYear": -221,
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        109,
+        34
+      ]
+    },
+    "i18n": {
+      "en": {
+        "name": "Qin unifies China",
+        "location": "China",
+        "consequence": "First imperial dynasty standardizes script, roads, and measures."
+      },
+      "de": {
+        "name": "Qin einigt China",
+        "location": "China",
+        "consequence": "Erste Kaiserdynastie vereinheitlicht Schrift, Straßen und Maße."
+      },
+      "zh": {
+        "name": "秦统一中国",
+        "location": "中国",
+        "consequence": "第一个帝国王朝统一文字、道路与度量。"
+      }
+    },
+    "sources": [
+      {
+        "label": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/"
+      },
+      {
+        "label": "Metropolitan Museum of Art – Heilbrunn Timeline",
+        "url": "https://www.metmuseum.org/toah/"
+      }
+    ]
+  },
+  {
+    "id": "great-wall-qin",
+    "startYear": -214,
+    "endYear": -210,
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        116,
+        40.4
+      ]
+    },
+    "i18n": {
+      "en": {
+        "name": "Qin frontier walls",
+        "location": "Northern China",
+        "consequence": "Early wall systems protect northern borders."
+      },
+      "de": {
+        "name": "Qin-Grenzmauern",
+        "location": "Nordchina",
+        "consequence": "Frühe Maueranlagen schützen die Nordgrenze."
+      },
+      "zh": {
+        "name": "秦长城",
+        "location": "中国北方",
+        "consequence": "早期边墙体系保卫北方边疆。"
+      }
+    },
+    "sources": [
+      {
+        "label": "UNESCO World Heritage",
+        "url": "https://whc.unesco.org/"
+      },
+      {
+        "label": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/"
+      }
+    ]
+  },
+  {
+    "id": "roman-republic-end",
+    "startYear": -49,
+    "endYear": -27,
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        12.5,
+        41.9
+      ]
+    },
+    "i18n": {
+      "en": {
+        "name": "From Republic to Empire",
+        "location": "Rome",
+        "consequence": "Civil wars end with Augustus as first emperor."
+      },
+      "de": {
+        "name": "Von der Republik zum Kaiserreich",
+        "location": "Rom",
+        "consequence": "Bürgerkriege enden mit Augustus als erstem Kaiser."
+      },
+      "zh": {
+        "name": "从共和到帝国",
+        "location": "罗马",
+        "consequence": "内战结束，奥古斯都成为首位皇帝。"
+      }
+    },
+    "sources": [
+      {
+        "label": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/"
+      }
+    ]
+  },
+  {
+    "id": "jesus",
+    "startYear": -4,
+    "endYear": 30,
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        35.2,
+        31.7
+      ]
+    },
+    "i18n": {
+      "en": {
+        "name": "Life of Jesus (approx.)",
+        "location": "Judea",
+        "consequence": "Christianity begins and later reshapes Eurasian history."
+      },
+      "de": {
+        "name": "Leben Jesu (ca.)",
+        "location": "Judäa",
+        "consequence": "Das Christentum entsteht und formt später die eurasische Geschichte."
+      },
+      "zh": {
+        "name": "耶稣生平（约）",
+        "location": "犹太地",
+        "consequence": "基督教兴起并后来深刻影响欧亚历史。"
+      }
+    },
+    "sources": [
+      {
+        "label": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/"
+      }
+    ]
+  },
+  {
+    "id": "silk-road",
+    "startYear": 1,
+    "endYear": 200,
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            60,
+            35
+          ],
+          [
+            100,
+            35
+          ],
+          [
+            100,
+            42
+          ],
+          [
+            60,
+            42
+          ],
+          [
+            60,
+            35
+          ]
+        ]
+      ]
+    },
+    "i18n": {
+      "en": {
+        "name": "Silk Road flourishing",
+        "location": "Central Asia",
+        "consequence": "Trade links China, India, Persia, and the Mediterranean."
+      },
+      "de": {
+        "name": "Blüte der Seidenstraße",
+        "location": "Zentralasien",
+        "consequence": "Handel verbindet China, Indien, Persien und das Mittelmeer."
+      },
+      "zh": {
+        "name": "丝绸之路兴盛",
+        "location": "中亚",
+        "consequence": "贸易连接中国、印度、波斯与地中海。"
+      }
+    },
+    "sources": [
+      {
+        "label": "UNESCO World Heritage",
+        "url": "https://whc.unesco.org/"
+      },
+      {
+        "label": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/"
+      }
+    ]
+  },
+  {
+    "id": "trajan-peak",
+    "startYear": 117,
+    "endYear": 117,
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        12.5,
+        41.9
+      ]
+    },
+    "i18n": {
+      "en": {
+        "name": "Roman Empire at Trajan’s death",
+        "location": "Mediterranean world",
+        "consequence": "Rome’s borders reach their greatest extent."
+      },
+      "de": {
+        "name": "Römisches Reich beim Tod Trajans",
+        "location": "Mittelmeerwelt",
+        "consequence": "Roms Grenzen erreichen ihre größte Ausdehnung."
+      },
+      "zh": {
+        "name": "图拉真去世时的罗马帝国",
+        "location": "地中海世界",
+        "consequence": "罗马疆域达到最大范围。"
+      }
+    },
+    "sources": [
+      {
+        "label": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/"
+      }
+    ]
+  },
+  {
+    "id": "constantine",
+    "startYear": 313,
+    "endYear": 330,
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        28.98,
+        41.01
+      ]
+    },
+    "i18n": {
+      "en": {
+        "name": "Constantine & new Rome",
+        "location": "Byzantium / Constantinople",
+        "consequence": "Christianity favored; capital shifts east."
+      },
+      "de": {
+        "name": "Konstantin & Neues Rom",
+        "location": "Byzanz / Konstantinopel",
+        "consequence": "Christentum gefördert; Hauptstadt wandert nach Osten."
+      },
+      "zh": {
+        "name": "君士坦丁与新罗马",
+        "location": "拜占庭/君士坦丁堡",
+        "consequence": "基督教得势；都城东移。"
+      }
+    },
+    "sources": [
+      {
+        "label": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/"
+      },
+      {
+        "label": "UNESCO World Heritage",
+        "url": "https://whc.unesco.org/"
+      }
+    ]
+  },
+  {
+    "id": "gupta-age",
+    "startYear": 320,
+    "endYear": 550,
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            75,
+            15
+          ],
+          [
+            88,
+            15
+          ],
+          [
+            88,
+            28
+          ],
+          [
+            75,
+            28
+          ],
+          [
+            75,
+            15
+          ]
+        ]
+      ]
+    },
+    "i18n": {
+      "en": {
+        "name": "Gupta age",
+        "location": "Northern India",
+        "consequence": "Science, art, and literature flourish in classical India."
+      },
+      "de": {
+        "name": "Gupta-Zeit",
+        "location": "Nordindien",
+        "consequence": "Wissenschaft, Kunst und Literatur blühen im klassischen Indien."
+      },
+      "zh": {
+        "name": "笈多时代",
+        "location": "北印度",
+        "consequence": "古典印度科学、艺术与文学繁荣。"
+      }
+    },
+    "sources": [
+      {
+        "label": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/"
+      },
+      {
+        "label": "Metropolitan Museum of Art – Heilbrunn Timeline",
+        "url": "https://www.metmuseum.org/toah/"
+      }
+    ]
+  },
+  {
+    "id": "fall-west-rome",
+    "startYear": 476,
+    "endYear": 476,
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        12.5,
+        44.5
+      ]
+    },
+    "i18n": {
+      "en": {
+        "name": "End of Western Roman Empire",
+        "location": "Italy",
+        "consequence": "Last western emperor deposed; eastern empire continues."
+      },
+      "de": {
+        "name": "Ende des Weströmischen Reichs",
+        "location": "Italien",
+        "consequence": "Letzter Westkaiser abgesetzt; Oströmisches Reich besteht weiter."
+      },
+      "zh": {
+        "name": "西罗马帝国终结",
+        "location": "意大利",
+        "consequence": "末代西帝被废；东帝国继续存在。"
+      }
+    },
+    "sources": [
+      {
+        "label": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/"
+      }
+    ]
+  },
+  {
+    "id": "justinian",
+    "startYear": 527,
+    "endYear": 565,
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        28.98,
+        41.01
+      ]
+    },
+    "i18n": {
+      "en": {
+        "name": "Justinian’s reign",
+        "location": "Byzantine Empire",
+        "consequence": "Law code and wars try to restore Mediterranean unity."
+      },
+      "de": {
+        "name": "Regierung Justinians",
+        "location": "Byzantinisches Reich",
+        "consequence": "Gesetzbuch und Kriege versuchen die Mittelmeerwelt zu einen."
+      },
+      "zh": {
+        "name": "查士丁尼统治",
+        "location": "拜占庭帝国",
+        "consequence": "法典与战争试图重建地中海统一。"
+      }
+    },
+    "sources": [
+      {
+        "label": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/"
+      }
+    ]
+  },
+  {
+    "id": "sui-canal",
+    "startYear": 605,
+    "endYear": 610,
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        118,
+        33
+      ]
+    },
+    "i18n": {
+      "en": {
+        "name": "Grand Canal (Sui)",
+        "location": "China",
+        "consequence": "Waterways link north and south China for grain and armies."
+      },
+      "de": {
+        "name": "Kaiserkanal (Sui)",
+        "location": "China",
+        "consequence": "Wasserwege verbinden Nord- und Südchina für Getreide und Heere."
+      },
+      "zh": {
+        "name": "隋大运河",
+        "location": "中国",
+        "consequence": "水路连接南北，运粮与调兵。"
+      }
+    },
+    "sources": [
+      {
+        "label": "UNESCO World Heritage",
+        "url": "https://whc.unesco.org/"
+      },
+      {
+        "label": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/"
+      }
+    ]
+  },
+  {
+    "id": "muhammad",
+    "startYear": 610,
+    "endYear": 632,
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        39.83,
+        21.42
+      ]
+    },
+    "i18n": {
+      "en": {
+        "name": "Rise of Islam",
+        "location": "Arabia",
+        "consequence": "A new faith spreads rapidly across Afro-Eurasia."
+      },
+      "de": {
+        "name": "Aufstieg des Islam",
+        "location": "Arabien",
+        "consequence": "Ein neuer Glaube verbreitet sich rasch über Afroeurasien."
+      },
+      "zh": {
+        "name": "伊斯兰教兴起",
+        "location": "阿拉伯半岛",
+        "consequence": "新信仰迅速传遍非欧亚大陆。"
+      }
+    },
+    "sources": [
+      {
+        "label": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/"
+      }
+    ]
+  },
+  {
+    "id": "battle-talas",
+    "startYear": 751,
+    "endYear": 751,
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        71.5,
+        42.5
+      ]
+    },
+    "i18n": {
+      "en": {
+        "name": "Battle of Talas",
+        "location": "Central Asia",
+        "consequence": "Abbasid victory shapes the frontier with Tang China."
+      },
+      "de": {
+        "name": "Schlacht am Talas",
+        "location": "Zentralasien",
+        "consequence": "Abbasidischer Sieg formt die Grenze zu Tang-China."
+      },
+      "zh": {
+        "name": "怛罗斯之战",
+        "location": "中亚",
+        "consequence": "阿拔斯胜利塑造与唐朝的边界。"
+      }
+    },
+    "sources": [
+      {
+        "label": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/"
+      }
+    ]
+  },
+  {
+    "id": "charlemagne",
+    "startYear": 800,
+    "endYear": 800,
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        5.57,
+        50.63
+      ]
+    },
+    "i18n": {
+      "en": {
+        "name": "Charlemagne crowned emperor",
+        "location": "Aachen / Rome",
+        "consequence": "Western Europe gains a new imperial model."
+      },
+      "de": {
+        "name": "Karl der Große zum Kaiser gekrönt",
+        "location": "Aachen / Rom",
+        "consequence": "Westeuropa erhält ein neues Kaisermodell."
+      },
+      "zh": {
+        "name": "查理曼加冕皇帝",
+        "location": "亚琛/罗马",
+        "consequence": "西欧获得新的帝国模式。"
+      }
+    },
+    "sources": [
+      {
+        "label": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/"
+      }
+    ]
+  },
+  {
+    "id": "viking-age",
+    "startYear": 793,
+    "endYear": 1066,
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        10,
+        60
+      ]
+    },
+    "i18n": {
+      "en": {
+        "name": "Viking Age",
+        "location": "North Atlantic & Europe",
+        "consequence": "Raids, trade, and settlement connect northern Europe."
+      },
+      "de": {
+        "name": "Wikingerzeit",
+        "location": "Nordatlantik & Europa",
+        "consequence": "Überfälle, Handel und Siedlungen verbinden Nordeuropa."
+      },
+      "zh": {
+        "name": "维京时代",
+        "location": "北大西洋与欧洲",
+        "consequence": "劫掠、贸易与定居连接北欧。"
+      }
+    },
+    "sources": [
+      {
+        "label": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/"
+      },
+      {
+        "label": "British Museum",
+        "url": "https://www.britishmuseum.org/"
+      }
+    ]
+  },
+  {
+    "id": "baghdad-house",
+    "startYear": 800,
+    "endYear": 900,
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        44.4,
+        33.3
+      ]
+    },
+    "i18n": {
+      "en": {
+        "name": "House of Wisdom era",
+        "location": "Baghdad",
+        "consequence": "Scholars translate and expand science and philosophy."
+      },
+      "de": {
+        "name": "Ära des Hauses der Weisheit",
+        "location": "Bagdad",
+        "consequence": "Gelehrte übersetzen und erweitern Wissenschaft und Philosophie."
+      },
+      "zh": {
+        "name": "智慧宫时代",
+        "location": "巴格达",
+        "consequence": "学者翻译并扩展科学与哲学。"
+      }
+    },
+    "sources": [
+      {
+        "label": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/"
+      },
+      {
+        "label": "Metropolitan Museum of Art – Heilbrunn Timeline",
+        "url": "https://www.metmuseum.org/toah/"
+      }
+    ]
+  },
+  {
+    "id": "print-china",
+    "startYear": 1040,
+    "endYear": 1040,
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        112,
+        34
+      ]
+    },
+    "i18n": {
+      "en": {
+        "name": "Bi Sheng’s movable type (approx.)",
+        "location": "Song China",
+        "consequence": "Early movable type advances printing technology."
+      },
+      "de": {
+        "name": "Bi Shengs bewegliche Lettern (ca.)",
+        "location": "Song-China",
+        "consequence": "Frühe bewegliche Lettern fördern die Drucktechnik."
+      },
+      "zh": {
+        "name": "毕昇活字印刷（约）",
+        "location": "宋朝中国",
+        "consequence": "早期活字推动印刷技术进步。"
+      }
+    },
+    "sources": [
+      {
+        "label": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/"
+      },
+      {
+        "label": "Metropolitan Museum of Art – Heilbrunn Timeline",
+        "url": "https://www.metmuseum.org/toah/"
+      }
+    ]
+  },
+  {
+    "id": "crusades-start",
+    "startYear": 1095,
+    "endYear": 1099,
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        35.2,
+        31.8
+      ]
+    },
+    "i18n": {
+      "en": {
+        "name": "First Crusade",
+        "location": "Levant",
+        "consequence": "Western European armies seize Jerusalem; long conflict begins."
+      },
+      "de": {
+        "name": "Erster Kreuzzug",
+        "location": "Levant",
+        "consequence": "Westeuropäische Heere erobern Jerusalem; langer Konflikt beginnt."
+      },
+      "zh": {
+        "name": "第一次十字军东征",
+        "location": "黎凡特",
+        "consequence": "西欧军队攻占耶路撒冷；长期冲突开始。"
+      }
+    },
+    "sources": [
+      {
+        "label": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/"
+      }
+    ]
+  },
+  {
+    "id": "genghis",
+    "startYear": 1206,
+    "endYear": 1227,
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        105,
+        47
+      ]
+    },
+    "i18n": {
+      "en": {
+        "name": "Genghis Khan unites Mongols",
+        "location": "Mongolia",
+        "consequence": "A steppe empire soon spans much of Eurasia."
+      },
+      "de": {
+        "name": "Dschingis Khan eint die Mongolen",
+        "location": "Mongolei",
+        "consequence": "Ein Steppenreich umspannt bald weite Teile Eurasiens."
+      },
+      "zh": {
+        "name": "成吉思汗统一蒙古",
+        "location": "蒙古高原",
+        "consequence": "草原帝国很快横跨欧亚大部。"
+      }
+    },
+    "sources": [
+      {
+        "label": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/"
+      }
+    ]
+  },
+  {
+    "id": "baghdad-1258",
+    "startYear": 1258,
+    "endYear": 1258,
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        44.4,
+        33.3
+      ]
+    },
+    "i18n": {
+      "en": {
+        "name": "Mongol sack of Baghdad",
+        "location": "Iraq",
+        "consequence": "Abbasid capital falls; political Islam re-centers elsewhere."
+      },
+      "de": {
+        "name": "Mongolische Plünderung Bagdads",
+        "location": "Irak",
+        "consequence": "Abbasidische Hauptstadt fällt; politischer Islam verlagert sich."
+      },
+      "zh": {
+        "name": "蒙古攻陷巴格达",
+        "location": "伊拉克",
+        "consequence": "阿拔斯都城陷落；伊斯兰政治中心转移。"
+      }
+    },
+    "sources": [
+      {
+        "label": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/"
+      }
+    ]
+  },
+  {
+    "id": "marco-polo",
+    "startYear": 1271,
+    "endYear": 1295,
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        121.5,
+        31.2
+      ]
+    },
+    "i18n": {
+      "en": {
+        "name": "Marco Polo’s travels (tradition)",
+        "location": "Yuan China & Silk Road",
+        "consequence": "Travel tales spark European curiosity about Asia."
+      },
+      "de": {
+        "name": "Reisen Marco Polos (Tradition)",
+        "location": "Yuan-China & Seidenstraße",
+        "consequence": "Reiseberichte wecken europäische Neugier auf Asien."
+      },
+      "zh": {
+        "name": "马可·波罗游历（传统）",
+        "location": "元朝中国与丝绸之路",
+        "consequence": "游记激发欧洲对亚洲的兴趣。"
+      }
+    },
+    "sources": [
+      {
+        "label": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/"
+      }
+    ]
+  },
+  {
+    "id": "black-death",
+    "startYear": 1347,
+    "endYear": 1351,
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            0,
+            35
+          ],
+          [
+            50,
+            35
+          ],
+          [
+            50,
+            55
+          ],
+          [
+            0,
+            55
+          ],
+          [
+            0,
+            35
+          ]
+        ]
+      ]
+    },
+    "i18n": {
+      "en": {
+        "name": "Black Death in Europe & West Asia",
+        "location": "Mediterranean & Europe",
+        "consequence": "Plague kills huge populations and transforms societies."
+      },
+      "de": {
+        "name": "Schwarzer Tod in Europa & Westasien",
+        "location": "Mittelmeer & Europa",
+        "consequence": "Pest tötet riesige Bevölkerungen und verändert Gesellschaften."
+      },
+      "zh": {
+        "name": "黑死病席卷欧洲与西亚",
+        "location": "地中海与欧洲",
+        "consequence": "瘟疫造成巨大人口损失并改变社会。"
+      }
+    },
+    "sources": [
+      {
+        "label": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/"
+      }
+    ]
+  },
+  {
+    "id": "ming-found",
+    "startYear": 1368,
+    "endYear": 1368,
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        116.4,
+        39.9
+      ]
+    },
+    "i18n": {
+      "en": {
+        "name": "Ming dynasty founded",
+        "location": "China",
+        "consequence": "Native Chinese rule returns after the Yuan."
+      },
+      "de": {
+        "name": "Gründung der Ming-Dynastie",
+        "location": "China",
+        "consequence": "Chinesische Herrschaft kehrt nach den Yuan zurück."
+      },
+      "zh": {
+        "name": "明朝建立",
+        "location": "中国",
+        "consequence": "元朝之后汉人王朝重建。"
+      }
+    },
+    "sources": [
+      {
+        "label": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/"
+      },
+      {
+        "label": "Metropolitan Museum of Art – Heilbrunn Timeline",
+        "url": "https://www.metmuseum.org/toah/"
+      }
+    ]
+  },
+  {
+    "id": "timur",
+    "startYear": 1370,
+    "endYear": 1405,
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        69.2,
+        39.65
+      ]
+    },
+    "i18n": {
+      "en": {
+        "name": "Timur’s conquests",
+        "location": "Central Asia & Persia",
+        "consequence": "Timurid power reshapes politics and art patronage."
+      },
+      "de": {
+        "name": "Eroberungen Timurs",
+        "location": "Zentralasien & Persien",
+        "consequence": "Timuridenmacht formt Politik und Kunstförderung neu."
+      },
+      "zh": {
+        "name": "帖木儿征服",
+        "location": "中亚与波斯",
+        "consequence": "帖木儿势力重塑政治与艺术赞助。"
+      }
+    },
+    "sources": [
+      {
+        "label": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/"
+      },
+      {
+        "label": "UNESCO World Heritage",
+        "url": "https://whc.unesco.org/"
+      }
+    ]
+  },
+  {
+    "id": "constantinople-1453",
+    "startYear": 1453,
+    "endYear": 1453,
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        28.98,
+        41.01
+      ]
+    },
+    "i18n": {
+      "en": {
+        "name": "Fall of Constantinople",
+        "location": "Byzantium",
+        "consequence": "Ottomans take the city; end of the Byzantine Empire."
+      },
+      "de": {
+        "name": "Fall Konstantinopels",
+        "location": "Byzanz",
+        "consequence": "Osmanen erobern die Stadt; Ende des Byzantinischen Reichs."
+      },
+      "zh": {
+        "name": "君士坦丁堡陷落",
+        "location": "拜占庭",
+        "consequence": "奥斯曼攻占该城；拜占庭帝国终结。"
+      }
+    },
+    "sources": [
+      {
+        "label": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/"
+      },
+      {
+        "label": "UNESCO World Heritage",
+        "url": "https://whc.unesco.org/"
+      }
+    ]
+  },
+  {
+    "id": "gutenburg",
+    "startYear": 1455,
+    "endYear": 1455,
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        8.27,
+        50
+      ]
+    },
+    "i18n": {
+      "en": {
+        "name": "Gutenberg Bible printed",
+        "location": "Mainz, Germany",
+        "consequence": "Movable-type printing spreads literacy and ideas in Europe."
+      },
+      "de": {
+        "name": "Gutenberg-Bibel gedruckt",
+        "location": "Mainz, Deutschland",
+        "consequence": "Buchdruck mit beweglichen Lettern verbreitet Bildung und Ideen."
+      },
+      "zh": {
+        "name": "古腾堡圣经印刷",
+        "location": "德国美因茨",
+        "consequence": "活字印刷在欧洲传播识字与思想。"
+      }
+    },
+    "sources": [
+      {
+        "label": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/"
+      },
+      {
+        "label": "British Museum",
+        "url": "https://www.britishmuseum.org/"
+      }
+    ]
+  },
+  {
+    "id": "columbus",
+    "startYear": 1492,
+    "endYear": 1492,
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -5.5,
+        36.1
+      ]
+    },
+    "i18n": {
+      "en": {
+        "name": "Columbus sails west",
+        "location": "Iberia / Atlantic",
+        "consequence": "Atlantic voyages open a global age linking Eurasia to the Americas."
+      },
+      "de": {
+        "name": "Kolumbus segelt westwärts",
+        "location": "Iberien / Atlantik",
+        "consequence": "Atlantikfahrten eröffnen ein globales Zeitalter."
+      },
+      "zh": {
+        "name": "哥伦布西航",
+        "location": "伊比利亚/大西洋",
+        "consequence": "大西洋航行开启连接欧亚与美洲的全球时代。"
+      }
+    },
+    "sources": [
+      {
+        "label": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/"
+      }
+    ]
+  },
+  {
+    "id": "babur-mughal",
+    "startYear": 1526,
+    "endYear": 1526,
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        77.2,
+        28.6
+      ]
+    },
+    "i18n": {
+      "en": {
+        "name": "Battle of Panipat — Mughal founding",
+        "location": "North India",
+        "consequence": "Babur founds an empire that shapes South Asian culture."
+      },
+      "de": {
+        "name": "Schlacht von Panipat — Mogulgründung",
+        "location": "Nordindien",
+        "consequence": "Babur gründet ein Reich, das Südasien kulturell prägt."
+      },
+      "zh": {
+        "name": "帕尼帕特之战——莫卧儿开国",
+        "location": "北印度",
+        "consequence": "巴布尔建立深刻影响南亚文化的帝国。"
+      }
+    },
+    "sources": [
+      {
+        "label": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/"
+      }
+    ]
+  },
+  {
+    "id": "ottoman-suleiman",
+    "startYear": 1520,
+    "endYear": 1566,
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        28.98,
+        41.01
+      ]
+    },
+    "i18n": {
+      "en": {
+        "name": "Suleiman the Magnificent",
+        "location": "Ottoman Empire",
+        "consequence": "Ottoman power peaks in law, architecture, and conquest."
+      },
+      "de": {
+        "name": "Süleyman der Prächtige",
+        "location": "Osmanisches Reich",
+        "consequence": "Osmanische Macht gipfelt in Recht, Architektur und Eroberung."
+      },
+      "zh": {
+        "name": "苏莱曼大帝",
+        "location": "奥斯曼帝国",
+        "consequence": "奥斯曼在法律、建筑与征服上达致高峰。"
+      }
+    },
+    "sources": [
+      {
+        "label": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/"
+      },
+      {
+        "label": "UNESCO World Heritage",
+        "url": "https://whc.unesco.org/"
+      }
+    ]
+  },
+  {
+    "id": "akbar",
+    "startYear": 1556,
+    "endYear": 1605,
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        78,
+        27
+      ]
+    },
+    "i18n": {
+      "en": {
+        "name": "Akbar’s reign",
+        "location": "Mughal India",
+        "consequence": "Religious debate and administration strengthen a vast empire."
+      },
+      "de": {
+        "name": "Regierung Akbars",
+        "location": "Mogul-Indien",
+        "consequence": "Religionsdebatte und Verwaltung stärken ein riesiges Reich."
+      },
+      "zh": {
+        "name": "阿克巴统治",
+        "location": "莫卧儿印度",
+        "consequence": "宗教讨论与行政巩固庞大帝国。"
+      }
+    },
+    "sources": [
+      {
+        "label": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/"
+      }
+    ]
+  },
+  {
+    "id": "thirty-years",
+    "startYear": 1618,
+    "endYear": 1648,
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            5,
+            45
+          ],
+          [
+            20,
+            45
+          ],
+          [
+            20,
+            55
+          ],
+          [
+            5,
+            55
+          ],
+          [
+            5,
+            45
+          ]
+        ]
+      ]
+    },
+    "i18n": {
+      "en": {
+        "name": "Thirty Years’ War",
+        "location": "Central Europe",
+        "consequence": "Devastating conflict remakes European politics and religion."
+      },
+      "de": {
+        "name": "Dreißigjähriger Krieg",
+        "location": "Mitteleuropa",
+        "consequence": "Verwüstender Konflikt formt europäische Politik und Religion neu."
+      },
+      "zh": {
+        "name": "三十年战争",
+        "location": "中欧",
+        "consequence": "毁灭性冲突重塑欧洲政治与宗教格局。"
+      }
+    },
+    "sources": [
+      {
+        "label": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/"
+      }
+    ]
+  },
+  {
+    "id": "qing-1644",
+    "startYear": 1644,
+    "endYear": 1644,
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        116.4,
+        39.9
+      ]
+    },
+    "i18n": {
+      "en": {
+        "name": "Qing conquest of Beijing",
+        "location": "China",
+        "consequence": "Manchu Qing dynasty begins centuries of rule."
+      },
+      "de": {
+        "name": "Qing erobert Peking",
+        "location": "China",
+        "consequence": "Die mandschurische Qing-Dynastie beginnt jahrhundertelange Herrschaft."
+      },
+      "zh": {
+        "name": "清军入京",
+        "location": "中国",
+        "consequence": "满清王朝开始数百年统治。"
+      }
+    },
+    "sources": [
+      {
+        "label": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/"
+      },
+      {
+        "label": "Metropolitan Museum of Art – Heilbrunn Timeline",
+        "url": "https://www.metmuseum.org/toah/"
+      }
+    ]
+  },
+  {
+    "id": "scientific-revolution",
+    "startYear": 1543,
+    "endYear": 1687,
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        12.5,
+        41.9
+      ]
+    },
+    "i18n": {
+      "en": {
+        "name": "Scientific Revolution (era)",
+        "location": "Europe",
+        "consequence": "New methods transform astronomy, physics, and medicine."
+      },
+      "de": {
+        "name": "Wissenschaftliche Revolution (Ära)",
+        "location": "Europa",
+        "consequence": "Neue Methoden verwandeln Astronomie, Physik und Medizin."
+      },
+      "zh": {
+        "name": "科学革命（时代）",
+        "location": "欧洲",
+        "consequence": "新方法改变天文学、物理学与医学。"
+      }
+    },
+    "sources": [
+      {
+        "label": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/"
+      }
+    ]
+  },
+  {
+    "id": "industrial-start",
+    "startYear": 1760,
+    "endYear": 1840,
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -1.5,
+        53.5
+      ]
+    },
+    "i18n": {
+      "en": {
+        "name": "Industrial Revolution begins",
+        "location": "Britain",
+        "consequence": "Machines and factories change work, cities, and global power."
+      },
+      "de": {
+        "name": "Beginn der Industriellen Revolution",
+        "location": "Britannien",
+        "consequence": "Maschinen und Fabriken verändern Arbeit, Städte und Weltmacht."
+      },
+      "zh": {
+        "name": "工业革命开始",
+        "location": "英国",
+        "consequence": "机器与工厂改变劳动、城市与全球力量。"
+      }
+    },
+    "sources": [
+      {
+        "label": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/"
+      }
+    ]
+  },
+  {
+    "id": "american-indep",
+    "startYear": 1776,
+    "endYear": 1783,
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -0.1,
+        51.5
+      ]
+    },
+    "i18n": {
+      "en": {
+        "name": "American independence (European impact)",
+        "location": "Atlantic world",
+        "consequence": "A new republic inspires political debates in Eurasia."
+      },
+      "de": {
+        "name": "Amerikanische Unabhängigkeit (europäische Wirkung)",
+        "location": "Atlantische Welt",
+        "consequence": "Eine neue Republik inspiriert politische Debatten in Eurasien."
+      },
+      "zh": {
+        "name": "美国独立（对欧洲影响）",
+        "location": "大西洋世界",
+        "consequence": "新共和国激发欧亚政治讨论。"
+      }
+    },
+    "sources": [
+      {
+        "label": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/"
+      }
+    ]
+  },
+  {
+    "id": "french-revolution",
+    "startYear": 1789,
+    "endYear": 1799,
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        2.35,
+        48.86
+      ]
+    },
+    "i18n": {
+      "en": {
+        "name": "French Revolution",
+        "location": "France",
+        "consequence": "Rights, citizenship, and modern politics reshape Europe."
+      },
+      "de": {
+        "name": "Französische Revolution",
+        "location": "Frankreich",
+        "consequence": "Rechte, Bürgerschaft und moderne Politik formen Europa neu."
+      },
+      "zh": {
+        "name": "法国大革命",
+        "location": "法国",
+        "consequence": "权利、公民身份与现代政治重塑欧洲。"
+      }
+    },
+    "sources": [
+      {
+        "label": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/"
+      }
+    ]
+  },
+  {
+    "id": "napoleon",
+    "startYear": 1799,
+    "endYear": 1815,
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        2.3,
+        48.8
+      ]
+    },
+    "i18n": {
+      "en": {
+        "name": "Napoleonic Wars",
+        "location": "Europe",
+        "consequence": "Wars spread legal codes and redraw the map of Europe."
+      },
+      "de": {
+        "name": "Napoleonische Kriege",
+        "location": "Europa",
+        "consequence": "Kriege verbreiten Gesetzeswerke und zeichnen Europas Karte neu."
+      },
+      "zh": {
+        "name": "拿破仑战争",
+        "location": "欧洲",
+        "consequence": "战争传播法典并重绘欧洲地图。"
+      }
+    },
+    "sources": [
+      {
+        "label": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/"
+      }
+    ]
+  },
+  {
+    "id": "opium-war",
+    "startYear": 1839,
+    "endYear": 1842,
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        113.3,
+        23.1
+      ]
+    },
+    "i18n": {
+      "en": {
+        "name": "First Opium War",
+        "location": "China coast",
+        "consequence": "Unequal treaties open Chinese ports to foreign power."
+      },
+      "de": {
+        "name": "Erster Opiumkrieg",
+        "location": "Chinesische Küste",
+        "consequence": "Ungleiche Verträge öffnen chinesische Häfen für fremde Macht."
+      },
+      "zh": {
+        "name": "第一次鸦片战争",
+        "location": "中国沿海",
+        "consequence": "不平等条约迫使中国港口对列强开放。"
+      }
+    },
+    "sources": [
+      {
+        "label": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/"
+      }
+    ]
+  },
+  {
+    "id": "meiji",
+    "startYear": 1868,
+    "endYear": 1868,
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        139.7,
+        35.7
+      ]
+    },
+    "i18n": {
+      "en": {
+        "name": "Meiji Restoration",
+        "location": "Japan",
+        "consequence": "Japan rapidly modernizes industry and the state."
+      },
+      "de": {
+        "name": "Meiji-Restauration",
+        "location": "Japan",
+        "consequence": "Japan modernisiert rasch Industrie und Staat."
+      },
+      "zh": {
+        "name": "明治维新",
+        "location": "日本",
+        "consequence": "日本迅速现代化工业与国家。"
+      }
+    },
+    "sources": [
+      {
+        "label": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/"
+      }
+    ]
+  },
+  {
+    "id": "ww1",
+    "startYear": 1914,
+    "endYear": 1918,
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            0,
+            42
+          ],
+          [
+            40,
+            42
+          ],
+          [
+            40,
+            56
+          ],
+          [
+            0,
+            56
+          ],
+          [
+            0,
+            42
+          ]
+        ]
+      ]
+    },
+    "i18n": {
+      "en": {
+        "name": "World War I",
+        "location": "Europe & beyond",
+        "consequence": "Industrial war topples empires and remakes borders."
+      },
+      "de": {
+        "name": "Erster Weltkrieg",
+        "location": "Europa & darüber hinaus",
+        "consequence": "Industrieller Krieg stürzt Reiche und formt Grenzen neu."
+      },
+      "zh": {
+        "name": "第一次世界大战",
+        "location": "欧洲及其他",
+        "consequence": "工业化战争推翻帝国并重塑边界。"
+      }
+    },
+    "sources": [
+      {
+        "label": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/"
+      }
+    ]
+  },
+  {
+    "id": "russian-rev",
+    "startYear": 1917,
+    "endYear": 1917,
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        30.3,
+        59.9
+      ]
+    },
+    "i18n": {
+      "en": {
+        "name": "Russian Revolution",
+        "location": "Russia",
+        "consequence": "Tsardom ends; a socialist state emerges."
+      },
+      "de": {
+        "name": "Russische Revolution",
+        "location": "Russland",
+        "consequence": "Zarenreich endet; ein sozialistischer Staat entsteht."
+      },
+      "zh": {
+        "name": "俄国革命",
+        "location": "俄罗斯",
+        "consequence": "沙皇统治结束；社会主义国家出现。"
+      }
+    },
+    "sources": [
+      {
+        "label": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/"
+      }
+    ]
+  },
+  {
+    "id": "ww2",
+    "startYear": 1939,
+    "endYear": 1945,
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            -10,
+            30
+          ],
+          [
+            140,
+            30
+          ],
+          [
+            140,
+            60
+          ],
+          [
+            -10,
+            60
+          ],
+          [
+            -10,
+            30
+          ]
+        ]
+      ]
+    },
+    "i18n": {
+      "en": {
+        "name": "World War II",
+        "location": "Eurasia & world",
+        "consequence": "Global war causes immense loss and a new world order."
+      },
+      "de": {
+        "name": "Zweiter Weltkrieg",
+        "location": "Eurasien & Welt",
+        "consequence": "Weltkrieg verursacht enorme Verluste und eine neue Weltordnung."
+      },
+      "zh": {
+        "name": "第二次世界大战",
+        "location": "欧亚与世界",
+        "consequence": "全球战争造成巨大损失并形成新世界秩序。"
+      }
+    },
+    "sources": [
+      {
+        "label": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/"
+      }
+    ]
+  },
+  {
+    "id": "prc-1949",
+    "startYear": 1949,
+    "endYear": 1949,
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        116.4,
+        39.9
+      ]
+    },
+    "i18n": {
+      "en": {
+        "name": "People’s Republic of China founded",
+        "location": "Beijing",
+        "consequence": "Communist victory ends the Chinese Civil War phase."
+      },
+      "de": {
+        "name": "Gründung der Volksrepublik China",
+        "location": "Peking",
+        "consequence": "Kommunistischer Sieg beendet die Phase des Bürgerkriegs."
+      },
+      "zh": {
+        "name": "中华人民共和国成立",
+        "location": "北京",
+        "consequence": "共产党胜利结束内战阶段。"
+      }
+    },
+    "sources": [
+      {
+        "label": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/"
+      }
+    ]
+  },
+  {
+    "id": "eu-project",
+    "startYear": 1957,
+    "endYear": 1993,
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        4.35,
+        50.85
+      ]
+    },
+    "i18n": {
+      "en": {
+        "name": "European integration",
+        "location": "Western Europe",
+        "consequence": "Coal & Steel to EU: nations bind economies to keep peace."
+      },
+      "de": {
+        "name": "Europäische Integration",
+        "location": "Westeuropa",
+        "consequence": "Von Kohle & Stahl zur EU: Staaten binden Wirtschaft für Frieden."
+      },
+      "zh": {
+        "name": "欧洲一体化",
+        "location": "西欧",
+        "consequence": "从煤钢联营到欧盟：国家以经济联合维护和平。"
+      }
+    },
+    "sources": [
+      {
+        "label": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/"
+      }
+    ]
+  },
+  {
+    "id": "internet-age",
+    "startYear": 1991,
+    "endYear": 2000,
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        0,
+        51.5
+      ]
+    },
+    "i18n": {
+      "en": {
+        "name": "World Wide Web goes public",
+        "location": "Global / Europe origin",
+        "consequence": "Instant information connects Eurasian societies anew."
+      },
+      "de": {
+        "name": "World Wide Web wird öffentlich",
+        "location": "Global / Ursprung Europa",
+        "consequence": "Sofortige Information verbindet eurasische Gesellschaften neu."
+      },
+      "zh": {
+        "name": "万维网公开",
+        "location": "全球/起源于欧洲",
+        "consequence": "即时信息重新连接欧亚社会。"
+      }
+    },
+    "sources": [
+      {
+        "label": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/"
+      }
+    ]
+  }
+]

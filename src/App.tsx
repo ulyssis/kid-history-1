@@ -1,122 +1,132 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from './assets/vite.svg'
-import heroImg from './assets/hero.png'
+import { useEffect, useState } from 'react'
+import { useTranslation } from 'react-i18next'
+import type { FeatureCollection } from 'geojson'
+import { EventPopup } from './components/EventPopup'
+import { LanguageSwitcher } from './components/LanguageSwitcher'
+import { Legend } from './components/Legend'
+import { Timeline } from './components/Timeline'
+import {
+  loadEvents,
+  loadTerritoryManifest,
+  loadTerritorySnapshot,
+  pickSnapshotYear,
+} from './data/loaders'
+import { MapView } from './map/MapView'
+import type { HistoricEvent, PolityProperties } from './types'
+import { isEventVisible, MAX_YEAR, MIN_YEAR } from './utils/year'
 import './App.css'
 
-function App() {
-  const [count, setCount] = useState(0)
-
-  return (
-    <>
-      <section id="center">
-        <div className="hero">
-          <img src={heroImg} className="base" width="170" height="179" alt="" />
-          <img src={reactLogo} className="framework" alt="React logo" />
-          <img src={viteLogo} className="vite" alt="Vite logo" />
-        </div>
-        <div>
-          <h1>Get started</h1>
-          <p>
-            Edit <code>src/App.tsx</code> and save to test <code>HMR</code>
-          </p>
-        </div>
-        <button
-          type="button"
-          className="counter"
-          onClick={() => setCount((count) => count + 1)}
-        >
-          Count is {count}
-        </button>
-      </section>
-
-      <div className="ticks"></div>
-
-      <section id="next-steps">
-        <div id="docs">
-          <svg className="icon" role="presentation" aria-hidden="true">
-            <use href="/icons.svg#documentation-icon"></use>
-          </svg>
-          <h2>Documentation</h2>
-          <p>Your questions, answered</p>
-          <ul>
-            <li>
-              <a href="https://vite.dev/" target="_blank">
-                <img className="logo" src={viteLogo} alt="" />
-                Explore Vite
-              </a>
-            </li>
-            <li>
-              <a href="https://react.dev/" target="_blank">
-                <img className="button-icon" src={reactLogo} alt="" />
-                Learn more
-              </a>
-            </li>
-          </ul>
-        </div>
-        <div id="social">
-          <svg className="icon" role="presentation" aria-hidden="true">
-            <use href="/icons.svg#social-icon"></use>
-          </svg>
-          <h2>Connect with us</h2>
-          <p>Join the Vite community</p>
-          <ul>
-            <li>
-              <a href="https://github.com/vitejs/vite" target="_blank">
-                <svg
-                  className="button-icon"
-                  role="presentation"
-                  aria-hidden="true"
-                >
-                  <use href="/icons.svg#github-icon"></use>
-                </svg>
-                GitHub
-              </a>
-            </li>
-            <li>
-              <a href="https://chat.vite.dev/" target="_blank">
-                <svg
-                  className="button-icon"
-                  role="presentation"
-                  aria-hidden="true"
-                >
-                  <use href="/icons.svg#discord-icon"></use>
-                </svg>
-                Discord
-              </a>
-            </li>
-            <li>
-              <a href="https://x.com/vite_js" target="_blank">
-                <svg
-                  className="button-icon"
-                  role="presentation"
-                  aria-hidden="true"
-                >
-                  <use href="/icons.svg#x-icon"></use>
-                </svg>
-                X.com
-              </a>
-            </li>
-            <li>
-              <a href="https://bsky.app/profile/vite.dev" target="_blank">
-                <svg
-                  className="button-icon"
-                  role="presentation"
-                  aria-hidden="true"
-                >
-                  <use href="/icons.svg#bluesky-icon"></use>
-                </svg>
-                Bluesky
-              </a>
-            </li>
-          </ul>
-        </div>
-      </section>
-
-      <div className="ticks"></div>
-      <section id="spacer"></section>
-    </>
-  )
+function extractPolities(fc: FeatureCollection | null): PolityProperties[] {
+  if (!fc) return []
+  const seen = new Set<string>()
+  const out: PolityProperties[] = []
+  for (const f of fc.features) {
+    const p = f.properties as PolityProperties | null
+    if (!p?.polityId || seen.has(p.polityId)) continue
+    seen.add(p.polityId)
+    out.push(p)
+  }
+  return out
 }
 
-export default App
+export default function App() {
+  const { t } = useTranslation()
+  const [year, setYear] = useState(0)
+  const [events, setEvents] = useState<HistoricEvent[]>([])
+  const [snapshotYears, setSnapshotYears] = useState<number[]>([])
+  const [territories, setTerritories] = useState<FeatureCollection | null>(null)
+  const [selectedId, setSelectedId] = useState<string | null>(null)
+  const [loading, setLoading] = useState(true)
+  const [error, setError] = useState<string | null>(null)
+
+  useEffect(() => {
+    let cancelled = false
+    ;(async () => {
+      try {
+        const [ev, manifest] = await Promise.all([
+          loadEvents(),
+          loadTerritoryManifest(),
+        ])
+        if (cancelled) return
+        setEvents(ev)
+        setSnapshotYears(manifest.snapshots.map((s) => s.year).sort((a, b) => a - b))
+        setLoading(false)
+      } catch (e) {
+        if (cancelled) return
+        setError(e instanceof Error ? e.message : 'Failed to load data')
+        setLoading(false)
+      }
+    })()
+    return () => {
+      cancelled = true
+    }
+  }, [])
+
+  useEffect(() => {
+    const snap = pickSnapshotYear(snapshotYears, year)
+    if (snap == null) {
+      setTerritories(null)
+      return
+    }
+    let cancelled = false
+    void loadTerritorySnapshot(snap)
+      .then((fc) => {
+        if (!cancelled) setTerritories(fc)
+      })
+      .catch(() => {
+        if (!cancelled) setTerritories(null)
+      })
+    return () => {
+      cancelled = true
+    }
+  }, [year, snapshotYears])
+
+  const visibleEvents = events.filter((e) =>
+    isEventVisible(e.startYear, e.endYear, year),
+  )
+  const selected = events.find((e) => e.id === selectedId) ?? null
+  const polities = extractPolities(territories)
+
+  return (
+    <div className="app">
+      <header className="app-header">
+        <div className="app-brand">
+          <h1 className="app-title">{t('appTitle')}</h1>
+          <p className="app-subtitle">{t('subtitle')}</p>
+        </div>
+        <LanguageSwitcher />
+      </header>
+
+      <main className="app-main">
+        <div className="map-stage">
+          {loading ? (
+            <p className="app-status">{t('loading')}</p>
+          ) : error ? (
+            <p className="app-status app-error">{error}</p>
+          ) : (
+            <MapView
+              territories={territories}
+              events={visibleEvents}
+              onSelectEvent={setSelectedId}
+            />
+          )}
+          <div className="map-overlays">
+            <Legend polities={polities} />
+          </div>
+        </div>
+
+        <footer className="app-footer">
+          <p className="app-hint">{t('eventsHint')}</p>
+          <Timeline
+            year={Math.min(MAX_YEAR, Math.max(MIN_YEAR, year))}
+            onChange={setYear}
+          />
+        </footer>
+      </main>
+
+      {selected && (
+        <EventPopup event={selected} onClose={() => setSelectedId(null)} />
+      )}
+    </div>
+  )
+}

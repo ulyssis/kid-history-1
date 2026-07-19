@@ -1,0 +1,208 @@
+{
+  "snapshots": [
+    {
+      "year": -3000,
+      "sources": [
+        {
+          "label": "Encyclopaedia Britannica",
+          "url": "https://www.britannica.com/"
+        },
+        {
+          "label": "Wikipedia (overview)",
+          "url": "https://en.wikipedia.org/wiki/History_of_Eurasia"
+        },
+        {
+          "label": "Geacron / historical atlas tradition (approximate)",
+          "url": "https://geacron.com/"
+        }
+      ]
+    },
+    {
+      "year": -2000,
+      "sources": [
+        {
+          "label": "Encyclopaedia Britannica",
+          "url": "https://www.britannica.com/"
+        },
+        {
+          "label": "Wikipedia (overview)",
+          "url": "https://en.wikipedia.org/wiki/History_of_Eurasia"
+        },
+        {
+          "label": "Geacron / historical atlas tradition (approximate)",
+          "url": "https://geacron.com/"
+        }
+      ]
+    },
+    {
+      "year": -1200,
+      "sources": [
+        {
+          "label": "Encyclopaedia Britannica",
+          "url": "https://www.britannica.com/"
+        },
+        {
+          "label": "Wikipedia (overview)",
+          "url": "https://en.wikipedia.org/wiki/History_of_Eurasia"
+        },
+        {
+          "label": "Geacron / historical atlas tradition (approximate)",
+          "url": "https://geacron.com/"
+        }
+      ]
+    },
+    {
+      "year": -500,
+      "sources": [
+        {
+          "label": "Encyclopaedia Britannica",
+          "url": "https://www.britannica.com/"
+        },
+        {
+          "label": "Wikipedia (overview)",
+          "url": "https://en.wikipedia.org/wiki/History_of_Eurasia"
+        },
+        {
+          "label": "Geacron / historical atlas tradition (approximate)",
+          "url": "https://geacron.com/"
+        }
+      ]
+    },
+    {
+      "year": 1,
+      "sources": [
+        {
+          "label": "Encyclopaedia Britannica",
+          "url": "https://www.britannica.com/"
+        },
+        {
+          "label": "Wikipedia (overview)",
+          "url": "https://en.wikipedia.org/wiki/History_of_Eurasia"
+        },
+        {
+          "label": "Geacron / historical atlas tradition (approximate)",
+          "url": "https://geacron.com/"
+        }
+      ]
+    },
+    {
+      "year": 200,
+      "sources": [
+        {
+          "label": "Encyclopaedia Britannica",
+          "url": "https://www.britannica.com/"
+        },
+        {
+          "label": "Wikipedia (overview)",
+          "url": "https://en.wikipedia.org/wiki/History_of_Eurasia"
+        },
+        {
+          "label": "Geacron / historical atlas tradition (approximate)",
+          "url": "https://geacron.com/"
+        }
+      ]
+    },
+    {
+      "year": 600,
+      "sources": [
+        {
+          "label": "Encyclopaedia Britannica",
+          "url": "https://www.britannica.com/"
+        },
+        {
+          "label": "Wikipedia (overview)",
+          "url": "https://en.wikipedia.org/wiki/History_of_Eurasia"
+        },
+        {
+          "label": "Geacron / historical atlas tradition (approximate)",
+          "url": "https://geacron.com/"
+        }
+      ]
+    },
+    {
+      "year": 800,
+      "sources": [
+        {
+          "label": "Encyclopaedia Britannica",
+          "url": "https://www.britannica.com/"
+        },
+        {
+          "label": "Wikipedia (overview)",
+          "url": "https://en.wikipedia.org/wiki/History_of_Eurasia"
+        },
+        {
+          "label": "Geacron / historical atlas tradition (approximate)",
+          "url": "https://geacron.com/"
+        }
+      ]
+    },
+    {
+      "year": 1000,
+      "sources": [
+        {
+          "label": "Encyclopaedia Britannica",
+          "url": "https://www.britannica.com/"
+        },
+        {
+          "label": "Wikipedia (overview)",
+          "url": "https://en.wikipedia.org/wiki/History_of_Eurasia"
+        },
+        {
+          "label": "Geacron / historical atlas tradition (approximate)",
+          "url": "https://geacron.com/"
+        }
+      ]
+    },
+    {
+      "year": 1250,
+      "sources": [
+        {
+          "label": "Encyclopaedia Britannica",
+          "url": "https://www.britannica.com/"
+        },
+        {
+          "label": "Wikipedia (overview)",
+          "url": "https://en.wikipedia.org/wiki/History_of_Eurasia"
+        },
+        {
+          "label": "Geacron / historical atlas tradition (approximate)",
+          "url": "https://geacron.com/"
+        }
+      ]
+    },
+    {
+      "year": 1500,
+      "sources": [
+        {
+          "label": "Encyclopaedia Britannica",
+          "url": "https://www.britannica.com/"
+        },
+        {
+          "label": "Wikipedia (overview)",
+          "url": "https://en.wikipedia.org/wiki/History_of_Eurasia"
+        },
+        {
+          "label": "Geacron / historical atlas tradition (approximate)",
+          "url": "https://geacron.com/"
+        }
+      ]
+    },
+    {
+      "year": 1800,
+      "sources": [
+        {
+          "label": "Encyclopaedia Britannica",
+          "url": "https://www.britannica.com/"
+        },
+        {
+          "label": "Wikipedia (overview)",
+          "url": "https://en.wikipedia.org/wiki/History_of_Eurasia"
+        },
+        {
+          "label": "Geacron / historical atlas tradition (approximate)",
+          "url": "https://geacron.com/"
+        }
+      ]
+    }
+  ]
+}

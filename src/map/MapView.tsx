@@ -62,12 +62,30 @@ interface MapViewProps {
   onSelectEvent: (id: string) => void
 }
 
+function splitEvents(events: HistoricEvent[]): {
+  points: HistoricEvent[]
+  polys: HistoricEvent[]
+} {
+  const points: HistoricEvent[] = []
+  const polys: HistoricEvent[] = []
+  for (const e of events) {
+    const t = e.geometry.type
+    if (t === 'Point' || t === 'MultiPoint') points.push(e)
+    else polys.push(e)
+  }
+  return { points, polys }
+}
+
 export function MapView({ territories, events, onSelectEvent }: MapViewProps) {
   const containerRef = useRef<HTMLDivElement>(null)
   const mapRef = useRef<Map | null>(null)
   const readyRef = useRef(false)
   const onSelectRef = useRef(onSelectEvent)
+  const territoriesRef = useRef(territories)
+  const eventsRef = useRef(events)
   onSelectRef.current = onSelectEvent
+  territoriesRef.current = territories
+  eventsRef.current = events
 
   useEffect(() => {
     if (!containerRef.current || mapRef.current) return
@@ -83,7 +101,7 @@ export function MapView({ territories, events, onSelectEvent }: MapViewProps) {
       ],
       minZoom: 2,
       maxZoom: 8,
-      attributionControl: true,
+      attributionControl: {},
     })
 
     map.addControl(new maplibregl.NavigationControl({ showCompass: false }), 'top-right')
@@ -92,7 +110,7 @@ export function MapView({ territories, events, onSelectEvent }: MapViewProps) {
     map.on('load', () => {
       map.addSource('territories', {
         type: 'geojson',
-        data: emptyCollection(),
+        data: territoriesRef.current ?? emptyCollection(),
       })
       map.addLayer({
         id: 'territories-fill',
@@ -114,9 +132,10 @@ export function MapView({ territories, events, onSelectEvent }: MapViewProps) {
         },
       })
 
+      const { points, polys } = splitEvents(eventsRef.current)
       map.addSource('events-poly', {
         type: 'geojson',
-        data: emptyCollection(),
+        data: toFeatureCollection(polys),
       })
       map.addLayer({
         id: 'events-fill',
@@ -132,14 +151,14 @@ export function MapView({ territories, events, onSelectEvent }: MapViewProps) {
         type: 'line',
         source: 'events-poly',
         paint: {
-          'line-color': '#a3441a',
+          'line-color': '#a84315',
           'line-width': 2,
         },
       })
 
       map.addSource('events-point', {
         type: 'geojson',
-        data: emptyCollection(),
+        data: toFeatureCollection(points),
       })
       map.addLayer({
         id: 'events-circle',
@@ -190,14 +209,7 @@ export function MapView({ territories, events, onSelectEvent }: MapViewProps) {
     const map = mapRef.current
     if (!map || !readyRef.current) return
 
-    const points: HistoricEvent[] = []
-    const polys: HistoricEvent[] = []
-    for (const e of events) {
-      const t = e.geometry.type
-      if (t === 'Point' || t === 'MultiPoint') points.push(e)
-      else polys.push(e)
-    }
-
+    const { points, polys } = splitEvents(events)
     const pointSrc = map.getSource('events-point') as GeoJSONSource | undefined
     const polySrc = map.getSource('events-poly') as GeoJSONSource | undefined
     if (pointSrc) pointSrc.setData(toFeatureCollection(points))
