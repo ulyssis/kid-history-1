@@ -1,20 +1,21 @@
 name: Deploy to GitHub Pages
+
 on:
   push:
     branches: [main]
-    paths-ignore:
-      - 'docs/**'
   workflow_dispatch:
 
 permissions:
-  contents: write
+  contents: read
+  pages: write
+  id-token: write
 
 concurrency:
   group: pages
   cancel-in-progress: true
 
 jobs:
-  deploy:
+  build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -31,24 +32,22 @@ jobs:
         env:
           GITHUB_ACTIONS: true
 
-      - name: Publish dist into docs/ (for Pages: branch main / docs)
+      - name: Verify Pages base path
         run: |
           test -f dist/index.html
           grep -q '/kid-history-1/assets/' dist/index.html
           test -f dist/data/events.json
-          rm -rf docs
-          mkdir docs
-          cp -R dist/. docs/
-          touch docs/.nojekyll
 
-      - name: Commit and push docs/
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add docs
-          if git diff --staged --quiet; then
-            echo "No docs changes"
-            exit 0
-          fi
-          git commit -m "Deploy site to docs/ for GitHub Pages"
-          git push
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
