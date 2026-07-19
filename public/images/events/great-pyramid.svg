@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="450" viewBox="0 0 800 450" role="img" aria-label="Great Pyramid of Giza">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#2a2618"/>
+      <stop offset="100%" stop-color="#c9a227"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="450" fill="url(#bg)"/>
+  <circle cx="120" cy="80" r="90" fill="#fff1c2" opacity="0.08"/>
+  <circle cx="700" cy="380" r="120" fill="#fff1c2" opacity="0.1"/>
+  <path d="M400 115 L500 260 L300 260 Z" fill="#fff1c2" opacity="0.92"/>
+        <rect x="385" y="210" width="30" height="50" fill="#2a2618"/>
+  <text x="400" y="320" text-anchor="middle" fill="#fff1c2" font-family="Georgia, 'Noto Serif SC', serif" font-size="28" font-weight="700">Great Pyramid of Giza</text>
+  <text x="400" y="355" text-anchor="middle" fill="#fff1c2" opacity="0.85" font-family="system-ui, sans-serif" font-size="18">Giza, Egypt</text>
+  <text x="400" y="395" text-anchor="middle" fill="#fff1c2" opacity="0.7" font-family="system-ui, sans-serif" font-size="16">-2560–-2540</text>
+</svg>

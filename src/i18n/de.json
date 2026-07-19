@@ -9,11 +9,14 @@
   "eventTime": "Zeit",
   "eventConsequence": "Warum es wichtig war",
   "eventSources": "Quellen",
+  "imageReference": "Bildnachweis",
   "close": "Schließen",
   "yearLabel": "Jahr",
   "langEn": "English",
   "langDe": "Deutsch",
   "langZh": "中文",
   "loading": "Karte wird geladen…",
-  "eventsHint": "Farbige Flächen zeigen Länder. Punkte und Gebiete zeigen Ereignisse — tippe eines an."
+  "eventsHint": "Farbige Flächen zeigen Länder. Punkte und Gebiete zeigen Ereignisse — tippe eines an.",
+  "prevMilestone": "Vorheriges Ereignis oder Gebietswechsel",
+  "nextMilestone": "Nächstes Ereignis oder Gebietswechsel"
 }

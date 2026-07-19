@@ -1,10 +1,10 @@
 .legend {
-  background: rgba(255, 252, 245, 0.92);
+  background: rgba(255, 252, 245, 0.94);
   border: 1px solid rgba(40, 50, 40, 0.15);
   border-radius: 8px;
-  padding: 0.75rem 0.9rem;
-  max-width: 240px;
-  max-height: 42vh;
+  padding: 0.65rem 0.8rem;
+  max-width: 220px;
+  max-height: 34vh;
   overflow: auto;
   box-shadow: 0 4px 18px rgba(30, 40, 30, 0.12);
 }
@@ -32,6 +32,30 @@
   gap: 0.45rem;
   font-size: 0.82rem;
   color: #2a3328;
+  padding: 0.2rem 0.3rem;
+  border-radius: 4px;
+  transition:
+    background-color 0.12s ease,
+    font-weight 0.12s ease,
+    box-shadow 0.12s ease;
+}
+
+.legend-item--active {
+  font-weight: 700;
+  background: rgba(61, 90, 69, 0.16);
+  box-shadow: inset 3px 0 0 #3d5a45;
+  color: #142018;
+}
+
+.legend-item--active .legend-swatch {
+  width: 0.95rem;
+  height: 0.95rem;
+  border-color: rgba(0, 0, 0, 0.35);
+  box-shadow: 0 0 0 2px rgba(255, 252, 245, 0.9);
+}
+
+.legend-name {
+  line-height: 1.25;
 }
 
 .legend-swatch {

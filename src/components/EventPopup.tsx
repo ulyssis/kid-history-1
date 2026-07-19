@@ -1,4 +1,4 @@
-import { useEffect } from 'react'
+import { useEffect, useState } from 'react'
 import { useTranslation } from 'react-i18next'
 import type { HistoricEvent, Lang } from '../types'
 import { formatYearRange } from '../utils/year'
@@ -9,10 +9,19 @@ interface EventPopupProps {
   onClose: () => void
 }
 
+const FALLBACK_IMAGE = '/images/event-fallback.svg'
+
 export function EventPopup({ event, onClose }: EventPopupProps) {
   const { t, i18n } = useTranslation()
   const lang = (i18n.language?.slice(0, 2) || 'en') as Lang
   const text = event.i18n[lang] ?? event.i18n.en
+  const [imgSrc, setImgSrc] = useState(
+    event.image?.url ?? FALLBACK_IMAGE,
+  )
+
+  useEffect(() => {
+    setImgSrc(event.image?.url ?? FALLBACK_IMAGE)
+  }, [event.id, event.image?.url])
 
   useEffect(() => {
     const onKey = (e: KeyboardEvent) => {
@@ -43,6 +52,29 @@ export function EventPopup({ event, onClose }: EventPopupProps) {
         >
           ×
         </button>
+
+        <figure className="event-figure">
+          <img
+            className="event-image"
+            src={imgSrc}
+            alt={text.name}
+            loading="lazy"
+            onError={() => setImgSrc(FALLBACK_IMAGE)}
+          />
+          <figcaption className="event-image-credit">
+            <span className="event-image-ref-label">{t('imageReference')}: </span>
+            {event.image?.sourceUrl ? (
+              <a href={event.image.sourceUrl} target="_blank" rel="noreferrer">
+                {event.image.credit}
+              </a>
+            ) : (
+              <span>{event.image?.credit ?? t('imageReference')}</span>
+            )}
+            {event.image?.license ? (
+              <span className="event-image-license"> ({event.image.license})</span>
+            ) : null}
+          </figcaption>
+        </figure>
 
         <dl className="event-fields">
           <div>

@@ -13,6 +13,18 @@ export interface EventSource {
   url: string
 }
 
+export interface EventImage {
+  url: string
+  /** Short credit line shown under the picture */
+  credit: string
+  /** Link to the source page when the image is from the web */
+  sourceUrl?: string
+  /** License label, e.g. CC0, Public Domain, Original illustration */
+  license?: string
+  /** How the image was obtained */
+  origin?: 'generated' | 'wikimedia' | 'met' | 'other-pd'
+}
+
 export interface HistoricEvent {
   id: string
   startYear: number
@@ -20,6 +32,7 @@ export interface HistoricEvent {
   geometry: Geometry
   i18n: Record<Lang, LocalizedText>
   sources: EventSource[]
+  image?: EventImage
 }
 
 export interface PolityProperties {

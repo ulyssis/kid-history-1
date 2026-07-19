@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react'
+import { useEffect, useMemo, useState } from 'react'
 import { useTranslation } from 'react-i18next'
 import type { FeatureCollection } from 'geojson'
 import { EventPopup } from './components/EventPopup'
@@ -29,13 +29,29 @@ function extractPolities(fc: FeatureCollection | null): PolityProperties[] {
   return out
 }
 
+/** Years where an event starts/ends or a territory snapshot begins. */
+function buildMilestones(
+  events: HistoricEvent[],
+  snapshotYears: number[],
+): number[] {
+  const set = new Set<number>(snapshotYears)
+  for (const e of events) {
+    set.add(e.startYear)
+    set.add(e.endYear)
+  }
+  return [...set]
+    .filter((y) => y >= MIN_YEAR && y <= MAX_YEAR)
+    .sort((a, b) => a - b)
+}
+
 export default function App() {
   const { t } = useTranslation()
-  const [year, setYear] = useState(0)
+  const [year, setYear] = useState(-200)
   const [events, setEvents] = useState<HistoricEvent[]>([])
   const [snapshotYears, setSnapshotYears] = useState<number[]>([])
   const [territories, setTerritories] = useState<FeatureCollection | null>(null)
   const [selectedId, setSelectedId] = useState<string | null>(null)
+  const [hoveredPolityId, setHoveredPolityId] = useState<string | null>(null)
   const [loading, setLoading] = useState(true)
   const [error, setError] = useState<string | null>(null)
 
@@ -63,23 +79,42 @@ export default function App() {
   }, [])
 
   useEffect(() => {
-    const snap = pickSnapshotYear(snapshotYears, year)
-    if (snap == null) {
-      setTerritories(null)
-      return
-    }
+    if (snapshotYears.length === 0) return
+    // Always show a territory layer: use latest snapshot ≤ year, else earliest.
+    const snap =
+      pickSnapshotYear(snapshotYears, year) ?? snapshotYears[0] ?? null
+    if (snap == null) return
+
     let cancelled = false
     void loadTerritorySnapshot(snap)
       .then((fc) => {
         if (!cancelled) setTerritories(fc)
       })
       .catch(() => {
-        if (!cancelled) setTerritories(null)
+        // Keep previous territories visible on load errors
       })
     return () => {
       cancelled = true
     }
   }, [year, snapshotYears])
+
+  useEffect(() => {
+    setHoveredPolityId(null)
+  }, [year, territories])
+
+  const milestones = useMemo(
+    () => buildMilestones(events, snapshotYears),
+    [events, snapshotYears],
+  )
+
+  const prevMilestone = useMemo(
+    () => [...milestones].reverse().find((y) => y < year) ?? null,
+    [milestones, year],
+  )
+  const nextMilestone = useMemo(
+    () => milestones.find((y) => y > year) ?? null,
+    [milestones, year],
+  )
 
   const visibleEvents = events.filter((e) =>
     isEventVisible(e.startYear, e.endYear, year),
@@ -108,10 +143,14 @@ export default function App() {
               territories={territories}
               events={visibleEvents}
               onSelectEvent={setSelectedId}
+              onHoverPolity={setHoveredPolityId}
             />
           )}
           <div className="map-overlays">
-            <Legend polities={polities} />
+            <Legend
+              polities={polities}
+              highlightedPolityId={hoveredPolityId}
+            />
           </div>
         </div>
 
@@ -120,6 +159,14 @@ export default function App() {
           <Timeline
             year={Math.min(MAX_YEAR, Math.max(MIN_YEAR, year))}
             onChange={setYear}
+            onPrevMilestone={() => {
+              if (prevMilestone != null) setYear(prevMilestone)
+            }}
+            onNextMilestone={() => {
+              if (nextMilestone != null) setYear(nextMilestone)
+            }}
+            canPrev={prevMilestone != null}
+            canNext={nextMilestone != null}
           />
         </footer>
       </main>

@@ -4,8 +4,7 @@ This project is an **educational demo**. Territory polygons are simplified appro
 
 ## Basemap
 
-- OpenStreetMap contributors — [OpenStreetMap copyright](https://www.openstreetmap.org/copyright)
-- CARTO Voyager raster tiles — [CARTO attribution](https://carto.com/attributions)
+- Esri World Imagery satellite tiles — [Esri](https://www.esri.com/) (Esri, Maxar, Earthstar Geographics, and the GIS User Community)
 - MapLibre GL JS — [maplibre.org](https://maplibre.org/)
 
 ## Reference works used for events & polity names
@@ -15,13 +14,16 @@ This project is an **educational demo**. Territory polygons are simplified appro
 - [British Museum](https://www.britishmuseum.org/)
 - [UNESCO World Heritage Centre](https://whc.unesco.org/)
 - [Musée du Louvre](https://www.louvre.fr/) (e.g. Code of Hammurabi)
-- Overview articles on the history of Eurasia and major empires (Wikipedia and textbook surveys)
+- [Wikipedia](https://en.wikipedia.org/) period pages for each polity (linked per feature in GeoJSON `properties.wiki` and in `manifest.json` sources)
 
 ## Territory snapshots
 
-Snapshot years and polity labels draw on the broad tradition of historical atlases (including public educational timelines such as [Geacron](https://geacron.com/)). Shapes in `public/data/territories/*.geojson` were drawn as coarse rectangles/polygons for the demo and should not be cited as geographic truth.
+- **Granularity:** one snapshot every **100 years** from **4000 BCE → 1500 CE**, then every **50 years** to **2020 CE**, **plus** a snapshot for every curated event start/end year so the map matches the moment of each event.
+- **Generator:** `node scripts/generate-territories.mjs` (rewrites `public/data/territories/*`).
+- **Timing:** polity `from`/`to` ranges in the generator follow Wikipedia period articles (e.g. [Qin dynasty](https://en.wikipedia.org/wiki/Qin_dynasty), [Achaemenid Empire](https://en.wikipedia.org/wiki/Achaemenid_Empire), [Mongol Empire](https://en.wikipedia.org/wiki/Mongol_Empire)).
+- **Shapes:** still coarse rectangles/polygons for the classroom demo — not traced atlas plates. Do not cite them as geographic truth.
 
-Each event in `public/data/events.json` lists specific `sources` with labels and URLs. Each territory snapshot in `public/data/territories/manifest.json` lists overview sources for that year.
+Each event in `public/data/events.json` lists specific `sources`. Popup images are local educational illustrations in `public/images/events/` (generated for reliable offline display). Wikimedia Commons URLs were tried but often blocked; regenerate with `node scripts/generate-event-images.mjs`.
 
 ## How to improve accuracy
 

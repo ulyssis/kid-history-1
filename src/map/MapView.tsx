@@ -9,32 +9,31 @@ const EURASIA_BOUNDS: [[number, number], [number, number]] = [
   [155, 72],
 ]
 
-const MUTED_STYLE: maplibregl.StyleSpecification = {
+const SATELLITE_STYLE: maplibregl.StyleSpecification = {
   version: 8,
   glyphs: 'https://demotiles.maplibre.org/font/{fontstack}/{range}.pbf',
   sources: {
-    basemap: {
+    satellite: {
       type: 'raster',
       tiles: [
-        'https://a.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}.png',
-        'https://b.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}.png',
-        'https://c.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}.png',
+        'https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}',
       ],
       tileSize: 256,
       attribution:
-        '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> &copy; <a href="https://carto.com/attributions">CARTO</a>',
+        'Tiles &copy; <a href="https://www.esri.com/">Esri</a> — Source: Esri, Maxar, Earthstar Geographics, and the GIS User Community',
+      maxzoom: 19,
     },
   },
   layers: [
     {
-      id: 'basemap',
+      id: 'satellite',
       type: 'raster',
-      source: 'basemap',
+      source: 'satellite',
       paint: {
-        'raster-saturation': -0.55,
-        'raster-contrast': -0.15,
-        'raster-brightness-min': 0.35,
-        'raster-opacity': 0.85,
+        // Slightly muted so polity colors and event markers stay readable
+        'raster-saturation': -0.15,
+        'raster-brightness-min': 0.15,
+        'raster-opacity': 0.92,
       },
     },
   ],
@@ -60,6 +59,7 @@ interface MapViewProps {
   territories: FeatureCollection | null
   events: HistoricEvent[]
   onSelectEvent: (id: string) => void
+  onHoverPolity?: (polityId: string | null) => void
 }
 
 function splitEvents(events: HistoricEvent[]): {
@@ -76,14 +76,22 @@ function splitEvents(events: HistoricEvent[]): {
   return { points, polys }
 }
 
-export function MapView({ territories, events, onSelectEvent }: MapViewProps) {
+export function MapView({
+  territories,
+  events,
+  onSelectEvent,
+  onHoverPolity,
+}: MapViewProps) {
   const containerRef = useRef<HTMLDivElement>(null)
   const mapRef = useRef<Map | null>(null)
   const readyRef = useRef(false)
   const onSelectRef = useRef(onSelectEvent)
+  const onHoverPolityRef = useRef(onHoverPolity)
   const territoriesRef = useRef(territories)
   const eventsRef = useRef(events)
+  const hoveredPolityRef = useRef<string | null>(null)
   onSelectRef.current = onSelectEvent
+  onHoverPolityRef.current = onHoverPolity
   territoriesRef.current = territories
   eventsRef.current = events
 
@@ -92,7 +100,7 @@ export function MapView({ territories, events, onSelectEvent }: MapViewProps) {
 
     const map = new maplibregl.Map({
       container: containerRef.current,
-      style: MUTED_STYLE,
+      style: SATELLITE_STYLE,
       center: [55, 40],
       zoom: 2.4,
       maxBounds: [
@@ -111,6 +119,7 @@ export function MapView({ territories, events, onSelectEvent }: MapViewProps) {
       map.addSource('territories', {
         type: 'geojson',
         data: territoriesRef.current ?? emptyCollection(),
+        promoteId: 'polityId',
       })
       map.addLayer({
         id: 'territories-fill',
@@ -118,7 +127,12 @@ export function MapView({ territories, events, onSelectEvent }: MapViewProps) {
         source: 'territories',
         paint: {
           'fill-color': ['get', 'color'],
-          'fill-opacity': 0.42,
+          'fill-opacity': [
+            'case',
+            ['boolean', ['feature-state', 'hover'], false],
+            0.72,
+            0.48,
+          ],
         },
       })
       map.addLayer({
@@ -127,8 +141,13 @@ export function MapView({ territories, events, onSelectEvent }: MapViewProps) {
         source: 'territories',
         paint: {
           'line-color': ['get', 'color'],
-          'line-width': 1.2,
-          'line-opacity': 0.75,
+          'line-width': [
+            'case',
+            ['boolean', ['feature-state', 'hover'], false],
+            3,
+            1.6,
+          ],
+          'line-opacity': 0.9,
         },
       })
 
@@ -152,7 +171,9 @@ export function MapView({ territories, events, onSelectEvent }: MapViewProps) {
         source: 'events-poly',
         paint: {
           'line-color': '#a84315',
-          'line-width': 2,
+          'line-width': 2.5,
+          'line-dasharray': [2, 2],
+          'line-opacity': 0.95,
         },
       })
 
@@ -165,27 +186,110 @@ export function MapView({ territories, events, onSelectEvent }: MapViewProps) {
         type: 'circle',
         source: 'events-point',
         paint: {
-          'circle-radius': 8,
+          'circle-radius': 9,
           'circle-color': '#d35400',
           'circle-stroke-width': 2,
           'circle-stroke-color': '#fff8ef',
-          'circle-opacity': 0.92,
+          'circle-opacity': 0.95,
         },
       })
 
-      const clickLayers = ['events-circle', 'events-fill']
-      for (const layer of clickLayers) {
-        map.on('click', layer, (e) => {
-          const id = e.features?.[0]?.properties?.id as string | undefined
+      // Points must stay above area fills for visibility + hit-testing preference.
+      map.moveLayer('events-circle')
+
+      map.on('click', (e) => {
+        // Prefer point events when they sit on top of a long-running area event.
+        // Use a small hit box so points stay easy to click over large fills.
+        const pad = 6
+        const box: [maplibregl.PointLike, maplibregl.PointLike] = [
+          [e.point.x - pad, e.point.y - pad],
+          [e.point.x + pad, e.point.y + pad],
+        ]
+        const atPoint = map.queryRenderedFeatures(box, {
+          layers: ['events-circle'],
+        })
+        if (atPoint.length > 0) {
+          const id = atPoint[0]?.properties?.id as string | undefined
           if (id) onSelectRef.current(id)
+          return
+        }
+        const atArea = map.queryRenderedFeatures(e.point, {
+          layers: ['events-fill'],
         })
-        map.on('mouseenter', layer, () => {
-          map.getCanvas().style.cursor = 'pointer'
-        })
-        map.on('mouseleave', layer, () => {
-          map.getCanvas().style.cursor = ''
-        })
+        const id = atArea[0]?.properties?.id as string | undefined
+        if (id) onSelectRef.current(id)
+      })
+
+      const clearTerritoryHover = () => {
+        const prev = hoveredPolityRef.current
+        if (prev != null) {
+          try {
+            map.setFeatureState(
+              { source: 'territories', id: prev },
+              { hover: false },
+            )
+          } catch {
+            /* source may be empty */
+          }
+          hoveredPolityRef.current = null
+        }
+        onHoverPolityRef.current?.(null)
       }
+
+      const setTerritoryHover = (polityId: string | null) => {
+        if (polityId === hoveredPolityRef.current) return
+        const prev = hoveredPolityRef.current
+        if (prev != null) {
+          try {
+            map.setFeatureState(
+              { source: 'territories', id: prev },
+              { hover: false },
+            )
+          } catch {
+            /* ignore */
+          }
+        }
+        hoveredPolityRef.current = polityId
+        if (polityId != null) {
+          try {
+            map.setFeatureState(
+              { source: 'territories', id: polityId },
+              { hover: true },
+            )
+          } catch {
+            /* ignore */
+          }
+        }
+        onHoverPolityRef.current?.(polityId)
+      }
+
+      map.on('mousemove', (e) => {
+        const pad = 6
+        const box: [maplibregl.PointLike, maplibregl.PointLike] = [
+          [e.point.x - pad, e.point.y - pad],
+          [e.point.x + pad, e.point.y + pad],
+        ]
+        const pointHits = map.queryRenderedFeatures(box, {
+          layers: ['events-circle'],
+        })
+        const areaHits =
+          pointHits.length > 0
+            ? []
+            : map.queryRenderedFeatures(e.point, { layers: ['events-fill'] })
+        map.getCanvas().style.cursor =
+          pointHits.length > 0 || areaHits.length > 0 ? 'pointer' : ''
+
+        const terrHits = map.queryRenderedFeatures(e.point, {
+          layers: ['territories-fill'],
+        })
+        const polityId =
+          (terrHits[0]?.properties?.polityId as string | undefined) ?? null
+        setTerritoryHover(polityId)
+      })
+      map.on('mouseout', () => {
+        map.getCanvas().style.cursor = ''
+        clearTerritoryHover()
+      })
 
       readyRef.current = true
       map.fitBounds(EURASIA_BOUNDS, { padding: 40, duration: 0 })
@@ -214,6 +318,8 @@ export function MapView({ territories, events, onSelectEvent }: MapViewProps) {
     const polySrc = map.getSource('events-poly') as GeoJSONSource | undefined
     if (pointSrc) pointSrc.setData(toFeatureCollection(points))
     if (polySrc) polySrc.setData(toFeatureCollection(polys))
+    // Keep point markers above area polygons after data updates.
+    if (map.getLayer('events-circle')) map.moveLayer('events-circle')
   }, [events])
 
   return <div ref={containerRef} className="map-view" />

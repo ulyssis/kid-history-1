@@ -9,11 +9,14 @@
   "eventTime": "时间",
   "eventConsequence": "为什么重要",
   "eventSources": "来源",
+  "imageReference": "图片来源",
   "close": "关闭",
   "yearLabel": "年份",
   "langEn": "English",
   "langDe": "Deutsch",
   "langZh": "中文",
   "loading": "地图加载中…",
-  "eventsHint": "彩色区域表示疆域。圆点和范围表示历史事件——点击了解更多。"
+  "eventsHint": "彩色区域表示疆域。圆点和范围表示历史事件——点击了解更多。",
+  "prevMilestone": "上一个事件或疆域变化",
+  "nextMilestone": "下一个事件或疆域变化"
 }

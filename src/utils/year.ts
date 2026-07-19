@@ -20,17 +20,15 @@ export function formatYearRange(
   return `${formatYear(startYear, lang)} – ${formatYear(endYear, lang)}`
 }
 
-/** Instant events stay visible in a scrubbing window so kids can find them. */
+/** Show event only while the timeline year is inside [startYear, endYear]. */
 export function isEventVisible(
   startYear: number,
   endYear: number,
   year: number,
-  window = 20,
 ): boolean {
-  if (startYear === endYear) {
-    return Math.abs(year - startYear) <= window
-  }
-  return year >= startYear && year <= endYear
+  const lo = Math.min(startYear, endYear)
+  const hi = Math.max(startYear, endYear)
+  return year >= lo && year <= hi
 }
 
 export const MIN_YEAR = -4000

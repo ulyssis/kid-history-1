@@ -9,11 +9,14 @@
   "eventTime": "Time",
   "eventConsequence": "Why it mattered",
   "eventSources": "Sources",
+  "imageReference": "Image reference",
   "close": "Close",
   "yearLabel": "Year",
   "langEn": "English",
   "langDe": "Deutsch",
   "langZh": "中文",
   "loading": "Loading map…",
-  "eventsHint": "Colored shapes show lands. Dots and areas show events — click one to learn more."
+  "eventsHint": "Colored shapes show lands. Dots and areas show events — click one to learn more.",
+  "prevMilestone": "Previous event or territory change",
+  "nextMilestone": "Next event or territory change"
 }
