@@ -1,0 +1,25 @@
+.lang-switcher {
+  display: flex;
+  gap: 0.35rem;
+}
+
+.lang-btn {
+  font-family: 'Source Sans 3', 'Noto Sans SC', system-ui, sans-serif;
+  font-size: 0.85rem;
+  padding: 0.4rem 0.7rem;
+  border: 1px solid rgba(40, 50, 40, 0.25);
+  background: rgba(255, 252, 245, 0.85);
+  color: #2a3328;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.lang-btn:hover {
+  background: rgba(255, 252, 245, 1);
+}
+
+.lang-btn.active {
+  background: #3d5a45;
+  color: #f7f4ec;
+  border-color: #3d5a45;
+}

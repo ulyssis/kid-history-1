@@ -1,0 +1,19 @@
+{
+  "appTitle": "欧亚历史地图",
+  "subtitle": "穿越时间，探索欧亚大陆与北非",
+  "approxNote": "边界为学习用的近似重建，并非精确地图。",
+  "legendTitle": "这一年的主要区域",
+  "noPolities": "这一年暂无主要疆域图。",
+  "eventName": "事件",
+  "eventLocation": "地点",
+  "eventTime": "时间",
+  "eventConsequence": "为什么重要",
+  "eventSources": "来源",
+  "close": "关闭",
+  "yearLabel": "年份",
+  "langEn": "English",
+  "langDe": "Deutsch",
+  "langZh": "中文",
+  "loading": "地图加载中…",
+  "eventsHint": "彩色区域表示疆域。圆点和范围表示历史事件——点击了解更多。"
+}

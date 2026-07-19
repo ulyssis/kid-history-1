@@ -1,0 +1,19 @@
+{
+  "appTitle": "Eurasia History Map",
+  "subtitle": "Travel through time across Eurasia and North Africa",
+  "approxNote": "Borders are approximate reconstructions for learning — not exact maps.",
+  "legendTitle": "Lands in this year",
+  "noPolities": "No major territories drawn for this year yet.",
+  "eventName": "Event",
+  "eventLocation": "Location",
+  "eventTime": "Time",
+  "eventConsequence": "Why it mattered",
+  "eventSources": "Sources",
+  "close": "Close",
+  "yearLabel": "Year",
+  "langEn": "English",
+  "langDe": "Deutsch",
+  "langZh": "中文",
+  "loading": "Loading map…",
+  "eventsHint": "Colored shapes show lands. Dots and areas show events — click one to learn more."
+}

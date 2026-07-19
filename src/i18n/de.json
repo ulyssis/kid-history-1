@@ -1,0 +1,19 @@
+{
+  "appTitle": "Eurasien-Geschichtskarte",
+  "subtitle": "Reise durch die Zeit über Eurasien und Nordafrika",
+  "approxNote": "Grenzen sind ungefähre Rekonstruktionen zum Lernen — keine exakten Karten.",
+  "legendTitle": "Länder in diesem Jahr",
+  "noPolities": "Für dieses Jahr sind noch keine großen Gebiete gezeichnet.",
+  "eventName": "Ereignis",
+  "eventLocation": "Ort",
+  "eventTime": "Zeit",
+  "eventConsequence": "Warum es wichtig war",
+  "eventSources": "Quellen",
+  "close": "Schließen",
+  "yearLabel": "Jahr",
+  "langEn": "English",
+  "langDe": "Deutsch",
+  "langZh": "中文",
+  "loading": "Karte wird geladen…",
+  "eventsHint": "Farbige Flächen zeigen Länder. Punkte und Gebiete zeigen Ereignisse — tippe eines an."
+}
