@@ -26,6 +26,21 @@ npm run dev
 Then open **http://127.0.0.1:5173/** in your browser.
 
 If `npm` is “command not found”, keep the `PATH` line above. If port 5173 is busy, Vite will suggest another port — use the URL it prints.
+
+## GitHub Pages (public website)
+
+Site URL: `https://ulyssis.github.io/kid-history-1/`
+
+**Required setting (common cause of a blank / broken site):**
+
+1. Open the repo on GitHub → **Settings** → **Pages**
+2. Under **Build and deployment** → **Source**, choose **GitHub Actions**  
+   (do **not** choose “Deploy from a branch” / `main` root — that serves the Vite *source* `index.html` and loads `/src/main.tsx`, which does not work on Pages)
+3. Push to `main` (or re-run the **Deploy to GitHub Pages** workflow under the **Actions** tab)
+4. Wait until the workflow is green, then hard-refresh the site
+
+Local vs Pages base path is handled in `vite.config.ts` (`/` locally, `/kid-history-1/` in GitHub Actions).
+
 ## Scripts
 
 | Command        | Description                          |

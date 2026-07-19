@@ -2,13 +2,17 @@ name: Deploy to GitHub Pages
 on:
   push:
     branches: [main]
+  workflow_dispatch:
+
 permissions:
   contents: read
   pages: write
   id-token: write
+
 concurrency:
   group: pages
   cancel-in-progress: true
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -18,11 +22,26 @@ jobs:
         with:
           node-version: 22
           cache: npm
-      - run: npm ci
-      - run: npm run build
+      - name: Install and build
+        run: |
+          npm ci
+          npm run build
+        env:
+          # Ensure Vite uses the GitHub Pages base path
+          GITHUB_ACTIONS: true
+      - name: Verify dist looks like a Vite build
+        run: |
+          test -f dist/index.html
+          grep -q '/kid-history-1/assets/' dist/index.html
+          test -f dist/data/events.json
+          test -f dist/data/territories/manifest.json
+          echo "dist OK:"
+          head -20 dist/index.html
+      - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:
           path: dist
+
   deploy:
     needs: build
     runs-on: ubuntu-latest
