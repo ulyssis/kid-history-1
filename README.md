@@ -31,15 +31,18 @@ If `npm` is “command not found”, keep the `PATH` line above. If port 5173 is
 
 Site URL: `https://ulyssis.github.io/kid-history-1/`
 
-**Required setting (common cause of a blank / broken site):**
+The built site is published from the **`docs/`** folder on the `main` branch.
 
-1. Open the repo on GitHub → **Settings** → **Pages**
-2. Under **Build and deployment** → **Source**, choose **GitHub Actions**  
-   (do **not** choose “Deploy from a branch” / `main` root — that serves the Vite *source* `index.html` and loads `/src/main.tsx`, which does not work on Pages)
-3. Push to `main` (or re-run the **Deploy to GitHub Pages** workflow under the **Actions** tab)
-4. Wait until the workflow is green, then hard-refresh the site
+**Required setting on GitHub (this fixes a blank/black page):**
 
-Local vs Pages base path is handled in `vite.config.ts` (`/` locally, `/kid-history-1/` in GitHub Actions).
+1. Repo → **Settings** → **Pages**
+2. **Build and deployment** → **Source**: **Deploy from a branch**
+3. Branch: **`main`** / folder: **`/docs`** (not `/ (root)`)
+4. Save, wait 1–2 minutes, then hard-refresh the site
+
+If Source is `main` + `/ (root)`, GitHub serves the Vite *source* `index.html` (`/src/main.tsx`) and the app will not load.
+
+Local vs Pages base path is handled in `vite.config.ts` (`/` locally, `/kid-history-1/` in CI).
 
 ## Scripts
 

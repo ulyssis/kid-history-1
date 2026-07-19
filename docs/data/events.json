@@ -1,0 +1,6450 @@
+[
+  {
+    "id": "uruk-urban",
+    "startYear": -3500,
+    "endYear": -3100,
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        45.64,
+        31.32
+      ]
+    },
+    "i18n": {
+      "en": {
+        "name": "Rise of Uruk",
+        "location": "Southern Mesopotamia",
+        "consequence": "One of the world’s first large cities — writing and temples follow."
+      },
+      "de": {
+        "name": "Aufstieg von Uruk",
+        "location": "Südmesopotamien",
+        "consequence": "Eine der ersten Großstädte der Welt — Schrift und Tempel folgen."
+      },
+      "zh": {
+        "name": "乌鲁克兴起",
+        "location": "南美索不达米亚",
+        "consequence": "世界最早大城市之一——文字与神庙随之出现。"
+      }
+    },
+    "sources": [
+      {
+        "label": "Metropolitan Museum of Art – Heilbrunn Timeline",
+        "url": "https://www.metmuseum.org/toah/"
+      },
+      {
+        "label": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/"
+      }
+    ],
+    "image": {
+      "url": "/images/events/uruk-urban.jpg",
+      "credit": "Original educational illustration created for Eurasia History Map",
+      "license": "Original / no third-party photo IP",
+      "origin": "generated"
+    }
+  },
+  {
+    "id": "cuneiform",
+    "startYear": -3200,
+    "endYear": -3000,
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        45.6,
+        31.3
+      ]
+    },
+    "i18n": {
+      "en": {
+        "name": "Invention of cuneiform",
+        "location": "Sumer",
+        "consequence": "Clay-tablet writing records trade, laws, and stories."
+      },
+      "de": {
+        "name": "Erfindung der Keilschrift",
+        "location": "Sumer",
+        "consequence": "Tontafel-Schrift hält Handel, Gesetze und Geschichten fest."
+      },
+      "zh": {
+        "name": "楔形文字发明",
+        "location": "苏美尔",
+        "consequence": "泥板文字记录贸易、法律与故事。"
+      }
+    },
+    "sources": [
+      {
+        "label": "Metropolitan Museum of Art – Heilbrunn Timeline",
+        "url": "https://www.metmuseum.org/toah/"
+      },
+      {
+        "label": "British Museum",
+        "url": "https://www.britishmuseum.org/"
+      }
+    ],
+    "image": {
+      "url": "/images/events/cuneiform.jpg",
+      "credit": "Original educational illustration created for Eurasia History Map",
+      "license": "Original / no third-party photo IP",
+      "origin": "generated"
+    }
+  },
+  {
+    "id": "egypt-unification",
+    "startYear": -3100,
+    "endYear": -3100,
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        31.2,
+        26.5
+      ]
+    },
+    "i18n": {
+      "en": {
+        "name": "Unification of Egypt",
+        "location": "Nile Valley",
+        "consequence": "Upper and Lower Egypt united under early pharaohs."
+      },
+      "de": {
+        "name": "Einigung Ägyptens",
+        "location": "Niltal",
+        "consequence": "Ober- und Unterägypten unter frühen Pharaonen vereint."
+      },
+      "zh": {
+        "name": "埃及统一",
+        "location": "尼罗河谷",
+        "consequence": "上下埃及在早期法老统治下统一。"
+      }
+    },
+    "sources": [
+      {
+        "label": "British Museum",
+        "url": "https://www.britishmuseum.org/"
+      },
+      {
+        "label": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/"
+      }
+    ],
+    "image": {
+      "url": "/images/events/egypt-unification.jpg",
+      "credit": "Original educational illustration created for Eurasia History Map",
+      "license": "Original / no third-party photo IP",
+      "origin": "generated"
+    }
+  },
+  {
+    "id": "indus-cities",
+    "startYear": -2600,
+    "endYear": -1900,
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            67,
+            24
+          ],
+          [
+            75,
+            24
+          ],
+          [
+            75,
+            31
+          ],
+          [
+            67,
+            31
+          ],
+          [
+            67,
+            24
+          ]
+        ]
+      ]
+    },
+    "i18n": {
+      "en": {
+        "name": "Harappan city culture",
+        "location": "Indus Valley",
+        "consequence": "Planned cities with drains and standardized weights."
+      },
+      "de": {
+        "name": "Harappa-Stadtkultur",
+        "location": "Industal",
+        "consequence": "Geplante Städte mit Abwasser und einheitlichen Maßen."
+      },
+      "zh": {
+        "name": "哈拉帕城市文化",
+        "location": "印度河流域",
+        "consequence": "规划城市，有排水与标准度量。"
+      }
+    },
+    "sources": [
+      {
+        "label": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/"
+      },
+      {
+        "label": "UNESCO World Heritage",
+        "url": "https://whc.unesco.org/"
+      }
+    ],
+    "image": {
+      "url": "/images/events/indus-cities.jpg",
+      "credit": "Original educational illustration created for Eurasia History Map",
+      "license": "Original / no third-party photo IP",
+      "origin": "generated"
+    }
+  },
+  {
+    "id": "great-pyramid",
+    "startYear": -2560,
+    "endYear": -2540,
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        31.13,
+        29.98
+      ]
+    },
+    "i18n": {
+      "en": {
+        "name": "Great Pyramid of Giza",
+        "location": "Giza, Egypt",
+        "consequence": "Massive royal tomb shows state power and engineering."
+      },
+      "de": {
+        "name": "Große Pyramide von Gizeh",
+        "location": "Gizeh, Ägypten",
+        "consequence": "Riesiges Königsgrab zeigt Staatsmacht und Technik."
+      },
+      "zh": {
+        "name": "吉萨大金字塔",
+        "location": "埃及吉萨",
+        "consequence": "巨大王陵展现国家力量与工程能力。"
+      }
+    },
+    "sources": [
+      {
+        "label": "UNESCO World Heritage",
+        "url": "https://whc.unesco.org/"
+      },
+      {
+        "label": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/"
+      }
+    ],
+    "image": {
+      "url": "/images/events/great-pyramid.jpg",
+      "credit": "Original educational illustration created for Eurasia History Map",
+      "license": "Original / no third-party photo IP",
+      "origin": "generated"
+    }
+  },
+  {
+    "id": "akkadian-empire",
+    "startYear": -2334,
+    "endYear": -2154,
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        44.1,
+        33.4
+      ]
+    },
+    "i18n": {
+      "en": {
+        "name": "Akkadian Empire",
+        "location": "Mesopotamia",
+        "consequence": "Sargon’s realm links many city-states under one king."
+      },
+      "de": {
+        "name": "Akkadisches Reich",
+        "location": "Mesopotamien",
+        "consequence": "Sargons Reich verbindet viele Stadtstaaten unter einem König."
+      },
+      "zh": {
+        "name": "阿卡德帝国",
+        "location": "美索不达米亚",
+        "consequence": "萨尔贡的统治把众多城邦置于一王之下。"
+      }
+    },
+    "sources": [
+      {
+        "label": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/"
+      },
+      {
+        "label": "Metropolitan Museum of Art – Heilbrunn Timeline",
+        "url": "https://www.metmuseum.org/toah/"
+      }
+    ],
+    "image": {
+      "url": "/images/events/akkadian-empire.jpg",
+      "credit": "Original educational illustration created for Eurasia History Map",
+      "license": "Original / no third-party photo IP",
+      "origin": "generated"
+    }
+  },
+  {
+    "id": "minoan-palaces",
+    "startYear": -1900,
+    "endYear": -1450,
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        24.8,
+        35.3
+      ]
+    },
+    "i18n": {
+      "en": {
+        "name": "Minoan palaces",
+        "location": "Crete",
+        "consequence": "Palace centers run trade across the Aegean Sea."
+      },
+      "de": {
+        "name": "Minoische Paläste",
+        "location": "Kreta",
+        "consequence": "Palastzentren steuern den Handel in der Ägäis."
+      },
+      "zh": {
+        "name": "米诺斯宫殿",
+        "location": "克里特",
+        "consequence": "宫殿中心掌管爱琴海贸易。"
+      }
+    },
+    "sources": [
+      {
+        "label": "Metropolitan Museum of Art – Heilbrunn Timeline",
+        "url": "https://www.metmuseum.org/toah/"
+      },
+      {
+        "label": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/"
+      }
+    ],
+    "image": {
+      "url": "/images/events/minoan-palaces.jpg",
+      "credit": "Original educational illustration created for Eurasia History Map",
+      "license": "Original / no third-party photo IP",
+      "origin": "generated"
+    }
+  },
+  {
+    "id": "hammurabi",
+    "startYear": -1754,
+    "endYear": -1750,
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        44.4,
+        32.5
+      ]
+    },
+    "i18n": {
+      "en": {
+        "name": "Code of Hammurabi",
+        "location": "Babylon",
+        "consequence": "Famous law collection carved in stone for public view."
+      },
+      "de": {
+        "name": "Kodex Hammurabi",
+        "location": "Babylon",
+        "consequence": "Berühmte Rechtssammlung in Stein für alle sichtbar."
+      },
+      "zh": {
+        "name": "汉谟拉比法典",
+        "location": "巴比伦",
+        "consequence": "著名法律汇编刻于石上公开展示。"
+      }
+    },
+    "sources": [
+      {
+        "label": "Musée du Louvre",
+        "url": "https://www.louvre.fr/"
+      },
+      {
+        "label": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/"
+      }
+    ],
+    "image": {
+      "url": "/images/events/hammurabi.jpg",
+      "credit": "Original educational illustration created for Eurasia History Map",
+      "license": "Original / no third-party photo IP",
+      "origin": "generated"
+    }
+  },
+  {
+    "id": "exodus-memory",
+    "startYear": -1250,
+    "endYear": -1200,
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        34.5,
+        30.5
+      ]
+    },
+    "i18n": {
+      "en": {
+        "name": "Late Bronze Age upheavals",
+        "location": "Eastern Mediterranean",
+        "consequence": "Migrations and collapses reshape many kingdoms."
+      },
+      "de": {
+        "name": "Umbrüche der Spätbronzezeit",
+        "location": "Östliches Mittelmeer",
+        "consequence": "Wanderungen und Zusammenbrüche formen Reiche neu."
+      },
+      "zh": {
+        "name": "青铜时代晚期动荡",
+        "location": "东地中海",
+        "consequence": "迁徙与崩溃重塑诸多王国。"
+      }
+    },
+    "sources": [
+      {
+        "label": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/"
+      },
+      {
+        "label": "Cambridge Ancient History (overview)",
+        "url": "https://www.cambridge.org/core/series/cambridge-ancient-history/"
+      }
+    ],
+    "image": {
+      "url": "/images/events/exodus-memory.jpg",
+      "credit": "Original educational illustration created for Eurasia History Map",
+      "license": "Original / no third-party photo IP",
+      "origin": "generated"
+    }
+  },
+  {
+    "id": "iron-age",
+    "startYear": -1200,
+    "endYear": -800,
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        40,
+        38
+      ]
+    },
+    "i18n": {
+      "en": {
+        "name": "Spread of ironworking",
+        "location": "Near East",
+        "consequence": "Iron tools and weapons become more common."
+      },
+      "de": {
+        "name": "Ausbreitung der Eisenverarbeitung",
+        "location": "Naher Osten",
+        "consequence": "Eisenwerkzeuge und -waffen werden häufiger."
+      },
+      "zh": {
+        "name": "铁器工艺传播",
+        "location": "近东",
+        "consequence": "铁制工具与武器日益普及。"
+      }
+    },
+    "sources": [
+      {
+        "label": "Metropolitan Museum of Art – Heilbrunn Timeline",
+        "url": "https://www.metmuseum.org/toah/"
+      },
+      {
+        "label": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/"
+      }
+    ],
+    "image": {
+      "url": "/images/events/iron-age.jpg",
+      "credit": "Original educational illustration created for Eurasia History Map",
+      "license": "Original / no third-party photo IP",
+      "origin": "generated"
+    }
+  },
+  {
+    "id": "sea-peoples",
+    "startYear": -1200,
+    "endYear": -1175,
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        32,
+        34
+      ]
+    },
+    "i18n": {
+      "en": {
+        "name": "Sea Peoples conflicts",
+        "location": "Levant & Egypt",
+        "consequence": "Coastal raids mark the end of the Bronze Age order."
+      },
+      "de": {
+        "name": "Seekrieger-Konflikte",
+        "location": "Levant & Ägypten",
+        "consequence": "Küstenangriffe markieren das Ende der Bronzezeitordnung."
+      },
+      "zh": {
+        "name": "海上民族冲突",
+        "location": "黎凡特与埃及",
+        "consequence": "沿海袭扰标志着青铜时代秩序的终结。"
+      }
+    },
+    "sources": [
+      {
+        "label": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/"
+      },
+      {
+        "label": "British Museum",
+        "url": "https://www.britishmuseum.org/"
+      }
+    ],
+    "image": {
+      "url": "/images/events/sea-peoples.jpg",
+      "credit": "Original educational illustration created for Eurasia History Map",
+      "license": "Original / no third-party photo IP",
+      "origin": "generated"
+    }
+  },
+  {
+    "id": "neo-assyria",
+    "startYear": -900,
+    "endYear": -612,
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            40,
+            33
+          ],
+          [
+            48,
+            33
+          ],
+          [
+            48,
+            38
+          ],
+          [
+            40,
+            38
+          ],
+          [
+            40,
+            33
+          ]
+        ]
+      ]
+    },
+    "i18n": {
+      "en": {
+        "name": "Neo-Assyrian Empire",
+        "location": "Northern Mesopotamia",
+        "consequence": "A powerful military state dominates the Near East."
+      },
+      "de": {
+        "name": "Neuassyrisches Reich",
+        "location": "Nordmesopotamien",
+        "consequence": "Ein mächtiger Militärstaat beherrscht den Nahen Osten."
+      },
+      "zh": {
+        "name": "新亚述帝国",
+        "location": "北美索不达米亚",
+        "consequence": "强大军事国家主宰近东。"
+      }
+    },
+    "sources": [
+      {
+        "label": "British Museum",
+        "url": "https://www.britishmuseum.org/"
+      },
+      {
+        "label": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/"
+      }
+    ],
+    "image": {
+      "url": "/images/events/neo-assyria.jpg",
+      "credit": "Original educational illustration created for Eurasia History Map",
+      "license": "Original / no third-party photo IP",
+      "origin": "generated"
+    }
+  },
+  {
+    "id": "olympics",
+    "startYear": -776,
+    "endYear": -776,
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        21.63,
+        37.64
+      ]
+    },
+    "i18n": {
+      "en": {
+        "name": "First Olympic Games (traditional date)",
+        "location": "Olympia, Greece",
+        "consequence": "Pan-Hellenic festival becomes a shared Greek tradition."
+      },
+      "de": {
+        "name": "Erste Olympische Spiele (Traditionsdatum)",
+        "location": "Olympia, Griechenland",
+        "consequence": "Panhellenisches Fest wird gemeinsame griechische Tradition."
+      },
+      "zh": {
+        "name": "首届奥运会（传统纪年）",
+        "location": "希腊奥林匹亚",
+        "consequence": "泛希腊节日成为共享传统。"
+      }
+    },
+    "sources": [
+      {
+        "label": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/"
+      },
+      {
+        "label": "UNESCO World Heritage",
+        "url": "https://whc.unesco.org/"
+      }
+    ],
+    "image": {
+      "url": "/images/events/olympics.jpg",
+      "credit": "Original educational illustration created for Eurasia History Map",
+      "license": "Original / no third-party photo IP",
+      "origin": "generated"
+    }
+  },
+  {
+    "id": "rome-founding",
+    "startYear": -753,
+    "endYear": -753,
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        12.48,
+        41.89
+      ]
+    },
+    "i18n": {
+      "en": {
+        "name": "Traditional founding of Rome",
+        "location": "Rome, Italy",
+        "consequence": "Later Romans date their city’s start to this year."
+      },
+      "de": {
+        "name": "Traditionelle Gründung Roms",
+        "location": "Rom, Italien",
+        "consequence": "Spätere Römer datieren den Stadtbeginn auf dieses Jahr."
+      },
+      "zh": {
+        "name": "罗马建城（传统）",
+        "location": "意大利罗马",
+        "consequence": "后世罗马人将建城定于此年。"
+      }
+    },
+    "sources": [
+      {
+        "label": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/"
+      }
+    ],
+    "image": {
+      "url": "/images/events/rome-founding.jpg",
+      "credit": "Original educational illustration created for Eurasia History Map",
+      "license": "Original / no third-party photo IP",
+      "origin": "generated"
+    }
+  },
+  {
+    "id": "babylon-fall-assyria",
+    "startYear": -612,
+    "endYear": -612,
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        42.68,
+        36.36
+      ]
+    },
+    "i18n": {
+      "en": {
+        "name": "Fall of Nineveh",
+        "location": "Assyria",
+        "consequence": "Assyria’s capital falls; power shifts to Babylon and Media."
+      },
+      "de": {
+        "name": "Fall Ninives",
+        "location": "Assyrien",
+        "consequence": "Assyriens Hauptstadt fällt; Macht wandert nach Babylon und Medien."
+      },
+      "zh": {
+        "name": "尼尼微陷落",
+        "location": "亚述",
+        "consequence": "亚述都城陷落；权力转向巴比伦与米底。"
+      }
+    },
+    "sources": [
+      {
+        "label": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/"
+      }
+    ],
+    "image": {
+      "url": "/images/events/babylon-fall-assyria.jpg",
+      "credit": "Original educational illustration created for Eurasia History Map",
+      "license": "Original / no third-party photo IP",
+      "origin": "generated"
+    }
+  },
+  {
+    "id": "confucius",
+    "startYear": -551,
+    "endYear": -479,
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        117,
+        35.5
+      ]
+    },
+    "i18n": {
+      "en": {
+        "name": "Life of Confucius",
+        "location": "Lu, China",
+        "consequence": "His teachings shape ethics and government for centuries."
+      },
+      "de": {
+        "name": "Leben des Konfuzius",
+        "location": "Lu, China",
+        "consequence": "Seine Lehren prägen Ethik und Herrschaft über Jahrhunderte."
+      },
+      "zh": {
+        "name": "孔子生平",
+        "location": "中国鲁国",
+        "consequence": "其思想深刻影响后世伦理与政治。"
+      }
+    },
+    "sources": [
+      {
+        "label": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/"
+      },
+      {
+        "label": "Metropolitan Museum of Art – Heilbrunn Timeline",
+        "url": "https://www.metmuseum.org/toah/"
+      }
+    ],
+    "image": {
+      "url": "/images/events/confucius.jpg",
+      "credit": "Original educational illustration created for Eurasia History Map",
+      "license": "Original / no third-party photo IP",
+      "origin": "generated"
+    }
+  },
+  {
+    "id": "cyrus-persia",
+    "startYear": -550,
+    "endYear": -530,
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        53,
+        32
+      ]
+    },
+    "i18n": {
+      "en": {
+        "name": "Cyrus founds Achaemenid Empire",
+        "location": "Persia",
+        "consequence": "A vast empire connects Egypt to Central Asia."
+      },
+      "de": {
+        "name": "Kyros gründet das Achämenidenreich",
+        "location": "Persien",
+        "consequence": "Ein riesiges Reich verbindet Ägypten mit Zentralasien."
+      },
+      "zh": {
+        "name": "居鲁士建立阿契美尼德帝国",
+        "location": "波斯",
+        "consequence": "庞大帝国连接埃及与中亚。"
+      }
+    },
+    "sources": [
+      {
+        "label": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/"
+      },
+      {
+        "label": "Metropolitan Museum of Art – Heilbrunn Timeline",
+        "url": "https://www.metmuseum.org/toah/"
+      }
+    ],
+    "image": {
+      "url": "/images/events/cyrus-persia.jpg",
+      "credit": "Original educational illustration created for Eurasia History Map",
+      "license": "Original / no third-party photo IP",
+      "origin": "generated"
+    }
+  },
+  {
+    "id": "pair-509-confucius-era",
+    "startYear": -509,
+    "endYear": -509,
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        117,
+        35.5
+      ]
+    },
+    "i18n": {
+      "en": {
+        "name": "Same century: Rome’s Republic & late Spring and Autumn China",
+        "location": "Rome & eastern China",
+        "consequence": "Around this time Rome starts its Republic while Chinese states debate power and virtue."
+      },
+      "de": {
+        "name": "Gleiches Jahrhundert: Roms Republik & späte Frühlings- und Herbstzeit",
+        "location": "Rom & Ostchina",
+        "consequence": "Rom beginnt die Republik, während chinesische Staaten über Macht und Tugend streiten."
+      },
+      "zh": {
+        "name": "同时代：罗马共和与春秋晚期中国",
+        "location": "罗马与中国东部",
+        "consequence": "罗马开启共和，中国列国仍在权力与道义中博弈。"
+      }
+    },
+    "sources": [
+      {
+        "label": "Wikipedia — Roman Republic",
+        "url": "https://en.wikipedia.org/wiki/Roman_Republic"
+      },
+      {
+        "label": "Wikipedia — Spring and Autumn period",
+        "url": "https://en.wikipedia.org/wiki/Spring_and_Autumn_period"
+      }
+    ],
+    "image": {
+      "url": "/images/events/confucius.jpg",
+      "credit": "Original educational illustration created for Eurasia History Map",
+      "license": "Original / no third-party photo IP",
+      "origin": "generated"
+    }
+  },
+  {
+    "id": "rome-republic-start",
+    "startYear": -509,
+    "endYear": -509,
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        12.48,
+        41.89
+      ]
+    },
+    "i18n": {
+      "en": {
+        "name": "Roman Republic begins",
+        "location": "Rome, Italy",
+        "consequence": "Kings are replaced by elected officials. Rome starts its long republic story."
+      },
+      "de": {
+        "name": "Beginn der Römischen Republik",
+        "location": "Rom, Italien",
+        "consequence": "Könige werden durch gewählte Amtsträger ersetzt. Roms Republik beginnt."
+      },
+      "zh": {
+        "name": "罗马共和国开始",
+        "location": "意大利罗马",
+        "consequence": "王政结束，选举官员执政，共和国时代开启。"
+      }
+    },
+    "sources": [
+      {
+        "label": "Wikipedia — Roman Republic",
+        "url": "https://en.wikipedia.org/wiki/Roman_Republic"
+      },
+      {
+        "label": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/"
+      }
+    ],
+    "image": {
+      "url": "/images/events/rome-republic-start.jpg",
+      "credit": "Original educational illustration created for Eurasia History Map",
+      "license": "Original / no third-party photo IP",
+      "origin": "generated"
+    }
+  },
+  {
+    "id": "marathon",
+    "startYear": -490,
+    "endYear": -490,
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        23.97,
+        38.15
+      ]
+    },
+    "i18n": {
+      "en": {
+        "name": "Battle of Marathon",
+        "location": "Attica, Greece",
+        "consequence": "Athens stops a Persian landing; Greek city-states gain confidence."
+      },
+      "de": {
+        "name": "Schlacht bei Marathon",
+        "location": "Attika, Griechenland",
+        "consequence": "Athen stoppt eine persische Landung; griechische Poleis gewinnen Mut."
+      },
+      "zh": {
+        "name": "马拉松战役",
+        "location": "希腊阿提卡",
+        "consequence": "雅典击退波斯登陆；希腊城邦信心增强。"
+      }
+    },
+    "sources": [
+      {
+        "label": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/"
+      }
+    ],
+    "image": {
+      "url": "/images/events/marathon.jpg",
+      "credit": "Original educational illustration created for Eurasia History Map",
+      "license": "Original / no third-party photo IP",
+      "origin": "generated"
+    }
+  },
+  {
+    "id": "buddha",
+    "startYear": -480,
+    "endYear": -400,
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        83,
+        27.5
+      ]
+    },
+    "i18n": {
+      "en": {
+        "name": "Life of the Buddha (approx.)",
+        "location": "Northern India",
+        "consequence": "Buddhism begins and later spreads across Asia."
+      },
+      "de": {
+        "name": "Leben des Buddha (ca.)",
+        "location": "Nordindien",
+        "consequence": "Der Buddhismus entsteht und breitet sich später in Asien aus."
+      },
+      "zh": {
+        "name": "佛陀生平（约）",
+        "location": "北印度",
+        "consequence": "佛教兴起并后来传遍亚洲。"
+      }
+    },
+    "sources": [
+      {
+        "label": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/"
+      },
+      {
+        "label": "UNESCO World Heritage",
+        "url": "https://whc.unesco.org/"
+      }
+    ],
+    "image": {
+      "url": "/images/events/buddha.jpg",
+      "credit": "Original educational illustration created for Eurasia History Map",
+      "license": "Original / no third-party photo IP",
+      "origin": "generated"
+    }
+  },
+  {
+    "id": "twelve-tables",
+    "startYear": -450,
+    "endYear": -449,
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        12.48,
+        41.89
+      ]
+    },
+    "i18n": {
+      "en": {
+        "name": "Twelve Tables laws",
+        "location": "Rome",
+        "consequence": "Rome’s early laws are written down so citizens can know the rules."
+      },
+      "de": {
+        "name": "Zwölftafelgesetz",
+        "location": "Rom",
+        "consequence": "Frühe Gesetze werden aufgeschrieben, damit Bürger die Regeln kennen."
+      },
+      "zh": {
+        "name": "十二铜表法",
+        "location": "罗马",
+        "consequence": "早期法律写成文字，公民可知规则。"
+      }
+    },
+    "sources": [
+      {
+        "label": "Wikipedia — Twelve Tables",
+        "url": "https://en.wikipedia.org/wiki/Twelve_Tables"
+      },
+      {
+        "label": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/"
+      }
+    ],
+    "image": {
+      "url": "/images/events/twelve-tables.jpg",
+      "credit": "Original educational illustration created for Eurasia History Map",
+      "license": "Original / no third-party photo IP",
+      "origin": "generated"
+    }
+  },
+  {
+    "id": "rome-veii",
+    "startYear": -396,
+    "endYear": -396,
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        12.4,
+        42.02
+      ]
+    },
+    "i18n": {
+      "en": {
+        "name": "Rome conquers Veii",
+        "location": "Etruria (near Rome)",
+        "consequence": "A major rival city falls. Rome grows stronger in central Italy."
+      },
+      "de": {
+        "name": "Rom erobert Veji",
+        "location": "Etrurien (bei Rom)",
+        "consequence": "Ein großer Rival fällt. Rom wird in Mittelitalien stärker."
+      },
+      "zh": {
+        "name": "罗马征服维爱",
+        "location": "伊特鲁里亚（罗马附近）",
+        "consequence": "强敌城邦陷落，罗马在意大利中部更强大。"
+      }
+    },
+    "sources": [
+      {
+        "label": "Wikipedia — Battle of Veii",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Veii"
+      },
+      {
+        "label": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/"
+      }
+    ],
+    "image": {
+      "url": "/images/events/rome-veii.jpg",
+      "credit": "Original educational illustration created for Eurasia History Map",
+      "license": "Original / no third-party photo IP",
+      "origin": "generated"
+    }
+  },
+  {
+    "id": "gallic-sack-rome",
+    "startYear": -390,
+    "endYear": -390,
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        12.48,
+        41.89
+      ]
+    },
+    "i18n": {
+      "en": {
+        "name": "Gauls sack Rome",
+        "location": "Rome",
+        "consequence": "A hard lesson: Rome rebuilds stronger walls and army habits."
+      },
+      "de": {
+        "name": "Gallier plündern Rom",
+        "location": "Rom",
+        "consequence": "Eine harte Lehre: Rom baut stärkere Mauern und Militärgewohnheiten."
+      },
+      "zh": {
+        "name": "高卢人洗劫罗马",
+        "location": "罗马",
+        "consequence": "惨痛教训：罗马重建更强城防与军制。"
+      }
+    },
+    "sources": [
+      {
+        "label": "Wikipedia — Battle of the Allia",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_the_Allia"
+      },
+      {
+        "label": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/"
+      }
+    ],
+    "image": {
+      "url": "/images/events/gallic-sack-rome.jpg",
+      "credit": "Original educational illustration created for Eurasia History Map",
+      "license": "Original / no third-party photo IP",
+      "origin": "generated"
+    }
+  },
+  {
+    "id": "samnite-wars",
+    "startYear": -343,
+    "endYear": -290,
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            13,
+            40.5
+          ],
+          [
+            16,
+            40.5
+          ],
+          [
+            16,
+            42.5
+          ],
+          [
+            13,
+            42.5
+          ],
+          [
+            13,
+            40.5
+          ]
+        ]
+      ]
+    },
+    "i18n": {
+      "en": {
+        "name": "Samnite Wars",
+        "location": "Southern Italy",
+        "consequence": "Long wars help Rome master mountain fighting and Italian alliances."
+      },
+      "de": {
+        "name": "Samnitenkriege",
+        "location": "Süditalien",
+        "consequence": "Lange Kriege lehren Rom Bergkampf und italienische Bündnisse."
+      },
+      "zh": {
+        "name": "萨莫奈战争",
+        "location": "意大利南部",
+        "consequence": "长期战争使罗马掌握山地作战与意大利同盟体系。"
+      }
+    },
+    "sources": [
+      {
+        "label": "Wikipedia — Samnite Wars",
+        "url": "https://en.wikipedia.org/wiki/Samnite_Wars"
+      },
+      {
+        "label": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/"
+      }
+    ],
+    "image": {
+      "url": "/images/events/samnite-wars.jpg",
+      "credit": "Original educational illustration created for Eurasia History Map",
+      "license": "Original / no third-party photo IP",
+      "origin": "generated"
+    }
+  },
+  {
+    "id": "alexander",
+    "startYear": -336,
+    "endYear": -323,
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        22,
+        40.5
+      ]
+    },
+    "i18n": {
+      "en": {
+        "name": "Alexander the Great’s campaigns",
+        "location": "From Macedonia to India",
+        "consequence": "Hellenistic culture spreads across a huge conquered realm."
+      },
+      "de": {
+        "name": "Feldzüge Alexanders des Großen",
+        "location": "Von Makedonien bis Indien",
+        "consequence": "Hellenistische Kultur verbreitet sich über ein riesiges Reich."
+      },
+      "zh": {
+        "name": "亚历山大大帝远征",
+        "location": "从马其顿到印度",
+        "consequence": "希腊化文化传遍广阔征服地。"
+      }
+    },
+    "sources": [
+      {
+        "label": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/"
+      },
+      {
+        "label": "Metropolitan Museum of Art – Heilbrunn Timeline",
+        "url": "https://www.metmuseum.org/toah/"
+      }
+    ],
+    "image": {
+      "url": "/images/events/alexander.jpg",
+      "credit": "Original educational illustration created for Eurasia History Map",
+      "license": "Original / no third-party photo IP",
+      "origin": "generated"
+    }
+  },
+  {
+    "id": "pyrrhic-war",
+    "startYear": -280,
+    "endYear": -275,
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        16.87,
+        41.12
+      ]
+    },
+    "i18n": {
+      "en": {
+        "name": "Pyrrhic War",
+        "location": "Southern Italy",
+        "consequence": "Rome beats a Greek king’s army — costly wins teach Rome to keep going."
+      },
+      "de": {
+        "name": "Pyrrhischer Krieg",
+        "location": "Süditalien",
+        "consequence": "Rom besiegt einen griechischen König — teure Siege lehren Ausdauer."
+      },
+      "zh": {
+        "name": "皮洛士战争",
+        "location": "意大利南部",
+        "consequence": "罗马击败希腊国王军队——代价高昂的胜利教会坚持。"
+      }
+    },
+    "sources": [
+      {
+        "label": "Wikipedia — Pyrrhic War",
+        "url": "https://en.wikipedia.org/wiki/Pyrrhic_War"
+      },
+      {
+        "label": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/"
+      }
+    ],
+    "image": {
+      "url": "/images/events/pyrrhic-war.jpg",
+      "credit": "Original educational illustration created for Eurasia History Map",
+      "license": "Original / no third-party photo IP",
+      "origin": "generated"
+    }
+  },
+  {
+    "id": "ashoka",
+    "startYear": -268,
+    "endYear": -232,
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        78,
+        25
+      ]
+    },
+    "i18n": {
+      "en": {
+        "name": "Ashoka of the Maurya Empire",
+        "location": "India",
+        "consequence": "After conquest he promotes Buddhist ethics across his realm."
+      },
+      "de": {
+        "name": "Ashoka im Maurya-Reich",
+        "location": "Indien",
+        "consequence": "Nach Eroberungen fördert er buddhistische Ethik im Reich."
+      },
+      "zh": {
+        "name": "孔雀帝国阿育王",
+        "location": "印度",
+        "consequence": "征战后在全国推行佛教伦理。"
+      }
+    },
+    "sources": [
+      {
+        "label": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/"
+      },
+      {
+        "label": "UNESCO World Heritage",
+        "url": "https://whc.unesco.org/"
+      }
+    ],
+    "image": {
+      "url": "/images/events/ashoka.jpg",
+      "credit": "Original educational illustration created for Eurasia History Map",
+      "license": "Original / no third-party photo IP",
+      "origin": "generated"
+    }
+  },
+  {
+    "id": "first-punic",
+    "startYear": -264,
+    "endYear": -241,
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            8,
+            35
+          ],
+          [
+            16,
+            35
+          ],
+          [
+            16,
+            39
+          ],
+          [
+            8,
+            39
+          ],
+          [
+            8,
+            35
+          ]
+        ]
+      ]
+    },
+    "i18n": {
+      "en": {
+        "name": "First Punic War",
+        "location": "Sicily & western Mediterranean",
+        "consequence": "Rome learns sea power and takes Sicily from Carthage."
+      },
+      "de": {
+        "name": "Erster Punischer Krieg",
+        "location": "Sizilien & westliches Mittelmeer",
+        "consequence": "Rom lernt Seemacht und nimmt Karthago Sizilien ab."
+      },
+      "zh": {
+        "name": "第一次布匿战争",
+        "location": "西西里与西地中海",
+        "consequence": "罗马学会海战，从迦太基手中夺取西西里。"
+      }
+    },
+    "sources": [
+      {
+        "label": "Wikipedia — First Punic War",
+        "url": "https://en.wikipedia.org/wiki/First_Punic_War"
+      },
+      {
+        "label": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/"
+      }
+    ],
+    "image": {
+      "url": "/images/events/second-punic.jpg",
+      "credit": "Original educational illustration created for Eurasia History Map",
+      "license": "Original / no third-party photo IP",
+      "origin": "generated"
+    }
+  },
+  {
+    "id": "qin-unify",
+    "startYear": -221,
+    "endYear": -221,
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        109,
+        34
+      ]
+    },
+    "i18n": {
+      "en": {
+        "name": "Qin unifies China",
+        "location": "China",
+        "consequence": "First imperial dynasty standardizes script, roads, and measures."
+      },
+      "de": {
+        "name": "Qin einigt China",
+        "location": "China",
+        "consequence": "Erste Kaiserdynastie vereinheitlicht Schrift, Straßen und Maße."
+      },
+      "zh": {
+        "name": "秦统一中国",
+        "location": "中国",
+        "consequence": "第一个帝国王朝统一文字、道路与度量。"
+      }
+    },
+    "sources": [
+      {
+        "label": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/"
+      },
+      {
+        "label": "Metropolitan Museum of Art – Heilbrunn Timeline",
+        "url": "https://www.metmuseum.org/toah/"
+      }
+    ],
+    "image": {
+      "url": "/images/events/qin-unify.jpg",
+      "credit": "Original educational illustration created for Eurasia History Map",
+      "license": "Original / no third-party photo IP",
+      "origin": "generated"
+    }
+  },
+  {
+    "id": "pair-218-qin-han",
+    "startYear": -218,
+    "endYear": -202,
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        109,
+        34
+      ]
+    },
+    "i18n": {
+      "en": {
+        "name": "Same decades: Hannibal in Italy & birth of Han China",
+        "location": "Italy & China",
+        "consequence": "While Rome fights Carthage, China leaves Qin chaos and founds the Han dynasty."
+      },
+      "de": {
+        "name": "Gleiche Jahrzehnte: Hannibal in Italien & Geburt der Han",
+        "location": "Italien & China",
+        "consequence": "Während Rom gegen Karthago kämpft, entsteht in China die Han-Dynastie."
+      },
+      "zh": {
+        "name": "同时代：汉尼拔征意大利与汉朝诞生",
+        "location": "意大利与中国",
+        "consequence": "罗马与迦太基苦战时，中国走出秦末战乱并建立汉朝。"
+      }
+    },
+    "sources": [
+      {
+        "label": "Wikipedia — Second Punic War",
+        "url": "https://en.wikipedia.org/wiki/Second_Punic_War"
+      },
+      {
+        "label": "Wikipedia — Han dynasty",
+        "url": "https://en.wikipedia.org/wiki/Han_dynasty"
+      }
+    ],
+    "image": {
+      "url": "/images/events/qin-unify.jpg",
+      "credit": "Original educational illustration created for Eurasia History Map",
+      "license": "Original / no third-party photo IP",
+      "origin": "generated"
+    }
+  },
+  {
+    "id": "second-punic",
+    "startYear": -218,
+    "endYear": -201,
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            -5,
+            36
+          ],
+          [
+            18,
+            36
+          ],
+          [
+            18,
+            45
+          ],
+          [
+            -5,
+            45
+          ],
+          [
+            -5,
+            36
+          ]
+        ]
+      ]
+    },
+    "i18n": {
+      "en": {
+        "name": "Second Punic War (Hannibal)",
+        "location": "Italy, Spain, North Africa",
+        "consequence": "Hannibal crosses the Alps, but Rome survives and later defeats Carthage."
+      },
+      "de": {
+        "name": "Zweiter Punischer Krieg (Hannibal)",
+        "location": "Italien, Spanien, Nordafrika",
+        "consequence": "Hannibal überquert die Alpen, doch Rom hält stand und siegt später."
+      },
+      "zh": {
+        "name": "第二次布匿战争（汉尼拔）",
+        "location": "意大利、西班牙、北非",
+        "consequence": "汉尼拔翻越阿尔卑斯，罗马挺住并最终战胜迦太基。"
+      }
+    },
+    "sources": [
+      {
+        "label": "Wikipedia — Second Punic War",
+        "url": "https://en.wikipedia.org/wiki/Second_Punic_War"
+      },
+      {
+        "label": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/"
+      }
+    ],
+    "image": {
+      "url": "/images/events/second-punic.jpg",
+      "credit": "Original educational illustration created for Eurasia History Map",
+      "license": "Original / no third-party photo IP",
+      "origin": "generated"
+    }
+  },
+  {
+    "id": "great-wall-qin",
+    "startYear": -214,
+    "endYear": -210,
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        116,
+        40.4
+      ]
+    },
+    "i18n": {
+      "en": {
+        "name": "Qin frontier walls",
+        "location": "Northern China",
+        "consequence": "Early wall systems protect northern borders."
+      },
+      "de": {
+        "name": "Qin-Grenzmauern",
+        "location": "Nordchina",
+        "consequence": "Frühe Maueranlagen schützen die Nordgrenze."
+      },
+      "zh": {
+        "name": "秦长城",
+        "location": "中国北方",
+        "consequence": "早期边墙体系保卫北方边疆。"
+      }
+    },
+    "sources": [
+      {
+        "label": "UNESCO World Heritage",
+        "url": "https://whc.unesco.org/"
+      },
+      {
+        "label": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/"
+      }
+    ],
+    "image": {
+      "url": "/images/events/great-wall-qin.jpg",
+      "credit": "Original educational illustration created for Eurasia History Map",
+      "license": "Original / no third-party photo IP",
+      "origin": "generated"
+    }
+  },
+  {
+    "id": "chu-han",
+    "startYear": -206,
+    "endYear": -202,
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            108,
+            30
+          ],
+          [
+            120,
+            30
+          ],
+          [
+            120,
+            40
+          ],
+          [
+            108,
+            40
+          ],
+          [
+            108,
+            30
+          ]
+        ]
+      ]
+    },
+    "i18n": {
+      "en": {
+        "name": "Chu–Han Contention",
+        "location": "China",
+        "consequence": "After Qin falls, Liu Bang defeats rivals and founds the Han dynasty."
+      },
+      "de": {
+        "name": "Chu-Han-Krieg",
+        "location": "China",
+        "consequence": "Nach dem Qin-Fall besiegt Liu Bang Rivalen und gründet die Han."
+      },
+      "zh": {
+        "name": "楚汉相争",
+        "location": "中国",
+        "consequence": "秦亡后刘邦战胜对手，建立汉朝。"
+      }
+    },
+    "sources": [
+      {
+        "label": "Wikipedia — Chu–Han Contention",
+        "url": "https://en.wikipedia.org/wiki/Chu%E2%80%93Han_Contention"
+      },
+      {
+        "label": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/"
+      }
+    ],
+    "image": {
+      "url": "/images/events/chu-han.jpg",
+      "credit": "Original educational illustration created for Eurasia History Map",
+      "license": "Original / no third-party photo IP",
+      "origin": "generated"
+    }
+  },
+  {
+    "id": "han-founding",
+    "startYear": -202,
+    "endYear": -202,
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        109,
+        34.3
+      ]
+    },
+    "i18n": {
+      "en": {
+        "name": "Han dynasty founded",
+        "location": "Chang’an region, China",
+        "consequence": "Liu Bang becomes emperor. Han rule shapes Chinese identity for centuries."
+      },
+      "de": {
+        "name": "Gründung der Han-Dynastie",
+        "location": "Region Chang’an, China",
+        "consequence": "Liu Bang wird Kaiser. Die Han prägen Chinas Identität jahrhundertelang."
+      },
+      "zh": {
+        "name": "汉朝建立",
+        "location": "中国长安一带",
+        "consequence": "刘邦称帝，汉朝深刻塑造中国认同。"
+      }
+    },
+    "sources": [
+      {
+        "label": "Wikipedia — Han dynasty",
+        "url": "https://en.wikipedia.org/wiki/Han_dynasty"
+      },
+      {
+        "label": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/"
+      }
+    ],
+    "image": {
+      "url": "/images/events/han-founding.jpg",
+      "credit": "Original educational illustration created for Eurasia History Map",
+      "license": "Original / no third-party photo IP",
+      "origin": "generated"
+    }
+  },
+  {
+    "id": "empress-lu",
+    "startYear": -195,
+    "endYear": -180,
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        108.9,
+        34.3
+      ]
+    },
+    "i18n": {
+      "en": {
+        "name": "Empress Lü’s power",
+        "location": "Chang’an, China",
+        "consequence": "A powerful empress shows palace politics can steer the early Han state."
+      },
+      "de": {
+        "name": "Macht der Kaiserin Lü",
+        "location": "Chang’an, China",
+        "consequence": "Eine mächtige Kaiserin zeigt, wie Palastpolitik den Staat lenkt."
+      },
+      "zh": {
+        "name": "吕后专权",
+        "location": "中国长安",
+        "consequence": "强势皇后显示宫廷政治可左右早汉国政。"
+      }
+    },
+    "sources": [
+      {
+        "label": "Wikipedia — Empress Lü",
+        "url": "https://en.wikipedia.org/wiki/Empress_L%C3%BC"
+      },
+      {
+        "label": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/"
+      }
+    ],
+    "image": {
+      "url": "/images/events/empress-lu.jpg",
+      "credit": "Original educational illustration created for Eurasia History Map",
+      "license": "Original / no third-party photo IP",
+      "origin": "generated"
+    }
+  },
+  {
+    "id": "wen-jing",
+    "startYear": -180,
+    "endYear": -141,
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        108.9,
+        34.3
+      ]
+    },
+    "i18n": {
+      "en": {
+        "name": "Rule of Wen and Jing",
+        "location": "Western Han China",
+        "consequence": "Lower taxes and recovery after war — a model of careful government."
+      },
+      "de": {
+        "name": "Regierung Wen und Jing",
+        "location": "Westliche Han-China",
+        "consequence": "Niedrigere Steuern und Erholung nach Kriegen — sorgsame Herrschaft."
+      },
+      "zh": {
+        "name": "文景之治",
+        "location": "西汉中国",
+        "consequence": "轻徭薄赋、战后恢复——谨慎治国典范。"
+      }
+    },
+    "sources": [
+      {
+        "label": "Wikipedia — Rule of Wen and Jing",
+        "url": "https://en.wikipedia.org/wiki/Rule_of_Wen_and_Jing"
+      },
+      {
+        "label": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/"
+      }
+    ],
+    "image": {
+      "url": "/images/events/wen-jing.jpg",
+      "credit": "Original educational illustration created for Eurasia History Map",
+      "license": "Original / no third-party photo IP",
+      "origin": "generated"
+    }
+  },
+  {
+    "id": "third-punic",
+    "startYear": -149,
+    "endYear": -146,
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        10.32,
+        36.85
+      ]
+    },
+    "i18n": {
+      "en": {
+        "name": "Third Punic War — fall of Carthage",
+        "location": "Carthage (Tunisia)",
+        "consequence": "Carthage is destroyed. Rome dominates the western Mediterranean."
+      },
+      "de": {
+        "name": "Dritter Punischer Krieg — Fall Karthagos",
+        "location": "Karthago (Tunesien)",
+        "consequence": "Karthago wird zerstört. Rom beherrscht das westliche Mittelmeer."
+      },
+      "zh": {
+        "name": "第三次布匿战争——迦太基灭亡",
+        "location": "迦太基（突尼斯）",
+        "consequence": "迦太基灭亡，罗马主导西地中海。"
+      }
+    },
+    "sources": [
+      {
+        "label": "Wikipedia — Third Punic War",
+        "url": "https://en.wikipedia.org/wiki/Third_Punic_War"
+      },
+      {
+        "label": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/"
+      }
+    ],
+    "image": {
+      "url": "/images/events/second-punic.jpg",
+      "credit": "Original educational illustration created for Eurasia History Map",
+      "license": "Original / no third-party photo IP",
+      "origin": "generated"
+    }
+  },
+  {
+    "id": "wudi-han",
+    "startYear": -141,
+    "endYear": -87,
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        108.9,
+        34.3
+      ]
+    },
+    "i18n": {
+      "en": {
+        "name": "Emperor Wu of Han",
+        "location": "Han China",
+        "consequence": "Han expands, fights the Xiongnu, and opens long-distance western contacts."
+      },
+      "de": {
+        "name": "Kaiser Wu der Han",
+        "location": "Han-China",
+        "consequence": "Han expandiert, kämpft gegen die Xiongnu und öffnet Westkontakte."
+      },
+      "zh": {
+        "name": "汉武帝",
+        "location": "汉朝中国",
+        "consequence": "开疆拓土、抗击匈奴，开通与西域的长远联系。"
+      }
+    },
+    "sources": [
+      {
+        "label": "Wikipedia — Emperor Wu of Han",
+        "url": "https://en.wikipedia.org/wiki/Emperor_Wu_of_Han"
+      },
+      {
+        "label": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/"
+      }
+    ],
+    "image": {
+      "url": "/images/events/wudi-han.jpg",
+      "credit": "Original educational illustration created for Eurasia History Map",
+      "license": "Original / no third-party photo IP",
+      "origin": "generated"
+    }
+  },
+  {
+    "id": "zhang-qian",
+    "startYear": -138,
+    "endYear": -126,
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        87,
+        43
+      ]
+    },
+    "i18n": {
+      "en": {
+        "name": "Zhang Qian’s journeys",
+        "location": "Central Asia",
+        "consequence": "Han explorer missions help open the Silk Road network."
+      },
+      "de": {
+        "name": "Reisen des Zhang Qian",
+        "location": "Zentralasien",
+        "consequence": "Han-Missionen helfen, das Seidenstraßen-Netz zu öffnen."
+      },
+      "zh": {
+        "name": "张骞通西域",
+        "location": "中亚",
+        "consequence": "汉使西行，助力丝绸之路网络开通。"
+      }
+    },
+    "sources": [
+      {
+        "label": "Wikipedia — Zhang Qian",
+        "url": "https://en.wikipedia.org/wiki/Zhang_Qian"
+      },
+      {
+        "label": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/"
+      }
+    ],
+    "image": {
+      "url": "/images/events/zhang-qian.jpg",
+      "credit": "Original educational illustration created for Eurasia History Map",
+      "license": "Original / no third-party photo IP",
+      "origin": "generated"
+    }
+  },
+  {
+    "id": "confucian-state",
+    "startYear": -136,
+    "endYear": -136,
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        108.9,
+        34.3
+      ]
+    },
+    "i18n": {
+      "en": {
+        "name": "Confucianism as state learning",
+        "location": "Han China",
+        "consequence": "Official schools elevate Confucian texts for training officials."
+      },
+      "de": {
+        "name": "Konfuzianismus als Staatsschule",
+        "location": "Han-China",
+        "consequence": "Amtliche Schulen heben konfuzianische Texte für Beamte hervor."
+      },
+      "zh": {
+        "name": "独尊儒术",
+        "location": "汉朝中国",
+        "consequence": "官学推崇儒家经典以培养官员。"
+      }
+    },
+    "sources": [
+      {
+        "label": "Wikipedia — Salt and Iron debates",
+        "url": "https://en.wikipedia.org/wiki/Discourses_on_Salt_and_Iron"
+      },
+      {
+        "label": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/"
+      }
+    ],
+    "image": {
+      "url": "/images/events/confucian-state.jpg",
+      "credit": "Original educational illustration created for Eurasia History Map",
+      "license": "Original / no third-party photo IP",
+      "origin": "generated"
+    }
+  },
+  {
+    "id": "gracchi",
+    "startYear": -133,
+    "endYear": -121,
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        12.48,
+        41.89
+      ]
+    },
+    "i18n": {
+      "en": {
+        "name": "Gracchi reforms & conflicts",
+        "location": "Rome",
+        "consequence": "Land and grain debates spark political violence — a warning for the Republic."
+      },
+      "de": {
+        "name": "Gracchen-Reformen & Konflikte",
+        "location": "Rom",
+        "consequence": "Land- und Getreidedebatten führen zu Gewalt — ein Warnsignal."
+      },
+      "zh": {
+        "name": "格拉古改革与冲突",
+        "location": "罗马",
+        "consequence": "土地与粮食之争引发政治暴力——共和国的预警。"
+      }
+    },
+    "sources": [
+      {
+        "label": "Wikipedia — Gracchi",
+        "url": "https://en.wikipedia.org/wiki/Gracchi"
+      },
+      {
+        "label": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/"
+      }
+    ],
+    "image": {
+      "url": "/images/events/gracchi.jpg",
+      "credit": "Original educational illustration created for Eurasia History Map",
+      "license": "Original / no third-party photo IP",
+      "origin": "generated"
+    }
+  },
+  {
+    "id": "han-xiongnu-war",
+    "startYear": -133,
+    "endYear": -89,
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            95,
+            38
+          ],
+          [
+            120,
+            38
+          ],
+          [
+            120,
+            50
+          ],
+          [
+            95,
+            50
+          ],
+          [
+            95,
+            38
+          ]
+        ]
+      ]
+    },
+    "i18n": {
+      "en": {
+        "name": "Han–Xiongnu Wars",
+        "location": "Northern China & steppe",
+        "consequence": "Long frontier wars push Han influence north and west."
+      },
+      "de": {
+        "name": "Han-Xiongnu-Kriege",
+        "location": "Nordchina & Steppe",
+        "consequence": "Lange Grenzkämpfe dehnen Han-Einfluss nach Nord und West."
+      },
+      "zh": {
+        "name": "汉匈战争",
+        "location": "中国北方与草原",
+        "consequence": "长期边疆战争推动汉朝影响北扩西进。"
+      }
+    },
+    "sources": [
+      {
+        "label": "Wikipedia — Han–Xiongnu War",
+        "url": "https://en.wikipedia.org/wiki/Han%E2%80%93Xiongnu_War"
+      },
+      {
+        "label": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/"
+      }
+    ],
+    "image": {
+      "url": "/images/events/han-xiongnu-war.jpg",
+      "credit": "Original educational illustration created for Eurasia History Map",
+      "license": "Original / no third-party photo IP",
+      "origin": "generated"
+    }
+  },
+  {
+    "id": "marius-army",
+    "startYear": -107,
+    "endYear": -100,
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        12.48,
+        41.89
+      ]
+    },
+    "i18n": {
+      "en": {
+        "name": "Marian army reforms",
+        "location": "Rome",
+        "consequence": "Poorer citizens join as professional soldiers loyal to generals."
+      },
+      "de": {
+        "name": "Marianische Heeresreform",
+        "location": "Rom",
+        "consequence": "Ärmere Bürger werden Berufssoldaten — oft treu ihren Generälen."
+      },
+      "zh": {
+        "name": "马略军事改革",
+        "location": "罗马",
+        "consequence": "贫民成为职业士兵，常效忠将领而非元老院。"
+      }
+    },
+    "sources": [
+      {
+        "label": "Wikipedia — Marian reforms",
+        "url": "https://en.wikipedia.org/wiki/Marian_reforms"
+      },
+      {
+        "label": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/"
+      }
+    ],
+    "image": {
+      "url": "/images/events/marius-army.jpg",
+      "credit": "Original educational illustration created for Eurasia History Map",
+      "license": "Original / no third-party photo IP",
+      "origin": "generated"
+    }
+  },
+  {
+    "id": "sulla-dictatorship",
+    "startYear": -82,
+    "endYear": -79,
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        12.48,
+        41.89
+      ]
+    },
+    "i18n": {
+      "en": {
+        "name": "Sulla’s dictatorship",
+        "location": "Rome",
+        "consequence": "A general uses army power to rewrite rules — civil war scars Rome."
+      },
+      "de": {
+        "name": "Sullas Diktatur",
+        "location": "Rom",
+        "consequence": "Ein General nutzt Heeresmacht, um Regeln umzuschreiben."
+      },
+      "zh": {
+        "name": "苏拉独裁",
+        "location": "罗马",
+        "consequence": "将军以军权改写规则——内战创伤罗马。"
+      }
+    },
+    "sources": [
+      {
+        "label": "Wikipedia — Sulla",
+        "url": "https://en.wikipedia.org/wiki/Sulla"
+      },
+      {
+        "label": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/"
+      }
+    ],
+    "image": {
+      "url": "/images/events/sulla-dictatorship.jpg",
+      "credit": "Original educational illustration created for Eurasia History Map",
+      "license": "Original / no third-party photo IP",
+      "origin": "generated"
+    }
+  },
+  {
+    "id": "caesar-gaul",
+    "startYear": -58,
+    "endYear": -50,
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            -5,
+            42
+          ],
+          [
+            8,
+            42
+          ],
+          [
+            8,
+            51
+          ],
+          [
+            -5,
+            51
+          ],
+          [
+            -5,
+            42
+          ]
+        ]
+      ]
+    },
+    "i18n": {
+      "en": {
+        "name": "Caesar’s Gallic Wars",
+        "location": "Gaul (France & neighbors)",
+        "consequence": "Rome expands deep into western Europe; Caesar gains huge fame."
+      },
+      "de": {
+        "name": "Cäsars Gallischer Krieg",
+        "location": "Gallien (Frankreich & Nachbarn)",
+        "consequence": "Rom dehnt sich tief nach Westeuropa aus; Cäsar wird berühmt."
+      },
+      "zh": {
+        "name": "凯撒高卢战争",
+        "location": "高卢（今法国一带）",
+        "consequence": "罗马深入西欧；凯撒声望大增。"
+      }
+    },
+    "sources": [
+      {
+        "label": "Wikipedia — Gallic Wars",
+        "url": "https://en.wikipedia.org/wiki/Gallic_Wars"
+      },
+      {
+        "label": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/"
+      }
+    ],
+    "image": {
+      "url": "/images/events/caesar-rubicon.jpg",
+      "credit": "Original educational illustration created for Eurasia History Map",
+      "license": "Original / no third-party photo IP",
+      "origin": "generated"
+    }
+  },
+  {
+    "id": "caesar-rubicon",
+    "startYear": -49,
+    "endYear": -49,
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        12.5,
+        44.1
+      ]
+    },
+    "i18n": {
+      "en": {
+        "name": "Caesar crosses the Rubicon",
+        "location": "Northern Italy",
+        "consequence": "Crossing with an army means civil war — “the die is cast.”"
+      },
+      "de": {
+        "name": "Cäsar überschreitet den Rubikon",
+        "location": "Norditalien",
+        "consequence": "Mit dem Heer zu überschreiten bedeutet Bürgerkrieg."
+      },
+      "zh": {
+        "name": "凯撒渡过卢比孔河",
+        "location": "意大利北部",
+        "consequence": "率军渡河意味着内战——“木已成舟”。"
+      }
+    },
+    "sources": [
+      {
+        "label": "Wikipedia — Crossing the Rubicon",
+        "url": "https://en.wikipedia.org/wiki/Crossing_the_Rubicon"
+      },
+      {
+        "label": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/"
+      }
+    ],
+    "image": {
+      "url": "/images/events/caesar-rubicon.jpg",
+      "credit": "Original educational illustration created for Eurasia History Map",
+      "license": "Original / no third-party photo IP",
+      "origin": "generated"
+    }
+  },
+  {
+    "id": "roman-republic-end",
+    "startYear": -49,
+    "endYear": -27,
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        12.5,
+        41.9
+      ]
+    },
+    "i18n": {
+      "en": {
+        "name": "From Republic to Empire",
+        "location": "Rome",
+        "consequence": "Civil wars end with Augustus as first emperor."
+      },
+      "de": {
+        "name": "Von der Republik zum Kaiserreich",
+        "location": "Rom",
+        "consequence": "Bürgerkriege enden mit Augustus als erstem Kaiser."
+      },
+      "zh": {
+        "name": "从共和到帝国",
+        "location": "罗马",
+        "consequence": "内战结束，奥古斯都成为首位皇帝。"
+      }
+    },
+    "sources": [
+      {
+        "label": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/"
+      }
+    ],
+    "image": {
+      "url": "/images/events/caesar-rubicon.jpg",
+      "credit": "Original educational illustration created for Eurasia History Map",
+      "license": "Original / no third-party photo IP",
+      "origin": "generated"
+    }
+  },
+  {
+    "id": "caesar-assassinated",
+    "startYear": -44,
+    "endYear": -44,
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        12.486,
+        41.892
+      ]
+    },
+    "i18n": {
+      "en": {
+        "name": "Assassination of Julius Caesar",
+        "location": "Rome",
+        "consequence": "Senators kill Caesar hoping to save the Republic — but more civil wars follow."
+      },
+      "de": {
+        "name": "Ermordung Cäsars",
+        "location": "Rom",
+        "consequence": "Senatoren töten Cäsar, um die Republik zu retten — doch Kriege folgen."
+      },
+      "zh": {
+        "name": "凯撒遇刺",
+        "location": "罗马",
+        "consequence": "元老刺杀凯撒欲救共和，却引发更多内战。"
+      }
+    },
+    "sources": [
+      {
+        "label": "Wikipedia — Assassination of Julius Caesar",
+        "url": "https://en.wikipedia.org/wiki/Assassination_of_Julius_Caesar"
+      },
+      {
+        "label": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/"
+      }
+    ],
+    "image": {
+      "url": "/images/events/caesar-rubicon.jpg",
+      "credit": "Original educational illustration created for Eurasia History Map",
+      "license": "Original / no third-party photo IP",
+      "origin": "generated"
+    }
+  },
+  {
+    "id": "actium",
+    "startYear": -31,
+    "endYear": -31,
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        20.78,
+        38.94
+      ]
+    },
+    "i18n": {
+      "en": {
+        "name": "Battle of Actium",
+        "location": "Western Greece",
+        "consequence": "Octavian defeats Antony and Cleopatra — the Republic’s last big civil war ends."
+      },
+      "de": {
+        "name": "Schlacht bei Actium",
+        "location": "Westgriechenland",
+        "consequence": "Octavian besiegt Antonius und Kleopatra — Ende der großen Bürgerkriege."
+      },
+      "zh": {
+        "name": "亚克兴海战",
+        "location": "希腊西部",
+        "consequence": "屋大维击败安东尼与克娄巴特拉——共和晚期大战结束。"
+      }
+    },
+    "sources": [
+      {
+        "label": "Wikipedia — Battle of Actium",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Actium"
+      },
+      {
+        "label": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/"
+      }
+    ],
+    "image": {
+      "url": "/images/events/augustus-principate.jpg",
+      "credit": "Original educational illustration created for Eurasia History Map",
+      "license": "Original / no third-party photo IP",
+      "origin": "generated"
+    }
+  },
+  {
+    "id": "augustus-principate",
+    "startYear": -27,
+    "endYear": -27,
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        12.48,
+        41.89
+      ]
+    },
+    "i18n": {
+      "en": {
+        "name": "Augustus becomes princeps",
+        "location": "Rome",
+        "consequence": "Octavian is named Augustus. The Empire begins under one leading ruler."
+      },
+      "de": {
+        "name": "Augustus wird princeps",
+        "location": "Rom",
+        "consequence": "Octavian wird Augustus. Das Kaiserreich beginnt unter einem Führenden."
+      },
+      "zh": {
+        "name": "奥古斯都称元首",
+        "location": "罗马",
+        "consequence": "屋大维获尊号奥古斯都，帝国元首制开始。"
+      }
+    },
+    "sources": [
+      {
+        "label": "Wikipedia — Augustus",
+        "url": "https://en.wikipedia.org/wiki/Augustus"
+      },
+      {
+        "label": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/"
+      }
+    ],
+    "image": {
+      "url": "/images/events/augustus-principate.jpg",
+      "credit": "Original educational illustration created for Eurasia History Map",
+      "license": "Original / no third-party photo IP",
+      "origin": "generated"
+    }
+  },
+  {
+    "id": "pair-27-han-wudi-prelude",
+    "startYear": -27,
+    "endYear": -27,
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        108.9,
+        34.3
+      ]
+    },
+    "i18n": {
+      "en": {
+        "name": "Same generation: Augustus in Rome & late Western Han strength",
+        "location": "Rome & Chang’an",
+        "consequence": "One-man rule settles in Rome while Han China remains a huge eastern empire."
+      },
+      "de": {
+        "name": "Gleiche Generation: Augustus in Rom & späte West-Han-Stärke",
+        "location": "Rom & Chang’an",
+        "consequence": "Alleinherrschaft festigt sich in Rom, während Han-China ein großes Ostreich bleibt."
+      },
+      "zh": {
+        "name": "同时代：罗马奥古斯都与西汉后期",
+        "location": "罗马与长安",
+        "consequence": "罗马确立元首制时，西汉仍是庞大东方帝国。"
+      }
+    },
+    "sources": [
+      {
+        "label": "Wikipedia — Augustus",
+        "url": "https://en.wikipedia.org/wiki/Augustus"
+      },
+      {
+        "label": "Wikipedia — Western Han",
+        "url": "https://en.wikipedia.org/wiki/Western_Han"
+      }
+    ],
+    "image": {
+      "url": "/images/events/wudi-han.jpg",
+      "credit": "Original educational illustration created for Eurasia History Map",
+      "license": "Original / no third-party photo IP",
+      "origin": "generated"
+    }
+  },
+  {
+    "id": "pax-romana",
+    "startYear": -27,
+    "endYear": 180,
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            -10,
+            30
+          ],
+          [
+            40,
+            30
+          ],
+          [
+            40,
+            50
+          ],
+          [
+            -10,
+            50
+          ],
+          [
+            -10,
+            30
+          ]
+        ]
+      ]
+    },
+    "i18n": {
+      "en": {
+        "name": "Pax Romana (Roman Peace)",
+        "location": "Roman Mediterranean world",
+        "consequence": "Long relative peace lets trade, roads, and cities grow across the empire."
+      },
+      "de": {
+        "name": "Pax Romana (Römischer Frieden)",
+        "location": "Römische Mittelmeerwelt",
+        "consequence": "Relative Ruhe lässt Handel, Straßen und Städte wachsen."
+      },
+      "zh": {
+        "name": "罗马和平",
+        "location": "罗马地中海世界",
+        "consequence": "相对和平促进帝国内贸易、道路与城市发展。"
+      }
+    },
+    "sources": [
+      {
+        "label": "Wikipedia — Pax Romana",
+        "url": "https://en.wikipedia.org/wiki/Pax_Romana"
+      },
+      {
+        "label": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/"
+      }
+    ],
+    "image": {
+      "url": "/images/events/augustus-principate.jpg",
+      "credit": "Original educational illustration created for Eurasia History Map",
+      "license": "Original / no third-party photo IP",
+      "origin": "generated"
+    }
+  },
+  {
+    "id": "jesus",
+    "startYear": -4,
+    "endYear": 30,
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        35.2,
+        31.7
+      ]
+    },
+    "i18n": {
+      "en": {
+        "name": "Life of Jesus (approx.)",
+        "location": "Judea",
+        "consequence": "Christianity begins and later reshapes Eurasian history."
+      },
+      "de": {
+        "name": "Leben Jesu (ca.)",
+        "location": "Judäa",
+        "consequence": "Das Christentum entsteht und formt später die eurasische Geschichte."
+      },
+      "zh": {
+        "name": "耶稣生平（约）",
+        "location": "犹太地",
+        "consequence": "基督教兴起并后来深刻影响欧亚历史。"
+      }
+    },
+    "sources": [
+      {
+        "label": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/"
+      }
+    ],
+    "image": {
+      "url": "/images/events/jesus.jpg",
+      "credit": "Original educational illustration created for Eurasia History Map",
+      "license": "Original / no third-party photo IP",
+      "origin": "generated"
+    }
+  },
+  {
+    "id": "silk-road",
+    "startYear": 1,
+    "endYear": 200,
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            60,
+            35
+          ],
+          [
+            100,
+            35
+          ],
+          [
+            100,
+            42
+          ],
+          [
+            60,
+            42
+          ],
+          [
+            60,
+            35
+          ]
+        ]
+      ]
+    },
+    "i18n": {
+      "en": {
+        "name": "Silk Road flourishing",
+        "location": "Central Asia",
+        "consequence": "Trade links China, India, Persia, and the Mediterranean."
+      },
+      "de": {
+        "name": "Blüte der Seidenstraße",
+        "location": "Zentralasien",
+        "consequence": "Handel verbindet China, Indien, Persien und das Mittelmeer."
+      },
+      "zh": {
+        "name": "丝绸之路兴盛",
+        "location": "中亚",
+        "consequence": "贸易连接中国、印度、波斯与地中海。"
+      }
+    },
+    "sources": [
+      {
+        "label": "UNESCO World Heritage",
+        "url": "https://whc.unesco.org/"
+      },
+      {
+        "label": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/"
+      }
+    ],
+    "image": {
+      "url": "/images/events/silk-road.jpg",
+      "credit": "Original educational illustration created for Eurasia History Map",
+      "license": "Original / no third-party photo IP",
+      "origin": "generated"
+    }
+  },
+  {
+    "id": "pair-9-teutoburg-wangmang",
+    "startYear": 9,
+    "endYear": 9,
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        60,
+        40
+      ]
+    },
+    "i18n": {
+      "en": {
+        "name": "Same year: Teutoburg disaster & Wang Mang’s Xin dynasty",
+        "location": "Germania & China",
+        "consequence": "In 9 CE Rome suffers a German frontier shock while Han rule is interrupted in China."
+      },
+      "de": {
+        "name": "Gleiches Jahr: Teutoburg & Wang Mangs Xin-Dynastie",
+        "location": "Germanien & China",
+        "consequence": "9 n. Chr.: Rom erleidet einen Grenzschock, in China wird die Han unterbrochen."
+      },
+      "zh": {
+        "name": "同年：条顿堡惨败与王莽新朝",
+        "location": "日耳曼与中国",
+        "consequence": "公元9年罗马遭日耳曼边疆重创，中国汉朝被新朝打断。"
+      }
+    },
+    "sources": [
+      {
+        "label": "Wikipedia — Teutoburg",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_the_Teutoburg_Forest"
+      },
+      {
+        "label": "Wikipedia — Xin dynasty",
+        "url": "https://en.wikipedia.org/wiki/Xin_dynasty"
+      }
+    ],
+    "image": {
+      "url": "/images/events/wang-mang.jpg",
+      "credit": "Original educational illustration created for Eurasia History Map",
+      "license": "Original / no third-party photo IP",
+      "origin": "generated"
+    }
+  },
+  {
+    "id": "teutoburg",
+    "startYear": 9,
+    "endYear": 9,
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        8.13,
+        52.41
+      ]
+    },
+    "i18n": {
+      "en": {
+        "name": "Battle of the Teutoburg Forest",
+        "location": "Germania (Germany)",
+        "consequence": "Three Roman legions are lost. Rome later keeps the Rhine as a major border."
+      },
+      "de": {
+        "name": "Schlacht im Teutoburger Wald",
+        "location": "Germanien (Deutschland)",
+        "consequence": "Drei Legionen gehen verloren. Der Rhein bleibt eine Hauptgrenze."
+      },
+      "zh": {
+        "name": "条顿堡森林战役",
+        "location": "日耳曼尼亚（今德国）",
+        "consequence": "三军团覆灭，莱茵河成为罗马重要边界。"
+      }
+    },
+    "sources": [
+      {
+        "label": "Wikipedia — Teutoburg Forest",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_the_Teutoburg_Forest"
+      },
+      {
+        "label": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/"
+      }
+    ],
+    "image": {
+      "url": "/images/events/teutoburg.jpg",
+      "credit": "Original educational illustration created for Eurasia History Map",
+      "license": "Original / no third-party photo IP",
+      "origin": "generated"
+    }
+  },
+  {
+    "id": "wang-mang",
+    "startYear": 9,
+    "endYear": 23,
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        112.5,
+        34.7
+      ]
+    },
+    "i18n": {
+      "en": {
+        "name": "Wang Mang & Xin dynasty",
+        "location": "China",
+        "consequence": "A short interruption of Han rule — reforms fail and rebellion rises."
+      },
+      "de": {
+        "name": "Wang Mang & Xin-Dynastie",
+        "location": "China",
+        "consequence": "Kurze Unterbrechung der Han — Reformen scheitern, Aufstände folgen."
+      },
+      "zh": {
+        "name": "王莽与新朝",
+        "location": "中国",
+        "consequence": "汉朝短暂中断——改革失败，民变四起。"
+      }
+    },
+    "sources": [
+      {
+        "label": "Wikipedia — Wang Mang",
+        "url": "https://en.wikipedia.org/wiki/Wang_Mang"
+      },
+      {
+        "label": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/"
+      }
+    ],
+    "image": {
+      "url": "/images/events/wang-mang.jpg",
+      "credit": "Original educational illustration created for Eurasia History Map",
+      "license": "Original / no third-party photo IP",
+      "origin": "generated"
+    }
+  },
+  {
+    "id": "eastern-han",
+    "startYear": 25,
+    "endYear": 25,
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        112.5,
+        34.7
+      ]
+    },
+    "i18n": {
+      "en": {
+        "name": "Eastern Han restored",
+        "location": "Luoyang, China",
+        "consequence": "The Han return with a new capital at Luoyang."
+      },
+      "de": {
+        "name": "Östliche Han wiederhergestellt",
+        "location": "Luoyang, China",
+        "consequence": "Die Han kehren mit neuer Hauptstadt Luoyang zurück."
+      },
+      "zh": {
+        "name": "东汉建立",
+        "location": "中国洛阳",
+        "consequence": "汉朝光复，都城迁至洛阳。"
+      }
+    },
+    "sources": [
+      {
+        "label": "Wikipedia — Eastern Han",
+        "url": "https://en.wikipedia.org/wiki/Eastern_Han"
+      },
+      {
+        "label": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/"
+      }
+    ],
+    "image": {
+      "url": "/images/events/eastern-han.jpg",
+      "credit": "Original educational illustration created for Eurasia History Map",
+      "license": "Original / no third-party photo IP",
+      "origin": "generated"
+    }
+  },
+  {
+    "id": "pompeii",
+    "startYear": 79,
+    "endYear": 79,
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        14.49,
+        40.75
+      ]
+    },
+    "i18n": {
+      "en": {
+        "name": "Eruption of Vesuvius",
+        "location": "Pompeii & Herculaneum, Italy",
+        "consequence": "Ash buries cities — later a time capsule of Roman daily life."
+      },
+      "de": {
+        "name": "Ausbruch des Vesuv",
+        "location": "Pompeji & Herculaneum",
+        "consequence": "Asche begräbt Städte — später ein Zeitfenster römischen Alltags."
+      },
+      "zh": {
+        "name": "维苏威火山爆发",
+        "location": "意大利庞贝与赫库兰尼姆",
+        "consequence": "火山灰掩埋城市——后世窥见罗马日常生活。"
+      }
+    },
+    "sources": [
+      {
+        "label": "Wikipedia — Vesuvius 79",
+        "url": "https://en.wikipedia.org/wiki/Eruption_of_Mount_Vesuvius_in_79_AD"
+      },
+      {
+        "label": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/"
+      }
+    ],
+    "image": {
+      "url": "/images/events/pompeii.jpg",
+      "credit": "Original educational illustration created for Eurasia History Map",
+      "license": "Original / no third-party photo IP",
+      "origin": "generated"
+    }
+  },
+  {
+    "id": "five-good-emperors",
+    "startYear": 96,
+    "endYear": 180,
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        12.48,
+        41.89
+      ]
+    },
+    "i18n": {
+      "en": {
+        "name": "Five Good Emperors era",
+        "location": "Roman Empire",
+        "consequence": "Adoptive emperors rule a huge, generally stable empire."
+      },
+      "de": {
+        "name": "Zeit der Fünf Guten Kaiser",
+        "location": "Römisches Reich",
+        "consequence": "Adoptivkaiser regieren ein großes, relativ stabiles Reich."
+      },
+      "zh": {
+        "name": "五贤帝时期",
+        "location": "罗马帝国",
+        "consequence": "收养继承的皇帝统治庞大而相对稳定的帝国。"
+      }
+    },
+    "sources": [
+      {
+        "label": "Wikipedia — Nerva–Antonine dynasty",
+        "url": "https://en.wikipedia.org/wiki/Nerva%E2%80%93Antonine_dynasty"
+      },
+      {
+        "label": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/"
+      }
+    ],
+    "image": {
+      "url": "/images/events/five-good-emperors.jpg",
+      "credit": "Original educational illustration created for Eurasia History Map",
+      "license": "Original / no third-party photo IP",
+      "origin": "generated"
+    }
+  },
+  {
+    "id": "han-silk-to-rome",
+    "startYear": 100,
+    "endYear": 200,
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            30,
+            30
+          ],
+          [
+            110,
+            30
+          ],
+          [
+            110,
+            45
+          ],
+          [
+            30,
+            45
+          ],
+          [
+            30,
+            30
+          ]
+        ]
+      ]
+    },
+    "i18n": {
+      "en": {
+        "name": "Silk reaches the Roman world",
+        "location": "Eurasian steppe & cities",
+        "consequence": "Chinese silk becomes a prized luxury in Rome via many middle traders."
+      },
+      "de": {
+        "name": "Seide erreicht die römische Welt",
+        "location": "Eurasische Steppe & Städte",
+        "consequence": "Chinesische Seide wird in Rom über Händlerketten zur Luxusware."
+      },
+      "zh": {
+        "name": "丝绸抵达罗马世界",
+        "location": "欧亚草原与城市",
+        "consequence": "中国丝绸经多段商人转运，成为罗马珍视的奢侈品。"
+      }
+    },
+    "sources": [
+      {
+        "label": "Wikipedia — Silk Road",
+        "url": "https://en.wikipedia.org/wiki/Silk_Road"
+      },
+      {
+        "label": "Metropolitan Museum of Art – Heilbrunn Timeline",
+        "url": "https://www.metmuseum.org/toah/"
+      }
+    ],
+    "image": {
+      "url": "/images/events/silk-road.jpg",
+      "credit": "Original educational illustration created for Eurasia History Map",
+      "license": "Original / no third-party photo IP",
+      "origin": "generated"
+    }
+  },
+  {
+    "id": "pair-105-paper-trajan",
+    "startYear": 105,
+    "endYear": 117,
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        70,
+        40
+      ]
+    },
+    "i18n": {
+      "en": {
+        "name": "Same era: Trajan’s peak Rome & paper in Han China",
+        "location": "Mediterranean & China",
+        "consequence": "Rome reaches a territorial high while Han China improves paper for writing."
+      },
+      "de": {
+        "name": "Gleiche Epoche: Trajans Rom-Höhepunkt & Papier in Han-China",
+        "location": "Mittelmeer & China",
+        "consequence": "Rom erreicht territoriale Höhe, Han-China verbessert Papier."
+      },
+      "zh": {
+        "name": "同时代：图拉真罗马极盛与汉朝造纸",
+        "location": "地中海与中国",
+        "consequence": "罗马疆域接近极盛，东汉改进造纸术。"
+      }
+    },
+    "sources": [
+      {
+        "label": "Wikipedia — Trajan",
+        "url": "https://en.wikipedia.org/wiki/Trajan"
+      },
+      {
+        "label": "Wikipedia — Cai Lun",
+        "url": "https://en.wikipedia.org/wiki/Cai_Lun"
+      }
+    ],
+    "image": {
+      "url": "/images/events/paper-cai-lun.jpg",
+      "credit": "Original educational illustration created for Eurasia History Map",
+      "license": "Original / no third-party photo IP",
+      "origin": "generated"
+    }
+  },
+  {
+    "id": "paper-cai-lun",
+    "startYear": 105,
+    "endYear": 105,
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        112.5,
+        34.7
+      ]
+    },
+    "i18n": {
+      "en": {
+        "name": "Cai Lun improves paper",
+        "location": "Eastern Han China",
+        "consequence": "Better paper spreads writing and record-keeping."
+      },
+      "de": {
+        "name": "Cai Lun verbessert Papier",
+        "location": "Östliches Han-China",
+        "consequence": "Besseres Papier fördert Schreiben und Verwaltung."
+      },
+      "zh": {
+        "name": "蔡伦改进造纸",
+        "location": "东汉中国",
+        "consequence": "纸张改进推动书写与文书行政。"
+      }
+    },
+    "sources": [
+      {
+        "label": "Wikipedia — Cai Lun",
+        "url": "https://en.wikipedia.org/wiki/Cai_Lun"
+      },
+      {
+        "label": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/"
+      }
+    ],
+    "image": {
+      "url": "/images/events/paper-cai-lun.jpg",
+      "credit": "Original educational illustration created for Eurasia History Map",
+      "license": "Original / no third-party photo IP",
+      "origin": "generated"
+    }
+  },
+  {
+    "id": "trajan-peak",
+    "startYear": 117,
+    "endYear": 117,
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        12.5,
+        41.9
+      ]
+    },
+    "i18n": {
+      "en": {
+        "name": "Roman Empire at Trajan’s death",
+        "location": "Mediterranean world",
+        "consequence": "Rome’s borders reach their greatest extent."
+      },
+      "de": {
+        "name": "Römisches Reich beim Tod Trajans",
+        "location": "Mittelmeerwelt",
+        "consequence": "Roms Grenzen erreichen ihre größte Ausdehnung."
+      },
+      "zh": {
+        "name": "图拉真去世时的罗马帝国",
+        "location": "地中海世界",
+        "consequence": "罗马疆域达到最大范围。"
+      }
+    },
+    "sources": [
+      {
+        "label": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/"
+      }
+    ],
+    "image": {
+      "url": "/images/events/trajan-peak.jpg",
+      "credit": "Original educational illustration created for Eurasia History Map",
+      "license": "Original / no third-party photo IP",
+      "origin": "generated"
+    }
+  },
+  {
+    "id": "pair-184-commodus",
+    "startYear": 184,
+    "endYear": 192,
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        60,
+        40
+      ]
+    },
+    "i18n": {
+      "en": {
+        "name": "Same decades: Yellow Turbans & late Antonine Rome",
+        "location": "China & Rome",
+        "consequence": "Han China faces massive revolt while Rome slides from the Antonine calm."
+      },
+      "de": {
+        "name": "Gleiche Jahrzehnte: Gelbe Turbane & spätes Antoninen-Rom",
+        "location": "China & Rom",
+        "consequence": "Han-China erlebt Massenaufstand, Rom verlässt die Antoninenruhe."
+      },
+      "zh": {
+        "name": "同时代：黄巾起义与安东尼王朝晚期罗马",
+        "location": "中国与罗马",
+        "consequence": "东汉爆发黄巾起义，罗马走出五贤帝后的平稳期。"
+      }
+    },
+    "sources": [
+      {
+        "label": "Wikipedia — Yellow Turbans",
+        "url": "https://en.wikipedia.org/wiki/Yellow_Turban_Rebellion"
+      },
+      {
+        "label": "Wikipedia — Commodus",
+        "url": "https://en.wikipedia.org/wiki/Commodus"
+      }
+    ],
+    "image": {
+      "url": "/images/events/yellow-turban.jpg",
+      "credit": "Original educational illustration created for Eurasia History Map",
+      "license": "Original / no third-party photo IP",
+      "origin": "generated"
+    }
+  },
+  {
+    "id": "yellow-turban",
+    "startYear": 184,
+    "endYear": 184,
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            110,
+            30
+          ],
+          [
+            120,
+            30
+          ],
+          [
+            120,
+            40
+          ],
+          [
+            110,
+            40
+          ],
+          [
+            110,
+            30
+          ]
+        ]
+      ]
+    },
+    "i18n": {
+      "en": {
+        "name": "Yellow Turban Rebellion",
+        "location": "Eastern Han China",
+        "consequence": "A huge revolt weakens the dynasty and opens the path to warlord rule."
+      },
+      "de": {
+        "name": "Gelbe-Turbane-Aufstand",
+        "location": "Östliches Han-China",
+        "consequence": "Ein großer Aufstand schwächt die Dynastie und öffnet Kriegsherren den Weg."
+      },
+      "zh": {
+        "name": "黄巾起义",
+        "location": "东汉中国",
+        "consequence": "大规模民变削弱王朝，军阀割据之路开启。"
+      }
+    },
+    "sources": [
+      {
+        "label": "Wikipedia — Yellow Turban Rebellion",
+        "url": "https://en.wikipedia.org/wiki/Yellow_Turban_Rebellion"
+      },
+      {
+        "label": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/"
+      }
+    ],
+    "image": {
+      "url": "/images/events/yellow-turban.jpg",
+      "credit": "Original educational illustration created for Eurasia History Map",
+      "license": "Original / no third-party photo IP",
+      "origin": "generated"
+    }
+  },
+  {
+    "id": "cao-cao-power",
+    "startYear": 196,
+    "endYear": 220,
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        114.3,
+        34.8
+      ]
+    },
+    "i18n": {
+      "en": {
+        "name": "Cao Cao’s rise",
+        "location": "North China",
+        "consequence": "Warlords scramble after Han decline — Cao Cao controls the north."
+      },
+      "de": {
+        "name": "Aufstieg Cao Caos",
+        "location": "Nordchina",
+        "consequence": "Nach dem Han-Niedergang ringen Kriegsherren — Cao Cao hält den Norden."
+      },
+      "zh": {
+        "name": "曹操崛起",
+        "location": "中国北方",
+        "consequence": "汉末军阀混战，曹操控制北方。"
+      }
+    },
+    "sources": [
+      {
+        "label": "Wikipedia — Cao Cao",
+        "url": "https://en.wikipedia.org/wiki/Cao_Cao"
+      },
+      {
+        "label": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/"
+      }
+    ],
+    "image": {
+      "url": "/images/events/cao-cao-power.jpg",
+      "credit": "Original educational illustration created for Eurasia History Map",
+      "license": "Original / no third-party photo IP",
+      "origin": "generated"
+    }
+  },
+  {
+    "id": "battle-red-cliffs",
+    "startYear": 208,
+    "endYear": 208,
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        113.9,
+        29.9
+      ]
+    },
+    "i18n": {
+      "en": {
+        "name": "Battle of Red Cliffs",
+        "location": "Yangtze River, China",
+        "consequence": "Southern allies stop Cao Cao — China heads toward Three Kingdoms."
+      },
+      "de": {
+        "name": "Schlacht an den Roten Felsen",
+        "location": "Jangtse, China",
+        "consequence": "Südliche Verbündete stoppen Cao Cao — Weg zu den Drei Reichen."
+      },
+      "zh": {
+        "name": "赤壁之战",
+        "location": "中国长江",
+        "consequence": "孙刘联军阻曹——三国鼎立格局将成。"
+      }
+    },
+    "sources": [
+      {
+        "label": "Wikipedia — Battle of Red Cliffs",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Red_Cliffs"
+      },
+      {
+        "label": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/"
+      }
+    ],
+    "image": {
+      "url": "/images/events/battle-red-cliffs.jpg",
+      "credit": "Original educational illustration created for Eurasia History Map",
+      "license": "Original / no third-party photo IP",
+      "origin": "generated"
+    }
+  },
+  {
+    "id": "edict-caracalla",
+    "startYear": 212,
+    "endYear": 212,
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        12.48,
+        41.89
+      ]
+    },
+    "i18n": {
+      "en": {
+        "name": "Edict of Caracalla",
+        "location": "Roman Empire",
+        "consequence": "Most free men in the empire become Roman citizens."
+      },
+      "de": {
+        "name": "Constitutio Antoniniana",
+        "location": "Römisches Reich",
+        "consequence": "Die meisten freien Männer werden römische Bürger."
+      },
+      "zh": {
+        "name": "卡拉卡拉敕令",
+        "location": "罗马帝国",
+        "consequence": "帝国内多数自由男子获得罗马公民权。"
+      }
+    },
+    "sources": [
+      {
+        "label": "Wikipedia — Constitutio Antoniniana",
+        "url": "https://en.wikipedia.org/wiki/Constitutio_Antiniana"
+      },
+      {
+        "label": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/"
+      }
+    ],
+    "image": {
+      "url": "/images/events/edict-caracalla.jpg",
+      "credit": "Original educational illustration created for Eurasia History Map",
+      "license": "Original / no third-party photo IP",
+      "origin": "generated"
+    }
+  },
+  {
+    "id": "pair-220-severan-end",
+    "startYear": 220,
+    "endYear": 235,
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        60,
+        40
+      ]
+    },
+    "i18n": {
+      "en": {
+        "name": "Same decades: Han ends / Three Kingdoms & Rome’s soldier emperors",
+        "location": "China & Rome",
+        "consequence": "Eastern Han gives way to warlords just as Rome enters deeper military crisis."
+      },
+      "de": {
+        "name": "Gleiche Jahrzehnte: Ende der Han / Drei Reiche & Soldatenkaiser",
+        "location": "China & Rom",
+        "consequence": "Die Östliche Han weicht Kriegsherren, Rom gerät tiefer in Militärkrise."
+      },
+      "zh": {
+        "name": "同时代：汉亡三国与罗马军人皇帝时代",
+        "location": "中国与罗马",
+        "consequence": "东汉结束进入三国，罗马也滑向更深军事危机。"
+      }
+    },
+    "sources": [
+      {
+        "label": "Wikipedia — Three Kingdoms",
+        "url": "https://en.wikipedia.org/wiki/Three_Kingdoms"
+      },
+      {
+        "label": "Wikipedia — Crisis of the Third Century",
+        "url": "https://en.wikipedia.org/wiki/Crisis_of_the_Third_Century"
+      }
+    ],
+    "image": {
+      "url": "/images/events/cao-cao-power.jpg",
+      "credit": "Original educational illustration created for Eurasia History Map",
+      "license": "Original / no third-party photo IP",
+      "origin": "generated"
+    }
+  },
+  {
+    "id": "crisis-third-century",
+    "startYear": 235,
+    "endYear": 284,
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            -5,
+            30
+          ],
+          [
+            42,
+            30
+          ],
+          [
+            42,
+            50
+          ],
+          [
+            -5,
+            50
+          ],
+          [
+            -5,
+            30
+          ]
+        ]
+      ]
+    },
+    "i18n": {
+      "en": {
+        "name": "Crisis of the Third Century",
+        "location": "Roman Empire",
+        "consequence": "Civil wars, invasions, and money trouble shake the empire."
+      },
+      "de": {
+        "name": "Reichskrise des 3. Jahrhunderts",
+        "location": "Römisches Reich",
+        "consequence": "Bürgerkriege, Einfälle und Geldprobleme erschüttern das Reich."
+      },
+      "zh": {
+        "name": "三世纪危机",
+        "location": "罗马帝国",
+        "consequence": "内战、外患与货币危机动摇帝国。"
+      }
+    },
+    "sources": [
+      {
+        "label": "Wikipedia — Crisis of the Third Century",
+        "url": "https://en.wikipedia.org/wiki/Crisis_of_the_Third_Century"
+      },
+      {
+        "label": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/"
+      }
+    ],
+    "image": {
+      "url": "/images/events/crisis-third-century.jpg",
+      "credit": "Original educational illustration created for Eurasia History Map",
+      "license": "Original / no third-party photo IP",
+      "origin": "generated"
+    }
+  },
+  {
+    "id": "gaul-empire",
+    "startYear": 260,
+    "endYear": 274,
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            -5,
+            42
+          ],
+          [
+            8,
+            42
+          ],
+          [
+            8,
+            52
+          ],
+          [
+            -5,
+            52
+          ],
+          [
+            -5,
+            42
+          ]
+        ]
+      ]
+    },
+    "i18n": {
+      "en": {
+        "name": "Gallic Empire (breakaway)",
+        "location": "Gaul & Britain",
+        "consequence": "A temporary western Roman breakaway state forms during the third-century crisis."
+      },
+      "de": {
+        "name": "Gallisches Sonderreich",
+        "location": "Gallien & Britannien",
+        "consequence": "Ein zeitweiliger westlicher Abspaltungstaat in der Reichskrise."
+      },
+      "zh": {
+        "name": "高卢帝国（分裂政权）",
+        "location": "高卢与不列颠",
+        "consequence": "三世纪危机中西部分裂出的短暂政权。"
+      }
+    },
+    "sources": [
+      {
+        "label": "Wikipedia — Gallic Empire",
+        "url": "https://en.wikipedia.org/wiki/Gallic_Empire"
+      },
+      {
+        "label": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/"
+      }
+    ],
+    "image": {
+      "url": "/images/events/gaul-empire.jpg",
+      "credit": "Original educational illustration created for Eurasia History Map",
+      "license": "Original / no third-party photo IP",
+      "origin": "generated"
+    }
+  },
+  {
+    "id": "diocletian",
+    "startYear": 284,
+    "endYear": 305,
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        29.12,
+        40.99
+      ]
+    },
+    "i18n": {
+      "en": {
+        "name": "Diocletian’s reforms",
+        "location": "Nicomedia / Roman Empire",
+        "consequence": "The empire is reorganized with stronger emperors and new provinces."
+      },
+      "de": {
+        "name": "Reformen Diokletians",
+        "location": "Nicomedia / Römisches Reich",
+        "consequence": "Das Reich wird mit stärkeren Kaisern und neuen Provinzen neu geordnet."
+      },
+      "zh": {
+        "name": "戴克里先改革",
+        "location": "尼科米底亚/罗马帝国",
+        "consequence": "加强皇权并重划行省，重整帝国。"
+      }
+    },
+    "sources": [
+      {
+        "label": "Wikipedia — Diocletian",
+        "url": "https://en.wikipedia.org/wiki/Diocletian"
+      },
+      {
+        "label": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/"
+      }
+    ],
+    "image": {
+      "url": "/images/events/diocletian.jpg",
+      "credit": "Original educational illustration created for Eurasia History Map",
+      "license": "Original / no third-party photo IP",
+      "origin": "generated"
+    }
+  },
+  {
+    "id": "constantine",
+    "startYear": 313,
+    "endYear": 330,
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        28.98,
+        41.01
+      ]
+    },
+    "i18n": {
+      "en": {
+        "name": "Constantine & new Rome",
+        "location": "Byzantium / Constantinople",
+        "consequence": "Christianity favored; capital shifts east."
+      },
+      "de": {
+        "name": "Konstantin & Neues Rom",
+        "location": "Byzanz / Konstantinopel",
+        "consequence": "Christentum gefördert; Hauptstadt wandert nach Osten."
+      },
+      "zh": {
+        "name": "君士坦丁与新罗马",
+        "location": "拜占庭/君士坦丁堡",
+        "consequence": "基督教得势；都城东移。"
+      }
+    },
+    "sources": [
+      {
+        "label": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/"
+      },
+      {
+        "label": "UNESCO World Heritage",
+        "url": "https://whc.unesco.org/"
+      }
+    ],
+    "image": {
+      "url": "/images/events/constantine.jpg",
+      "credit": "Original educational illustration created for Eurasia History Map",
+      "license": "Original / no third-party photo IP",
+      "origin": "generated"
+    }
+  },
+  {
+    "id": "gupta-age",
+    "startYear": 320,
+    "endYear": 550,
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            75,
+            15
+          ],
+          [
+            88,
+            15
+          ],
+          [
+            88,
+            28
+          ],
+          [
+            75,
+            28
+          ],
+          [
+            75,
+            15
+          ]
+        ]
+      ]
+    },
+    "i18n": {
+      "en": {
+        "name": "Gupta age",
+        "location": "Northern India",
+        "consequence": "Science, art, and literature flourish in classical India."
+      },
+      "de": {
+        "name": "Gupta-Zeit",
+        "location": "Nordindien",
+        "consequence": "Wissenschaft, Kunst und Literatur blühen im klassischen Indien."
+      },
+      "zh": {
+        "name": "笈多时代",
+        "location": "北印度",
+        "consequence": "古典印度科学、艺术与文学繁荣。"
+      }
+    },
+    "sources": [
+      {
+        "label": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/"
+      },
+      {
+        "label": "Metropolitan Museum of Art – Heilbrunn Timeline",
+        "url": "https://www.metmuseum.org/toah/"
+      }
+    ],
+    "image": {
+      "url": "/images/events/gupta-age.jpg",
+      "credit": "Original educational illustration created for Eurasia History Map",
+      "license": "Original / no third-party photo IP",
+      "origin": "generated"
+    }
+  },
+  {
+    "id": "constantinople-found",
+    "startYear": 330,
+    "endYear": 330,
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        28.98,
+        41.01
+      ]
+    },
+    "i18n": {
+      "en": {
+        "name": "Constantinople founded as capital",
+        "location": "Byzantium / Constantinople",
+        "consequence": "A new eastern capital rises — later the heart of the Byzantine world."
+      },
+      "de": {
+        "name": "Konstantinopel wird Hauptstadt",
+        "location": "Byzanz / Konstantinopel",
+        "consequence": "Eine neue Osthauptstadt entsteht — später Zentrum Byzanz’."
+      },
+      "zh": {
+        "name": "君士坦丁堡建都",
+        "location": "拜占庭/君士坦丁堡",
+        "consequence": "东方新都兴起，后成拜占庭世界中心。"
+      }
+    },
+    "sources": [
+      {
+        "label": "Wikipedia — Constantinople",
+        "url": "https://en.wikipedia.org/wiki/Constantinople"
+      },
+      {
+        "label": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/"
+      }
+    ],
+    "image": {
+      "url": "/images/events/constantinople-found.jpg",
+      "credit": "Original educational illustration created for Eurasia History Map",
+      "license": "Original / no third-party photo IP",
+      "origin": "generated"
+    }
+  },
+  {
+    "id": "theodosius-christian",
+    "startYear": 380,
+    "endYear": 380,
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        28.98,
+        41.01
+      ]
+    },
+    "i18n": {
+      "en": {
+        "name": "Christianity as state religion",
+        "location": "Roman Empire",
+        "consequence": "Theodosius makes Nicene Christianity the empire’s official faith."
+      },
+      "de": {
+        "name": "Christentum als Staatsreligion",
+        "location": "Römisches Reich",
+        "consequence": "Theodosius macht das nicänische Christentum zur Staatsreligion."
+      },
+      "zh": {
+        "name": "基督教成为国教",
+        "location": "罗马帝国",
+        "consequence": "狄奥多西以尼西亚派基督教为帝国官方信仰。"
+      }
+    },
+    "sources": [
+      {
+        "label": "Wikipedia — Edict of Thessalonica",
+        "url": "https://en.wikipedia.org/wiki/Edict_of_Thessalonica"
+      },
+      {
+        "label": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/"
+      }
+    ],
+    "image": {
+      "url": "/images/events/theodosius-christian.jpg",
+      "credit": "Original educational illustration created for Eurasia History Map",
+      "license": "Original / no third-party photo IP",
+      "origin": "generated"
+    }
+  },
+  {
+    "id": "alaric-sack-rome",
+    "startYear": 410,
+    "endYear": 410,
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        12.48,
+        41.89
+      ]
+    },
+    "i18n": {
+      "en": {
+        "name": "Visigoths sack Rome",
+        "location": "Rome",
+        "consequence": "The “eternal city” is plundered — a shock across the Mediterranean."
+      },
+      "de": {
+        "name": "Westgoten plündern Rom",
+        "location": "Rom",
+        "consequence": "Die „ewige Stadt“ wird geplündert — ein Schock für die Mittelmeerwelt."
+      },
+      "zh": {
+        "name": "西哥特人洗劫罗马",
+        "location": "罗马",
+        "consequence": "“永恒之城”被劫——震动地中海世界。"
+      }
+    },
+    "sources": [
+      {
+        "label": "Wikipedia — Sack of Rome 410",
+        "url": "https://en.wikipedia.org/wiki/Sack_of_Rome_(410)"
+      },
+      {
+        "label": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/"
+      }
+    ],
+    "image": {
+      "url": "/images/events/alaric-sack-rome.jpg",
+      "credit": "Original educational illustration created for Eurasia History Map",
+      "license": "Original / no third-party photo IP",
+      "origin": "generated"
+    }
+  },
+  {
+    "id": "fall-west-rome",
+    "startYear": 476,
+    "endYear": 476,
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        12.5,
+        44.5
+      ]
+    },
+    "i18n": {
+      "en": {
+        "name": "End of Western Roman Empire",
+        "location": "Italy",
+        "consequence": "Last western emperor deposed; eastern empire continues."
+      },
+      "de": {
+        "name": "Ende des Weströmischen Reichs",
+        "location": "Italien",
+        "consequence": "Letzter Westkaiser abgesetzt; Oströmisches Reich besteht weiter."
+      },
+      "zh": {
+        "name": "西罗马帝国终结",
+        "location": "意大利",
+        "consequence": "末代西帝被废；东帝国继续存在。"
+      }
+    },
+    "sources": [
+      {
+        "label": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/"
+      }
+    ],
+    "image": {
+      "url": "/images/events/fall-west-rome.jpg",
+      "credit": "Original educational illustration created for Eurasia History Map",
+      "license": "Original / no third-party photo IP",
+      "origin": "generated"
+    }
+  },
+  {
+    "id": "justinian",
+    "startYear": 527,
+    "endYear": 565,
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        28.98,
+        41.01
+      ]
+    },
+    "i18n": {
+      "en": {
+        "name": "Justinian’s reign",
+        "location": "Byzantine Empire",
+        "consequence": "Law code and wars try to restore Mediterranean unity."
+      },
+      "de": {
+        "name": "Regierung Justinians",
+        "location": "Byzantinisches Reich",
+        "consequence": "Gesetzbuch und Kriege versuchen die Mittelmeerwelt zu einen."
+      },
+      "zh": {
+        "name": "查士丁尼统治",
+        "location": "拜占庭帝国",
+        "consequence": "法典与战争试图重建地中海统一。"
+      }
+    },
+    "sources": [
+      {
+        "label": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/"
+      }
+    ],
+    "image": {
+      "url": "/images/events/justinian.jpg",
+      "credit": "Original educational illustration created for Eurasia History Map",
+      "license": "Original / no third-party photo IP",
+      "origin": "generated"
+    }
+  },
+  {
+    "id": "sui-canal",
+    "startYear": 605,
+    "endYear": 610,
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        118,
+        33
+      ]
+    },
+    "i18n": {
+      "en": {
+        "name": "Grand Canal (Sui)",
+        "location": "China",
+        "consequence": "Waterways link north and south China for grain and armies."
+      },
+      "de": {
+        "name": "Kaiserkanal (Sui)",
+        "location": "China",
+        "consequence": "Wasserwege verbinden Nord- und Südchina für Getreide und Heere."
+      },
+      "zh": {
+        "name": "隋大运河",
+        "location": "中国",
+        "consequence": "水路连接南北，运粮与调兵。"
+      }
+    },
+    "sources": [
+      {
+        "label": "UNESCO World Heritage",
+        "url": "https://whc.unesco.org/"
+      },
+      {
+        "label": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/"
+      }
+    ],
+    "image": {
+      "url": "/images/events/sui-canal.jpg",
+      "credit": "Original educational illustration created for Eurasia History Map",
+      "license": "Original / no third-party photo IP",
+      "origin": "generated"
+    }
+  },
+  {
+    "id": "muhammad",
+    "startYear": 610,
+    "endYear": 632,
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        39.83,
+        21.42
+      ]
+    },
+    "i18n": {
+      "en": {
+        "name": "Rise of Islam",
+        "location": "Arabia",
+        "consequence": "A new faith spreads rapidly across Afro-Eurasia."
+      },
+      "de": {
+        "name": "Aufstieg des Islam",
+        "location": "Arabien",
+        "consequence": "Ein neuer Glaube verbreitet sich rasch über Afroeurasien."
+      },
+      "zh": {
+        "name": "伊斯兰教兴起",
+        "location": "阿拉伯半岛",
+        "consequence": "新信仰迅速传遍非欧亚大陆。"
+      }
+    },
+    "sources": [
+      {
+        "label": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/"
+      }
+    ],
+    "image": {
+      "url": "/images/events/muhammad.jpg",
+      "credit": "Original educational illustration created for Eurasia History Map",
+      "license": "Original / no third-party photo IP",
+      "origin": "generated"
+    }
+  },
+  {
+    "id": "battle-talas",
+    "startYear": 751,
+    "endYear": 751,
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        71.5,
+        42.5
+      ]
+    },
+    "i18n": {
+      "en": {
+        "name": "Battle of Talas",
+        "location": "Central Asia",
+        "consequence": "Abbasid victory shapes the frontier with Tang China."
+      },
+      "de": {
+        "name": "Schlacht am Talas",
+        "location": "Zentralasien",
+        "consequence": "Abbasidischer Sieg formt die Grenze zu Tang-China."
+      },
+      "zh": {
+        "name": "怛罗斯之战",
+        "location": "中亚",
+        "consequence": "阿拔斯胜利塑造与唐朝的边界。"
+      }
+    },
+    "sources": [
+      {
+        "label": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/"
+      }
+    ],
+    "image": {
+      "url": "/images/events/battle-talas.jpg",
+      "credit": "Original educational illustration created for Eurasia History Map",
+      "license": "Original / no third-party photo IP",
+      "origin": "generated"
+    }
+  },
+  {
+    "id": "viking-age",
+    "startYear": 793,
+    "endYear": 1066,
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        10,
+        60
+      ]
+    },
+    "i18n": {
+      "en": {
+        "name": "Viking Age",
+        "location": "North Atlantic & Europe",
+        "consequence": "Raids, trade, and settlement connect northern Europe."
+      },
+      "de": {
+        "name": "Wikingerzeit",
+        "location": "Nordatlantik & Europa",
+        "consequence": "Überfälle, Handel und Siedlungen verbinden Nordeuropa."
+      },
+      "zh": {
+        "name": "维京时代",
+        "location": "北大西洋与欧洲",
+        "consequence": "劫掠、贸易与定居连接北欧。"
+      }
+    },
+    "sources": [
+      {
+        "label": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/"
+      },
+      {
+        "label": "British Museum",
+        "url": "https://www.britishmuseum.org/"
+      }
+    ],
+    "image": {
+      "url": "/images/events/viking-age.jpg",
+      "credit": "Original educational illustration created for Eurasia History Map",
+      "license": "Original / no third-party photo IP",
+      "origin": "generated"
+    }
+  },
+  {
+    "id": "baghdad-house",
+    "startYear": 800,
+    "endYear": 900,
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        44.4,
+        33.3
+      ]
+    },
+    "i18n": {
+      "en": {
+        "name": "House of Wisdom era",
+        "location": "Baghdad",
+        "consequence": "Scholars translate and expand science and philosophy."
+      },
+      "de": {
+        "name": "Ära des Hauses der Weisheit",
+        "location": "Bagdad",
+        "consequence": "Gelehrte übersetzen und erweitern Wissenschaft und Philosophie."
+      },
+      "zh": {
+        "name": "智慧宫时代",
+        "location": "巴格达",
+        "consequence": "学者翻译并扩展科学与哲学。"
+      }
+    },
+    "sources": [
+      {
+        "label": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/"
+      },
+      {
+        "label": "Metropolitan Museum of Art – Heilbrunn Timeline",
+        "url": "https://www.metmuseum.org/toah/"
+      }
+    ],
+    "image": {
+      "url": "/images/events/baghdad-house.jpg",
+      "credit": "Original educational illustration created for Eurasia History Map",
+      "license": "Original / no third-party photo IP",
+      "origin": "generated"
+    }
+  },
+  {
+    "id": "charlemagne",
+    "startYear": 800,
+    "endYear": 800,
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        5.57,
+        50.63
+      ]
+    },
+    "i18n": {
+      "en": {
+        "name": "Charlemagne crowned emperor",
+        "location": "Aachen / Rome",
+        "consequence": "Western Europe gains a new imperial model."
+      },
+      "de": {
+        "name": "Karl der Große zum Kaiser gekrönt",
+        "location": "Aachen / Rom",
+        "consequence": "Westeuropa erhält ein neues Kaisermodell."
+      },
+      "zh": {
+        "name": "查理曼加冕皇帝",
+        "location": "亚琛/罗马",
+        "consequence": "西欧获得新的帝国模式。"
+      }
+    },
+    "sources": [
+      {
+        "label": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/"
+      }
+    ],
+    "image": {
+      "url": "/images/events/charlemagne.jpg",
+      "credit": "Original educational illustration created for Eurasia History Map",
+      "license": "Original / no third-party photo IP",
+      "origin": "generated"
+    }
+  },
+  {
+    "id": "print-china",
+    "startYear": 1040,
+    "endYear": 1040,
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        112,
+        34
+      ]
+    },
+    "i18n": {
+      "en": {
+        "name": "Bi Sheng’s movable type (approx.)",
+        "location": "Song China",
+        "consequence": "Early movable type advances printing technology."
+      },
+      "de": {
+        "name": "Bi Shengs bewegliche Lettern (ca.)",
+        "location": "Song-China",
+        "consequence": "Frühe bewegliche Lettern fördern die Drucktechnik."
+      },
+      "zh": {
+        "name": "毕昇活字印刷（约）",
+        "location": "宋朝中国",
+        "consequence": "早期活字推动印刷技术进步。"
+      }
+    },
+    "sources": [
+      {
+        "label": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/"
+      },
+      {
+        "label": "Metropolitan Museum of Art – Heilbrunn Timeline",
+        "url": "https://www.metmuseum.org/toah/"
+      }
+    ],
+    "image": {
+      "url": "/images/events/print-china.jpg",
+      "credit": "Original educational illustration created for Eurasia History Map",
+      "license": "Original / no third-party photo IP",
+      "origin": "generated"
+    }
+  },
+  {
+    "id": "crusades-start",
+    "startYear": 1095,
+    "endYear": 1099,
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        35.2,
+        31.8
+      ]
+    },
+    "i18n": {
+      "en": {
+        "name": "First Crusade",
+        "location": "Levant",
+        "consequence": "Western European armies seize Jerusalem; long conflict begins."
+      },
+      "de": {
+        "name": "Erster Kreuzzug",
+        "location": "Levant",
+        "consequence": "Westeuropäische Heere erobern Jerusalem; langer Konflikt beginnt."
+      },
+      "zh": {
+        "name": "第一次十字军东征",
+        "location": "黎凡特",
+        "consequence": "西欧军队攻占耶路撒冷；长期冲突开始。"
+      }
+    },
+    "sources": [
+      {
+        "label": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/"
+      }
+    ],
+    "image": {
+      "url": "/images/events/crusades-start.jpg",
+      "credit": "Original educational illustration created for Eurasia History Map",
+      "license": "Original / no third-party photo IP",
+      "origin": "generated"
+    }
+  },
+  {
+    "id": "genghis",
+    "startYear": 1206,
+    "endYear": 1227,
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        105,
+        47
+      ]
+    },
+    "i18n": {
+      "en": {
+        "name": "Genghis Khan unites Mongols",
+        "location": "Mongolia",
+        "consequence": "A steppe empire soon spans much of Eurasia."
+      },
+      "de": {
+        "name": "Dschingis Khan eint die Mongolen",
+        "location": "Mongolei",
+        "consequence": "Ein Steppenreich umspannt bald weite Teile Eurasiens."
+      },
+      "zh": {
+        "name": "成吉思汗统一蒙古",
+        "location": "蒙古高原",
+        "consequence": "草原帝国很快横跨欧亚大部。"
+      }
+    },
+    "sources": [
+      {
+        "label": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/"
+      }
+    ],
+    "image": {
+      "url": "/images/events/genghis.jpg",
+      "credit": "Original educational illustration created for Eurasia History Map",
+      "license": "Original / no third-party photo IP",
+      "origin": "generated"
+    }
+  },
+  {
+    "id": "baghdad-1258",
+    "startYear": 1258,
+    "endYear": 1258,
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        44.4,
+        33.3
+      ]
+    },
+    "i18n": {
+      "en": {
+        "name": "Mongol sack of Baghdad",
+        "location": "Iraq",
+        "consequence": "Abbasid capital falls; political Islam re-centers elsewhere."
+      },
+      "de": {
+        "name": "Mongolische Plünderung Bagdads",
+        "location": "Irak",
+        "consequence": "Abbasidische Hauptstadt fällt; politischer Islam verlagert sich."
+      },
+      "zh": {
+        "name": "蒙古攻陷巴格达",
+        "location": "伊拉克",
+        "consequence": "阿拔斯都城陷落；伊斯兰政治中心转移。"
+      }
+    },
+    "sources": [
+      {
+        "label": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/"
+      }
+    ],
+    "image": {
+      "url": "/images/events/baghdad-1258.jpg",
+      "credit": "Original educational illustration created for Eurasia History Map",
+      "license": "Original / no third-party photo IP",
+      "origin": "generated"
+    }
+  },
+  {
+    "id": "marco-polo",
+    "startYear": 1271,
+    "endYear": 1295,
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        121.5,
+        31.2
+      ]
+    },
+    "i18n": {
+      "en": {
+        "name": "Marco Polo’s travels (tradition)",
+        "location": "Yuan China & Silk Road",
+        "consequence": "Travel tales spark European curiosity about Asia."
+      },
+      "de": {
+        "name": "Reisen Marco Polos (Tradition)",
+        "location": "Yuan-China & Seidenstraße",
+        "consequence": "Reiseberichte wecken europäische Neugier auf Asien."
+      },
+      "zh": {
+        "name": "马可·波罗游历（传统）",
+        "location": "元朝中国与丝绸之路",
+        "consequence": "游记激发欧洲对亚洲的兴趣。"
+      }
+    },
+    "sources": [
+      {
+        "label": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/"
+      }
+    ],
+    "image": {
+      "url": "/images/events/marco-polo.jpg",
+      "credit": "Original educational illustration created for Eurasia History Map",
+      "license": "Original / no third-party photo IP",
+      "origin": "generated"
+    }
+  },
+  {
+    "id": "black-death",
+    "startYear": 1347,
+    "endYear": 1351,
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            0,
+            35
+          ],
+          [
+            50,
+            35
+          ],
+          [
+            50,
+            55
+          ],
+          [
+            0,
+            55
+          ],
+          [
+            0,
+            35
+          ]
+        ]
+      ]
+    },
+    "i18n": {
+      "en": {
+        "name": "Black Death in Europe & West Asia",
+        "location": "Mediterranean & Europe",
+        "consequence": "Plague kills huge populations and transforms societies."
+      },
+      "de": {
+        "name": "Schwarzer Tod in Europa & Westasien",
+        "location": "Mittelmeer & Europa",
+        "consequence": "Pest tötet riesige Bevölkerungen und verändert Gesellschaften."
+      },
+      "zh": {
+        "name": "黑死病席卷欧洲与西亚",
+        "location": "地中海与欧洲",
+        "consequence": "瘟疫造成巨大人口损失并改变社会。"
+      }
+    },
+    "sources": [
+      {
+        "label": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/"
+      }
+    ],
+    "image": {
+      "url": "/images/events/black-death.jpg",
+      "credit": "Original educational illustration created for Eurasia History Map",
+      "license": "Original / no third-party photo IP",
+      "origin": "generated"
+    }
+  },
+  {
+    "id": "ming-found",
+    "startYear": 1368,
+    "endYear": 1368,
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        116.4,
+        39.9
+      ]
+    },
+    "i18n": {
+      "en": {
+        "name": "Ming dynasty founded",
+        "location": "China",
+        "consequence": "Native Chinese rule returns after the Yuan."
+      },
+      "de": {
+        "name": "Gründung der Ming-Dynastie",
+        "location": "China",
+        "consequence": "Chinesische Herrschaft kehrt nach den Yuan zurück."
+      },
+      "zh": {
+        "name": "明朝建立",
+        "location": "中国",
+        "consequence": "元朝之后汉人王朝重建。"
+      }
+    },
+    "sources": [
+      {
+        "label": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/"
+      },
+      {
+        "label": "Metropolitan Museum of Art – Heilbrunn Timeline",
+        "url": "https://www.metmuseum.org/toah/"
+      }
+    ],
+    "image": {
+      "url": "/images/events/ming-found.jpg",
+      "credit": "Original educational illustration created for Eurasia History Map",
+      "license": "Original / no third-party photo IP",
+      "origin": "generated"
+    }
+  },
+  {
+    "id": "timur",
+    "startYear": 1370,
+    "endYear": 1405,
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        69.2,
+        39.65
+      ]
+    },
+    "i18n": {
+      "en": {
+        "name": "Timur’s conquests",
+        "location": "Central Asia & Persia",
+        "consequence": "Timurid power reshapes politics and art patronage."
+      },
+      "de": {
+        "name": "Eroberungen Timurs",
+        "location": "Zentralasien & Persien",
+        "consequence": "Timuridenmacht formt Politik und Kunstförderung neu."
+      },
+      "zh": {
+        "name": "帖木儿征服",
+        "location": "中亚与波斯",
+        "consequence": "帖木儿势力重塑政治与艺术赞助。"
+      }
+    },
+    "sources": [
+      {
+        "label": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/"
+      },
+      {
+        "label": "UNESCO World Heritage",
+        "url": "https://whc.unesco.org/"
+      }
+    ],
+    "image": {
+      "url": "/images/events/timur.jpg",
+      "credit": "Original educational illustration created for Eurasia History Map",
+      "license": "Original / no third-party photo IP",
+      "origin": "generated"
+    }
+  },
+  {
+    "id": "tumu-crisis",
+    "startYear": 1449,
+    "endYear": 1449,
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        114.5,
+        41
+      ]
+    },
+    "i18n": {
+      "en": {
+        "name": "Tumu Crisis",
+        "location": "Northern Ming frontier",
+        "consequence": "The Ming emperor is captured by Mongols — a shock that weakens Ming confidence."
+      },
+      "de": {
+        "name": "Tumu-Krise",
+        "location": "Nördliche Ming-Grenze",
+        "consequence": "Der Ming-Kaiser wird von Mongolen gefangen — ein Schock für die Dynastie."
+      },
+      "zh": {
+        "name": "土木之变",
+        "location": "明朝北边",
+        "consequence": "明英宗被俘——沉重打击明朝自信与边防。"
+      }
+    },
+    "sources": [
+      {
+        "label": "Wikipedia — Tumu Crisis",
+        "url": "https://en.wikipedia.org/wiki/Tumu_Crisis"
+      },
+      {
+        "label": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/"
+      }
+    ],
+    "image": {
+      "url": "/images/events/tumu-crisis.jpg",
+      "credit": "Original educational illustration created for Eurasia History Map",
+      "license": "Original / no third-party photo IP",
+      "origin": "generated"
+    }
+  },
+  {
+    "id": "constantinople-1453",
+    "startYear": 1453,
+    "endYear": 1453,
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        28.98,
+        41.01
+      ]
+    },
+    "i18n": {
+      "en": {
+        "name": "Fall of Constantinople",
+        "location": "Byzantium",
+        "consequence": "Ottomans take the city; end of the Byzantine Empire."
+      },
+      "de": {
+        "name": "Fall Konstantinopels",
+        "location": "Byzanz",
+        "consequence": "Osmanen erobern die Stadt; Ende des Byzantinischen Reichs."
+      },
+      "zh": {
+        "name": "君士坦丁堡陷落",
+        "location": "拜占庭",
+        "consequence": "奥斯曼攻占该城；拜占庭帝国终结。"
+      }
+    },
+    "sources": [
+      {
+        "label": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/"
+      },
+      {
+        "label": "UNESCO World Heritage",
+        "url": "https://whc.unesco.org/"
+      }
+    ],
+    "image": {
+      "url": "/images/events/constantinople-1453.jpg",
+      "credit": "Original educational illustration created for Eurasia History Map",
+      "license": "Original / no third-party photo IP",
+      "origin": "generated"
+    }
+  },
+  {
+    "id": "gutenburg",
+    "startYear": 1455,
+    "endYear": 1455,
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        8.27,
+        50
+      ]
+    },
+    "i18n": {
+      "en": {
+        "name": "Gutenberg Bible printed",
+        "location": "Mainz, Germany",
+        "consequence": "Movable-type printing spreads literacy and ideas in Europe."
+      },
+      "de": {
+        "name": "Gutenberg-Bibel gedruckt",
+        "location": "Mainz, Deutschland",
+        "consequence": "Buchdruck mit beweglichen Lettern verbreitet Bildung und Ideen."
+      },
+      "zh": {
+        "name": "古腾堡圣经印刷",
+        "location": "德国美因茨",
+        "consequence": "活字印刷在欧洲传播识字与思想。"
+      }
+    },
+    "sources": [
+      {
+        "label": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/"
+      },
+      {
+        "label": "British Museum",
+        "url": "https://www.britishmuseum.org/"
+      }
+    ],
+    "image": {
+      "url": "/images/events/gutenburg.jpg",
+      "credit": "Original educational illustration created for Eurasia History Map",
+      "license": "Original / no third-party photo IP",
+      "origin": "generated"
+    }
+  },
+  {
+    "id": "columbus",
+    "startYear": 1492,
+    "endYear": 1492,
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -5.5,
+        36.1
+      ]
+    },
+    "i18n": {
+      "en": {
+        "name": "Columbus sails west",
+        "location": "Iberia / Atlantic",
+        "consequence": "Atlantic voyages open a global age linking Eurasia to the Americas."
+      },
+      "de": {
+        "name": "Kolumbus segelt westwärts",
+        "location": "Iberien / Atlantik",
+        "consequence": "Atlantikfahrten eröffnen ein globales Zeitalter."
+      },
+      "zh": {
+        "name": "哥伦布西航",
+        "location": "伊比利亚/大西洋",
+        "consequence": "大西洋航行开启连接欧亚与美洲的全球时代。"
+      }
+    },
+    "sources": [
+      {
+        "label": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/"
+      }
+    ],
+    "image": {
+      "url": "/images/events/columbus.jpg",
+      "credit": "Original educational illustration created for Eurasia History Map",
+      "license": "Original / no third-party photo IP",
+      "origin": "generated"
+    }
+  },
+  {
+    "id": "luther",
+    "startYear": 1517,
+    "endYear": 1517,
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        12.1,
+        51
+      ]
+    },
+    "i18n": {
+      "en": {
+        "name": "Luther’s Ninety-five Theses",
+        "location": "Wittenberg, Germany",
+        "consequence": "A protest over church practices spreads fast in print and splits Western Christianity."
+      },
+      "de": {
+        "name": "Luthers 95 Thesen",
+        "location": "Wittenberg, Deutschland",
+        "consequence": "Ein Protest über Kirchenpraxis verbreitet sich durch Druck und spaltet das westliche Christentum."
+      },
+      "zh": {
+        "name": "路德《九十五条论纲》",
+        "location": "德国维滕贝格",
+        "consequence": "对教会做法的抗议借印刷迅速传播，西欧基督教走向分裂。"
+      }
+    },
+    "sources": [
+      {
+        "label": "Wikipedia — Ninety-five Theses",
+        "url": "https://en.wikipedia.org/wiki/Ninety-five_Theses"
+      },
+      {
+        "label": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/"
+      }
+    ],
+    "image": {
+      "url": "/images/events/luther.jpg",
+      "credit": "Original educational illustration created for Eurasia History Map",
+      "license": "Original / no third-party photo IP",
+      "origin": "generated"
+    }
+  },
+  {
+    "id": "portuguese-ming-1517",
+    "startYear": 1517,
+    "endYear": 1517,
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        113.5,
+        23.1
+      ]
+    },
+    "i18n": {
+      "en": {
+        "name": "Portuguese reach Ming China",
+        "location": "Pearl River Delta",
+        "consequence": "European ships arrive seeking trade — the start of lasting maritime contact."
+      },
+      "de": {
+        "name": "Portugiesen erreichen Ming-China",
+        "location": "Perlflussdelta",
+        "consequence": "Europäische Schiffe suchen Handel — Beginn dauernder Seekontakte."
+      },
+      "zh": {
+        "name": "葡萄牙人抵达明朝中国",
+        "location": "珠江口",
+        "consequence": "欧洲船只前来求贸——持久海上交往由此开始。"
+      }
+    },
+    "sources": [
+      {
+        "label": "Wikipedia — Portugal–China relations",
+        "url": "https://en.wikipedia.org/wiki/Portugal%E2%80%93China_relations"
+      },
+      {
+        "label": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/"
+      }
+    ],
+    "image": {
+      "url": "/images/events/portuguese-ming-1517.jpg",
+      "credit": "Original educational illustration created for Eurasia History Map",
+      "license": "Original / no third-party photo IP",
+      "origin": "generated"
+    }
+  },
+  {
+    "id": "ottoman-suleiman",
+    "startYear": 1520,
+    "endYear": 1566,
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        28.98,
+        41.01
+      ]
+    },
+    "i18n": {
+      "en": {
+        "name": "Suleiman the Magnificent",
+        "location": "Ottoman Empire",
+        "consequence": "Ottoman power peaks in law, architecture, and conquest."
+      },
+      "de": {
+        "name": "Süleyman der Prächtige",
+        "location": "Osmanisches Reich",
+        "consequence": "Osmanische Macht gipfelt in Recht, Architektur und Eroberung."
+      },
+      "zh": {
+        "name": "苏莱曼大帝",
+        "location": "奥斯曼帝国",
+        "consequence": "奥斯曼在法律、建筑与征服上达致高峰。"
+      }
+    },
+    "sources": [
+      {
+        "label": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/"
+      },
+      {
+        "label": "UNESCO World Heritage",
+        "url": "https://whc.unesco.org/"
+      }
+    ],
+    "image": {
+      "url": "/images/events/ottoman-suleiman.jpg",
+      "credit": "Original educational illustration created for Eurasia History Map",
+      "license": "Original / no third-party photo IP",
+      "origin": "generated"
+    }
+  },
+  {
+    "id": "babur-mughal",
+    "startYear": 1526,
+    "endYear": 1526,
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        77.2,
+        28.6
+      ]
+    },
+    "i18n": {
+      "en": {
+        "name": "Battle of Panipat — Mughal founding",
+        "location": "North India",
+        "consequence": "Babur founds an empire that shapes South Asian culture."
+      },
+      "de": {
+        "name": "Schlacht von Panipat — Mogulgründung",
+        "location": "Nordindien",
+        "consequence": "Babur gründet ein Reich, das Südasien kulturell prägt."
+      },
+      "zh": {
+        "name": "帕尼帕特之战——莫卧儿开国",
+        "location": "北印度",
+        "consequence": "巴布尔建立深刻影响南亚文化的帝国。"
+      }
+    },
+    "sources": [
+      {
+        "label": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/"
+      }
+    ],
+    "image": {
+      "url": "/images/events/babur-mughal.jpg",
+      "credit": "Original educational illustration created for Eurasia History Map",
+      "license": "Original / no third-party photo IP",
+      "origin": "generated"
+    }
+  },
+  {
+    "id": "scientific-revolution",
+    "startYear": 1543,
+    "endYear": 1687,
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        12.5,
+        41.9
+      ]
+    },
+    "i18n": {
+      "en": {
+        "name": "Scientific Revolution (era)",
+        "location": "Europe",
+        "consequence": "New methods transform astronomy, physics, and medicine."
+      },
+      "de": {
+        "name": "Wissenschaftliche Revolution (Ära)",
+        "location": "Europa",
+        "consequence": "Neue Methoden verwandeln Astronomie, Physik und Medizin."
+      },
+      "zh": {
+        "name": "科学革命（时代）",
+        "location": "欧洲",
+        "consequence": "新方法改变天文学、物理学与医学。"
+      }
+    },
+    "sources": [
+      {
+        "label": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/"
+      }
+    ],
+    "image": {
+      "url": "/images/events/scientific-revolution.jpg",
+      "credit": "Original educational illustration created for Eurasia History Map",
+      "license": "Original / no third-party photo IP",
+      "origin": "generated"
+    }
+  },
+  {
+    "id": "akbar",
+    "startYear": 1556,
+    "endYear": 1605,
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        78,
+        27
+      ]
+    },
+    "i18n": {
+      "en": {
+        "name": "Akbar’s reign",
+        "location": "Mughal India",
+        "consequence": "Religious debate and administration strengthen a vast empire."
+      },
+      "de": {
+        "name": "Regierung Akbars",
+        "location": "Mogul-Indien",
+        "consequence": "Religionsdebatte und Verwaltung stärken ein riesiges Reich."
+      },
+      "zh": {
+        "name": "阿克巴统治",
+        "location": "莫卧儿印度",
+        "consequence": "宗教讨论与行政巩固庞大帝国。"
+      }
+    },
+    "sources": [
+      {
+        "label": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/"
+      }
+    ],
+    "image": {
+      "url": "/images/events/akbar.jpg",
+      "credit": "Original educational illustration created for Eurasia History Map",
+      "license": "Original / no third-party photo IP",
+      "origin": "generated"
+    }
+  },
+  {
+    "id": "macau-1557",
+    "startYear": 1557,
+    "endYear": 1557,
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        113.54,
+        22.19
+      ]
+    },
+    "i18n": {
+      "en": {
+        "name": "Macau leased to Portugal",
+        "location": "Macau",
+        "consequence": "A European trading post settles on China’s coast for centuries."
+      },
+      "de": {
+        "name": "Macau an Portugal verpachtet",
+        "location": "Macau",
+        "consequence": "Ein europäischer Handelsposten bleibt jahrhundertelang an Chinas Küste."
+      },
+      "zh": {
+        "name": "澳门租借给葡萄牙",
+        "location": "澳门",
+        "consequence": "欧洲贸易据点在中国沿海延续数百年。"
+      }
+    },
+    "sources": [
+      {
+        "label": "Wikipedia — History of Macau",
+        "url": "https://en.wikipedia.org/wiki/History_of_Macau"
+      },
+      {
+        "label": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/"
+      }
+    ],
+    "image": {
+      "url": "/images/events/macau-1557.jpg",
+      "credit": "Original educational illustration created for Eurasia History Map",
+      "license": "Original / no third-party photo IP",
+      "origin": "generated"
+    }
+  },
+  {
+    "id": "spanish-armada",
+    "startYear": 1588,
+    "endYear": 1588,
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            -10,
+            48
+          ],
+          [
+            2,
+            48
+          ],
+          [
+            2,
+            55
+          ],
+          [
+            -10,
+            55
+          ],
+          [
+            -10,
+            48
+          ]
+        ]
+      ]
+    },
+    "i18n": {
+      "en": {
+        "name": "Spanish Armada campaign",
+        "location": "English Channel",
+        "consequence": "Spain’s huge fleet fails against England — sea power shifts in western Europe."
+      },
+      "de": {
+        "name": "Spanische Armada",
+        "location": "Ärmelkanal",
+        "consequence": "Spaniens große Flotte scheitert an England — Seemacht verschiebt sich."
+      },
+      "zh": {
+        "name": "西班牙无敌舰队",
+        "location": "英吉利海峡",
+        "consequence": "西班牙大舰队远征失败，西欧海权格局改变。"
+      }
+    },
+    "sources": [
+      {
+        "label": "Wikipedia — Spanish Armada",
+        "url": "https://en.wikipedia.org/wiki/Spanish_Armada"
+      },
+      {
+        "label": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/"
+      }
+    ],
+    "image": {
+      "url": "/images/events/spanish-armada.jpg",
+      "credit": "Original educational illustration created for Eurasia History Map",
+      "license": "Original / no third-party photo IP",
+      "origin": "generated"
+    }
+  },
+  {
+    "id": "nurhaci-1618",
+    "startYear": 1618,
+    "endYear": 1618,
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        123.4,
+        41.8
+      ]
+    },
+    "i18n": {
+      "en": {
+        "name": "Nurhaci’s Seven Grievances",
+        "location": "Manchuria",
+        "consequence": "Jurchen/Manchu resistance against Ming grows into a force that later conquers China."
+      },
+      "de": {
+        "name": "Nurhacis Sieben Beschwerden",
+        "location": "Mandschurei",
+        "consequence": "Jurchen/Mandschu-Widerstand gegen Ming wird zur Kraft, die später China erobert."
+      },
+      "zh": {
+        "name": "努尔哈赤七大恨",
+        "location": "满洲",
+        "consequence": "女真/满洲反明力量壮大，日后入主中原。"
+      }
+    },
+    "sources": [
+      {
+        "label": "Wikipedia — Seven Grievances",
+        "url": "https://en.wikipedia.org/wiki/Seven_Grievances"
+      },
+      {
+        "label": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/"
+      }
+    ],
+    "image": {
+      "url": "/images/events/nurhaci-1618.jpg",
+      "credit": "Original educational illustration created for Eurasia History Map",
+      "license": "Original / no third-party photo IP",
+      "origin": "generated"
+    }
+  },
+  {
+    "id": "thirty-years",
+    "startYear": 1618,
+    "endYear": 1648,
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            5,
+            45
+          ],
+          [
+            20,
+            45
+          ],
+          [
+            20,
+            55
+          ],
+          [
+            5,
+            55
+          ],
+          [
+            5,
+            45
+          ]
+        ]
+      ]
+    },
+    "i18n": {
+      "en": {
+        "name": "Thirty Years’ War",
+        "location": "Central Europe",
+        "consequence": "Devastating conflict remakes European politics and religion."
+      },
+      "de": {
+        "name": "Dreißigjähriger Krieg",
+        "location": "Mitteleuropa",
+        "consequence": "Verwüstender Konflikt formt europäische Politik und Religion neu."
+      },
+      "zh": {
+        "name": "三十年战争",
+        "location": "中欧",
+        "consequence": "毁灭性冲突重塑欧洲政治与宗教格局。"
+      }
+    },
+    "sources": [
+      {
+        "label": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/"
+      }
+    ],
+    "image": {
+      "url": "/images/events/thirty-years.jpg",
+      "credit": "Original educational illustration created for Eurasia History Map",
+      "license": "Original / no third-party photo IP",
+      "origin": "generated"
+    }
+  },
+  {
+    "id": "qing-1644",
+    "startYear": 1644,
+    "endYear": 1644,
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        116.4,
+        39.9
+      ]
+    },
+    "i18n": {
+      "en": {
+        "name": "Qing conquest of Beijing",
+        "location": "China",
+        "consequence": "Manchu Qing dynasty begins centuries of rule."
+      },
+      "de": {
+        "name": "Qing erobert Peking",
+        "location": "China",
+        "consequence": "Die mandschurische Qing-Dynastie beginnt jahrhundertelange Herrschaft."
+      },
+      "zh": {
+        "name": "清军入京",
+        "location": "中国",
+        "consequence": "满清王朝开始数百年统治。"
+      }
+    },
+    "sources": [
+      {
+        "label": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/"
+      },
+      {
+        "label": "Metropolitan Museum of Art – Heilbrunn Timeline",
+        "url": "https://www.metmuseum.org/toah/"
+      }
+    ],
+    "image": {
+      "url": "/images/events/qing-1644.jpg",
+      "credit": "Original educational illustration created for Eurasia History Map",
+      "license": "Original / no third-party photo IP",
+      "origin": "generated"
+    }
+  },
+  {
+    "id": "westphalia",
+    "startYear": 1648,
+    "endYear": 1648,
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        7.63,
+        51.96
+      ]
+    },
+    "i18n": {
+      "en": {
+        "name": "Peace of Westphalia",
+        "location": "Münster & Osnabrück",
+        "consequence": "Treaties end the Thirty Years’ War and strengthen the idea of sovereign states."
+      },
+      "de": {
+        "name": "Westfälischer Friede",
+        "location": "Münster & Osnabrück",
+        "consequence": "Verträge beenden den Dreißigjährigen Krieg und stärken souveräne Staaten."
+      },
+      "zh": {
+        "name": "威斯特伐利亚和约",
+        "location": "明斯特与奥斯纳布吕克",
+        "consequence": "结束三十年战争，强化主权国家观念。"
+      }
+    },
+    "sources": [
+      {
+        "label": "Wikipedia — Peace of Westphalia",
+        "url": "https://en.wikipedia.org/wiki/Peace_of_Westphalia"
+      },
+      {
+        "label": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/"
+      }
+    ],
+    "image": {
+      "url": "/images/events/westphalia.jpg",
+      "credit": "Original educational illustration created for Eurasia History Map",
+      "license": "Original / no third-party photo IP",
+      "origin": "generated"
+    }
+  },
+  {
+    "id": "battle-vienna-1683",
+    "startYear": 1683,
+    "endYear": 1683,
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        16.37,
+        48.21
+      ]
+    },
+    "i18n": {
+      "en": {
+        "name": "Battle of Vienna",
+        "location": "Vienna, Austria",
+        "consequence": "A coalition stops the Ottoman siege — a turning point for Central Europe."
+      },
+      "de": {
+        "name": "Schlacht am Kahlenberg",
+        "location": "Wien, Österreich",
+        "consequence": "Eine Koalition stoppt die osmanische Belagerung — Wendepunkt für Mitteleuropa."
+      },
+      "zh": {
+        "name": "维也纳之战",
+        "location": "奥地利维也纳",
+        "consequence": "联军解除奥斯曼围城——中欧格局转折。"
+      }
+    },
+    "sources": [
+      {
+        "label": "Wikipedia — Battle of Vienna",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Vienna"
+      },
+      {
+        "label": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/"
+      }
+    ],
+    "image": {
+      "url": "/images/events/battle-vienna-1683.jpg",
+      "credit": "Original educational illustration created for Eurasia History Map",
+      "license": "Original / no third-party photo IP",
+      "origin": "generated"
+    }
+  },
+  {
+    "id": "qing-taiwan-1683",
+    "startYear": 1683,
+    "endYear": 1683,
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        120.5,
+        23.5
+      ]
+    },
+    "i18n": {
+      "en": {
+        "name": "Qing takes Taiwan",
+        "location": "Taiwan",
+        "consequence": "The Qing defeat the Kingdom of Tungning and bring the island under Qing rule."
+      },
+      "de": {
+        "name": "Qing erobert Taiwan",
+        "location": "Taiwan",
+        "consequence": "Die Qing besiegen das Königreich Tungning und bringen die Insel unter Qing-Herrschaft."
+      },
+      "zh": {
+        "name": "清朝收台湾",
+        "location": "台湾",
+        "consequence": "清军击败明郑，台湾纳入清朝版图。"
+      }
+    },
+    "sources": [
+      {
+        "label": "Wikipedia — Kingdom of Tungning",
+        "url": "https://en.wikipedia.org/wiki/Kingdom_of_Tungning"
+      },
+      {
+        "label": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/"
+      }
+    ],
+    "image": {
+      "url": "/images/events/qing-taiwan-1683.jpg",
+      "credit": "Original educational illustration created for Eurasia History Map",
+      "license": "Original / no third-party photo IP",
+      "origin": "generated"
+    }
+  },
+  {
+    "id": "seven-years-war",
+    "startYear": 1756,
+    "endYear": 1763,
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            -10,
+            35
+          ],
+          [
+            30,
+            35
+          ],
+          [
+            30,
+            55
+          ],
+          [
+            -10,
+            55
+          ],
+          [
+            -10,
+            35
+          ]
+        ]
+      ]
+    },
+    "i18n": {
+      "en": {
+        "name": "Seven Years’ War",
+        "location": "Europe & overseas empires",
+        "consequence": "A global war reshapes colonies and great-power ranks — sometimes called a first world war."
+      },
+      "de": {
+        "name": "Siebenjähriger Krieg",
+        "location": "Europa & Überseeimperien",
+        "consequence": "Ein globaler Krieg formt Kolonien und Großmächte neu."
+      },
+      "zh": {
+        "name": "七年战争",
+        "location": "欧洲与海外帝国",
+        "consequence": "全球性战争重塑殖民地与列强格局，常被视为“第一次世界大战”雏形。"
+      }
+    },
+    "sources": [
+      {
+        "label": "Wikipedia — Seven Years’ War",
+        "url": "https://en.wikipedia.org/wiki/Seven_Years%27_War"
+      },
+      {
+        "label": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/"
+      }
+    ],
+    "image": {
+      "url": "/images/events/seven-years-war.jpg",
+      "credit": "Original educational illustration created for Eurasia History Map",
+      "license": "Original / no third-party photo IP",
+      "origin": "generated"
+    }
+  },
+  {
+    "id": "canton-system-1757",
+    "startYear": 1757,
+    "endYear": 1757,
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        113.26,
+        23.13
+      ]
+    },
+    "i18n": {
+      "en": {
+        "name": "Canton System tightened",
+        "location": "Guangzhou (Canton)",
+        "consequence": "Qing limits European trade to Canton — shaping later conflicts over open ports."
+      },
+      "de": {
+        "name": "Kanton-System verschärft",
+        "location": "Guangzhou (Kanton)",
+        "consequence": "Qing begrenzt Europahandel auf Kanton — prägt spätere Hafenkonflikte."
+      },
+      "zh": {
+        "name": "一口通商（广州）收紧",
+        "location": "广州",
+        "consequence": "清朝限制对欧贸易于广州——影响后来通商口岸冲突。"
+      }
+    },
+    "sources": [
+      {
+        "label": "Wikipedia — Canton System",
+        "url": "https://en.wikipedia.org/wiki/Canton_System"
+      },
+      {
+        "label": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/"
+      }
+    ],
+    "image": {
+      "url": "/images/events/canton-system-1757.jpg",
+      "credit": "Original educational illustration created for Eurasia History Map",
+      "license": "Original / no third-party photo IP",
+      "origin": "generated"
+    }
+  },
+  {
+    "id": "industrial-start",
+    "startYear": 1760,
+    "endYear": 1840,
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -1.5,
+        53.5
+      ]
+    },
+    "i18n": {
+      "en": {
+        "name": "Industrial Revolution begins",
+        "location": "Britain",
+        "consequence": "Machines and factories change work, cities, and global power."
+      },
+      "de": {
+        "name": "Beginn der Industriellen Revolution",
+        "location": "Britannien",
+        "consequence": "Maschinen und Fabriken verändern Arbeit, Städte und Weltmacht."
+      },
+      "zh": {
+        "name": "工业革命开始",
+        "location": "英国",
+        "consequence": "机器与工厂改变劳动、城市与全球力量。"
+      }
+    },
+    "sources": [
+      {
+        "label": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/"
+      }
+    ],
+    "image": {
+      "url": "/images/events/industrial-start.jpg",
+      "credit": "Original educational illustration created for Eurasia History Map",
+      "license": "Original / no third-party photo IP",
+      "origin": "generated"
+    }
+  },
+  {
+    "id": "american-indep",
+    "startYear": 1776,
+    "endYear": 1783,
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -0.1,
+        51.5
+      ]
+    },
+    "i18n": {
+      "en": {
+        "name": "American independence (European impact)",
+        "location": "Atlantic world",
+        "consequence": "A new republic inspires political debates in Eurasia."
+      },
+      "de": {
+        "name": "Amerikanische Unabhängigkeit (europäische Wirkung)",
+        "location": "Atlantische Welt",
+        "consequence": "Eine neue Republik inspiriert politische Debatten in Eurasien."
+      },
+      "zh": {
+        "name": "美国独立（对欧洲影响）",
+        "location": "大西洋世界",
+        "consequence": "新共和国激发欧亚政治讨论。"
+      }
+    },
+    "sources": [
+      {
+        "label": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/"
+      }
+    ],
+    "image": {
+      "url": "/images/events/american-indep.jpg",
+      "credit": "Original educational illustration created for Eurasia History Map",
+      "license": "Original / no third-party photo IP",
+      "origin": "generated"
+    }
+  },
+  {
+    "id": "french-revolution",
+    "startYear": 1789,
+    "endYear": 1799,
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        2.35,
+        48.86
+      ]
+    },
+    "i18n": {
+      "en": {
+        "name": "French Revolution",
+        "location": "France",
+        "consequence": "Rights, citizenship, and modern politics reshape Europe."
+      },
+      "de": {
+        "name": "Französische Revolution",
+        "location": "Frankreich",
+        "consequence": "Rechte, Bürgerschaft und moderne Politik formen Europa neu."
+      },
+      "zh": {
+        "name": "法国大革命",
+        "location": "法国",
+        "consequence": "权利、公民身份与现代政治重塑欧洲。"
+      }
+    },
+    "sources": [
+      {
+        "label": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/"
+      }
+    ],
+    "image": {
+      "url": "/images/events/french-revolution.jpg",
+      "credit": "Original educational illustration created for Eurasia History Map",
+      "license": "Original / no third-party photo IP",
+      "origin": "generated"
+    }
+  },
+  {
+    "id": "macartney-1793",
+    "startYear": 1793,
+    "endYear": 1793,
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        116.4,
+        39.9
+      ]
+    },
+    "i18n": {
+      "en": {
+        "name": "Macartney Embassy",
+        "location": "Beijing",
+        "consequence": "Britain asks for freer trade; Qing refuses — a famous clash of worldviews."
+      },
+      "de": {
+        "name": "Macartney-Gesandtschaft",
+        "location": "Beijing",
+        "consequence": "Britannien will freieren Handel; Qing lehnt ab — berühmter Weltbild-Konflikt."
+      },
+      "zh": {
+        "name": "马戛尔尼使团",
+        "location": "北京",
+        "consequence": "英使求扩大通商，清廷拒绝——著名的文明观念碰撞。"
+      }
+    },
+    "sources": [
+      {
+        "label": "Wikipedia — Macartney Embassy",
+        "url": "https://en.wikipedia.org/wiki/Macartney_Embassy"
+      },
+      {
+        "label": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/"
+      }
+    ],
+    "image": {
+      "url": "/images/events/macartney-1793.jpg",
+      "credit": "Original educational illustration created for Eurasia History Map",
+      "license": "Original / no third-party photo IP",
+      "origin": "generated"
+    }
+  },
+  {
+    "id": "napoleon",
+    "startYear": 1799,
+    "endYear": 1815,
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        2.3,
+        48.8
+      ]
+    },
+    "i18n": {
+      "en": {
+        "name": "Napoleonic Wars",
+        "location": "Europe",
+        "consequence": "Wars spread legal codes and redraw the map of Europe."
+      },
+      "de": {
+        "name": "Napoleonische Kriege",
+        "location": "Europa",
+        "consequence": "Kriege verbreiten Gesetzeswerke und zeichnen Europas Karte neu."
+      },
+      "zh": {
+        "name": "拿破仑战争",
+        "location": "欧洲",
+        "consequence": "战争传播法典并重绘欧洲地图。"
+      }
+    },
+    "sources": [
+      {
+        "label": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/"
+      }
+    ],
+    "image": {
+      "url": "/images/events/napoleon.jpg",
+      "credit": "Original educational illustration created for Eurasia History Map",
+      "license": "Original / no third-party photo IP",
+      "origin": "generated"
+    }
+  },
+  {
+    "id": "congress-vienna",
+    "startYear": 1815,
+    "endYear": 1815,
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        16.37,
+        48.21
+      ]
+    },
+    "i18n": {
+      "en": {
+        "name": "Congress of Vienna",
+        "location": "Vienna",
+        "consequence": "After Napoleon, powers redraw Europe’s map and try to keep a balance of power."
+      },
+      "de": {
+        "name": "Wiener Kongress",
+        "location": "Wien",
+        "consequence": "Nach Napoleon zeichnen Mächte Europas Karte neu und suchen Machtgleichgewicht."
+      },
+      "zh": {
+        "name": "维也纳会议",
+        "location": "维也纳",
+        "consequence": "拿破仑战后列强重划欧洲地图，试图维持均势。"
+      }
+    },
+    "sources": [
+      {
+        "label": "Wikipedia — Congress of Vienna",
+        "url": "https://en.wikipedia.org/wiki/Congress_of_Vienna"
+      },
+      {
+        "label": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/"
+      }
+    ],
+    "image": {
+      "url": "/images/events/congress-vienna.jpg",
+      "credit": "Original educational illustration created for Eurasia History Map",
+      "license": "Original / no third-party photo IP",
+      "origin": "generated"
+    }
+  },
+  {
+    "id": "opium-war",
+    "startYear": 1839,
+    "endYear": 1842,
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        113.3,
+        23.1
+      ]
+    },
+    "i18n": {
+      "en": {
+        "name": "First Opium War",
+        "location": "China coast",
+        "consequence": "Unequal treaties open Chinese ports to foreign power."
+      },
+      "de": {
+        "name": "Erster Opiumkrieg",
+        "location": "Chinesische Küste",
+        "consequence": "Ungleiche Verträge öffnen chinesische Häfen für fremde Macht."
+      },
+      "zh": {
+        "name": "第一次鸦片战争",
+        "location": "中国沿海",
+        "consequence": "不平等条约迫使中国港口对列强开放。"
+      }
+    },
+    "sources": [
+      {
+        "label": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/"
+      }
+    ],
+    "image": {
+      "url": "/images/events/opium-war.jpg",
+      "credit": "Original educational illustration created for Eurasia History Map",
+      "license": "Original / no third-party photo IP",
+      "origin": "generated"
+    }
+  },
+  {
+    "id": "revolutions-1848",
+    "startYear": 1848,
+    "endYear": 1849,
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            -5,
+            40
+          ],
+          [
+            25,
+            40
+          ],
+          [
+            25,
+            55
+          ],
+          [
+            -5,
+            55
+          ],
+          [
+            -5,
+            40
+          ]
+        ]
+      ]
+    },
+    "i18n": {
+      "en": {
+        "name": "Revolutions of 1848",
+        "location": "Many European cities",
+        "consequence": "People demand constitutions and nations — even when crushed, ideas keep spreading."
+      },
+      "de": {
+        "name": "Revolutionen 1848",
+        "location": "Viele europäische Städte",
+        "consequence": "Menschen fordern Verfassungen und Nationen — Ideen wirken weiter."
+      },
+      "zh": {
+        "name": "1848年欧洲革命",
+        "location": "欧洲多城",
+        "consequence": "民众要求宪法与民族国家——虽遭镇压，思想继续传播。"
+      }
+    },
+    "sources": [
+      {
+        "label": "Wikipedia — Revolutions of 1848",
+        "url": "https://en.wikipedia.org/wiki/Revolutions_of_1848"
+      },
+      {
+        "label": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/"
+      }
+    ],
+    "image": {
+      "url": "/images/events/revolutions-1848.jpg",
+      "credit": "Original educational illustration created for Eurasia History Map",
+      "license": "Original / no third-party photo IP",
+      "origin": "generated"
+    }
+  },
+  {
+    "id": "taiping-1850",
+    "startYear": 1850,
+    "endYear": 1864,
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            110,
+            25
+          ],
+          [
+            122,
+            25
+          ],
+          [
+            122,
+            35
+          ],
+          [
+            110,
+            35
+          ],
+          [
+            110,
+            25
+          ]
+        ]
+      ]
+    },
+    "i18n": {
+      "en": {
+        "name": "Taiping Rebellion begins",
+        "location": "Southern China",
+        "consequence": "A massive civil war kills millions and shakes the Qing state."
+      },
+      "de": {
+        "name": "Beginn des Taiping-Aufstands",
+        "location": "Südchina",
+        "consequence": "Ein riesiger Bürgerkrieg kostet Millionen und erschüttert die Qing."
+      },
+      "zh": {
+        "name": "太平天国起事",
+        "location": "中国南方",
+        "consequence": "大规模内战死亡数百万，严重动摇清朝统治。"
+      }
+    },
+    "sources": [
+      {
+        "label": "Wikipedia — Taiping Rebellion",
+        "url": "https://en.wikipedia.org/wiki/Taiping_Rebellion"
+      },
+      {
+        "label": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/"
+      }
+    ],
+    "image": {
+      "url": "/images/events/taiping-1850.jpg",
+      "credit": "Original educational illustration created for Eurasia History Map",
+      "license": "Original / no third-party photo IP",
+      "origin": "generated"
+    }
+  },
+  {
+    "id": "meiji",
+    "startYear": 1868,
+    "endYear": 1868,
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        139.7,
+        35.7
+      ]
+    },
+    "i18n": {
+      "en": {
+        "name": "Meiji Restoration",
+        "location": "Japan",
+        "consequence": "Japan rapidly modernizes industry and the state."
+      },
+      "de": {
+        "name": "Meiji-Restauration",
+        "location": "Japan",
+        "consequence": "Japan modernisiert rasch Industrie und Staat."
+      },
+      "zh": {
+        "name": "明治维新",
+        "location": "日本",
+        "consequence": "日本迅速现代化工业与国家。"
+      }
+    },
+    "sources": [
+      {
+        "label": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/"
+      }
+    ],
+    "image": {
+      "url": "/images/events/meiji.jpg",
+      "credit": "Original educational illustration created for Eurasia History Map",
+      "license": "Original / no third-party photo IP",
+      "origin": "generated"
+    }
+  },
+  {
+    "id": "german-empire-1871",
+    "startYear": 1871,
+    "endYear": 1871,
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        2.35,
+        48.86
+      ]
+    },
+    "i18n": {
+      "en": {
+        "name": "German Empire proclaimed",
+        "location": "Versailles, France",
+        "consequence": "German states unite under Prussia — a new great power sits in the middle of Europe."
+      },
+      "de": {
+        "name": "Deutsches Kaiserreich ausgerufen",
+        "location": "Versailles, Frankreich",
+        "consequence": "Deutsche Staaten einigen sich unter Preußen — eine neue Großmacht."
+      },
+      "zh": {
+        "name": "德意志帝国宣告成立",
+        "location": "法国凡尔赛",
+        "consequence": "德意志各邦在普鲁士主导下统一——欧洲中部出现新列强。"
+      }
+    },
+    "sources": [
+      {
+        "label": "Wikipedia — German Empire",
+        "url": "https://en.wikipedia.org/wiki/German_Empire"
+      },
+      {
+        "label": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/"
+      }
+    ],
+    "image": {
+      "url": "/images/events/german-empire-1871.jpg",
+      "credit": "Original educational illustration created for Eurasia History Map",
+      "license": "Original / no third-party photo IP",
+      "origin": "generated"
+    }
+  },
+  {
+    "id": "sino-japanese-1895",
+    "startYear": 1895,
+    "endYear": 1895,
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        130.9,
+        33.96
+      ]
+    },
+    "i18n": {
+      "en": {
+        "name": "Treaty of Shimonoseki",
+        "location": "Shimonoseki, Japan",
+        "consequence": "Qing loses to Japan and cedes Taiwan — East Asia’s power balance shifts."
+      },
+      "de": {
+        "name": "Vertrag von Shimonoseki",
+        "location": "Shimonoseki, Japan",
+        "consequence": "Qing unterliegt Japan und tritt Taiwan ab — Machtbalance in Ostasien ändert sich."
+      },
+      "zh": {
+        "name": "马关条约",
+        "location": "日本下关",
+        "consequence": "清朝战败割让台湾——东亚力量对比剧变。"
+      }
+    },
+    "sources": [
+      {
+        "label": "Wikipedia — Treaty of Shimonoseki",
+        "url": "https://en.wikipedia.org/wiki/Treaty_of_Shimonoseki"
+      },
+      {
+        "label": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/"
+      }
+    ],
+    "image": {
+      "url": "/images/events/sino-japanese-1895.jpg",
+      "credit": "Original educational illustration created for Eurasia History Map",
+      "license": "Original / no third-party photo IP",
+      "origin": "generated"
+    }
+  },
+  {
+    "id": "ww1",
+    "startYear": 1914,
+    "endYear": 1918,
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            0,
+            42
+          ],
+          [
+            40,
+            42
+          ],
+          [
+            40,
+            56
+          ],
+          [
+            0,
+            56
+          ],
+          [
+            0,
+            42
+          ]
+        ]
+      ]
+    },
+    "i18n": {
+      "en": {
+        "name": "World War I",
+        "location": "Europe & beyond",
+        "consequence": "Industrial war topples empires and remakes borders."
+      },
+      "de": {
+        "name": "Erster Weltkrieg",
+        "location": "Europa & darüber hinaus",
+        "consequence": "Industrieller Krieg stürzt Reiche und formt Grenzen neu."
+      },
+      "zh": {
+        "name": "第一次世界大战",
+        "location": "欧洲及其他",
+        "consequence": "工业化战争推翻帝国并重塑边界。"
+      }
+    },
+    "sources": [
+      {
+        "label": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/"
+      }
+    ],
+    "image": {
+      "url": "/images/events/ww1.jpg",
+      "credit": "Original educational illustration created for Eurasia History Map",
+      "license": "Original / no third-party photo IP",
+      "origin": "generated"
+    }
+  },
+  {
+    "id": "russian-rev",
+    "startYear": 1917,
+    "endYear": 1917,
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        30.3,
+        59.9
+      ]
+    },
+    "i18n": {
+      "en": {
+        "name": "Russian Revolution",
+        "location": "Russia",
+        "consequence": "Tsardom ends; a socialist state emerges."
+      },
+      "de": {
+        "name": "Russische Revolution",
+        "location": "Russland",
+        "consequence": "Zarenreich endet; ein sozialistischer Staat entsteht."
+      },
+      "zh": {
+        "name": "俄国革命",
+        "location": "俄罗斯",
+        "consequence": "沙皇统治结束；社会主义国家出现。"
+      }
+    },
+    "sources": [
+      {
+        "label": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/"
+      }
+    ],
+    "image": {
+      "url": "/images/events/russian-rev.jpg",
+      "credit": "Original educational illustration created for Eurasia History Map",
+      "license": "Original / no third-party photo IP",
+      "origin": "generated"
+    }
+  },
+  {
+    "id": "may-fourth-1919",
+    "startYear": 1919,
+    "endYear": 1919,
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        116.4,
+        39.9
+      ]
+    },
+    "i18n": {
+      "en": {
+        "name": "May Fourth Movement",
+        "location": "Beijing & Chinese cities",
+        "consequence": "Students protest the Versailles deal on Shandong — a spark for modern Chinese politics and culture."
+      },
+      "de": {
+        "name": "Bewegung des 4. Mai",
+        "location": "Beijing & chinesische Städte",
+        "consequence": "Studenten protestieren gegen Versailles wegen Shandong — Impuls für moderne Politik und Kultur."
+      },
+      "zh": {
+        "name": "五四运动",
+        "location": "北京与中国多城",
+        "consequence": "学生抗议凡尔赛山东条款——推动中国近现代政治与文化变革。"
+      }
+    },
+    "sources": [
+      {
+        "label": "Wikipedia — May Fourth Movement",
+        "url": "https://en.wikipedia.org/wiki/May_Fourth_Movement"
+      },
+      {
+        "label": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/"
+      }
+    ],
+    "image": {
+      "url": "/images/events/may-fourth-1919.jpg",
+      "credit": "Original educational illustration created for Eurasia History Map",
+      "license": "Original / no third-party photo IP",
+      "origin": "generated"
+    }
+  },
+  {
+    "id": "versailles-1919",
+    "startYear": 1919,
+    "endYear": 1919,
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        2.12,
+        48.8
+      ]
+    },
+    "i18n": {
+      "en": {
+        "name": "Treaty of Versailles",
+        "location": "Versailles, France",
+        "consequence": "WWI peace terms reshape borders and anger — helping set the stage for later conflict."
+      },
+      "de": {
+        "name": "Versailler Vertrag",
+        "location": "Versailles, Frankreich",
+        "consequence": "Friedensbedingungen formen Grenzen und Unmut — und spätere Konflikte mit."
+      },
+      "zh": {
+        "name": "凡尔赛条约",
+        "location": "法国凡尔赛",
+        "consequence": "一战和约重划边界并埋下怨恨，影响后来冲突。"
+      }
+    },
+    "sources": [
+      {
+        "label": "Wikipedia — Treaty of Versailles",
+        "url": "https://en.wikipedia.org/wiki/Treaty_of_Versailles"
+      },
+      {
+        "label": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/"
+      }
+    ],
+    "image": {
+      "url": "/images/events/versailles-1919.jpg",
+      "credit": "Original educational illustration created for Eurasia History Map",
+      "license": "Original / no third-party photo IP",
+      "origin": "generated"
+    }
+  },
+  {
+    "id": "ww2",
+    "startYear": 1939,
+    "endYear": 1945,
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            -10,
+            30
+          ],
+          [
+            140,
+            30
+          ],
+          [
+            140,
+            60
+          ],
+          [
+            -10,
+            60
+          ],
+          [
+            -10,
+            30
+          ]
+        ]
+      ]
+    },
+    "i18n": {
+      "en": {
+        "name": "World War II",
+        "location": "Eurasia & world",
+        "consequence": "Global war causes immense loss and a new world order."
+      },
+      "de": {
+        "name": "Zweiter Weltkrieg",
+        "location": "Eurasien & Welt",
+        "consequence": "Weltkrieg verursacht enorme Verluste und eine neue Weltordnung."
+      },
+      "zh": {
+        "name": "第二次世界大战",
+        "location": "欧亚与世界",
+        "consequence": "全球战争造成巨大损失并形成新世界秩序。"
+      }
+    },
+    "sources": [
+      {
+        "label": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/"
+      }
+    ],
+    "image": {
+      "url": "/images/events/ww2.jpg",
+      "credit": "Original educational illustration created for Eurasia History Map",
+      "license": "Original / no third-party photo IP",
+      "origin": "generated"
+    }
+  },
+  {
+    "id": "prc-1949",
+    "startYear": 1949,
+    "endYear": 1949,
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        116.4,
+        39.9
+      ]
+    },
+    "i18n": {
+      "en": {
+        "name": "People’s Republic of China founded",
+        "location": "Beijing",
+        "consequence": "Communist victory ends the Chinese Civil War phase."
+      },
+      "de": {
+        "name": "Gründung der Volksrepublik China",
+        "location": "Peking",
+        "consequence": "Kommunistischer Sieg beendet die Phase des Bürgerkriegs."
+      },
+      "zh": {
+        "name": "中华人民共和国成立",
+        "location": "北京",
+        "consequence": "共产党胜利结束内战阶段。"
+      }
+    },
+    "sources": [
+      {
+        "label": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/"
+      }
+    ],
+    "image": {
+      "url": "/images/events/prc-1949.jpg",
+      "credit": "Original educational illustration created for Eurasia History Map",
+      "license": "Original / no third-party photo IP",
+      "origin": "generated"
+    }
+  },
+  {
+    "id": "eu-project",
+    "startYear": 1957,
+    "endYear": 1993,
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        4.35,
+        50.85
+      ]
+    },
+    "i18n": {
+      "en": {
+        "name": "European integration",
+        "location": "Western Europe",
+        "consequence": "Coal & Steel to EU: nations bind economies to keep peace."
+      },
+      "de": {
+        "name": "Europäische Integration",
+        "location": "Westeuropa",
+        "consequence": "Von Kohle & Stahl zur EU: Staaten binden Wirtschaft für Frieden."
+      },
+      "zh": {
+        "name": "欧洲一体化",
+        "location": "西欧",
+        "consequence": "从煤钢联营到欧盟：国家以经济联合维护和平。"
+      }
+    },
+    "sources": [
+      {
+        "label": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/"
+      }
+    ],
+    "image": {
+      "url": "/images/events/eu-project.jpg",
+      "credit": "Original educational illustration created for Eurasia History Map",
+      "license": "Original / no third-party photo IP",
+      "origin": "generated"
+    }
+  },
+  {
+    "id": "berlin-wall-1989",
+    "startYear": 1989,
+    "endYear": 1989,
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        13.4,
+        52.52
+      ]
+    },
+    "i18n": {
+      "en": {
+        "name": "Fall of the Berlin Wall",
+        "location": "Berlin, Germany",
+        "consequence": "The Cold War barrier opens — a symbol that Eastern Europe’s communist order is ending."
+      },
+      "de": {
+        "name": "Fall der Berliner Mauer",
+        "location": "Berlin, Deutschland",
+        "consequence": "Die Kalter-Krieg-Grenze öffnet sich — Symbol für das Ende der kommunistischen Ordnung."
+      },
+      "zh": {
+        "name": "柏林墙倒塌",
+        "location": "德国柏林",
+        "consequence": "冷战壁垒开放——象征东欧冷战秩序走向终结。"
+      }
+    },
+    "sources": [
+      {
+        "label": "Wikipedia — Fall of the Berlin Wall",
+        "url": "https://en.wikipedia.org/wiki/Fall_of_the_Berlin_Wall"
+      },
+      {
+        "label": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/"
+      }
+    ],
+    "image": {
+      "url": "/images/events/berlin-wall-1989.jpg",
+      "credit": "Original educational illustration created for Eurasia History Map",
+      "license": "Original / no third-party photo IP",
+      "origin": "generated"
+    }
+  },
+  {
+    "id": "internet-age",
+    "startYear": 1991,
+    "endYear": 2000,
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        0,
+        51.5
+      ]
+    },
+    "i18n": {
+      "en": {
+        "name": "World Wide Web goes public",
+        "location": "Global / Europe origin",
+        "consequence": "Instant information connects Eurasian societies anew."
+      },
+      "de": {
+        "name": "World Wide Web wird öffentlich",
+        "location": "Global / Ursprung Europa",
+        "consequence": "Sofortige Information verbindet eurasische Gesellschaften neu."
+      },
+      "zh": {
+        "name": "万维网公开",
+        "location": "全球/起源于欧洲",
+        "consequence": "即时信息重新连接欧亚社会。"
+      }
+    },
+    "sources": [
+      {
+        "label": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/"
+      }
+    ],
+    "image": {
+      "url": "/images/events/internet-age.jpg",
+      "credit": "Original educational illustration created for Eurasia History Map",
+      "license": "Original / no third-party photo IP",
+      "origin": "generated"
+    }
+  }
+]
