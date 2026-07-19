@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react'
 import { useTranslation } from 'react-i18next'
 import type { HistoricEvent, Lang } from '../types'
+import { assetUrl } from '../utils/assets'
 import { formatYearRange } from '../utils/year'
 import './EventPopup.css'
 
@@ -9,18 +10,21 @@ interface EventPopupProps {
   onClose: () => void
 }
 
-const FALLBACK_IMAGE = '/images/event-fallback.svg'
+const FALLBACK_IMAGE = assetUrl('/images/event-fallback.svg')
 
 export function EventPopup({ event, onClose }: EventPopupProps) {
   const { t, i18n } = useTranslation()
   const lang = (i18n.language?.slice(0, 2) || 'en') as Lang
   const text = event.i18n[lang] ?? event.i18n.en
-  const [imgSrc, setImgSrc] = useState(
-    event.image?.url ?? FALLBACK_IMAGE,
-  )
+  const resolvedImage = event.image?.url
+    ? assetUrl(event.image.url)
+    : FALLBACK_IMAGE
+  const [imgSrc, setImgSrc] = useState(resolvedImage)
 
   useEffect(() => {
-    setImgSrc(event.image?.url ?? FALLBACK_IMAGE)
+    setImgSrc(
+      event.image?.url ? assetUrl(event.image.url) : FALLBACK_IMAGE,
+    )
   }, [event.id, event.image?.url])
 
   useEffect(() => {
