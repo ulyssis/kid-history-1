@@ -515,6 +515,106 @@
     }
   },
   {
+    "id": "battle-muye",
+    "startYear": -1046,
+    "endYear": -1046,
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        112.5,
+        35.1
+      ]
+    },
+    "i18n": {
+      "en": {
+        "name": "Battle of Muye — Zhou defeats Shang",
+        "location": "Muye (near Anyang)",
+        "consequence": "King Wu of Zhou defeats the Shang. A new dynasty begins in China."
+      },
+      "de": {
+        "name": "Schlacht von Muye — Zhou besiegt Shang",
+        "location": "Muye (bei Anyang)",
+        "consequence": "König Wu von Zhou besiegt die Shang. Eine neue Dynastie beginnt."
+      },
+      "zh": {
+        "name": "武王伐纣（牧野之战）",
+        "location": "牧野（安阳附近）",
+        "consequence": "周武王击败商朝，开启周代新秩序。"
+      }
+    },
+    "sources": [
+      {
+        "label": "Wikipedia — Battle of Muye",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Muye"
+      },
+      {
+        "label": "百度百科 — 牧野之战",
+        "url": "https://baike.baidu.com/item/%E7%89%A7%E9%87%8E%E4%B9%8B%E6%88%98"
+      },
+      {
+        "label": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/"
+      }
+    ],
+    "image": {
+      "url": "/images/events/battle-muye.jpg",
+      "credit": "Wikimedia Commons — Shi_Qiang_pan.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Shi_Qiang_pan.jpg",
+      "license": "Public Domain / CC (Wikimedia Commons)",
+      "origin": "wikimedia"
+    }
+  },
+  {
+    "id": "western-zhou-start",
+    "startYear": -1045,
+    "endYear": -1045,
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        108.9,
+        34.3
+      ]
+    },
+    "i18n": {
+      "en": {
+        "name": "Western Zhou begins",
+        "location": "Haojing (near Xi’an)",
+        "consequence": "The Zhou set their capital in the west and rule with feudal lords."
+      },
+      "de": {
+        "name": "Beginn der Westlichen Zhou",
+        "location": "Haojing (bei Xi’an)",
+        "consequence": "Die Zhou errichten die westliche Hauptstadt und herrschen mit Lehnsfürsten."
+      },
+      "zh": {
+        "name": "西周开始",
+        "location": "镐京（西安附近）",
+        "consequence": "周朝定都镐京，实行分封，史称西周。"
+      }
+    },
+    "sources": [
+      {
+        "label": "Wikipedia — Western Zhou",
+        "url": "https://en.wikipedia.org/wiki/Western_Zhou"
+      },
+      {
+        "label": "百度百科 — 西周",
+        "url": "https://baike.baidu.com/item/%E8%A5%BF%E5%91%A8"
+      },
+      {
+        "label": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/"
+      }
+    ],
+    "image": {
+      "url": "/images/events/western-zhou-start.jpg",
+      "credit": "Wikimedia Commons — RecallLang.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:RecallLang.jpg",
+      "license": "Public Domain / CC (Wikimedia Commons)",
+      "origin": "wikimedia"
+    }
+  },
+  {
     "id": "neo-assyria",
     "startYear": -900,
     "endYear": -612,
@@ -622,6 +722,56 @@
       "credit": "Original educational illustration created for Eurasia History Map",
       "license": "Original / no third-party photo IP",
       "origin": "generated"
+    }
+  },
+  {
+    "id": "beacon-fire-lords",
+    "startYear": -771,
+    "endYear": -771,
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        108.9,
+        34.3
+      ]
+    },
+    "i18n": {
+      "en": {
+        "name": "Beacon fires and the fall of Western Zhou",
+        "location": "Haojing",
+        "consequence": "King You misuses warning beacons. Nomads attack; Western Zhou ends."
+      },
+      "de": {
+        "name": "Feuerzeichen und Fall der Westlichen Zhou",
+        "location": "Haojing",
+        "consequence": "König You missbraucht Warnfeuer. Nomaden greifen an; Westliche Zhou enden."
+      },
+      "zh": {
+        "name": "烽火戏诸侯",
+        "location": "镐京",
+        "consequence": "周幽王戏弄烽火失信诸侯，犬戎攻破镐京，西周灭亡。"
+      }
+    },
+    "sources": [
+      {
+        "label": "Wikipedia — King You of Zhou",
+        "url": "https://en.wikipedia.org/wiki/King_You_of_Zhou"
+      },
+      {
+        "label": "百度百科 — 烽火戏诸侯",
+        "url": "https://baike.baidu.com/item/%E7%83%BD%E7%81%AB%E6%88%8F%E8%AF%B8%E4%BE%AF"
+      },
+      {
+        "label": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/"
+      }
+    ],
+    "image": {
+      "url": "/images/events/beacon-fire-lords.jpg",
+      "credit": "Wikipedia / Wikimedia — King_You_of_Zhou",
+      "sourceUrl": "https://en.wikipedia.org/wiki/King_You_of_Zhou",
+      "license": "Public Domain / CC (via Wikipedia page image)",
+      "origin": "wikimedia"
     }
   },
   {
@@ -1018,6 +1168,56 @@
     }
   },
   {
+    "id": "partition-of-jin",
+    "startYear": -403,
+    "endYear": -403,
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        112.5,
+        36
+      ]
+    },
+    "i18n": {
+      "en": {
+        "name": "Partition of Jin (Three Jins)",
+        "location": "Central China",
+        "consequence": "Jin splits into Zhao, Wei, and Han — the Warring States deepen."
+      },
+      "de": {
+        "name": "Teilung von Jin (Drei Jin)",
+        "location": "Zentralchina",
+        "consequence": "Jin zerfällt in Zhao, Wei und Han — die Streitenden Reiche verschärfen sich."
+      },
+      "zh": {
+        "name": "三家分晋",
+        "location": "中原",
+        "consequence": "晋国被赵、魏、韩瓜分，战国格局成形。"
+      }
+    },
+    "sources": [
+      {
+        "label": "Wikipedia — Partition of Jin",
+        "url": "https://en.wikipedia.org/wiki/Partition_of_Jin"
+      },
+      {
+        "label": "百度百科 — 三家分晋",
+        "url": "https://baike.baidu.com/item/%E4%B8%89%E5%AE%B6%E5%88%86%E6%99%8B"
+      },
+      {
+        "label": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/"
+      }
+    ],
+    "image": {
+      "url": "/images/events/partition-of-jin.jpg",
+      "credit": "Wikimedia Commons — EN-WarringStatesAll260BCE.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:EN-WarringStatesAll260BCE.jpg",
+      "license": "Public Domain / CC (Wikimedia Commons)",
+      "origin": "wikimedia"
+    }
+  },
+  {
     "id": "rome-veii",
     "startYear": -396,
     "endYear": -396,
@@ -1373,6 +1573,56 @@
     }
   },
   {
+    "id": "battle-changping",
+    "startYear": -260,
+    "endYear": -260,
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        112.8,
+        35.8
+      ]
+    },
+    "i18n": {
+      "en": {
+        "name": "Battle of Changping",
+        "location": "Changping (Shanxi)",
+        "consequence": "Qin crushes Zhao. Hundreds of thousands die — Qin’s rise accelerates."
+      },
+      "de": {
+        "name": "Schlacht von Changping",
+        "location": "Changping (Shanxi)",
+        "consequence": "Qin vernichtet Zhao. Hunderttausende sterben — Qins Aufstieg beschleunigt sich."
+      },
+      "zh": {
+        "name": "长平之战",
+        "location": "长平（山西）",
+        "consequence": "秦大败赵军，伤亡惨重，加速秦统一进程。"
+      }
+    },
+    "sources": [
+      {
+        "label": "Wikipedia — Battle of Changping",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Changping"
+      },
+      {
+        "label": "百度百科 — 长平之战",
+        "url": "https://baike.baidu.com/item/%E9%95%BF%E5%B9%B3%E4%B9%8B%E6%88%98"
+      },
+      {
+        "label": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/"
+      }
+    ],
+    "image": {
+      "url": "/images/events/battle-changping.jpg",
+      "credit": "Wikimedia Commons — Battle of Changping.png",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Battle_of_Changping.png",
+      "license": "Public Domain / CC (Wikimedia Commons)",
+      "origin": "wikimedia"
+    }
+  },
+  {
     "id": "qin-unify",
     "startYear": -221,
     "endYear": -221,
@@ -1415,6 +1665,56 @@
       "credit": "Original educational illustration created for Eurasia History Map",
       "license": "Original / no third-party photo IP",
       "origin": "generated"
+    }
+  },
+  {
+    "id": "xu-fu-voyage",
+    "startYear": -219,
+    "endYear": -219,
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        121.5,
+        31.2
+      ]
+    },
+    "i18n": {
+      "en": {
+        "name": "Xu Fu’s voyage east",
+        "location": "East China Sea",
+        "consequence": "Qin sends Xu Fu to seek immortals across the sea — a famous legend of early ocean travel."
+      },
+      "de": {
+        "name": "Xu Fus Ostfahrt",
+        "location": "Ostchinesisches Meer",
+        "consequence": "Qin schickt Xu Fu über das Meer — eine berühmte Legende früher Seefahrt."
+      },
+      "zh": {
+        "name": "徐福东渡",
+        "location": "东海",
+        "consequence": "秦始皇遣徐福出海求仙，成为早期航海传说。"
+      }
+    },
+    "sources": [
+      {
+        "label": "Wikipedia — Xu Fu",
+        "url": "https://en.wikipedia.org/wiki/Xu_Fu"
+      },
+      {
+        "label": "百度百科 — 徐福",
+        "url": "https://baike.baidu.com/item/%E5%BE%90%E7%A6%8F"
+      },
+      {
+        "label": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/"
+      }
+    ],
+    "image": {
+      "url": "/images/events/xu-fu-voyage.jpg",
+      "credit": "Wikipedia / Wikimedia — Xu_Fu",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Xu_Fu",
+      "license": "Public Domain / CC (via Wikipedia page image)",
+      "origin": "wikimedia"
     }
   },
   {
@@ -1680,6 +1980,56 @@
       "credit": "Original educational illustration created for Eurasia History Map",
       "license": "Original / no third-party photo IP",
       "origin": "generated"
+    }
+  },
+  {
+    "id": "baideng-siege",
+    "startYear": -200,
+    "endYear": -200,
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        113.3,
+        40.1
+      ]
+    },
+    "i18n": {
+      "en": {
+        "name": "Siege of Baideng",
+        "location": "Baideng (Datong area)",
+        "consequence": "Xiongnu surround Emperor Gaozu. Han later chooses peace and gifts over endless war."
+      },
+      "de": {
+        "name": "Belagerung von Baideng",
+        "location": "Baideng (bei Datong)",
+        "consequence": "Die Xiongnu umzingeln Kaiser Gaozu. Han wählt später Frieden und Geschenke."
+      },
+      "zh": {
+        "name": "白登之围",
+        "location": "白登（大同一带）",
+        "consequence": "匈奴围困汉高祖，此后汉朝多以和亲与互市应对。"
+      }
+    },
+    "sources": [
+      {
+        "label": "Wikipedia — Battle of Baideng",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Baideng"
+      },
+      {
+        "label": "百度百科 — 白登之围",
+        "url": "https://baike.baidu.com/item/%E7%99%BD%E7%99%BB%E4%B9%8B%E5%9B%B4"
+      },
+      {
+        "label": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/"
+      }
+    ],
+    "image": {
+      "url": "/images/events/baideng-siege.jpg",
+      "credit": "Wikimedia Commons — Emperor_Gaozu_of_Han.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Emperor_Gaozu_of_Han.jpg",
+      "license": "Public Domain / CC (Wikimedia Commons)",
+      "origin": "wikimedia"
     }
   },
   {
@@ -2060,6 +2410,56 @@
       "credit": "Original educational illustration created for Eurasia History Map",
       "license": "Original / no third-party photo IP",
       "origin": "generated"
+    }
+  },
+  {
+    "id": "mount-tai-fengshan",
+    "startYear": -110,
+    "endYear": -110,
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        117.1,
+        36.25
+      ]
+    },
+    "i18n": {
+      "en": {
+        "name": "Fengshan sacrifice at Mount Tai",
+        "location": "Mount Tai, Shandong",
+        "consequence": "Emperor Wu of Han performs the sacred mountain rites — heaven and earth are honored."
+      },
+      "de": {
+        "name": "Fengshan-Opfer am Tai-Berg",
+        "location": "Tai-Berg, Shandong",
+        "consequence": "Kaiser Wu der Han vollzieht die heiligen Bergriten."
+      },
+      "zh": {
+        "name": "泰山封禅",
+        "location": "山东泰山",
+        "consequence": "汉武帝举行封禅大典，祭告天地。"
+      }
+    },
+    "sources": [
+      {
+        "label": "Wikipedia — Feng Shan",
+        "url": "https://en.wikipedia.org/wiki/Feng_Shan"
+      },
+      {
+        "label": "百度百科 — 封禅",
+        "url": "https://baike.baidu.com/item/%E5%B0%81%E7%A6%85"
+      },
+      {
+        "label": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/"
+      }
+    ],
+    "image": {
+      "url": "/images/events/mount-tai-fengshan.jpg",
+      "credit": "Wikipedia / Wikimedia — Feng_Shan",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Feng_Shan",
+      "license": "Public Domain / CC (via Wikipedia page image)",
+      "origin": "wikimedia"
     }
   },
   {
@@ -3541,6 +3941,56 @@
     }
   },
   {
+    "id": "western-jin-unify",
+    "startYear": 280,
+    "endYear": 280,
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        112.5,
+        34.7
+      ]
+    },
+    "i18n": {
+      "en": {
+        "name": "Western Jin unifies China",
+        "location": "Luoyang",
+        "consequence": "Jin ends the Three Kingdoms and briefly reunites the realm."
+      },
+      "de": {
+        "name": "Westliche Jin einigt China",
+        "location": "Luoyang",
+        "consequence": "Jin beendet die Drei Reiche und eint das Land kurzzeitig."
+      },
+      "zh": {
+        "name": "西晋统一",
+        "location": "洛阳",
+        "consequence": "西晋结束三国分裂，短暂统一全国。"
+      }
+    },
+    "sources": [
+      {
+        "label": "Wikipedia — Western Jin",
+        "url": "https://en.wikipedia.org/wiki/Western_Jin"
+      },
+      {
+        "label": "百度百科 — 西晋",
+        "url": "https://baike.baidu.com/item/%E8%A5%BF%E6%99%8B"
+      },
+      {
+        "label": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/"
+      }
+    ],
+    "image": {
+      "url": "/images/events/western-jin-unify.jpg",
+      "credit": "Wikimedia Commons — Map of the Jin dynasty (266–420).png",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMap%20of%20the%20Jin%20dynasty%20%28266%E2%80%93420%29.png",
+      "license": "Public Domain / CC (Wikimedia Commons)",
+      "origin": "wikimedia"
+    }
+  },
+  {
     "id": "diocletian",
     "startYear": 284,
     "endYear": 305,
@@ -3583,6 +4033,76 @@
       "credit": "Original educational illustration created for Eurasia History Map",
       "license": "Original / no third-party photo IP",
       "origin": "generated"
+    }
+  },
+  {
+    "id": "war-eight-princes",
+    "startYear": 291,
+    "endYear": 306,
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            108,
+            32
+          ],
+          [
+            118,
+            32
+          ],
+          [
+            118,
+            40
+          ],
+          [
+            108,
+            40
+          ],
+          [
+            108,
+            32
+          ]
+        ]
+      ]
+    },
+    "i18n": {
+      "en": {
+        "name": "War of the Eight Princes",
+        "location": "Northern China",
+        "consequence": "Imperial princes fight each other. The dynasty weakens before northern invasions."
+      },
+      "de": {
+        "name": "Krieg der Acht Prinzen",
+        "location": "Nordchina",
+        "consequence": "Prinzen bekriegen sich. Die Dynastie schwächt sich vor den Nordinvasionen."
+      },
+      "zh": {
+        "name": "八王之乱",
+        "location": "北方中国",
+        "consequence": "宗室诸王互相攻伐，西晋大伤元气。"
+      }
+    },
+    "sources": [
+      {
+        "label": "Wikipedia — War of the Eight Princes",
+        "url": "https://en.wikipedia.org/wiki/War_of_the_Eight_Princes"
+      },
+      {
+        "label": "百度百科 — 八王之乱",
+        "url": "https://baike.baidu.com/item/%E5%85%AB%E7%8E%8B%E4%B9%8B%E4%B9%B1"
+      },
+      {
+        "label": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/"
+      }
+    ],
+    "image": {
+      "url": "/images/events/war-eight-princes.jpg",
+      "credit": "Wikimedia Commons — War of the Eight Princes 301.png",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AWar%20of%20the%20Eight%20Princes%20301.png",
+      "license": "Public Domain / CC (Wikimedia Commons)",
+      "origin": "wikimedia"
     }
   },
   {
@@ -3786,6 +4306,56 @@
     }
   },
   {
+    "id": "battle-fei-river",
+    "startYear": 383,
+    "endYear": 383,
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        117,
+        31.7
+      ]
+    },
+    "i18n": {
+      "en": {
+        "name": "Battle of Fei River",
+        "location": "Anhui",
+        "consequence": "A smaller southern army stops Former Qin. North–South division lasts longer."
+      },
+      "de": {
+        "name": "Schlacht am Fei-Fluss",
+        "location": "Anhui",
+        "consequence": "Ein kleineres Südheer stoppt Früheres Qin. Nord–Süd-Teilung dauert an."
+      },
+      "zh": {
+        "name": "淝水之战",
+        "location": "安徽",
+        "consequence": "东晋以少胜多击退前秦，南北对峙延续。"
+      }
+    },
+    "sources": [
+      {
+        "label": "Wikipedia — Battle of Fei River",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Fei_River"
+      },
+      {
+        "label": "百度百科 — 淝水之战",
+        "url": "https://baike.baidu.com/item/%E6%B7%9D%E6%B0%B4%E4%B9%8B%E6%88%98"
+      },
+      {
+        "label": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/"
+      }
+    ],
+    "image": {
+      "url": "/images/events/battle-fei-river.jpg",
+      "credit": "Wikimedia Commons — 淮淝奏捷图.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A%E6%B7%AE%E6%B7%9D%E5%A5%8F%E6%8D%B7%E5%9B%BE.jpg",
+      "license": "Public Domain / CC (Wikimedia Commons)",
+      "origin": "wikimedia"
+    }
+  },
+  {
     "id": "alaric-sack-rome",
     "startYear": 410,
     "endYear": 410,
@@ -3828,6 +4398,76 @@
       "credit": "Original educational illustration created for Eurasia History Map",
       "license": "Original / no third-party photo IP",
       "origin": "generated"
+    }
+  },
+  {
+    "id": "northern-southern-dynasties",
+    "startYear": 420,
+    "endYear": 589,
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            100,
+            20
+          ],
+          [
+            122,
+            20
+          ],
+          [
+            122,
+            42
+          ],
+          [
+            100,
+            42
+          ],
+          [
+            100,
+            20
+          ]
+        ]
+      ]
+    },
+    "i18n": {
+      "en": {
+        "name": "Northern and Southern dynasties",
+        "location": "China",
+        "consequence": "China stays split for generations — many courts, cultures, and wars — until Sui reunites."
+      },
+      "de": {
+        "name": "Nördliche und Südliche Dynastien",
+        "location": "China",
+        "consequence": "China bleibt lange geteilt — viele Höfe und Kriege — bis die Sui wieder einen."
+      },
+      "zh": {
+        "name": "南北朝",
+        "location": "中国",
+        "consequence": "南北长期对峙，政权更迭频繁，直到隋朝再统一。"
+      }
+    },
+    "sources": [
+      {
+        "label": "Wikipedia — Northern and Southern dynasties",
+        "url": "https://en.wikipedia.org/wiki/Northern_and_Southern_dynasties"
+      },
+      {
+        "label": "百度百科 — 南北朝",
+        "url": "https://baike.baidu.com/item/%E5%8D%97%E5%8C%97%E6%9C%9D"
+      },
+      {
+        "label": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/"
+      }
+    ],
+    "image": {
+      "url": "/images/events/northern-southern-dynasties.jpg",
+      "credit": "Wikimedia Commons — Tomb Brick of Wei, Jin, or Southern-Northern Dynasties - 1.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ATomb%20Brick%20of%20Wei%2C%20Jin%2C%20or%20Southern-Northern%20Dynasties%20-%201.jpg",
+      "license": "Public Domain / CC (Wikimedia Commons)",
+      "origin": "wikimedia"
     }
   },
   {
@@ -3996,6 +4636,226 @@
       "credit": "Original educational illustration created for Eurasia History Map",
       "license": "Original / no third-party photo IP",
       "origin": "generated"
+    }
+  },
+  {
+    "id": "xuanwu-gate",
+    "startYear": 626,
+    "endYear": 626,
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        108.9,
+        34.3
+      ]
+    },
+    "i18n": {
+      "en": {
+        "name": "Xuanwu Gate Incident",
+        "location": "Chang’an",
+        "consequence": "Li Shimin seizes power. He becomes Emperor Taizong — a famous Tang ruler."
+      },
+      "de": {
+        "name": "Xuanwu-Tor-Zwischenfall",
+        "location": "Chang’an",
+        "consequence": "Li Shimin ergreift die Macht und wird Kaiser Taizong."
+      },
+      "zh": {
+        "name": "玄武门之变",
+        "location": "长安",
+        "consequence": "李世民发动政变，后成为唐太宗。"
+      }
+    },
+    "sources": [
+      {
+        "label": "Wikipedia — Xuanwu Gate Incident",
+        "url": "https://en.wikipedia.org/wiki/Xuanwu_Gate_Incident"
+      },
+      {
+        "label": "百度百科 — 玄武门之变",
+        "url": "https://baike.baidu.com/item/%E7%8E%84%E6%AD%A6%E9%97%A8%E4%B9%8B%E5%8F%98"
+      },
+      {
+        "label": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/"
+      }
+    ],
+    "image": {
+      "url": "/images/events/xuanwu-gate.jpg",
+      "credit": "Wikimedia Commons — TangTaizong.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ATangTaizong.jpg",
+      "license": "Public Domain / CC (Wikimedia Commons)",
+      "origin": "wikimedia"
+    }
+  },
+  {
+    "id": "taizong-eastern-turks",
+    "startYear": 630,
+    "endYear": 630,
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            100,
+            40
+          ],
+          [
+            115,
+            40
+          ],
+          [
+            115,
+            48
+          ],
+          [
+            100,
+            48
+          ],
+          [
+            100,
+            40
+          ]
+        ]
+      ]
+    },
+    "i18n": {
+      "en": {
+        "name": "Tang conquers the Eastern Turks",
+        "location": "Mongolian steppe",
+        "consequence": "Emperor Taizong defeats the Eastern Turkic Khaganate — Tang power reaches the steppe."
+      },
+      "de": {
+        "name": "Tang besiegt die Östlichen Türken",
+        "location": "Mongolische Steppe",
+        "consequence": "Kaiser Taizong besiegt das Östliche Türk-Khaganat."
+      },
+      "zh": {
+        "name": "李世民征服东突厥",
+        "location": "蒙古高原",
+        "consequence": "唐太宗击破东突厥，唐朝势力伸入草原。"
+      }
+    },
+    "sources": [
+      {
+        "label": "Wikipedia — Tang vs Eastern Turks",
+        "url": "https://en.wikipedia.org/wiki/Tang_campaign_against_the_Eastern_Turks"
+      },
+      {
+        "label": "百度百科 — 东突厥",
+        "url": "https://baike.baidu.com/item/%E4%B8%9C%E7%AA%81%E5%8E%A5"
+      },
+      {
+        "label": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/"
+      }
+    ],
+    "image": {
+      "url": "/images/events/taizong-eastern-turks.jpg",
+      "credit": "Wikimedia Commons — TangTaizong.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:TangTaizong.jpg",
+      "license": "Public Domain / CC (Wikimedia Commons)",
+      "origin": "wikimedia"
+    }
+  },
+  {
+    "id": "wencheng-tibet",
+    "startYear": 641,
+    "endYear": 641,
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        91.1,
+        29.65
+      ]
+    },
+    "i18n": {
+      "en": {
+        "name": "Princess Wencheng goes to Tibet",
+        "location": "Lhasa",
+        "consequence": "A Tang princess marries into Tibet. The marriage becomes a symbol of Tang–Tibet ties."
+      },
+      "de": {
+        "name": "Prinzessin Wencheng nach Tibet",
+        "location": "Lhasa",
+        "consequence": "Eine Tang-Prinzessin heiratet nach Tibet — Symbol der Tang–Tibet-Beziehungen."
+      },
+      "zh": {
+        "name": "文成公主入藏",
+        "location": "拉萨",
+        "consequence": "唐朝与吐蕃和亲，文成公主入藏，成为汉藏友好象征。"
+      }
+    },
+    "sources": [
+      {
+        "label": "Wikipedia — Princess Wencheng",
+        "url": "https://en.wikipedia.org/wiki/Princess_Wencheng"
+      },
+      {
+        "label": "百度百科 — 文成公主",
+        "url": "https://baike.baidu.com/item/%E6%96%87%E6%88%90%E5%85%AC%E4%B8%BB"
+      },
+      {
+        "label": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/"
+      }
+    ],
+    "image": {
+      "url": "/images/events/wencheng-tibet.jpg",
+      "credit": "Wikimedia Commons — Princess_Wencheng.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Princess_Wencheng.jpg",
+      "license": "Public Domain / CC (Wikimedia Commons)",
+      "origin": "wikimedia"
+    }
+  },
+  {
+    "id": "wu-zetian-throne",
+    "startYear": 690,
+    "endYear": 690,
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        112.45,
+        34.62
+      ]
+    },
+    "i18n": {
+      "en": {
+        "name": "Wu Zetian becomes emperor",
+        "location": "Luoyang",
+        "consequence": "China’s only woman emperor founds the Zhou interregnum inside Tang history."
+      },
+      "de": {
+        "name": "Wu Zetian wird Kaiserin",
+        "location": "Luoyang",
+        "consequence": "Chinas einzige Kaiserin gründet eine Zwischenherrschaft in der Tang-Zeit."
+      },
+      "zh": {
+        "name": "武则天登基",
+        "location": "洛阳",
+        "consequence": "中国历史上唯一女皇帝称帝，改国号周。"
+      }
+    },
+    "sources": [
+      {
+        "label": "Wikipedia — Wu Zetian",
+        "url": "https://en.wikipedia.org/wiki/Wu_Zetian"
+      },
+      {
+        "label": "百度百科 — 武则天",
+        "url": "https://baike.baidu.com/item/%E6%AD%A6%E5%88%99%E5%A4%A9"
+      },
+      {
+        "label": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/"
+      }
+    ],
+    "image": {
+      "url": "/images/events/wu-zetian-throne.jpg",
+      "credit": "Wikimedia Commons — Tang Dynasty - Qian Feng Quan Bao.png",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tang_Dynasty_-_Qian_Feng_Quan_Bao.png",
+      "license": "Public Domain / CC (Wikimedia Commons)",
+      "origin": "wikimedia"
     }
   },
   {
@@ -4171,6 +5031,106 @@
     }
   },
   {
+    "id": "zhu-wen-ends-tang",
+    "startYear": 907,
+    "endYear": 907,
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        114.5,
+        34.8
+      ]
+    },
+    "i18n": {
+      "en": {
+        "name": "Zhu Wen ends the Tang — Five Dynasties begin",
+        "location": "Kaifeng area",
+        "consequence": "The Tang collapses. North China enters the Five Dynasties and Ten Kingdoms era."
+      },
+      "de": {
+        "name": "Zhu Wen beendet die Tang — Fünf Dynastien beginnen",
+        "location": "Kaifeng",
+        "consequence": "Die Tang stürzen. Nordchina tritt in die Zeit der Fünf Dynastien ein."
+      },
+      "zh": {
+        "name": "朱温灭唐（五代开始）",
+        "location": "开封一带",
+        "consequence": "唐朝灭亡，进入五代十国分裂时期。"
+      }
+    },
+    "sources": [
+      {
+        "label": "Wikipedia — Five Dynasties",
+        "url": "https://en.wikipedia.org/wiki/Five_Dynasties_and_Ten_Kingdoms_period"
+      },
+      {
+        "label": "百度百科 — 朱温",
+        "url": "https://baike.baidu.com/item/%E6%9C%B1%E6%B8%A9"
+      },
+      {
+        "label": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/"
+      }
+    ],
+    "image": {
+      "url": "/images/events/zhu-wen-ends-tang.jpg",
+      "credit": "Wikimedia Commons — Five Dynasties Ten Kingdoms 923 CE.png",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Five_Dynasties_Ten_Kingdoms_923_CE.png",
+      "license": "Public Domain / CC (Wikimedia Commons)",
+      "origin": "wikimedia"
+    }
+  },
+  {
+    "id": "song-unify",
+    "startYear": 979,
+    "endYear": 979,
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        114.5,
+        34.8
+      ]
+    },
+    "i18n": {
+      "en": {
+        "name": "Song dynasty completes reunification",
+        "location": "Kaifeng",
+        "consequence": "After decades of war, Song brings most of China under one government again."
+      },
+      "de": {
+        "name": "Song vollendet die Wiedervereinigung",
+        "location": "Kaifeng",
+        "consequence": "Nach langen Kriegen eint Song den größten Teil Chinas erneut."
+      },
+      "zh": {
+        "name": "宋朝统一",
+        "location": "开封",
+        "consequence": "北宋结束五代十国乱局，基本重新统一中原。"
+      }
+    },
+    "sources": [
+      {
+        "label": "Wikipedia — Song dynasty",
+        "url": "https://en.wikipedia.org/wiki/Song_dynasty"
+      },
+      {
+        "label": "百度百科 — 北宋",
+        "url": "https://baike.baidu.com/item/%E5%8C%97%E5%AE%8B"
+      },
+      {
+        "label": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/"
+      }
+    ],
+    "image": {
+      "url": "/images/events/song-unify.jpg",
+      "credit": "Wikimedia Commons — Song_Taizu.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Song_Taizu.jpg",
+      "license": "Public Domain / CC (Wikimedia Commons)",
+      "origin": "wikimedia"
+    }
+  },
+  {
     "id": "print-china",
     "startYear": 1040,
     "endYear": 1040,
@@ -4257,6 +5217,126 @@
     }
   },
   {
+    "id": "jin-destroy-liao",
+    "startYear": 1125,
+    "endYear": 1125,
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            110,
+            38
+          ],
+          [
+            130,
+            38
+          ],
+          [
+            130,
+            48
+          ],
+          [
+            110,
+            48
+          ],
+          [
+            110,
+            38
+          ]
+        ]
+      ]
+    },
+    "i18n": {
+      "en": {
+        "name": "Jin destroys the Liao",
+        "location": "Northeast Asia",
+        "consequence": "The Jurchen Jin rise and wipe out the Khitan Liao empire."
+      },
+      "de": {
+        "name": "Jin vernichtet die Liao",
+        "location": "Nordostasien",
+        "consequence": "Die Jurchen-Jin vernichten das Kitan-Liao-Reich."
+      },
+      "zh": {
+        "name": "金朝崛起灭辽",
+        "location": "东北亚",
+        "consequence": "女真金朝兴起，灭亡契丹辽朝。"
+      }
+    },
+    "sources": [
+      {
+        "label": "Wikipedia — Jin dynasty",
+        "url": "https://en.wikipedia.org/wiki/Jin_dynasty_(1115–1234)"
+      },
+      {
+        "label": "百度百科 — 金灭辽",
+        "url": "https://baike.baidu.com/item/%E9%87%91%E7%81%AD%E8%BE%BD"
+      },
+      {
+        "label": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/"
+      }
+    ],
+    "image": {
+      "url": "/images/events/jin-destroy-liao.jpg",
+      "credit": "Wikimedia Commons — Jurchen.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Jurchen.jpg",
+      "license": "Public Domain / CC (Wikimedia Commons)",
+      "origin": "wikimedia"
+    }
+  },
+  {
+    "id": "jingkang-incident",
+    "startYear": 1127,
+    "endYear": 1127,
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        114.5,
+        34.8
+      ]
+    },
+    "i18n": {
+      "en": {
+        "name": "Jingkang Incident — Jin takes Kaifeng",
+        "location": "Kaifeng",
+        "consequence": "Jin captures the Song capital. The Song court flees south."
+      },
+      "de": {
+        "name": "Jingkang-Zwischenfall — Jin nimmt Kaifeng",
+        "location": "Kaifeng",
+        "consequence": "Jin erobert die Song-Hauptstadt. Der Hof flieht nach Süden."
+      },
+      "zh": {
+        "name": "靖康之变（金灭北宋）",
+        "location": "开封",
+        "consequence": "金军攻破汴京，北宋灭亡，南宋开始。"
+      }
+    },
+    "sources": [
+      {
+        "label": "Wikipedia — Jingkang incident",
+        "url": "https://en.wikipedia.org/wiki/Jingkang_incident"
+      },
+      {
+        "label": "百度百科 — 靖康之变",
+        "url": "https://baike.baidu.com/item/%E9%9D%96%E5%BA%B7%E4%B9%8B%E5%8F%98"
+      },
+      {
+        "label": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/"
+      }
+    ],
+    "image": {
+      "url": "/images/events/jingkang-incident.jpg",
+      "credit": "Wikimedia Commons — Kaifeng.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kaifeng.jpg",
+      "license": "Public Domain / CC (Wikimedia Commons)",
+      "origin": "wikimedia"
+    }
+  },
+  {
     "id": "genghis",
     "startYear": 1206,
     "endYear": 1227,
@@ -4339,6 +5419,56 @@
     }
   },
   {
+    "id": "diaoyu-fortress",
+    "startYear": 1259,
+    "endYear": 1259,
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        106.4,
+        30
+      ]
+    },
+    "i18n": {
+      "en": {
+        "name": "Siege of Diaoyu Fortress",
+        "location": "Hechuan, Sichuan",
+        "consequence": "Song defenders hold a mountain fortress. Mongol Great Khan Möngke dies in the campaign."
+      },
+      "de": {
+        "name": "Belagerung der Diaoyu-Festung",
+        "location": "Hechuan, Sichuan",
+        "consequence": "Song-Verteidiger halten stand. Der Mongolenkhagan Möngke stirbt im Feldzug."
+      },
+      "zh": {
+        "name": "钓鱼城围城战",
+        "location": "四川合川",
+        "consequence": "宋军坚守钓鱼城，蒙古大汗蒙哥死于军中。"
+      }
+    },
+    "sources": [
+      {
+        "label": "Wikipedia — Siege of Diaoyucheng",
+        "url": "https://en.wikipedia.org/wiki/Siege_of_Diaoyucheng"
+      },
+      {
+        "label": "百度百科 — 钓鱼城之战",
+        "url": "https://baike.baidu.com/item/%E9%92%93%E9%B1%BC%E5%9F%8E%E4%B9%8B%E6%88%98"
+      },
+      {
+        "label": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/"
+      }
+    ],
+    "image": {
+      "url": "/images/events/diaoyu-fortress.jpg",
+      "credit": "Wikimedia Commons — Hechuan.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hechuan.jpg",
+      "license": "Public Domain / CC (Wikimedia Commons)",
+      "origin": "wikimedia"
+    }
+  },
+  {
     "id": "marco-polo",
     "startYear": 1271,
     "endYear": 1295,
@@ -4377,6 +5507,172 @@
       "credit": "Original educational illustration created for Eurasia History Map",
       "license": "Original / no third-party photo IP",
       "origin": "generated"
+    }
+  },
+  {
+    "id": "yuan-invade-japan",
+    "startYear": 1274,
+    "endYear": 1281,
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            128,
+            31
+          ],
+          [
+            140,
+            31
+          ],
+          [
+            140,
+            40
+          ],
+          [
+            128,
+            40
+          ],
+          [
+            128,
+            31
+          ]
+        ]
+      ]
+    },
+    "i18n": {
+      "en": {
+        "name": "Yuan invasions of Japan",
+        "location": "Japan & Korea coasts",
+        "consequence": "Mongol–Yuan fleets attack Japan twice. Storms and defense stop them — later called “kamikaze”."
+      },
+      "de": {
+        "name": "Yuan-Invasionen Japans",
+        "location": "Japan & Korea",
+        "consequence": "Yuan-Flotten greifen Japan zweimal an. Stürme und Verteidigung stoppen sie."
+      },
+      "zh": {
+        "name": "元朝进攻日本",
+        "location": "日本与朝鲜沿海",
+        "consequence": "元军两次渡海征日，遇风暴与抵抗而失败。"
+      }
+    },
+    "sources": [
+      {
+        "label": "Wikipedia — Mongol invasions of Japan",
+        "url": "https://en.wikipedia.org/wiki/Mongol_invasions_of_Japan"
+      },
+      {
+        "label": "百度百科 — 元日战争",
+        "url": "https://baike.baidu.com/item/%E5%85%83%E6%97%A5%E6%88%98%E4%BA%89"
+      },
+      {
+        "label": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/"
+      }
+    ],
+    "image": {
+      "url": "/images/events/yuan-invade-japan.jpg",
+      "credit": "Wikimedia Commons — Takezaki Suenaga.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Takezaki_Suenaga.jpg",
+      "license": "Public Domain / CC (Wikimedia Commons)",
+      "origin": "wikimedia"
+    }
+  },
+  {
+    "id": "battle-of-yamen",
+    "startYear": 1279,
+    "endYear": 1279,
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        113.2,
+        22.2
+      ]
+    },
+    "i18n": {
+      "en": {
+        "name": "Battle of Yamen",
+        "location": "Pearl River estuary",
+        "consequence": "Yuan fleets crush the last Song navy. Song China ends."
+      },
+      "de": {
+        "name": "Schlacht von Yamen",
+        "location": "Perlflussmündung",
+        "consequence": "Yuan-Flotten vernichten die letzte Song-Marine. Die Song enden."
+      },
+      "zh": {
+        "name": "崖山之战",
+        "location": "珠江口",
+        "consequence": "元军歼灭南宋残部，南宋灭亡。"
+      }
+    },
+    "sources": [
+      {
+        "label": "Wikipedia — Battle of Yamen",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Yamen"
+      },
+      {
+        "label": "百度百科 — 崖山海战",
+        "url": "https://baike.baidu.com/item/%E5%B4%96%E5%B1%B1%E6%B5%B7%E6%88%98"
+      },
+      {
+        "label": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/"
+      }
+    ],
+    "image": {
+      "url": "/images/events/battle-of-yamen.jpg",
+      "credit": "Wikimedia Commons — Jingmen002.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Jingmen002.jpg",
+      "license": "Public Domain / CC (Wikimedia Commons)",
+      "origin": "wikimedia"
+    }
+  },
+  {
+    "id": "battle-morgarten",
+    "startYear": 1315,
+    "endYear": 1315,
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        8.7,
+        47.1
+      ]
+    },
+    "i18n": {
+      "en": {
+        "name": "Battle of Morgarten",
+        "location": "Switzerland",
+        "consequence": "Swiss confederates defeat Habsburg knights — a founding legend of Swiss freedom."
+      },
+      "de": {
+        "name": "Schlacht am Morgarten",
+        "location": "Schweiz",
+        "consequence": "Eidgenossen besiegen habsburgische Ritter — Gründungslegende der Schweiz."
+      },
+      "zh": {
+        "name": "莫尔加滕战役",
+        "location": "瑞士",
+        "consequence": "瑞士邦联击败哈布斯堡骑士，成为瑞士独立传说的重要一页。"
+      }
+    },
+    "sources": [
+      {
+        "label": "Wikipedia — Battle of Morgarten",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Morgarten"
+      },
+      {
+        "label": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/"
+      }
+    ],
+    "image": {
+      "url": "/images/events/battle-morgarten.jpg",
+      "credit": "Wikimedia Commons — Bundesbrief.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bundesbrief.jpg",
+      "license": "Public Domain / CC (Wikimedia Commons)",
+      "origin": "wikimedia"
     }
   },
   {
@@ -4528,6 +5824,142 @@
       "credit": "Original educational illustration created for Eurasia History Map",
       "license": "Original / no third-party photo IP",
       "origin": "generated"
+    }
+  },
+  {
+    "id": "jingnan-campaign",
+    "startYear": 1399,
+    "endYear": 1402,
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            112,
+            32
+          ],
+          [
+            120,
+            32
+          ],
+          [
+            120,
+            41
+          ],
+          [
+            112,
+            41
+          ],
+          [
+            112,
+            32
+          ]
+        ]
+      ]
+    },
+    "i18n": {
+      "en": {
+        "name": "Jingnan Campaign",
+        "location": "Northern China",
+        "consequence": "Prince of Yan seizes the throne and becomes the Yongle Emperor."
+      },
+      "de": {
+        "name": "Jingnan-Feldzug",
+        "location": "Nordchina",
+        "consequence": "Der Prinz von Yan ergreift den Thron und wird Kaiser Yongle."
+      },
+      "zh": {
+        "name": "靖难之役",
+        "location": "北方中国",
+        "consequence": "燕王朱棣起兵夺位，成为明成祖。"
+      }
+    },
+    "sources": [
+      {
+        "label": "Wikipedia — Jingnan campaign",
+        "url": "https://en.wikipedia.org/wiki/Jingnan_campaign"
+      },
+      {
+        "label": "百度百科 — 靖难之役",
+        "url": "https://baike.baidu.com/item/%E9%9D%96%E9%9A%BE%E4%B9%8B%E5%BD%B9"
+      },
+      {
+        "label": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/"
+      }
+    ],
+    "image": {
+      "url": "/images/events/jingnan-campaign.jpg",
+      "credit": "Original educational illustration created for Eurasia History Map",
+      "sourceUrl": null,
+      "license": "Original / no third-party photo IP",
+      "origin": "generated"
+    }
+  },
+  {
+    "id": "canary-islands-conquest",
+    "startYear": 1402,
+    "endYear": 1496,
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            -18.2,
+            27.5
+          ],
+          [
+            -13.3,
+            27.5
+          ],
+          [
+            -13.3,
+            29.5
+          ],
+          [
+            -18.2,
+            29.5
+          ],
+          [
+            -18.2,
+            27.5
+          ]
+        ]
+      ]
+    },
+    "i18n": {
+      "en": {
+        "name": "Conquest of the Canary Islands",
+        "location": "Canary Islands",
+        "consequence": "Castile conquers the islands step by step — an early Atlantic colonial project."
+      },
+      "de": {
+        "name": "Eroberung der Kanarischen Inseln",
+        "location": "Kanaren",
+        "consequence": "Kastilien erobert die Inseln Schritt für Schritt — ein frühes atlantisches Kolonialprojekt."
+      },
+      "zh": {
+        "name": "加那利群岛征服",
+        "location": "加那利群岛",
+        "consequence": "卡斯蒂利亚逐步征服群岛，成为早期大西洋殖民扩张的一部分。"
+      }
+    },
+    "sources": [
+      {
+        "label": "Wikipedia — Conquest of the Canary Islands",
+        "url": "https://en.wikipedia.org/wiki/Conquest_of_the_Canary_Islands"
+      },
+      {
+        "label": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/"
+      }
+    ],
+    "image": {
+      "url": "/images/events/canary-islands-conquest.jpg",
+      "credit": "Wikimedia Commons — The history of the discovery and conquest of the Canary Islands- translated from a Spanish manuscript, lately found in the island of Palma Fleuron T036478-3.png",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:The_history_of_the_discovery_and_conquest_of_the_Canary_Islands-_translated_from_a_Spanish_manuscript%2C_lately_found_in_the_island_of_Palma_Fleuron_T036478-3.png",
+      "license": "Public Domain / CC (Wikimedia Commons)",
+      "origin": "wikimedia"
     }
   },
   {
@@ -4704,6 +6136,56 @@
       "credit": "Original educational illustration created for Eurasia History Map",
       "license": "Original / no third-party photo IP",
       "origin": "generated"
+    }
+  },
+  {
+    "id": "reconquista-granada",
+    "startYear": 1492,
+    "endYear": 1492,
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -3.6,
+        37.18
+      ]
+    },
+    "i18n": {
+      "en": {
+        "name": "Fall of Granada — Reconquista ends",
+        "location": "Granada, Spain",
+        "consequence": "Christian kingdoms take Granada. Centuries of Reconquista wars end on the Iberian Peninsula."
+      },
+      "de": {
+        "name": "Fall Granadas — Reconquista endet",
+        "location": "Granada, Spanien",
+        "consequence": "Christliche Königreiche erobern Granada. Die Reconquista endet."
+      },
+      "zh": {
+        "name": "收复失地运动完成（格拉纳达陷落）",
+        "location": "西班牙格拉纳达",
+        "consequence": "格拉纳达陷落，伊比利亚半岛的收复失地运动结束。"
+      }
+    },
+    "sources": [
+      {
+        "label": "Wikipedia — Granada War",
+        "url": "https://en.wikipedia.org/wiki/Granada_War"
+      },
+      {
+        "label": "Wikipedia — Reconquista",
+        "url": "https://en.wikipedia.org/wiki/Reconquista"
+      },
+      {
+        "label": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/"
+      }
+    ],
+    "image": {
+      "url": "/images/events/reconquista-granada.jpg",
+      "credit": "Wikimedia Commons — Night view from Alhambra de Granada, Andalusia Spain - Image Picture Photography (14875364721).jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Night_view_from_Alhambra_de_Granada%2C_Andalusia_Spain_-_Image_Picture_Photography_(14875364721).jpg",
+      "license": "Public Domain / CC (Wikimedia Commons)",
+      "origin": "wikimedia"
     }
   },
   {
@@ -5075,6 +6557,76 @@
     }
   },
   {
+    "id": "imjin-war",
+    "startYear": 1592,
+    "endYear": 1598,
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            124,
+            33
+          ],
+          [
+            132,
+            33
+          ],
+          [
+            132,
+            42
+          ],
+          [
+            124,
+            42
+          ],
+          [
+            124,
+            33
+          ]
+        ]
+      ]
+    },
+    "i18n": {
+      "en": {
+        "name": "Imjin War (Japan invades Korea)",
+        "location": "Korea",
+        "consequence": "Japan invades Korea; Ming China sends help. The war devastates the peninsula."
+      },
+      "de": {
+        "name": "Imjin-Krieg (Japan fällt in Korea ein)",
+        "location": "Korea",
+        "consequence": "Japan fällt in Korea ein; Ming sendet Hilfe. Die Halbinsel wird verwüstet."
+      },
+      "zh": {
+        "name": "朝鲜壬辰战争",
+        "location": "朝鲜半岛",
+        "consequence": "日本侵略朝鲜，明朝出兵援助，半岛遭受重创。"
+      }
+    },
+    "sources": [
+      {
+        "label": "Wikipedia — Imjin War",
+        "url": "https://en.wikipedia.org/wiki/Japanese_invasions_of_Korea_(1592–1598)"
+      },
+      {
+        "label": "百度百科 — 万历朝鲜之役",
+        "url": "https://baike.baidu.com/item/%E4%B8%87%E5%8E%86%E6%9C%9D%E9%B2%9C%E4%B9%8B%E5%BD%B9"
+      },
+      {
+        "label": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/"
+      }
+    ],
+    "image": {
+      "url": "/images/events/imjin-war.jpg",
+      "credit": "Wikimedia Commons — Siege-of-Busanjin-1592.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Siege-of-Busanjin-1592.jpg",
+      "license": "Public Domain / CC (Wikimedia Commons)",
+      "origin": "wikimedia"
+    }
+  },
+  {
     "id": "nurhaci-1618",
     "startYear": 1618,
     "endYear": 1618,
@@ -5358,6 +6910,126 @@
       "credit": "Original educational illustration created for Eurasia History Map",
       "license": "Original / no third-party photo IP",
       "origin": "generated"
+    }
+  },
+  {
+    "id": "treaty-nerchinsk",
+    "startYear": 1689,
+    "endYear": 1689,
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        116.5,
+        51.9
+      ]
+    },
+    "i18n": {
+      "en": {
+        "name": "Treaty of Nerchinsk",
+        "location": "Nerchinsk (Amur region)",
+        "consequence": "Qing China and Russia set a border by treaty — an early modern Eurasian deal."
+      },
+      "de": {
+        "name": "Vertrag von Nertschinsk",
+        "location": "Nertschinsk (Amur)",
+        "consequence": "Qing-China und Russland legen per Vertrag eine Grenze fest."
+      },
+      "zh": {
+        "name": "尼布楚之战 / 尼布楚条约",
+        "location": "尼布楚（黑龙江流域）",
+        "consequence": "清与俄国订立边界条约，确定东北边疆格局。"
+      }
+    },
+    "sources": [
+      {
+        "label": "Wikipedia — Treaty of Nerchinsk",
+        "url": "https://en.wikipedia.org/wiki/Treaty_of_Nerchinsk"
+      },
+      {
+        "label": "百度百科 — 尼布楚条约",
+        "url": "https://baike.baidu.com/item/%E5%B0%BC%E5%B8%83%E6%A5%9A%E6%9D%A1%E7%BA%A6"
+      },
+      {
+        "label": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/"
+      }
+    ],
+    "image": {
+      "url": "/images/events/treaty-nerchinsk.jpg",
+      "credit": "Wikimedia Commons — Treaty of Nerchinsk (1689).jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Treaty_of_Nerchinsk_(1689).jpg",
+      "license": "Public Domain / CC (Wikimedia Commons)",
+      "origin": "wikimedia"
+    }
+  },
+  {
+    "id": "qing-dzungar",
+    "startYear": 1755,
+    "endYear": 1758,
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            75,
+            40
+          ],
+          [
+            95,
+            40
+          ],
+          [
+            95,
+            50
+          ],
+          [
+            75,
+            50
+          ],
+          [
+            75,
+            40
+          ]
+        ]
+      ]
+    },
+    "i18n": {
+      "en": {
+        "name": "Qing conquest of the Dzungars",
+        "location": "Central Asia (Xinjiang)",
+        "consequence": "Emperor Qianlong’s campaigns end the Dzungar state and extend Qing control west."
+      },
+      "de": {
+        "name": "Qing erobert die Dsungaren",
+        "location": "Zentralasien (Xinjiang)",
+        "consequence": "Kaiser Qianlong beendet den Dsungarenstaat und dehnt Qing nach Westen aus."
+      },
+      "zh": {
+        "name": "乾隆评定准噶尔",
+        "location": "新疆/中亚",
+        "consequence": "乾隆朝远征准噶尔，巩固西北边疆。"
+      }
+    },
+    "sources": [
+      {
+        "label": "Wikipedia — Dzungar–Qing Wars",
+        "url": "https://en.wikipedia.org/wiki/Dzungar–Qing_Wars"
+      },
+      {
+        "label": "百度百科 — 准噶尔",
+        "url": "https://baike.baidu.com/item/%E5%87%86%E5%99%B6%E5%B0%94"
+      },
+      {
+        "label": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/"
+      }
+    ],
+    "image": {
+      "url": "/images/events/qing-dzungar.jpg",
+      "credit": "Wikimedia Commons — The_Qianlong_Emperor_in_Ceremonial_Armour_on_Horseback.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:The_Qianlong_Emperor_in_Ceremonial_Armour_on_Horseback.jpg",
+      "license": "Public Domain / CC (Wikimedia Commons)",
+      "origin": "wikimedia"
     }
   },
   {
@@ -5680,6 +7352,118 @@
     }
   },
   {
+    "id": "napoleon-russia-1812",
+    "startYear": 1812,
+    "endYear": 1812,
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            30,
+            52
+          ],
+          [
+            40,
+            52
+          ],
+          [
+            40,
+            57
+          ],
+          [
+            30,
+            57
+          ],
+          [
+            30,
+            52
+          ]
+        ]
+      ]
+    },
+    "i18n": {
+      "en": {
+        "name": "Napoleon’s invasion of Russia",
+        "location": "Russia",
+        "consequence": "The Grande Armée marches on Moscow and returns ruined — a turning point of the Napoleonic Wars."
+      },
+      "de": {
+        "name": "Napoleons Russlandfeldzug",
+        "location": "Russland",
+        "consequence": "Die Grande Armée zieht nach Moskau und kehrt vernichtet zurück — Wendepunkt der Napoleonischen Kriege."
+      },
+      "zh": {
+        "name": "拿破仑进攻俄国",
+        "location": "俄国",
+        "consequence": "法军远征莫斯科后溃败，拿破仑战争出现转折。"
+      }
+    },
+    "sources": [
+      {
+        "label": "Wikipedia — French invasion of Russia",
+        "url": "https://en.wikipedia.org/wiki/French_invasion_of_Russia"
+      },
+      {
+        "label": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/"
+      }
+    ],
+    "image": {
+      "url": "/images/events/napoleon-russia-1812.jpg",
+      "credit": "Wikimedia Commons — French invasion of Russia collage.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:French_invasion_of_Russia_collage.jpg",
+      "license": "Public Domain / CC (Wikimedia Commons)",
+      "origin": "wikimedia"
+    }
+  },
+  {
+    "id": "battle-waterloo",
+    "startYear": 1815,
+    "endYear": 1815,
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        4.41,
+        50.68
+      ]
+    },
+    "i18n": {
+      "en": {
+        "name": "Battle of Waterloo",
+        "location": "Belgium",
+        "consequence": "Allied armies defeat Napoleon for the last time. The long wars finally end."
+      },
+      "de": {
+        "name": "Schlacht bei Waterloo",
+        "location": "Belgien",
+        "consequence": "Verbündete besiegen Napoleon endgültig. Die langen Kriege enden."
+      },
+      "zh": {
+        "name": "滑铁卢战役",
+        "location": "比利时",
+        "consequence": "反法联军最终击败拿破仑，拿破仑战争结束。"
+      }
+    },
+    "sources": [
+      {
+        "label": "Wikipedia — Battle of Waterloo",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Waterloo"
+      },
+      {
+        "label": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/"
+      }
+    ],
+    "image": {
+      "url": "/images/events/battle-waterloo.jpg",
+      "credit": "Wikimedia Commons — Battle_of_Waterloo_1815.PNG",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Battle_of_Waterloo_1815.PNG",
+      "license": "Public Domain / CC (Wikimedia Commons)",
+      "origin": "wikimedia"
+    }
+  },
+  {
     "id": "congress-vienna",
     "startYear": 1815,
     "endYear": 1815,
@@ -5896,6 +7680,76 @@
     }
   },
   {
+    "id": "second-opium-war",
+    "startYear": 1856,
+    "endYear": 1860,
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            113,
+            21
+          ],
+          [
+            122,
+            21
+          ],
+          [
+            122,
+            40
+          ],
+          [
+            113,
+            40
+          ],
+          [
+            113,
+            21
+          ]
+        ]
+      ]
+    },
+    "i18n": {
+      "en": {
+        "name": "Second Opium War",
+        "location": "China coast & Beijing",
+        "consequence": "Britain and France force new treaties. Beijing’s Old Summer Palace is burned."
+      },
+      "de": {
+        "name": "Zweiter Opiumkrieg",
+        "location": "Chinesische Küste & Peking",
+        "consequence": "Briten und Franzosen erzwingen neue Verträge. Der Alte Sommerpalast wird verbrannt."
+      },
+      "zh": {
+        "name": "第二次鸦片战争",
+        "location": "中国沿海与北京",
+        "consequence": "英法迫使清政府签订新约，火烧圆明园。"
+      }
+    },
+    "sources": [
+      {
+        "label": "Wikipedia — Second Opium War",
+        "url": "https://en.wikipedia.org/wiki/Second_Opium_War"
+      },
+      {
+        "label": "百度百科 — 第二次鸦片战争",
+        "url": "https://baike.baidu.com/item/%E7%AC%AC%E4%BA%8C%E6%AC%A1%E9%B8%A6%E7%89%87%E6%88%98%E4%BA%89"
+      },
+      {
+        "label": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/"
+      }
+    ],
+    "image": {
+      "url": "/images/events/second-opium-war.jpg",
+      "credit": "Wikimedia Commons — Second Opium War-guangzhou.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Second_Opium_War-guangzhou.jpg",
+      "license": "Public Domain / CC (Wikimedia Commons)",
+      "origin": "wikimedia"
+    }
+  },
+  {
     "id": "meiji",
     "startYear": 1868,
     "endYear": 1868,
@@ -5934,6 +7788,72 @@
       "credit": "Original educational illustration created for Eurasia History Map",
       "license": "Original / no third-party photo IP",
       "origin": "generated"
+    }
+  },
+  {
+    "id": "franco-prussian-war",
+    "startYear": 1870,
+    "endYear": 1871,
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            2,
+            47
+          ],
+          [
+            10,
+            47
+          ],
+          [
+            10,
+            52
+          ],
+          [
+            2,
+            52
+          ],
+          [
+            2,
+            47
+          ]
+        ]
+      ]
+    },
+    "i18n": {
+      "en": {
+        "name": "Franco-Prussian War",
+        "location": "France & German states",
+        "consequence": "Prussia and German allies defeat France. The German Empire is proclaimed soon after."
+      },
+      "de": {
+        "name": "Deutsch-Französischer Krieg",
+        "location": "Frankreich & deutsche Staaten",
+        "consequence": "Preußen und Verbündete besiegen Frankreich. Bald folgt die Kaiserproklamation."
+      },
+      "zh": {
+        "name": "普法战争",
+        "location": "法国与德意志诸邦",
+        "consequence": "普鲁士率德意志联军击败法国，随后德意志帝国宣告成立。"
+      }
+    },
+    "sources": [
+      {
+        "label": "Wikipedia — Franco-Prussian War",
+        "url": "https://en.wikipedia.org/wiki/Franco-Prussian_War"
+      },
+      {
+        "label": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/"
+      }
+    ],
+    "image": {
+      "url": "/images/events/franco-prussian-war.jpg",
+      "credit": "Wikimedia Commons — Franco-Prussian War- Illustrated London News, September 3, 1870.PNG",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Franco-Prussian_War-_Illustrated_London_News%2C_September_3%2C_1870.PNG",
+      "license": "Public Domain / CC (Wikimedia Commons)",
+      "origin": "wikimedia"
     }
   },
   {
@@ -5982,6 +7902,56 @@
     }
   },
   {
+    "id": "battle-mawei",
+    "startYear": 1884,
+    "endYear": 1884,
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        119.3,
+        26
+      ]
+    },
+    "i18n": {
+      "en": {
+        "name": "Battle of Fuzhou (Mawei)",
+        "location": "Mawei naval yard, Fuzhou",
+        "consequence": "French ships surprise and destroy much of the Fujian fleet in minutes."
+      },
+      "de": {
+        "name": "Schlacht von Fuzhou (Mawei)",
+        "location": "Marinewerft Mawei, Fuzhou",
+        "consequence": "Französische Schiffe vernichten überraschend große Teile der Fujian-Flotte."
+      },
+      "zh": {
+        "name": "马尾海战（法军偷袭马尾军港）",
+        "location": "福州马尾",
+        "consequence": "法舰突袭马尾军港，福建水师损失惨重。"
+      }
+    },
+    "sources": [
+      {
+        "label": "Wikipedia — Battle of Fuzhou",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Fuzhou"
+      },
+      {
+        "label": "百度百科 — 马尾海战",
+        "url": "https://baike.baidu.com/item/%E9%A9%AC%E5%B0%BE%E6%B5%B7%E6%88%98"
+      },
+      {
+        "label": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/"
+      }
+    ],
+    "image": {
+      "url": "/images/events/battle-mawei.jpg",
+      "credit": "Wikimedia Commons — Foochow Arsenal.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Foochow_Arsenal.jpg",
+      "license": "Public Domain / CC (Wikimedia Commons)",
+      "origin": "wikimedia"
+    }
+  },
+  {
     "id": "sino-japanese-1895",
     "startYear": 1895,
     "endYear": 1895,
@@ -6024,6 +7994,56 @@
       "credit": "Original educational illustration created for Eurasia History Map",
       "license": "Original / no third-party photo IP",
       "origin": "generated"
+    }
+  },
+  {
+    "id": "xinhai-revolution",
+    "startYear": 1911,
+    "endYear": 1911,
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        114.3,
+        30.5
+      ]
+    },
+    "i18n": {
+      "en": {
+        "name": "Xinhai Revolution",
+        "location": "Wuchang / China",
+        "consequence": "Uprisings end the Qing empire. China becomes a republic."
+      },
+      "de": {
+        "name": "Xinhai-Revolution",
+        "location": "Wuchang / China",
+        "consequence": "Aufstände beenden das Qing-Reich. China wird Republik."
+      },
+      "zh": {
+        "name": "辛亥革命",
+        "location": "武昌/中国",
+        "consequence": "武昌起义爆发，清朝灭亡，中华民国建立。"
+      }
+    },
+    "sources": [
+      {
+        "label": "Wikipedia — 1911 Revolution",
+        "url": "https://en.wikipedia.org/wiki/1911_Revolution"
+      },
+      {
+        "label": "百度百科 — 辛亥革命",
+        "url": "https://baike.baidu.com/item/%E8%BE%9B%E4%BA%A5%E9%9D%A9%E5%91%BD"
+      },
+      {
+        "label": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/"
+      }
+    ],
+    "image": {
+      "url": "/images/events/xinhai-revolution.jpg",
+      "credit": "Wikimedia Commons — Sun_Yat-sen.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sun_Yat-sen.jpg",
+      "license": "Public Domain / CC (Wikimedia Commons)",
+      "origin": "wikimedia"
     }
   },
   {
@@ -6085,6 +8105,56 @@
       "credit": "Original educational illustration created for Eurasia History Map",
       "license": "Original / no third-party photo IP",
       "origin": "generated"
+    }
+  },
+  {
+    "id": "yuan-shikai-empire",
+    "startYear": 1915,
+    "endYear": 1916,
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        116.4,
+        39.9
+      ]
+    },
+    "i18n": {
+      "en": {
+        "name": "Yuan Shikai declares himself emperor",
+        "location": "Beijing",
+        "consequence": "The short Hongxian Empire fails. China falls deeper into warlord years."
+      },
+      "de": {
+        "name": "Yuan Shikai erklärt sich zum Kaiser",
+        "location": "Peking",
+        "consequence": "Das kurze Hongxian-Kaisertum scheitert. Die Warlord-Zeit vertieft sich."
+      },
+      "zh": {
+        "name": "袁世凯称帝",
+        "location": "北京",
+        "consequence": "袁世凯称帝旋即失败，中国陷入军阀割据。"
+      }
+    },
+    "sources": [
+      {
+        "label": "Wikipedia — Empire of China 1915–16",
+        "url": "https://en.wikipedia.org/wiki/Empire_of_China_(1915–1916)"
+      },
+      {
+        "label": "百度百科 — 洪宪帝制",
+        "url": "https://baike.baidu.com/item/%E6%B4%AA%E5%AE%AA%E5%B8%9D%E5%88%B6"
+      },
+      {
+        "label": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/"
+      }
+    ],
+    "image": {
+      "url": "/images/events/yuan-shikai-empire.jpg",
+      "credit": "Wikimedia Commons — Yuan_Shikai.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Yuan_Shikai.jpg",
+      "license": "Public Domain / CC (Wikimedia Commons)",
+      "origin": "wikimedia"
     }
   },
   {
@@ -6219,6 +8289,416 @@
     }
   },
   {
+    "id": "northern-expedition",
+    "startYear": 1926,
+    "endYear": 1928,
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            110,
+            22
+          ],
+          [
+            122,
+            22
+          ],
+          [
+            122,
+            41
+          ],
+          [
+            110,
+            41
+          ],
+          [
+            110,
+            22
+          ]
+        ]
+      ]
+    },
+    "i18n": {
+      "en": {
+        "name": "Northern Expedition",
+        "location": "China",
+        "consequence": "Nationalist armies march north to defeat warlords and seek national unity."
+      },
+      "de": {
+        "name": "Nordfeldzug",
+        "location": "China",
+        "consequence": "Nationalistische Armeen ziehen nach Norden gegen Warlords."
+      },
+      "zh": {
+        "name": "北伐战争",
+        "location": "中国",
+        "consequence": "国民革命军北伐，打击北洋军阀，推动形式上的统一。"
+      }
+    },
+    "sources": [
+      {
+        "label": "Wikipedia — Northern Expedition",
+        "url": "https://en.wikipedia.org/wiki/Northern_Expedition"
+      },
+      {
+        "label": "百度百科 — 北伐战争",
+        "url": "https://baike.baidu.com/item/%E5%8C%97%E4%BC%90%E6%88%98%E4%BA%89"
+      },
+      {
+        "label": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/"
+      }
+    ],
+    "image": {
+      "url": "/images/events/northern-expedition.jpg",
+      "credit": "Wikimedia Commons — Chiang_Kai-shek.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chiang_Kai-shek.jpg",
+      "license": "Public Domain / CC (Wikimedia Commons)",
+      "origin": "wikimedia"
+    }
+  },
+  {
+    "id": "sino-soviet-1929",
+    "startYear": 1929,
+    "endYear": 1929,
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            120,
+            42
+          ],
+          [
+            135,
+            42
+          ],
+          [
+            135,
+            50
+          ],
+          [
+            120,
+            50
+          ],
+          [
+            120,
+            42
+          ]
+        ]
+      ]
+    },
+    "i18n": {
+      "en": {
+        "name": "Sino-Soviet conflict (Chinese Eastern Railway)",
+        "location": "Manchuria",
+        "consequence": "China and the Soviet Union clash over the railway — a sharp Northeast crisis."
+      },
+      "de": {
+        "name": "Chinesisch-sowjetischer Konflikt (Ostmanschurei-Bahn)",
+        "location": "Mandschurei",
+        "consequence": "China und die Sowjetunion kämpfen um die Bahn — eine scharfe Nordostkrise."
+      },
+      "zh": {
+        "name": "东北军与苏俄冲突（中东路事件）",
+        "location": "东北",
+        "consequence": "围绕中东铁路爆发武装冲突，东北局势紧张。"
+      }
+    },
+    "sources": [
+      {
+        "label": "Wikipedia — Sino-Soviet conflict 1929",
+        "url": "https://en.wikipedia.org/wiki/Sino-Soviet_conflict_(1929)"
+      },
+      {
+        "label": "百度百科 — 中东路事件",
+        "url": "https://baike.baidu.com/item/%E4%B8%AD%E4%B8%9C%E8%B7%AF%E4%BA%8B%E4%BB%B6"
+      },
+      {
+        "label": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/"
+      }
+    ],
+    "image": {
+      "url": "/images/events/sino-soviet-1929.jpg",
+      "credit": "Wikimedia Commons — Map to 1929 Photo- Four Koreans, Sino-Soviet War.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Map_to_1929_Photo-_Four_Koreans%2C_Sino-Soviet_War.jpg",
+      "license": "Public Domain / CC (Wikimedia Commons)",
+      "origin": "wikimedia"
+    }
+  },
+  {
+    "id": "mukden-incident",
+    "startYear": 1931,
+    "endYear": 1931,
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        123.4,
+        41.8
+      ]
+    },
+    "i18n": {
+      "en": {
+        "name": "Mukden Incident (18 September)",
+        "location": "Shenyang",
+        "consequence": "Japan stages an explosion and seizes Manchuria — a step toward full invasion."
+      },
+      "de": {
+        "name": "Mukden-Zwischenfall (18. September)",
+        "location": "Shenyang",
+        "consequence": "Japan inszeniert eine Explosion und besetzt die Mandschurei."
+      },
+      "zh": {
+        "name": "九一八事变",
+        "location": "沈阳",
+        "consequence": "日本制造事端侵占东北，全面侵华的重要开端。"
+      }
+    },
+    "sources": [
+      {
+        "label": "Wikipedia — Mukden Incident",
+        "url": "https://en.wikipedia.org/wiki/Mukden_Incident"
+      },
+      {
+        "label": "百度百科 — 九一八事变",
+        "url": "https://baike.baidu.com/item/%E4%B9%9D%E4%B8%80%E5%85%AB%E4%BA%8B%E5%8F%98"
+      },
+      {
+        "label": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/"
+      }
+    ],
+    "image": {
+      "url": "/images/events/mukden-incident.jpg",
+      "credit": "Wikimedia Commons — Mukden 1931 japan shenyang.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mukden_1931_japan_shenyang.jpg",
+      "license": "Public Domain / CC (Wikimedia Commons)",
+      "origin": "wikimedia"
+    }
+  },
+  {
+    "id": "long-march",
+    "startYear": 1934,
+    "endYear": 1935,
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            100,
+            25
+          ],
+          [
+            115,
+            25
+          ],
+          [
+            115,
+            37
+          ],
+          [
+            100,
+            37
+          ],
+          [
+            100,
+            25
+          ]
+        ]
+      ]
+    },
+    "i18n": {
+      "en": {
+        "name": "Long March",
+        "location": "Southwest to Northwest China",
+        "consequence": "Red Army survivors trek thousands of kilometers to a new base in the north."
+      },
+      "de": {
+        "name": "Langer Marsch",
+        "location": "Südwest- nach Nordwestchina",
+        "consequence": "Rote-Armee-Überlebende wandern Tausende Kilometer in eine neue Basis."
+      },
+      "zh": {
+        "name": "红军长征",
+        "location": "中国西南至西北",
+        "consequence": "红军战略转移，经过长途跋涉抵达陕北。"
+      }
+    },
+    "sources": [
+      {
+        "label": "Wikipedia — Long March",
+        "url": "https://en.wikipedia.org/wiki/Long_March"
+      },
+      {
+        "label": "百度百科 — 长征",
+        "url": "https://baike.baidu.com/item/%E9%95%BF%E5%BE%81"
+      },
+      {
+        "label": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/"
+      }
+    ],
+    "image": {
+      "url": "/images/events/long-march.jpg",
+      "credit": "Wikimedia Commons — Long-march.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Long-march.jpg",
+      "license": "Public Domain / CC (Wikimedia Commons)",
+      "origin": "wikimedia"
+    }
+  },
+  {
+    "id": "nanjing-massacre",
+    "startYear": 1937,
+    "endYear": 1937,
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        118.8,
+        32
+      ]
+    },
+    "i18n": {
+      "en": {
+        "name": "Nanjing Massacre",
+        "location": "Nanjing",
+        "consequence": "After capturing the capital, Japanese forces kill and abuse huge numbers of civilians and POWs."
+      },
+      "de": {
+        "name": "Massaker von Nanking",
+        "location": "Nanjing",
+        "consequence": "Nach der Einnahme der Hauptstadt töten und misshandeln japanische Truppen sehr viele Zivilisten und Kriegsgefangene."
+      },
+      "zh": {
+        "name": "南京大屠杀",
+        "location": "南京",
+        "consequence": "日军占领南京后大规模屠杀平民与战俘，是抗日战争重大暴行。"
+      }
+    },
+    "sources": [
+      {
+        "label": "Wikipedia — Nanjing Massacre",
+        "url": "https://en.wikipedia.org/wiki/Nanjing_Massacre"
+      },
+      {
+        "label": "百度百科 — 南京大屠杀",
+        "url": "https://baike.baidu.com/item/%E5%8D%97%E4%BA%AC%E5%A4%A7%E5%B1%A0%E6%9D%80"
+      },
+      {
+        "label": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/"
+      }
+    ],
+    "image": {
+      "url": "/images/events/nanjing-massacre.jpg",
+      "credit": "Wikimedia Commons — Nanjing Massacre Memorial (10151828983).jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Nanjing_Massacre_Memorial_%2810151828983%29.jpg",
+      "license": "Public Domain / CC (Wikimedia Commons)",
+      "origin": "wikimedia"
+    }
+  },
+  {
+    "id": "battle-taierzhuang",
+    "startYear": 1938,
+    "endYear": 1938,
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        117.55,
+        34.56
+      ]
+    },
+    "i18n": {
+      "en": {
+        "name": "Battle of Taierzhuang",
+        "location": "Shandong / Jiangsu",
+        "consequence": "Chinese forces win a major defensive victory — a boost in a dark year of the war."
+      },
+      "de": {
+        "name": "Schlacht von Taierzhuang",
+        "location": "Shandong / Jiangsu",
+        "consequence": "Chinesische Truppen erringen einen wichtigen Abwehrerfolg."
+      },
+      "zh": {
+        "name": "台儿庄战役",
+        "location": "山东/江苏",
+        "consequence": "中国军队取得重大胜利，鼓舞抗战士气。"
+      }
+    },
+    "sources": [
+      {
+        "label": "Wikipedia — Battle of Taierzhuang",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Taierzhuang"
+      },
+      {
+        "label": "百度百科 — 台儿庄战役",
+        "url": "https://baike.baidu.com/item/%E5%8F%B0%E5%84%BF%E5%BA%84%E6%88%98%E5%BD%B9"
+      },
+      {
+        "label": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/"
+      }
+    ],
+    "image": {
+      "url": "/images/events/battle-taierzhuang.jpg",
+      "credit": "Wikimedia Commons — Taierzhuang.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Taierzhuang.jpg",
+      "license": "Public Domain / CC (Wikimedia Commons)",
+      "origin": "wikimedia"
+    }
+  },
+  {
+    "id": "bombing-chongqing",
+    "startYear": 1938,
+    "endYear": 1943,
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        106.55,
+        29.56
+      ]
+    },
+    "i18n": {
+      "en": {
+        "name": "Bombing of Chongqing",
+        "location": "Chongqing",
+        "consequence": "Japanese air raids hammer China’s wartime capital for years."
+      },
+      "de": {
+        "name": "Bombardierung von Chongqing",
+        "location": "Chongqing",
+        "consequence": "Japanische Luftangriffe treffen Chinas Kriegshauptstadt jahrelang."
+      },
+      "zh": {
+        "name": "重庆大轰炸",
+        "location": "重庆",
+        "consequence": "日军长期空袭战时陪都重庆，造成巨大伤亡。"
+      }
+    },
+    "sources": [
+      {
+        "label": "Wikipedia — Bombing of Chongqing",
+        "url": "https://en.wikipedia.org/wiki/Bombing_of_Chongqing"
+      },
+      {
+        "label": "百度百科 — 重庆大轰炸",
+        "url": "https://baike.baidu.com/item/%E9%87%8D%E5%BA%86%E5%A4%A7%E8%BD%B0%E7%82%B8"
+      },
+      {
+        "label": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/"
+      }
+    ],
+    "image": {
+      "url": "/images/events/bombing-chongqing.jpg",
+      "credit": "Wikimedia Commons — Bombing of Chongqing.png",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bombing_of_Chongqing.png",
+      "license": "Public Domain / CC (Wikimedia Commons)",
+      "origin": "wikimedia"
+    }
+  },
+  {
     "id": "ww2",
     "startYear": 1939,
     "endYear": 1945,
@@ -6277,6 +8757,172 @@
       "credit": "Original educational illustration created for Eurasia History Map",
       "license": "Original / no third-party photo IP",
       "origin": "generated"
+    }
+  },
+  {
+    "id": "pearl-harbor",
+    "startYear": 1941,
+    "endYear": 1941,
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -157.95,
+        21.35
+      ]
+    },
+    "i18n": {
+      "en": {
+        "name": "Attack on Pearl Harbor",
+        "location": "Hawai‘i",
+        "consequence": "Japan attacks the US Pacific Fleet. The United States enters World War II."
+      },
+      "de": {
+        "name": "Angriff auf Pearl Harbor",
+        "location": "Hawaii",
+        "consequence": "Japan greift die US-Pazifikflotte an. Die USA treten in den Zweiten Weltkrieg ein."
+      },
+      "zh": {
+        "name": "日本偷袭珍珠港",
+        "location": "夏威夷",
+        "consequence": "日本袭击美军太平洋舰队，美国对日宣战。"
+      }
+    },
+    "sources": [
+      {
+        "label": "Wikipedia — Pearl Harbor",
+        "url": "https://en.wikipedia.org/wiki/Attack_on_Pearl_Harbor"
+      },
+      {
+        "label": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/"
+      }
+    ],
+    "image": {
+      "url": "/images/events/pearl-harbor.jpg",
+      "credit": "Wikimedia Commons — The USS Arizona (BB-39) burning after the Japanese attack on Pearl Harbor - NARA 195617 - Edit.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:The_USS_Arizona_%28BB-39%29_burning_after_the_Japanese_attack_on_Pearl_Harbor_-_NARA_195617_-_Edit.jpg",
+      "license": "Public Domain / CC (Wikimedia Commons)",
+      "origin": "wikimedia"
+    }
+  },
+  {
+    "id": "chinese-civil-war",
+    "startYear": 1945,
+    "endYear": 1949,
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            100,
+            18
+          ],
+          [
+            125,
+            18
+          ],
+          [
+            125,
+            42
+          ],
+          [
+            100,
+            42
+          ],
+          [
+            100,
+            18
+          ]
+        ]
+      ]
+    },
+    "i18n": {
+      "en": {
+        "name": "Chinese Civil War (final phase)",
+        "location": "China",
+        "consequence": "Communists and Nationalists fight after WWII. The PRC is founded in 1949; the ROC government moves to Taiwan."
+      },
+      "de": {
+        "name": "Chinesischer Bürgerkrieg (Endphase)",
+        "location": "China",
+        "consequence": "Kommunisten und Nationalisten kämpfen nach dem Weltkrieg. 1949 entsteht die VR China."
+      },
+      "zh": {
+        "name": "国共内战",
+        "location": "中国",
+        "consequence": "抗战胜利后国共再开战，1949年中华人民共和国成立，国民党退守台湾。"
+      }
+    },
+    "sources": [
+      {
+        "label": "Wikipedia — Chinese Civil War",
+        "url": "https://en.wikipedia.org/wiki/Chinese_Civil_War"
+      },
+      {
+        "label": "百度百科 — 解放战争",
+        "url": "https://baike.baidu.com/item/%E8%A7%A3%E6%94%BE%E6%88%98%E4%BA%89"
+      },
+      {
+        "label": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/"
+      }
+    ],
+    "image": {
+      "url": "/images/events/chinese-civil-war.jpg",
+      "credit": "Wikimedia Commons — Mao proclaiming establishment of PRC.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mao_proclaiming_establishment_of_PRC.jpg",
+      "license": "Public Domain / CC (Wikimedia Commons)",
+      "origin": "wikimedia"
+    }
+  },
+  {
+    "id": "japan-surrender",
+    "startYear": 1945,
+    "endYear": 1945,
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        139.75,
+        35.68
+      ]
+    },
+    "i18n": {
+      "en": {
+        "name": "Japan surrenders",
+        "location": "Tokyo Bay / Japan",
+        "consequence": "World War II ends in Asia. Occupation and rebuilding begin."
+      },
+      "de": {
+        "name": "Japan kapituliert",
+        "location": "Bucht von Tokio / Japan",
+        "consequence": "Der Zweite Weltkrieg endet in Asien. Besatzung und Wiederaufbau beginnen."
+      },
+      "zh": {
+        "name": "日本投降",
+        "location": "东京湾/日本",
+        "consequence": "日本宣布无条件投降，亚洲战场结束。"
+      }
+    },
+    "sources": [
+      {
+        "label": "Wikipedia — Surrender of Japan",
+        "url": "https://en.wikipedia.org/wiki/Surrender_of_Japan"
+      },
+      {
+        "label": "百度百科 — 日本投降",
+        "url": "https://baike.baidu.com/item/%E6%97%A5%E6%9C%AC%E6%8A%95%E9%99%8D"
+      },
+      {
+        "label": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/"
+      }
+    ],
+    "image": {
+      "url": "/images/events/japan-surrender.jpg",
+      "credit": "Wikimedia Commons — Surrender of Japan - USS Missouri (restored).jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Surrender_of_Japan_-_USS_Missouri_%28restored%29.jpg",
+      "license": "Public Domain / CC (Wikimedia Commons)",
+      "origin": "wikimedia"
     }
   },
   {

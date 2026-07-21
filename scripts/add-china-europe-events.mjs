@@ -1,0 +1,552 @@
+/**
+ * Append China + Europe events (idempotent by id) into public/data/events.json.
+ * Skips topics already covered (genghis, qing-1644, opium-war, taiping, sino-japanese-1895, nurhaci).
+ * Run: node scripts/add-china-europe-events.mjs
+ * Then: node scripts/fetch-event-images.mjs
+ */
+import { readFileSync, writeFileSync } from 'node:fs'
+import { dirname, join } from 'node:path'
+import { fileURLToPath } from 'node:url'
+
+const root = join(dirname(fileURLToPath(import.meta.url)), '..')
+const path = join(root, 'public/data/events.json')
+
+const W = {
+  britannica: { label: 'Encyclopaedia Britannica', url: 'https://www.britannica.com/' },
+  wiki: (slug, label) => ({
+    label: `Wikipedia — ${label}`,
+    url: `https://en.wikipedia.org/wiki/${slug}`,
+  }),
+  baike: (slug, label) => ({
+    label: `百度百科 — ${label}`,
+    url: `https://baike.baidu.com/item/${encodeURIComponent(slug)}`,
+  }),
+}
+
+function L(name, location, consequence) {
+  return { name, location, consequence }
+}
+function pt(lon, lat) {
+  return { type: 'Point', coordinates: [lon, lat] }
+}
+function rect(w, s, e, n) {
+  return {
+    type: 'Polygon',
+    coordinates: [[[w, s], [e, s], [e, n], [w, n], [w, s]]],
+  }
+}
+function ev(id, startYear, endYear, geometry, en, de, zh, sources) {
+  return {
+    id,
+    startYear,
+    endYear,
+    geometry,
+    i18n: { en, de, zh },
+    sources,
+    image: {
+      url: `/images/events/${id}.jpg`,
+      credit: 'Pending public-domain image fetch',
+      license: 'Public Domain / CC (see fetch script)',
+      origin: 'other-pd',
+    },
+  }
+}
+
+const NEW_EVENTS = [
+  // --- China: early Zhou to Qin ---
+  ev(
+    'battle-muye',
+    -1046,
+    -1046,
+    pt(112.5, 35.1),
+    L('Battle of Muye — Zhou defeats Shang', 'Muye (near Anyang)', 'King Wu of Zhou defeats the Shang. A new dynasty begins in China.'),
+    L('Schlacht von Muye — Zhou besiegt Shang', 'Muye (bei Anyang)', 'König Wu von Zhou besiegt die Shang. Eine neue Dynastie beginnt.'),
+    L('武王伐纣（牧野之战）', '牧野（安阳附近）', '周武王击败商朝，开启周代新秩序。'),
+    [W.wiki('Battle_of_Muye', 'Battle of Muye'), W.baike('牧野之战', '牧野之战'), W.britannica],
+  ),
+  ev(
+    'western-zhou-start',
+    -1045,
+    -1045,
+    pt(108.9, 34.3),
+    L('Western Zhou begins', 'Haojing (near Xi’an)', 'The Zhou set their capital in the west and rule with feudal lords.'),
+    L('Beginn der Westlichen Zhou', 'Haojing (bei Xi’an)', 'Die Zhou errichten die westliche Hauptstadt und herrschen mit Lehnsfürsten.'),
+    L('西周开始', '镐京（西安附近）', '周朝定都镐京，实行分封，史称西周。'),
+    [W.wiki('Western_Zhou', 'Western Zhou'), W.baike('西周', '西周'), W.britannica],
+  ),
+  ev(
+    'beacon-fire-lords',
+    -771,
+    -771,
+    pt(108.9, 34.3),
+    L('Beacon fires and the fall of Western Zhou', 'Haojing', 'King You misuses warning beacons. Nomads attack; Western Zhou ends.'),
+    L('Feuerzeichen und Fall der Westlichen Zhou', 'Haojing', 'König You missbraucht Warnfeuer. Nomaden greifen an; Westliche Zhou enden.'),
+    L('烽火戏诸侯', '镐京', '周幽王戏弄烽火失信诸侯，犬戎攻破镐京，西周灭亡。'),
+    [W.wiki('King_You_of_Zhou', 'King You of Zhou'), W.baike('烽火戏诸侯', '烽火戏诸侯'), W.britannica],
+  ),
+  ev(
+    'partition-of-jin',
+    -403,
+    -403,
+    pt(112.5, 36.0),
+    L('Partition of Jin (Three Jins)', 'Central China', 'Jin splits into Zhao, Wei, and Han — the Warring States deepen.'),
+    L('Teilung von Jin (Drei Jin)', 'Zentralchina', 'Jin zerfällt in Zhao, Wei und Han — die Streitenden Reiche verschärfen sich.'),
+    L('三家分晋', '中原', '晋国被赵、魏、韩瓜分，战国格局成形。'),
+    [W.wiki('Partition_of_Jin', 'Partition of Jin'), W.baike('三家分晋', '三家分晋'), W.britannica],
+  ),
+  ev(
+    'battle-changping',
+    -260,
+    -260,
+    pt(112.8, 35.8),
+    L('Battle of Changping', 'Changping (Shanxi)', 'Qin crushes Zhao. Hundreds of thousands die — Qin’s rise accelerates.'),
+    L('Schlacht von Changping', 'Changping (Shanxi)', 'Qin vernichtet Zhao. Hunderttausende sterben — Qins Aufstieg beschleunigt sich.'),
+    L('长平之战', '长平（山西）', '秦大败赵军，伤亡惨重，加速秦统一进程。'),
+    [W.wiki('Battle_of_Changping', 'Battle of Changping'), W.baike('长平之战', '长平之战'), W.britannica],
+  ),
+  ev(
+    'xu-fu-voyage',
+    -219,
+    -219,
+    pt(121.5, 31.2),
+    L('Xu Fu’s voyage east', 'East China Sea', 'Qin sends Xu Fu to seek immortals across the sea — a famous legend of early ocean travel.'),
+    L('Xu Fus Ostfahrt', 'Ostchinesisches Meer', 'Qin schickt Xu Fu über das Meer — eine berühmte Legende früher Seefahrt.'),
+    L('徐福东渡', '东海', '秦始皇遣徐福出海求仙，成为早期航海传说。'),
+    [W.wiki('Xu_Fu', 'Xu Fu'), W.baike('徐福', '徐福'), W.britannica],
+  ),
+  ev(
+    'mount-tai-fengshan',
+    -110,
+    -110,
+    pt(117.1, 36.25),
+    L('Fengshan sacrifice at Mount Tai', 'Mount Tai, Shandong', 'Emperor Wu of Han performs the sacred mountain rites — heaven and earth are honored.'),
+    L('Fengshan-Opfer am Tai-Berg', 'Tai-Berg, Shandong', 'Kaiser Wu der Han vollzieht die heiligen Bergriten.'),
+    L('泰山封禅', '山东泰山', '汉武帝举行封禅大典，祭告天地。'),
+    [W.wiki('Feng_Shan', 'Feng Shan'), W.baike('封禅', '封禅'), W.britannica],
+  ),
+  ev(
+    'baideng-siege',
+    -200,
+    -200,
+    pt(113.3, 40.1),
+    L('Siege of Baideng', 'Baideng (Datong area)', 'Xiongnu surround Emperor Gaozu. Han later chooses peace and gifts over endless war.'),
+    L('Belagerung von Baideng', 'Baideng (bei Datong)', 'Die Xiongnu umzingeln Kaiser Gaozu. Han wählt später Frieden und Geschenke.'),
+    L('白登之围', '白登（大同一带）', '匈奴围困汉高祖，此后汉朝多以和亲与互市应对。'),
+    [W.wiki('Battle_of_Baideng', 'Battle of Baideng'), W.baike('白登之围', '白登之围'), W.britannica],
+  ),
+
+  // --- China: Jin to Tang ---
+  ev(
+    'western-jin-unify',
+    280,
+    280,
+    pt(112.5, 34.7),
+    L('Western Jin unifies China', 'Luoyang', 'Jin ends the Three Kingdoms and briefly reunites the realm.'),
+    L('Westliche Jin einigt China', 'Luoyang', 'Jin beendet die Drei Reiche und eint das Land kurzzeitig.'),
+    L('西晋统一', '洛阳', '西晋结束三国分裂，短暂统一全国。'),
+    [W.wiki('Western_Jin', 'Western Jin'), W.baike('西晋', '西晋'), W.britannica],
+  ),
+  ev(
+    'war-eight-princes',
+    291,
+    306,
+    rect(108, 32, 118, 40),
+    L('War of the Eight Princes', 'Northern China', 'Imperial princes fight each other. The dynasty weakens before northern invasions.'),
+    L('Krieg der Acht Prinzen', 'Nordchina', 'Prinzen bekriegen sich. Die Dynastie schwächt sich vor den Nordinvasionen.'),
+    L('八王之乱', '北方中国', '宗室诸王互相攻伐，西晋大伤元气。'),
+    [W.wiki('War_of_the_Eight_Princes', 'War of the Eight Princes'), W.baike('八王之乱', '八王之乱'), W.britannica],
+  ),
+  ev(
+    'battle-fei-river',
+    383,
+    383,
+    pt(117.0, 31.7),
+    L('Battle of Fei River', 'Anhui', 'A smaller southern army stops Former Qin. North–South division lasts longer.'),
+    L('Schlacht am Fei-Fluss', 'Anhui', 'Ein kleineres Südheer stoppt Früheres Qin. Nord–Süd-Teilung dauert an.'),
+    L('淝水之战', '安徽', '东晋以少胜多击退前秦，南北对峙延续。'),
+    [W.wiki('Battle_of_Fei_River', 'Battle of Fei River'), W.baike('淝水之战', '淝水之战'), W.britannica],
+  ),
+  ev(
+    'northern-southern-dynasties',
+    420,
+    589,
+    rect(100, 20, 122, 42),
+    L('Northern and Southern dynasties', 'China', 'China stays split for generations — many courts, cultures, and wars — until Sui reunites.'),
+    L('Nördliche und Südliche Dynastien', 'China', 'China bleibt lange geteilt — viele Höfe und Kriege — bis die Sui wieder einen.'),
+    L('南北朝', '中国', '南北长期对峙，政权更迭频繁，直到隋朝再统一。'),
+    [W.wiki('Northern_and_Southern_dynasties', 'Northern and Southern dynasties'), W.baike('南北朝', '南北朝'), W.britannica],
+  ),
+  ev(
+    'xuanwu-gate',
+    626,
+    626,
+    pt(108.9, 34.3),
+    L('Xuanwu Gate Incident', 'Chang’an', 'Li Shimin seizes power. He becomes Emperor Taizong — a famous Tang ruler.'),
+    L('Xuanwu-Tor-Zwischenfall', 'Chang’an', 'Li Shimin ergreift die Macht und wird Kaiser Taizong.'),
+    L('玄武门之变', '长安', '李世民发动政变，后成为唐太宗。'),
+    [W.wiki('Xuanwu_Gate_Incident', 'Xuanwu Gate Incident'), W.baike('玄武门之变', '玄武门之变'), W.britannica],
+  ),
+  ev(
+    'taizong-eastern-turks',
+    630,
+    630,
+    rect(100, 40, 115, 48),
+    L('Tang conquers the Eastern Turks', 'Mongolian steppe', 'Emperor Taizong defeats the Eastern Turkic Khaganate — Tang power reaches the steppe.'),
+    L('Tang besiegt die Östlichen Türken', 'Mongolische Steppe', 'Kaiser Taizong besiegt das Östliche Türk-Khaganat.'),
+    L('李世民征服东突厥', '蒙古高原', '唐太宗击破东突厥，唐朝势力伸入草原。'),
+    [W.wiki('Tang_campaign_against_the_Eastern_Turks', 'Tang vs Eastern Turks'), W.baike('东突厥', '东突厥'), W.britannica],
+  ),
+  ev(
+    'wencheng-tibet',
+    641,
+    641,
+    pt(91.1, 29.65),
+    L('Princess Wencheng goes to Tibet', 'Lhasa', 'A Tang princess marries into Tibet. The marriage becomes a symbol of Tang–Tibet ties.'),
+    L('Prinzessin Wencheng nach Tibet', 'Lhasa', 'Eine Tang-Prinzessin heiratet nach Tibet — Symbol der Tang–Tibet-Beziehungen.'),
+    L('文成公主入藏', '拉萨', '唐朝与吐蕃和亲，文成公主入藏，成为汉藏友好象征。'),
+    [W.wiki('Princess_Wencheng', 'Princess Wencheng'), W.baike('文成公主', '文成公主'), W.britannica],
+  ),
+  ev(
+    'wu-zetian-throne',
+    690,
+    690,
+    pt(112.45, 34.62),
+    L('Wu Zetian becomes emperor', 'Luoyang', 'China’s only woman emperor founds the Zhou interregnum inside Tang history.'),
+    L('Wu Zetian wird Kaiserin', 'Luoyang', 'Chinas einzige Kaiserin gründet eine Zwischenherrschaft in der Tang-Zeit.'),
+    L('武则天登基', '洛阳', '中国历史上唯一女皇帝称帝，改国号周。'),
+    [W.wiki('Wu_Zetian', 'Wu Zetian'), W.baike('武则天', '武则天'), W.britannica],
+  ),
+  ev(
+    'zhu-wen-ends-tang',
+    907,
+    907,
+    pt(114.5, 34.8),
+    L('Zhu Wen ends the Tang — Five Dynasties begin', 'Kaifeng area', 'The Tang collapses. North China enters the Five Dynasties and Ten Kingdoms era.'),
+    L('Zhu Wen beendet die Tang — Fünf Dynastien beginnen', 'Kaifeng', 'Die Tang stürzen. Nordchina tritt in die Zeit der Fünf Dynastien ein.'),
+    L('朱温灭唐（五代开始）', '开封一带', '唐朝灭亡，进入五代十国分裂时期。'),
+    [W.wiki('Five_Dynasties_and_Ten_Kingdoms_period', 'Five Dynasties'), W.baike('朱温', '朱温'), W.britannica],
+  ),
+
+  // --- China: Song to Qing ---
+  ev(
+    'song-unify',
+    979,
+    979,
+    pt(114.5, 34.8),
+    L('Song dynasty completes reunification', 'Kaifeng', 'After decades of war, Song brings most of China under one government again.'),
+    L('Song vollendet die Wiedervereinigung', 'Kaifeng', 'Nach langen Kriegen eint Song den größten Teil Chinas erneut.'),
+    L('宋朝统一', '开封', '北宋结束五代十国乱局，基本重新统一中原。'),
+    [W.wiki('Song_dynasty', 'Song dynasty'), W.baike('北宋', '北宋'), W.britannica],
+  ),
+  ev(
+    'jin-destroy-liao',
+    1125,
+    1125,
+    rect(110, 38, 130, 48),
+    L('Jin destroys the Liao', 'Northeast Asia', 'The Jurchen Jin rise and wipe out the Khitan Liao empire.'),
+    L('Jin vernichtet die Liao', 'Nordostasien', 'Die Jurchen-Jin vernichten das Kitan-Liao-Reich.'),
+    L('金朝崛起灭辽', '东北亚', '女真金朝兴起，灭亡契丹辽朝。'),
+    [W.wiki('Jin_dynasty_(1115–1234)', 'Jin dynasty'), W.baike('金灭辽', '金灭辽'), W.britannica],
+  ),
+  ev(
+    'jingkang-incident',
+    1127,
+    1127,
+    pt(114.5, 34.8),
+    L('Jingkang Incident — Jin takes Kaifeng', 'Kaifeng', 'Jin captures the Song capital. The Song court flees south.'),
+    L('Jingkang-Zwischenfall — Jin nimmt Kaifeng', 'Kaifeng', 'Jin erobert die Song-Hauptstadt. Der Hof flieht nach Süden.'),
+    L('靖康之变（金灭北宋）', '开封', '金军攻破汴京，北宋灭亡，南宋开始。'),
+    [W.wiki('Jingkang_incident', 'Jingkang incident'), W.baike('靖康之变', '靖康之变'), W.britannica],
+  ),
+  ev(
+    'diaoyu-fortress',
+    1259,
+    1259,
+    pt(106.4, 30.0),
+    L('Siege of Diaoyu Fortress', 'Hechuan, Sichuan', 'Song defenders hold a mountain fortress. Mongol Great Khan Möngke dies in the campaign.'),
+    L('Belagerung der Diaoyu-Festung', 'Hechuan, Sichuan', 'Song-Verteidiger halten stand. Der Mongolenkhagan Möngke stirbt im Feldzug.'),
+    L('钓鱼城围城战', '四川合川', '宋军坚守钓鱼城，蒙古大汗蒙哥死于军中。'),
+    [W.wiki('Siege_of_Diaoyucheng', 'Siege of Diaoyucheng'), W.baike('钓鱼城之战', '钓鱼城之战'), W.britannica],
+  ),
+  ev(
+    'battle-of-yamen',
+    1279,
+    1279,
+    pt(113.2, 22.2),
+    L('Battle of Yamen', 'Pearl River estuary', 'Yuan fleets crush the last Song navy. Song China ends.'),
+    L('Schlacht von Yamen', 'Perlflussmündung', 'Yuan-Flotten vernichten die letzte Song-Marine. Die Song enden.'),
+    L('崖山之战', '珠江口', '元军歼灭南宋残部，南宋灭亡。'),
+    [W.wiki('Battle_of_Yamen', 'Battle of Yamen'), W.baike('崖山海战', '崖山海战'), W.britannica],
+  ),
+  ev(
+    'yuan-invade-japan',
+    1274,
+    1281,
+    rect(128, 31, 140, 40),
+    L('Yuan invasions of Japan', 'Japan & Korea coasts', 'Mongol–Yuan fleets attack Japan twice. Storms and defense stop them — later called “kamikaze”.'),
+    L('Yuan-Invasionen Japans', 'Japan & Korea', 'Yuan-Flotten greifen Japan zweimal an. Stürme und Verteidigung stoppen sie.'),
+    L('元朝进攻日本', '日本与朝鲜沿海', '元军两次渡海征日，遇风暴与抵抗而失败。'),
+    [W.wiki('Mongol_invasions_of_Japan', 'Mongol invasions of Japan'), W.baike('元日战争', '元日战争'), W.britannica],
+  ),
+  ev(
+    'jingnan-campaign',
+    1399,
+    1402,
+    rect(112, 32, 120, 41),
+    L('Jingnan Campaign', 'Northern China', 'Prince of Yan seizes the throne and becomes the Yongle Emperor.'),
+    L('Jingnan-Feldzug', 'Nordchina', 'Der Prinz von Yan ergreift den Thron und wird Kaiser Yongle.'),
+    L('靖难之役', '北方中国', '燕王朱棣起兵夺位，成为明成祖。'),
+    [W.wiki('Jingnan_campaign', 'Jingnan campaign'), W.baike('靖难之役', '靖难之役'), W.britannica],
+  ),
+  ev(
+    'imjin-war',
+    1592,
+    1598,
+    rect(124, 33, 132, 42),
+    L('Imjin War (Japan invades Korea)', 'Korea', 'Japan invades Korea; Ming China sends help. The war devastates the peninsula.'),
+    L('Imjin-Krieg (Japan fällt in Korea ein)', 'Korea', 'Japan fällt in Korea ein; Ming sendet Hilfe. Die Halbinsel wird verwüstet.'),
+    L('朝鲜壬辰战争', '朝鲜半岛', '日本侵略朝鲜，明朝出兵援助，半岛遭受重创。'),
+    [W.wiki('Japanese_invasions_of_Korea_(1592–1598)', 'Imjin War'), W.baike('万历朝鲜之役', '万历朝鲜之役'), W.britannica],
+  ),
+  ev(
+    'treaty-nerchinsk',
+    1689,
+    1689,
+    pt(116.5, 51.9),
+    L('Treaty of Nerchinsk', 'Nerchinsk (Amur region)', 'Qing China and Russia set a border by treaty — an early modern Eurasian deal.'),
+    L('Vertrag von Nertschinsk', 'Nertschinsk (Amur)', 'Qing-China und Russland legen per Vertrag eine Grenze fest.'),
+    L('尼布楚之战 / 尼布楚条约', '尼布楚（黑龙江流域）', '清与俄国订立边界条约，确定东北边疆格局。'),
+    [W.wiki('Treaty_of_Nerchinsk', 'Treaty of Nerchinsk'), W.baike('尼布楚条约', '尼布楚条约'), W.britannica],
+  ),
+  ev(
+    'qing-dzungar',
+    1755,
+    1758,
+    rect(75, 40, 95, 50),
+    L('Qing conquest of the Dzungars', 'Central Asia (Xinjiang)', 'Emperor Qianlong’s campaigns end the Dzungar state and extend Qing control west.'),
+    L('Qing erobert die Dsungaren', 'Zentralasien (Xinjiang)', 'Kaiser Qianlong beendet den Dsungarenstaat und dehnt Qing nach Westen aus.'),
+    L('乾隆评定准噶尔', '新疆/中亚', '乾隆朝远征准噶尔，巩固西北边疆。'),
+    [W.wiki('Dzungar–Qing_Wars', 'Dzungar–Qing Wars'), W.baike('准噶尔', '准噶尔'), W.britannica],
+  ),
+
+  // --- China: late Qing to PRC ---
+  ev(
+    'second-opium-war',
+    1856,
+    1860,
+    rect(113, 21, 122, 40),
+    L('Second Opium War', 'China coast & Beijing', 'Britain and France force new treaties. Beijing’s Old Summer Palace is burned.'),
+    L('Zweiter Opiumkrieg', 'Chinesische Küste & Peking', 'Briten und Franzosen erzwingen neue Verträge. Der Alte Sommerpalast wird verbrannt.'),
+    L('第二次鸦片战争', '中国沿海与北京', '英法迫使清政府签订新约，火烧圆明园。'),
+    [W.wiki('Second_Opium_War', 'Second Opium War'), W.baike('第二次鸦片战争', '第二次鸦片战争'), W.britannica],
+  ),
+  ev(
+    'battle-mawei',
+    1884,
+    1884,
+    pt(119.3, 26.0),
+    L('Battle of Fuzhou (Mawei)', 'Mawei naval yard, Fuzhou', 'French ships surprise and destroy much of the Fujian fleet in minutes.'),
+    L('Schlacht von Fuzhou (Mawei)', 'Marinewerft Mawei, Fuzhou', 'Französische Schiffe vernichten überraschend große Teile der Fujian-Flotte.'),
+    L('马尾海战（法军偷袭马尾军港）', '福州马尾', '法舰突袭马尾军港，福建水师损失惨重。'),
+    [W.wiki('Battle_of_Fuzhou', 'Battle of Fuzhou'), W.baike('马尾海战', '马尾海战'), W.britannica],
+  ),
+  ev(
+    'xinhai-revolution',
+    1911,
+    1911,
+    pt(114.3, 30.5),
+    L('Xinhai Revolution', 'Wuchang / China', 'Uprisings end the Qing empire. China becomes a republic.'),
+    L('Xinhai-Revolution', 'Wuchang / China', 'Aufstände beenden das Qing-Reich. China wird Republik.'),
+    L('辛亥革命', '武昌/中国', '武昌起义爆发，清朝灭亡，中华民国建立。'),
+    [W.wiki('1911_Revolution', '1911 Revolution'), W.baike('辛亥革命', '辛亥革命'), W.britannica],
+  ),
+  ev(
+    'yuan-shikai-empire',
+    1915,
+    1916,
+    pt(116.4, 39.9),
+    L('Yuan Shikai declares himself emperor', 'Beijing', 'The short Hongxian Empire fails. China falls deeper into warlord years.'),
+    L('Yuan Shikai erklärt sich zum Kaiser', 'Peking', 'Das kurze Hongxian-Kaisertum scheitert. Die Warlord-Zeit vertieft sich.'),
+    L('袁世凯称帝', '北京', '袁世凯称帝旋即失败，中国陷入军阀割据。'),
+    [W.wiki('Empire_of_China_(1915–1916)', 'Empire of China 1915–16'), W.baike('洪宪帝制', '洪宪帝制'), W.britannica],
+  ),
+  ev(
+    'northern-expedition',
+    1926,
+    1928,
+    rect(110, 22, 122, 41),
+    L('Northern Expedition', 'China', 'Nationalist armies march north to defeat warlords and seek national unity.'),
+    L('Nordfeldzug', 'China', 'Nationalistische Armeen ziehen nach Norden gegen Warlords.'),
+    L('北伐战争', '中国', '国民革命军北伐，打击北洋军阀，推动形式上的统一。'),
+    [W.wiki('Northern_Expedition', 'Northern Expedition'), W.baike('北伐战争', '北伐战争'), W.britannica],
+  ),
+  ev(
+    'sino-soviet-1929',
+    1929,
+    1929,
+    rect(120, 42, 135, 50),
+    L('Sino-Soviet conflict (Chinese Eastern Railway)', 'Manchuria', 'China and the Soviet Union clash over the railway — a sharp Northeast crisis.'),
+    L('Chinesisch-sowjetischer Konflikt (Ostmanschurei-Bahn)', 'Mandschurei', 'China und die Sowjetunion kämpfen um die Bahn — eine scharfe Nordostkrise.'),
+    L('东北军与苏俄冲突（中东路事件）', '东北', '围绕中东铁路爆发武装冲突，东北局势紧张。'),
+    [W.wiki('Sino-Soviet_conflict_(1929)', 'Sino-Soviet conflict 1929'), W.baike('中东路事件', '中东路事件'), W.britannica],
+  ),
+  ev(
+    'mukden-incident',
+    1931,
+    1931,
+    pt(123.4, 41.8),
+    L('Mukden Incident (18 September)', 'Shenyang', 'Japan stages an explosion and seizes Manchuria — a step toward full invasion.'),
+    L('Mukden-Zwischenfall (18. September)', 'Shenyang', 'Japan inszeniert eine Explosion und besetzt die Mandschurei.'),
+    L('九一八事变', '沈阳', '日本制造事端侵占东北，全面侵华的重要开端。'),
+    [W.wiki('Mukden_Incident', 'Mukden Incident'), W.baike('九一八事变', '九一八事变'), W.britannica],
+  ),
+  ev(
+    'long-march',
+    1934,
+    1935,
+    rect(100, 25, 115, 37),
+    L('Long March', 'Southwest to Northwest China', 'Red Army survivors trek thousands of kilometers to a new base in the north.'),
+    L('Langer Marsch', 'Südwest- nach Nordwestchina', 'Rote-Armee-Überlebende wandern Tausende Kilometer in eine neue Basis.'),
+    L('红军长征', '中国西南至西北', '红军战略转移，经过长途跋涉抵达陕北。'),
+    [W.wiki('Long_March', 'Long March'), W.baike('长征', '长征'), W.britannica],
+  ),
+  ev(
+    'nanjing-massacre',
+    1937,
+    1937,
+    pt(118.8, 32.0),
+    L('Nanjing Massacre', 'Nanjing', 'After capturing the capital, Japanese forces kill and abuse huge numbers of civilians and POWs.'),
+    L('Massaker von Nanking', 'Nanjing', 'Nach der Einnahme der Hauptstadt töten und misshandeln japanische Truppen sehr viele Zivilisten und Kriegsgefangene.'),
+    L('南京大屠杀', '南京', '日军占领南京后大规模屠杀平民与战俘，是抗日战争重大暴行。'),
+    [W.wiki('Nanjing_Massacre', 'Nanjing Massacre'), W.baike('南京大屠杀', '南京大屠杀'), W.britannica],
+  ),
+  ev(
+    'battle-taierzhuang',
+    1938,
+    1938,
+    pt(117.55, 34.56),
+    L('Battle of Taierzhuang', 'Shandong / Jiangsu', 'Chinese forces win a major defensive victory — a boost in a dark year of the war.'),
+    L('Schlacht von Taierzhuang', 'Shandong / Jiangsu', 'Chinesische Truppen erringen einen wichtigen Abwehrerfolg.'),
+    L('台儿庄战役', '山东/江苏', '中国军队取得重大胜利，鼓舞抗战士气。'),
+    [W.wiki('Battle_of_Taierzhuang', 'Battle of Taierzhuang'), W.baike('台儿庄战役', '台儿庄战役'), W.britannica],
+  ),
+  ev(
+    'bombing-chongqing',
+    1938,
+    1943,
+    pt(106.55, 29.56),
+    L('Bombing of Chongqing', 'Chongqing', 'Japanese air raids hammer China’s wartime capital for years.'),
+    L('Bombardierung von Chongqing', 'Chongqing', 'Japanische Luftangriffe treffen Chinas Kriegshauptstadt jahrelang.'),
+    L('重庆大轰炸', '重庆', '日军长期空袭战时陪都重庆，造成巨大伤亡。'),
+    [W.wiki('Bombing_of_Chongqing', 'Bombing of Chongqing'), W.baike('重庆大轰炸', '重庆大轰炸'), W.britannica],
+  ),
+  ev(
+    'pearl-harbor',
+    1941,
+    1941,
+    pt(-157.95, 21.35),
+    L('Attack on Pearl Harbor', 'Hawai‘i', 'Japan attacks the US Pacific Fleet. The United States enters World War II.'),
+    L('Angriff auf Pearl Harbor', 'Hawaii', 'Japan greift die US-Pazifikflotte an. Die USA treten in den Zweiten Weltkrieg ein.'),
+    L('日本偷袭珍珠港', '夏威夷', '日本袭击美军太平洋舰队，美国对日宣战。'),
+    [W.wiki('Attack_on_Pearl_Harbor', 'Pearl Harbor'), W.britannica],
+  ),
+  ev(
+    'japan-surrender',
+    1945,
+    1945,
+    pt(139.75, 35.68),
+    L('Japan surrenders', 'Tokyo Bay / Japan', 'World War II ends in Asia. Occupation and rebuilding begin.'),
+    L('Japan kapituliert', 'Bucht von Tokio / Japan', 'Der Zweite Weltkrieg endet in Asien. Besatzung und Wiederaufbau beginnen.'),
+    L('日本投降', '东京湾/日本', '日本宣布无条件投降，亚洲战场结束。'),
+    [W.wiki('Surrender_of_Japan', 'Surrender of Japan'), W.baike('日本投降', '日本投降'), W.britannica],
+  ),
+  ev(
+    'chinese-civil-war',
+    1945,
+    1949,
+    rect(100, 18, 125, 42),
+    L('Chinese Civil War (final phase)', 'China', 'Communists and Nationalists fight after WWII. The PRC is founded in 1949; the ROC government moves to Taiwan.'),
+    L('Chinesischer Bürgerkrieg (Endphase)', 'China', 'Kommunisten und Nationalisten kämpfen nach dem Weltkrieg. 1949 entsteht die VR China.'),
+    L('国共内战', '中国', '抗战胜利后国共再开战，1949年中华人民共和国成立，国民党退守台湾。'),
+    [W.wiki('Chinese_Civil_War', 'Chinese Civil War'), W.baike('解放战争', '解放战争'), W.britannica],
+  ),
+
+  // --- Europe ---
+  ev(
+    'battle-morgarten',
+    1315,
+    1315,
+    pt(8.7, 47.1),
+    L('Battle of Morgarten', 'Switzerland', 'Swiss confederates defeat Habsburg knights — a founding legend of Swiss freedom.'),
+    L('Schlacht am Morgarten', 'Schweiz', 'Eidgenossen besiegen habsburgische Ritter — Gründungslegende der Schweiz.'),
+    L('莫尔加滕战役', '瑞士', '瑞士邦联击败哈布斯堡骑士，成为瑞士独立传说的重要一页。'),
+    [W.wiki('Battle_of_Morgarten', 'Battle of Morgarten'), W.britannica],
+  ),
+  ev(
+    'reconquista-granada',
+    1492,
+    1492,
+    pt(-3.6, 37.18),
+    L('Fall of Granada — Reconquista ends', 'Granada, Spain', 'Christian kingdoms take Granada. Centuries of Reconquista wars end on the Iberian Peninsula.'),
+    L('Fall Granadas — Reconquista endet', 'Granada, Spanien', 'Christliche Königreiche erobern Granada. Die Reconquista endet.'),
+    L('收复失地运动完成（格拉纳达陷落）', '西班牙格拉纳达', '格拉纳达陷落，伊比利亚半岛的收复失地运动结束。'),
+    [W.wiki('Granada_War', 'Granada War'), W.wiki('Reconquista', 'Reconquista'), W.britannica],
+  ),
+  ev(
+    'canary-islands-conquest',
+    1402,
+    1496,
+    rect(-18.2, 27.5, -13.3, 29.5),
+    L('Conquest of the Canary Islands', 'Canary Islands', 'Castile conquers the islands step by step — an early Atlantic colonial project.'),
+    L('Eroberung der Kanarischen Inseln', 'Kanaren', 'Kastilien erobert die Inseln Schritt für Schritt — ein frühes atlantisches Kolonialprojekt.'),
+    L('加那利群岛征服', '加那利群岛', '卡斯蒂利亚逐步征服群岛，成为早期大西洋殖民扩张的一部分。'),
+    [W.wiki('Conquest_of_the_Canary_Islands', 'Conquest of the Canary Islands'), W.britannica],
+  ),
+  ev(
+    'napoleon-russia-1812',
+    1812,
+    1812,
+    rect(30, 52, 40, 57),
+    L('Napoleon’s invasion of Russia', 'Russia', 'The Grande Armée marches on Moscow and returns ruined — a turning point of the Napoleonic Wars.'),
+    L('Napoleons Russlandfeldzug', 'Russland', 'Die Grande Armée zieht nach Moskau und kehrt vernichtet zurück — Wendepunkt der Napoleonischen Kriege.'),
+    L('拿破仑进攻俄国', '俄国', '法军远征莫斯科后溃败，拿破仑战争出现转折。'),
+    [W.wiki('French_invasion_of_Russia', 'French invasion of Russia'), W.britannica],
+  ),
+  ev(
+    'battle-waterloo',
+    1815,
+    1815,
+    pt(4.41, 50.68),
+    L('Battle of Waterloo', 'Belgium', 'Allied armies defeat Napoleon for the last time. The long wars finally end.'),
+    L('Schlacht bei Waterloo', 'Belgien', 'Verbündete besiegen Napoleon endgültig. Die langen Kriege enden.'),
+    L('滑铁卢战役', '比利时', '反法联军最终击败拿破仑，拿破仑战争结束。'),
+    [W.wiki('Battle_of_Waterloo', 'Battle of Waterloo'), W.britannica],
+  ),
+  ev(
+    'franco-prussian-war',
+    1870,
+    1871,
+    rect(2, 47, 10, 52),
+    L('Franco-Prussian War', 'France & German states', 'Prussia and German allies defeat France. The German Empire is proclaimed soon after.'),
+    L('Deutsch-Französischer Krieg', 'Frankreich & deutsche Staaten', 'Preußen und Verbündete besiegen Frankreich. Bald folgt die Kaiserproklamation.'),
+    L('普法战争', '法国与德意志诸邦', '普鲁士率德意志联军击败法国，随后德意志帝国宣告成立。'),
+    [W.wiki('Franco-Prussian_War', 'Franco-Prussian War'), W.britannica],
+  ),
+]
+
+const events = JSON.parse(readFileSync(path, 'utf8'))
+const have = new Set(events.map((e) => e.id))
+let added = 0
+for (const e of NEW_EVENTS) {
+  if (have.has(e.id)) {
+    console.log('skip existing', e.id)
+    continue
+  }
+  events.push(e)
+  have.add(e.id)
+  added++
+}
+
+events.sort((a, b) => a.startYear - b.startYear || a.id.localeCompare(b.id))
+writeFileSync(path, JSON.stringify(events, null, 2) + '\n')
+console.log(`Added ${added} events; total now ${events.length}`)

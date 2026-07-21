@@ -31,5 +31,5 @@ export function isEventVisible(
   return year >= lo && year <= hi
 }
 
-export const MIN_YEAR = -4000
+export const MIN_YEAR = -4600
 export const MAX_YEAR = new Date().getFullYear()

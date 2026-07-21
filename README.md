@@ -1,11 +1,12 @@
 # Eurasia History Map
 
-Interactive map for exploring approximate political territories and major historical events across Eurasia and North Africa from **4000 BCE to the present**. Built for curious learners (including kids) with English, German, and Chinese UI.
+Interactive map for exploring approximate political territories and major historical events across Eurasia and North Africa from **4600 BCE to the present**. Built for curious learners (including kids) with English, German, and Chinese UI.
 
 ## Features
 
 - MapLibre map with **satellite** basemap and approximate polity polygons (territory layer always on)
-- Timeline scrubber from 4000 BCE to the current year (1-year steps)
+- Timeline scrubber from 4600 BCE to the current year (1-year steps)
+- Territory snapshots: **100 years** (4600–800 BCE), **50 years** (800 BCE–1492 CE), **20 years** (1492–2026 CE), plus event years
 - **Previous / next** buttons jump to the nearest event or territory-change year
 - Legend of polities visible in the selected year
 - Clickable events (points and areas) with multilingual popups and source links
@@ -47,7 +48,7 @@ Local vs Pages base path is handled in `vite.config.ts` (`/` locally, `/kid-hist
 Regenerate data (optional):
 
 ```bash
-# Territories only (100-year grid + event years; Wikipedia-timed polities)
+# Territories (100y / 50y / 20y grid + event years; Wikipedia-timed polities)
 node scripts/generate-territories.mjs
 
 # Full seed (events + older sparse territories) — prefer generate-territories for borders
@@ -57,7 +58,7 @@ node scripts/generate-seed-data.mjs
 ## Data layout
 
 - `public/data/events.json` — historic events (`startYear` / `endYear`, GeoJSON geometry, `i18n` en/de/zh, `sources`)
-- `public/data/territories/manifest.json` — snapshot years (100y until 1500 CE, 50y after, + event years) and Wikipedia sources
+- `public/data/territories/manifest.json` — snapshot years (100y until 800 BCE, 50y until 1492, 20y after, + event years) and Wikipedia sources
 - Event popups show a local illustration in `public/images/events/<id>.svg` (always available offline). Regenerate with `node scripts/generate-event-images.mjs`.
 - `public/data/territories/<year>.geojson` — FeatureCollection with `polityId`, `color`, `name.{en,de,zh}`, `wiki`
 

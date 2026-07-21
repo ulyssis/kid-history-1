@@ -1,5 +1,8 @@
 /**
- * Generate territory snapshots every 100 years (−4000…2020) plus every event year.
+ * Generate territory snapshots on a variable grid plus every event year:
+ *   4600–800 BCE: every 100 years
+ *   800 BCE–1492 CE: every 50 years
+ *   1492–2026 CE: every 20 years
  * Polities are approximate educational polygons timed from Wikipedia overviews.
  * Re-run: node scripts/generate-territories.mjs
  */
@@ -174,7 +177,7 @@ const POLITIES = [
   { id: 'india', color: '#2e8b7a', name: N('Republic of India', 'Republik Indien', '印度共和国'), from: 1947, to: 2100, g: G.modernIndia, wiki: 'https://en.wikipedia.org/wiki/India' },
 
   // China
-  { id: 'yellow-river', color: '#c45c26', name: N('Yellow River cultures', 'Gelber-Fluss-Kulturen', '黄河流域文化'), from: -4000, to: -1601, g: G.yellowRiver, wiki: 'https://en.wikipedia.org/wiki/Yellow_River' },
+  { id: 'yellow-river', color: '#c45c26', name: N('Yellow River cultures', 'Gelber-Fluss-Kulturen', '黄河流域文化'), from: -4600, to: -1601, g: G.yellowRiver, wiki: 'https://en.wikipedia.org/wiki/Yellow_River' },
   { id: 'shang', color: '#c45c26', name: N('Shang dynasty', 'Shang-Dynastie', '商朝'), from: -1600, to: -1046, g: G.shang, wiki: 'https://en.wikipedia.org/wiki/Shang_dynasty' },
   { id: 'zhou', color: '#c45c26', name: N('Zhou dynasty', 'Zhou-Dynastie', '周朝'), from: -1045, to: -771, g: G.westernZhou, wiki: 'https://en.wikipedia.org/wiki/Zhou_dynasty' },
   { id: 'eastern-zhou', color: '#c45c26', name: N('Eastern Zhou / Spring and Autumn', 'Östliche Zhou', '东周/春秋'), from: -770, to: -476, g: G.westernZhou, wiki: 'https://en.wikipedia.org/wiki/Eastern_Zhou' },
@@ -269,17 +272,19 @@ const POLITIES = [
 
 function centuryYears() {
   const years = []
-  // 100-year grid until 1500 CE (skip astronomical year 0 → use 1)
-  for (let y = -4000; y <= 1500; y += 100) {
+  const push = (y) => {
     if (y === 0) years.push(1)
     else years.push(y)
   }
-  // After 1500 CE: 50-year granularity
-  for (let y = 1550; y <= 2000; y += 50) {
-    years.push(y)
-  }
-  years.push(2020)
-  return years
+  // 4600 BCE → 800 BCE: every 100 years
+  for (let y = -4600; y <= -800; y += 100) push(y)
+  // 800 BCE → 1492 CE: every 50 years (skip astronomical year 0 → use 1)
+  for (let y = -800 + 50; y < 1492; y += 50) push(y)
+  push(1492)
+  // 1492 CE → 2026 CE: every 20 years
+  for (let y = 1492 + 20; y < 2026; y += 20) push(y)
+  push(2026)
+  return [...new Set(years)]
 }
 
 function eventYears() {
@@ -317,7 +322,7 @@ function sourcesForYear(year, features) {
       url,
     })),
     {
-      label: `Snapshot year ${year} (100-year grid + event years; approximate polygons)`,
+      label: `Snapshot year ${year} (variable grid + event years; approximate polygons)`,
       url: 'https://en.wikipedia.org/wiki/Historical_geography',
     },
   ]
@@ -332,8 +337,12 @@ for (const name of readdirSync(terrDir)) {
 
 const years = allTargetYears()
 const manifest = {
-  intervalYears: { until1500: 100, after1500: 50 },
-  note: 'Snapshots every 100 years from 4000 BCE to 1500 CE, then every 50 years to 2020 CE, plus years of curated events. Polygons are approximate educational outlines timed from Wikipedia period pages.',
+  intervalYears: {
+    from4600to800BCE: 100,
+    from800BCEto1492: 50,
+    from1492to2026: 20,
+  },
+  note: 'Snapshots every 100 years from 4600–800 BCE, every 50 years from 800 BCE–1492 CE, every 20 years from 1492–2026 CE, plus years of curated events. Polygons are approximate educational outlines timed from Wikipedia period pages.',
   snapshots: years.map((year) => {
     const features = politiesForYear(year)
     const fc = {
