@@ -2026,10 +2026,9 @@
     ],
     "image": {
       "url": "/images/events/baideng-siege.jpg",
-      "credit": "Wikimedia Commons — Emperor_Gaozu_of_Han.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Emperor_Gaozu_of_Han.jpg",
-      "license": "Public Domain / CC (Wikimedia Commons)",
-      "origin": "wikimedia"
+      "credit": "Original educational illustration created for Eurasia History Map (Siege of Baideng, northern China steppe, 200 BCE)",
+      "license": "Original / no third-party photo IP",
+      "origin": "generated"
     }
   },
   {
@@ -2117,7 +2116,7 @@
     ],
     "image": {
       "url": "/images/events/wen-jing.jpg",
-      "credit": "Original educational illustration created for Eurasia History Map",
+      "credit": "Original educational illustration created for Eurasia History Map (Wen–Jing era wheat and millet farming, Yellow River plain)",
       "license": "Original / no third-party photo IP",
       "origin": "generated"
     }
@@ -2161,8 +2160,8 @@
       }
     ],
     "image": {
-      "url": "/images/events/second-punic.jpg",
-      "credit": "Original educational illustration created for Eurasia History Map",
+      "url": "/images/events/third-punic.jpg",
+      "credit": "Original educational illustration created for Eurasia History Map (Fall of Carthage: Punic harbor city, 146 BCE)",
       "license": "Original / no third-party photo IP",
       "origin": "generated"
     }
@@ -2697,8 +2696,8 @@
       }
     ],
     "image": {
-      "url": "/images/events/caesar-rubicon.jpg",
-      "credit": "Original educational illustration created for Eurasia History Map",
+      "url": "/images/events/roman-republic-end.jpg",
+      "credit": "Original educational illustration created for Eurasia History Map (From Republic to Empire, late Republican Rome)",
       "license": "Original / no third-party photo IP",
       "origin": "generated"
     }
@@ -3093,8 +3092,8 @@
       }
     ],
     "image": {
-      "url": "/images/events/wang-mang.jpg",
-      "credit": "Original educational illustration created for Eurasia History Map",
+      "url": "/images/events/pair-9-teutoburg-wangmang.jpg",
+      "credit": "Original educational illustration created for Eurasia History Map (9 CE: Teutoburg Forest & Wang Mang’s Xin dynasty)",
       "license": "Original / no third-party photo IP",
       "origin": "generated"
     }
