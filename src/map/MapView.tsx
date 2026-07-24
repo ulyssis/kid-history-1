@@ -1,6 +1,6 @@
 import { useEffect, useRef } from 'react'
 import maplibregl, { type Map, type GeoJSONSource } from 'maplibre-gl'
-import type { FeatureCollection, Geometry } from 'geojson'
+import type { Feature, FeatureCollection, Geometry, Position } from 'geojson'
 import type { HistoricEvent } from '../types'
 import './MapView.css'
 
@@ -30,7 +30,6 @@ const SATELLITE_STYLE: maplibregl.StyleSpecification = {
       type: 'raster',
       source: 'satellite',
       paint: {
-        // Slightly muted so polity colors and event markers stay readable
         'raster-saturation': -0.15,
         'raster-brightness-min': 0.15,
         'raster-opacity': 0.92,
@@ -43,16 +42,59 @@ function emptyCollection(): FeatureCollection {
   return { type: 'FeatureCollection', features: [] }
 }
 
+/** Approximate polygon area for relative stacking (lon/lat shoelace). */
+function ringArea(ring: Position[]): number {
+  if (ring.length < 3) return 0
+  let sum = 0
+  for (let i = 0; i < ring.length - 1; i++) {
+    const [x1, y1] = ring[i]
+    const [x2, y2] = ring[i + 1]
+    sum += x1 * y2 - x2 * y1
+  }
+  return Math.abs(sum) / 2
+}
+
+function geometryArea(geometry: Geometry): number {
+  if (geometry.type === 'Polygon') {
+    return ringArea(geometry.coordinates[0] ?? [])
+  }
+  if (geometry.type === 'MultiPolygon') {
+    return geometry.coordinates.reduce(
+      (acc, poly) => acc + ringArea(poly[0] ?? []),
+      0,
+    )
+  }
+  return 0
+}
+
 function toFeatureCollection(events: HistoricEvent[]): FeatureCollection {
-  return {
-    type: 'FeatureCollection',
-    features: events.map((e) => ({
+  const features: Feature[] = events.map((e) => {
+    const area = geometryArea(e.geometry as Geometry)
+    return {
       type: 'Feature',
       id: e.id,
-      properties: { id: e.id },
+      properties: { id: e.id, area },
       geometry: e.geometry as Geometry,
-    })),
-  }
+    }
+  })
+  // Largest first in the array; fill-sort-key also uses area so smaller draws on top.
+  features.sort(
+    (a, b) =>
+      ((b.properties?.area as number) ?? 0) -
+      ((a.properties?.area as number) ?? 0),
+  )
+  return { type: 'FeatureCollection', features }
+}
+
+function pickSmallestAreaFeature(
+  features: maplibregl.MapGeoJSONFeature[],
+): maplibregl.MapGeoJSONFeature | undefined {
+  if (features.length === 0) return undefined
+  return features.reduce((best, f) => {
+    const a = Number(f.properties?.area ?? Number.POSITIVE_INFINITY)
+    const b = Number(best.properties?.area ?? Number.POSITIVE_INFINITY)
+    return a < b ? f : best
+  })
 }
 
 interface MapViewProps {
@@ -60,6 +102,9 @@ interface MapViewProps {
   events: HistoricEvent[]
   onSelectEvent: (id: string) => void
   onHoverPolity?: (polityId: string | null) => void
+  relationsMode?: boolean
+  selectedPolityIds?: string[]
+  onSelectPolity?: (polityId: string) => void
 }
 
 function splitEvents(events: HistoricEvent[]): {
@@ -81,19 +126,28 @@ export function MapView({
   events,
   onSelectEvent,
   onHoverPolity,
+  relationsMode = false,
+  selectedPolityIds = [],
+  onSelectPolity,
 }: MapViewProps) {
   const containerRef = useRef<HTMLDivElement>(null)
   const mapRef = useRef<Map | null>(null)
   const readyRef = useRef(false)
   const onSelectRef = useRef(onSelectEvent)
   const onHoverPolityRef = useRef(onHoverPolity)
+  const onSelectPolityRef = useRef(onSelectPolity)
+  const relationsModeRef = useRef(relationsMode)
   const territoriesRef = useRef(territories)
   const eventsRef = useRef(events)
   const hoveredPolityRef = useRef<string | null>(null)
+  const selectedPolityIdsRef = useRef(selectedPolityIds)
   onSelectRef.current = onSelectEvent
   onHoverPolityRef.current = onHoverPolity
+  onSelectPolityRef.current = onSelectPolity
+  relationsModeRef.current = relationsMode
   territoriesRef.current = territories
   eventsRef.current = events
+  selectedPolityIdsRef.current = selectedPolityIds
 
   useEffect(() => {
     if (!containerRef.current || mapRef.current) return
@@ -112,7 +166,10 @@ export function MapView({
       attributionControl: {},
     })
 
-    map.addControl(new maplibregl.NavigationControl({ showCompass: false }), 'top-right')
+    map.addControl(
+      new maplibregl.NavigationControl({ showCompass: false }),
+      'top-right',
+    )
     mapRef.current = map
 
     map.on('load', () => {
@@ -129,6 +186,8 @@ export function MapView({
           'fill-color': ['get', 'color'],
           'fill-opacity': [
             'case',
+            ['boolean', ['feature-state', 'selected'], false],
+            0.78,
             ['boolean', ['feature-state', 'hover'], false],
             0.72,
             0.48,
@@ -143,6 +202,8 @@ export function MapView({
           'line-color': ['get', 'color'],
           'line-width': [
             'case',
+            ['boolean', ['feature-state', 'selected'], false],
+            3.4,
             ['boolean', ['feature-state', 'hover'], false],
             3,
             1.6,
@@ -160,6 +221,10 @@ export function MapView({
         id: 'events-fill',
         type: 'fill',
         source: 'events-poly',
+        layout: {
+          // Smaller area → higher sort key → drawn on top.
+          'fill-sort-key': ['*', ['get', 'area'], -1],
+        },
         paint: {
           'fill-color': '#c45c26',
           'fill-opacity': 0.28,
@@ -169,6 +234,9 @@ export function MapView({
         id: 'events-line',
         type: 'line',
         source: 'events-poly',
+        layout: {
+          'line-sort-key': ['*', ['get', 'area'], -1],
+        },
         paint: {
           'line-color': '#a84315',
           'line-width': 2.5,
@@ -194,12 +262,20 @@ export function MapView({
         },
       })
 
-      // Points must stay above area fills for visibility + hit-testing preference.
       map.moveLayer('events-circle')
 
       map.on('click', (e) => {
-        // Prefer point events when they sit on top of a long-running area event.
-        // Use a small hit box so points stay easy to click over large fills.
+        if (relationsModeRef.current) {
+          const terrHits = map.queryRenderedFeatures(e.point, {
+            layers: ['territories-fill'],
+          })
+          const polityId = terrHits[0]?.properties?.polityId as
+            | string
+            | undefined
+          if (polityId) onSelectPolityRef.current?.(polityId)
+          return
+        }
+
         const pad = 6
         const box: [maplibregl.PointLike, maplibregl.PointLike] = [
           [e.point.x - pad, e.point.y - pad],
@@ -216,7 +292,8 @@ export function MapView({
         const atArea = map.queryRenderedFeatures(e.point, {
           layers: ['events-fill'],
         })
-        const id = atArea[0]?.properties?.id as string | undefined
+        const smallest = pickSmallestAreaFeature(atArea)
+        const id = smallest?.properties?.id as string | undefined
         if (id) onSelectRef.current(id)
       })
 
@@ -264,6 +341,17 @@ export function MapView({
       }
 
       map.on('mousemove', (e) => {
+        if (relationsModeRef.current) {
+          const terrHits = map.queryRenderedFeatures(e.point, {
+            layers: ['territories-fill'],
+          })
+          const polityId =
+            (terrHits[0]?.properties?.polityId as string | undefined) ?? null
+          map.getCanvas().style.cursor = polityId ? 'pointer' : 'crosshair'
+          setTerritoryHover(polityId)
+          return
+        }
+
         const pad = 6
         const box: [maplibregl.PointLike, maplibregl.PointLike] = [
           [e.point.x - pad, e.point.y - pad],
@@ -318,9 +406,41 @@ export function MapView({
     const polySrc = map.getSource('events-poly') as GeoJSONSource | undefined
     if (pointSrc) pointSrc.setData(toFeatureCollection(points))
     if (polySrc) polySrc.setData(toFeatureCollection(polys))
-    // Keep point markers above area polygons after data updates.
     if (map.getLayer('events-circle')) map.moveLayer('events-circle')
   }, [events])
 
-  return <div ref={containerRef} className="map-view" />
+  useEffect(() => {
+    const map = mapRef.current
+    if (!map || !readyRef.current) return
+    const fc = territoriesRef.current
+    if (!fc) return
+    const selected = new Set(selectedPolityIds)
+    for (const f of fc.features) {
+      const id = f.properties?.polityId as string | undefined
+      if (!id) continue
+      try {
+        map.setFeatureState(
+          { source: 'territories', id },
+          { selected: selected.has(id) },
+        )
+      } catch {
+        /* ignore */
+      }
+    }
+  }, [selectedPolityIds, territories])
+
+  useEffect(() => {
+    const map = mapRef.current
+    if (!map || !readyRef.current) return
+    map.getCanvas().style.cursor = relationsMode ? 'crosshair' : ''
+  }, [relationsMode])
+
+  return (
+    <div
+      ref={containerRef}
+      className={
+        relationsMode ? 'map-view map-view--relations' : 'map-view'
+      }
+    />
+  )
 }

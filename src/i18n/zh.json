@@ -18,5 +18,13 @@
   "loading": "地图加载中…",
   "eventsHint": "彩色区域表示疆域。圆点和范围表示历史事件——点击了解更多。",
   "prevMilestone": "上一个事件或疆域变化",
-  "nextMilestone": "下一个事件或疆域变化"
+  "nextMilestone": "下一个事件或疆域变化",
+  "relationsButton": "关系",
+  "relationsHintFirst": "请在地图或图例上点击第一个文明/国家…",
+  "relationsHintSecond": "再点击第二个文明/国家…",
+  "relationsHintDone": "已选择一对——请查看弹窗。",
+  "relationsBetween": "{{a}} 与 {{b}}",
+  "relationsOverall": "总体关系",
+  "relationsEvents": "相关著名事件",
+  "relationsNoEvents": "这一对暂无收录的共同事件。"
 }

@@ -64,13 +64,58 @@
 
 .map-overlays {
   position: absolute;
-  bottom: 0.75rem;
-  left: 0.75rem;
-  top: auto;
-  right: auto;
+  top: 0.55rem;
+  left: 0.55rem;
+  right: 3.4rem;
+  bottom: auto;
   z-index: 2;
   pointer-events: auto;
-  max-width: min(240px, calc(100% - 5rem));
+  max-width: none;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 0.4rem;
+}
+
+.map-chrome {
+  display: flex;
+  align-items: center;
+  gap: 0.55rem;
+  flex-wrap: wrap;
+}
+
+.relations-btn {
+  border: 1px solid rgba(40, 50, 40, 0.18);
+  background: rgba(255, 252, 245, 0.96);
+  color: #1e2a1c;
+  border-radius: 999px;
+  padding: 0.35rem 0.85rem;
+  font-size: 0.85rem;
+  font-weight: 650;
+  font-family: inherit;
+  cursor: pointer;
+  box-shadow: 0 3px 12px rgba(30, 40, 30, 0.12);
+}
+
+.relations-btn:hover {
+  background: #fff;
+}
+
+.relations-btn--active {
+  background: #3d5a45;
+  color: #f7f4ec;
+  border-color: #3d5a45;
+}
+
+.relations-hint {
+  margin: 0;
+  font-size: 0.75rem;
+  color: #2a3328;
+  background: rgba(255, 252, 245, 0.92);
+  border: 1px solid rgba(40, 50, 40, 0.12);
+  border-radius: 999px;
+  padding: 0.28rem 0.7rem;
+  box-shadow: 0 2px 10px rgba(30, 40, 30, 0.08);
 }
 
 .app-status {
@@ -114,16 +159,11 @@
   }
 
   .map-overlays {
-    top: auto;
-    bottom: 0.6rem;
-    left: 0.6rem;
-    right: auto;
-    max-width: min(220px, calc(100% - 1.2rem));
-  }
-
-  .legend {
+    top: 0.45rem;
+    left: 0.45rem;
+    right: 3.1rem;
+    bottom: auto;
     max-width: none;
-    max-height: 28vh;
   }
 
   .app-footer {

@@ -18,5 +18,13 @@
   "loading": "Loading map…",
   "eventsHint": "Colored shapes show lands. Dots and areas show events — click one to learn more.",
   "prevMilestone": "Previous event or territory change",
-  "nextMilestone": "Next event or territory change"
+  "nextMilestone": "Next event or territory change",
+  "relationsButton": "Relations",
+  "relationsHintFirst": "Click a land on the map or legend…",
+  "relationsHintSecond": "Now click a second land…",
+  "relationsHintDone": "Pair selected — see the popup.",
+  "relationsBetween": "{{a}} & {{b}}",
+  "relationsOverall": "Overall relationship",
+  "relationsEvents": "Famous linked events",
+  "relationsNoEvents": "No shared events are listed yet for this pair."
 }

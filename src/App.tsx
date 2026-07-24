@@ -4,7 +4,9 @@ import type { FeatureCollection } from 'geojson'
 import { EventPopup } from './components/EventPopup'
 import { LanguageSwitcher } from './components/LanguageSwitcher'
 import { Legend } from './components/Legend'
+import { RelationsPopup } from './components/RelationsPopup'
 import { Timeline } from './components/Timeline'
+import { buildRelation, type RelationResult } from './data/buildRelation'
 import {
   loadEvents,
   loadTerritoryManifest,
@@ -12,7 +14,7 @@ import {
   pickSnapshotYear,
 } from './data/loaders'
 import { MapView } from './map/MapView'
-import type { HistoricEvent, PolityProperties } from './types'
+import type { HistoricEvent, Lang, PolityProperties } from './types'
 import { isEventVisible, MAX_YEAR, MIN_YEAR } from './utils/year'
 import './App.css'
 
@@ -45,7 +47,8 @@ function buildMilestones(
 }
 
 export default function App() {
-  const { t } = useTranslation()
+  const { t, i18n } = useTranslation()
+  const lang = (i18n.language?.slice(0, 2) || 'en') as Lang
   const [year, setYear] = useState(-200)
   const [events, setEvents] = useState<HistoricEvent[]>([])
   const [snapshotYears, setSnapshotYears] = useState<number[]>([])
@@ -54,6 +57,9 @@ export default function App() {
   const [hoveredPolityId, setHoveredPolityId] = useState<string | null>(null)
   const [loading, setLoading] = useState(true)
   const [error, setError] = useState<string | null>(null)
+  const [relationsMode, setRelationsMode] = useState(false)
+  const [pickedPolities, setPickedPolities] = useState<string[]>([])
+  const [relation, setRelation] = useState<RelationResult | null>(null)
 
   useEffect(() => {
     let cancelled = false
@@ -65,7 +71,9 @@ export default function App() {
         ])
         if (cancelled) return
         setEvents(ev)
-        setSnapshotYears(manifest.snapshots.map((s) => s.year).sort((a, b) => a - b))
+        setSnapshotYears(
+          manifest.snapshots.map((s) => s.year).sort((a, b) => a - b),
+        )
         setLoading(false)
       } catch (e) {
         if (cancelled) return
@@ -80,7 +88,6 @@ export default function App() {
 
   useEffect(() => {
     if (snapshotYears.length === 0) return
-    // Always show a territory layer: use latest snapshot ≤ year, else earliest.
     const snap =
       pickSnapshotYear(snapshotYears, year) ?? snapshotYears[0] ?? null
     if (snap == null) return
@@ -91,7 +98,7 @@ export default function App() {
         if (!cancelled) setTerritories(fc)
       })
       .catch(() => {
-        // Keep previous territories visible on load errors
+        /* Keep previous territories visible on load errors */
       })
     return () => {
       cancelled = true
@@ -100,7 +107,15 @@ export default function App() {
 
   useEffect(() => {
     setHoveredPolityId(null)
+    setPickedPolities([])
+    setRelation(null)
   }, [year, territories])
+
+  // Refresh open relation text when language changes.
+  useEffect(() => {
+    if (pickedPolities.length < 2) return
+    setRelation(buildRelation(pickedPolities[0], pickedPolities[1], events, lang))
+  }, [lang, events, pickedPolities])
 
   const milestones = useMemo(
     () => buildMilestones(events, snapshotYears),
@@ -121,6 +136,43 @@ export default function App() {
   )
   const selected = events.find((e) => e.id === selectedId) ?? null
   const polities = extractPolities(territories)
+
+  const toggleRelationsMode = () => {
+    setRelationsMode((on) => {
+      if (on) {
+        setPickedPolities([])
+        setRelation(null)
+        return false
+      }
+      setSelectedId(null)
+      setPickedPolities([])
+      setRelation(null)
+      return true
+    })
+  }
+
+  const handlePickPolity = (polityId: string) => {
+    if (!relationsMode) return
+    setPickedPolities((prev) => {
+      if (prev.length === 0) return [polityId]
+      if (prev.length === 1) {
+        if (prev[0] === polityId) return prev
+        const result = buildRelation(prev[0], polityId, events, lang)
+        setRelation(result)
+        return [prev[0], polityId]
+      }
+      // Restart selection with the new first pick.
+      setRelation(null)
+      return [polityId]
+    })
+  }
+
+  const relationsHint =
+    pickedPolities.length === 0
+      ? t('relationsHintFirst')
+      : pickedPolities.length === 1
+        ? t('relationsHintSecond')
+        : t('relationsHintDone')
 
   return (
     <div className="app">
@@ -144,12 +196,35 @@ export default function App() {
               events={visibleEvents}
               onSelectEvent={setSelectedId}
               onHoverPolity={setHoveredPolityId}
+              relationsMode={relationsMode}
+              selectedPolityIds={pickedPolities}
+              onSelectPolity={handlePickPolity}
             />
           )}
           <div className="map-overlays">
+            <div className="map-chrome">
+              <button
+                type="button"
+                className={
+                  relationsMode
+                    ? 'relations-btn relations-btn--active'
+                    : 'relations-btn'
+                }
+                onClick={toggleRelationsMode}
+                aria-pressed={relationsMode}
+              >
+                {t('relationsButton')}
+              </button>
+              {relationsMode && (
+                <p className="relations-hint">{relationsHint}</p>
+              )}
+            </div>
             <Legend
               polities={polities}
               highlightedPolityId={hoveredPolityId}
+              selectedPolityIds={pickedPolities}
+              relationsMode={relationsMode}
+              onSelectPolity={handlePickPolity}
             />
           </div>
         </div>
@@ -171,8 +246,24 @@ export default function App() {
         </footer>
       </main>
 
-      {selected && (
+      {selected && !relation && (
         <EventPopup event={selected} onClose={() => setSelectedId(null)} />
+      )}
+
+      {relation && (
+        <RelationsPopup
+          relation={relation}
+          onClose={() => {
+            setRelation(null)
+            setPickedPolities([])
+          }}
+          onOpenEvent={(id) => {
+            setRelation(null)
+            setPickedPolities([])
+            setRelationsMode(false)
+            setSelectedId(id)
+          }}
+        />
       )}
     </div>
   )

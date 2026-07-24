@@ -18,5 +18,13 @@
   "loading": "Karte wird geladen…",
   "eventsHint": "Farbige Flächen zeigen Länder. Punkte und Gebiete zeigen Ereignisse — tippe eines an.",
   "prevMilestone": "Vorheriges Ereignis oder Gebietswechsel",
-  "nextMilestone": "Nächstes Ereignis oder Gebietswechsel"
+  "nextMilestone": "Nächstes Ereignis oder Gebietswechsel",
+  "relationsButton": "Beziehungen",
+  "relationsHintFirst": "Klicke ein Land auf der Karte oder in der Legende…",
+  "relationsHintSecond": "Jetzt ein zweites Land wählen…",
+  "relationsHintDone": "Paar gewählt — siehe das Fenster.",
+  "relationsBetween": "{{a}} & {{b}}",
+  "relationsOverall": "Gesamtbeziehung",
+  "relationsEvents": "Bekannte gemeinsame Ereignisse",
+  "relationsNoEvents": "Für dieses Paar sind noch keine gemeinsamen Ereignisse hinterlegt."
 }
