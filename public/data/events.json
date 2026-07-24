@@ -5377,6 +5377,71 @@
     }
   },
   {
+    "id": "mongol-invade-rus",
+    "startYear": 1237,
+    "endYear": 1240,
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            28,
+            48
+          ],
+          [
+            42,
+            48
+          ],
+          [
+            42,
+            58
+          ],
+          [
+            28,
+            58
+          ],
+          [
+            28,
+            48
+          ]
+        ]
+      ]
+    },
+    "i18n": {
+      "en": {
+        "name": "Mongol invasion of Kievan Rus’",
+        "location": "Eastern Europe (Rus’ lands)",
+        "consequence": "Cities fall and many principalities must pay tribute to the Golden Horde for generations."
+      },
+      "de": {
+        "name": "Mongoleninvasion der Kiewer Rus",
+        "location": "Osteuropa (Rus-Länder)",
+        "consequence": "Städte fallen; viele Fürstentümer zahlen über Generationen Tribut an die Goldene Horde."
+      },
+      "zh": {
+        "name": "蒙古入侵基辅罗斯",
+        "location": "东欧（罗斯诸地）",
+        "consequence": "多座城池陷落，许多公国此后长期向金帐汗国纳贡。"
+      }
+    },
+    "sources": [
+      {
+        "label": "Wikipedia — Mongol invasion of Kievan Rus'",
+        "url": "https://en.wikipedia.org/wiki/Mongol_invasion_of_Kievan_Rus%27"
+      },
+      {
+        "label": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/"
+      }
+    ],
+    "image": {
+      "url": "/images/events/mongol-invade-rus.jpg",
+      "credit": "Original educational illustration created for Eurasia History Map",
+      "license": "Original / no third-party photo IP",
+      "origin": "generated"
+    }
+  },
+  {
     "id": "baghdad-1258",
     "startYear": 1258,
     "endYear": 1258,
