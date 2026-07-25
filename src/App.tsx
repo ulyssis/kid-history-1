@@ -60,6 +60,7 @@ export default function App() {
   const [relationsMode, setRelationsMode] = useState(false)
   const [pickedPolities, setPickedPolities] = useState<string[]>([])
   const [relation, setRelation] = useState<RelationResult | null>(null)
+  const [mapFocus, setMapFocus] = useState(false)
 
   useEffect(() => {
     let cancelled = false
@@ -116,6 +117,15 @@ export default function App() {
     if (pickedPolities.length < 2) return
     setRelation(buildRelation(pickedPolities[0], pickedPolities[1], events, lang))
   }, [lang, events, pickedPolities])
+
+  useEffect(() => {
+    if (!mapFocus) return
+    const onKey = (e: KeyboardEvent) => {
+      if (e.key === 'Escape') setMapFocus(false)
+    }
+    window.addEventListener('keydown', onKey)
+    return () => window.removeEventListener('keydown', onKey)
+  }, [mapFocus])
 
   const milestones = useMemo(
     () => buildMilestones(events, snapshotYears),
@@ -175,7 +185,7 @@ export default function App() {
         : t('relationsHintDone')
 
   return (
-    <div className="app">
+    <div className={mapFocus ? 'app app--map-focus' : 'app'}>
       <header className="app-header">
         <div className="app-brand">
           <h1 className="app-title">{t('appTitle')}</h1>
@@ -199,10 +209,48 @@ export default function App() {
               relationsMode={relationsMode}
               selectedPolityIds={pickedPolities}
               onSelectPolity={handlePickPolity}
+              layoutEpoch={mapFocus ? 1 : 0}
             />
           )}
           <div className="map-overlays">
             <div className="map-chrome">
+              <button
+                type="button"
+                className={
+                  mapFocus
+                    ? 'map-focus-btn map-focus-btn--active'
+                    : 'map-focus-btn'
+                }
+                onClick={() => setMapFocus((on) => !on)}
+                aria-pressed={mapFocus}
+                aria-label={
+                  mapFocus ? t('mapFocusExitAria') : t('mapFocusEnterAria')
+                }
+                title={
+                  mapFocus ? t('mapFocusExitAria') : t('mapFocusEnterAria')
+                }
+              >
+                <span className="map-focus-btn__icon" aria-hidden="true">
+                  {mapFocus ? (
+                    <svg viewBox="0 0 24 24" width="18" height="18">
+                      <path
+                        fill="currentColor"
+                        d="M5 16h3v3h2v-5H5v2zm3-8H5v2h5V5H8v3zm6 11h2v-3h3v-2h-5v5zm2-11V5h-2v5h5V8h-3z"
+                      />
+                    </svg>
+                  ) : (
+                    <svg viewBox="0 0 24 24" width="18" height="18">
+                      <path
+                        fill="currentColor"
+                        d="M7 14H5v5h5v-2H7v-3zm-2-4h2V7h3V5H5v5zm12 7h-3v2h5v-5h-2v3zM14 5v2h3v3h2V5h-5z"
+                      />
+                    </svg>
+                  )}
+                </span>
+                <span className="map-focus-btn__label">
+                  {mapFocus ? t('mapFocusExit') : t('mapFocusEnter')}
+                </span>
+              </button>
               <button
                 type="button"
                 className={
@@ -230,7 +278,7 @@ export default function App() {
         </div>
 
         <footer className="app-footer">
-          <p className="app-hint">{t('eventsHint')}</p>
+          {!mapFocus && <p className="app-hint">{t('eventsHint')}</p>}
           <Timeline
             year={Math.min(MAX_YEAR, Math.max(MIN_YEAR, year))}
             onChange={setYear}

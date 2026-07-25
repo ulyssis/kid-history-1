@@ -105,6 +105,8 @@ interface MapViewProps {
   relationsMode?: boolean
   selectedPolityIds?: string[]
   onSelectPolity?: (polityId: string) => void
+  /** Bumps when the map container size changes (e.g. map-focus layout). */
+  layoutEpoch?: number
 }
 
 function splitEvents(events: HistoricEvent[]): {
@@ -129,6 +131,7 @@ export function MapView({
   relationsMode = false,
   selectedPolityIds = [],
   onSelectPolity,
+  layoutEpoch = 0,
 }: MapViewProps) {
   const containerRef = useRef<HTMLDivElement>(null)
   const mapRef = useRef<Map | null>(null)
@@ -434,6 +437,16 @@ export function MapView({
     if (!map || !readyRef.current) return
     map.getCanvas().style.cursor = relationsMode ? 'crosshair' : ''
   }, [relationsMode])
+
+  useEffect(() => {
+    const map = mapRef.current
+    if (!map || !readyRef.current) return
+    // Defer until CSS flex layout has applied after map-focus toggle.
+    const id = window.requestAnimationFrame(() => {
+      map.resize()
+    })
+    return () => window.cancelAnimationFrame(id)
+  }, [layoutEpoch])
 
   return (
     <div

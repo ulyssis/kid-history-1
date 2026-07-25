@@ -26,5 +26,9 @@
   "relationsBetween": "{{a}} 与 {{b}}",
   "relationsOverall": "总体关系",
   "relationsEvents": "相关著名事件",
-  "relationsNoEvents": "这一对暂无收录的共同事件。"
+  "relationsNoEvents": "这一对暂无收录的共同事件。",
+  "mapFocusEnter": "专注地图",
+  "mapFocusExit": "退出专注",
+  "mapFocusEnterAria": "隐藏标题栏并放大地图",
+  "mapFocusExitAria": "重新显示标题栏"
 }
