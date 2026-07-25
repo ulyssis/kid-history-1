@@ -26,5 +26,9 @@
   "relationsBetween": "{{a}} & {{b}}",
   "relationsOverall": "Overall relationship",
   "relationsEvents": "Famous linked events",
-  "relationsNoEvents": "No shared events are listed yet for this pair."
+  "relationsNoEvents": "No shared events are listed yet for this pair.",
+  "mapFocusEnter": "Focus map",
+  "mapFocusExit": "Exit focus",
+  "mapFocusEnterAria": "Hide header and expand the map",
+  "mapFocusExitAria": "Show header again"
 }

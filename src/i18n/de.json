@@ -26,5 +26,9 @@
   "relationsBetween": "{{a}} & {{b}}",
   "relationsOverall": "Gesamtbeziehung",
   "relationsEvents": "Bekannte gemeinsame Ereignisse",
-  "relationsNoEvents": "Für dieses Paar sind noch keine gemeinsamen Ereignisse hinterlegt."
+  "relationsNoEvents": "Für dieses Paar sind noch keine gemeinsamen Ereignisse hinterlegt.",
+  "mapFocusEnter": "Karte fokussieren",
+  "mapFocusExit": "Fokus beenden",
+  "mapFocusEnterAria": "Kopfzeile ausblenden und Karte vergrößern",
+  "mapFocusExitAria": "Kopfzeile wieder anzeigen"
 }
