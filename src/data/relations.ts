@@ -25,7 +25,10 @@ export const POLITY_FAMILY: Record<string, string> = {
   mughal: 'india',
   'british-india': 'britain',
   india: 'india',
-  'yellow-river': 'china',
+  liangzhu: 'china',
+  longshan: 'china',
+  erlitou: 'china',
+  sanxingdui: 'sanxingdui',
   shang: 'china',
   zhou: 'china',
   'eastern-zhou': 'china',
@@ -103,6 +106,7 @@ export const FAMILY_LABEL: Record<string, Record<Lang, string>> = {
   hittite: { en: 'Hittites', de: 'Hethiter', zh: '赫梯' },
   india: { en: 'India', de: 'Indien', zh: '印度' },
   china: { en: 'China', de: 'China', zh: '中国' },
+  sanxingdui: { en: 'Sanxingdui', de: 'Sanxingdui', zh: '三星堆' },
   greece: { en: 'Greece / Macedon', de: 'Griechenland / Makedonien', zh: '希腊/马其顿' },
   persia: { en: 'Persia / Iran', de: 'Persien / Iran', zh: '波斯/伊朗' },
   rome: { en: 'Rome', de: 'Rom', zh: '罗马' },
@@ -133,6 +137,16 @@ export interface CuratedRelation {
 
 /** Hand-written summaries for important civilization pairs (order-independent). */
 export const CURATED_RELATIONS: CuratedRelation[] = [
+  {
+    a: 'sanxingdui',
+    b: 'china',
+    overall: {
+      en: 'Historians have confirmed connections between Sanxingdui and the Shang world, but many mysteries about Sanxingdui remain unsolved.',
+      de: 'Historiker haben Verbindungen zwischen Sanxingdui und der Shang-Welt bestätigt, doch viele Rätsel um Sanxingdui sind ungelöst.',
+      zh: '历史学家已经证实两者之间存在联系，但围绕三星堆仍有大量的未解之谜。',
+    },
+    eventIds: [],
+  },
   {
     a: 'rome',
     b: 'carthage',

@@ -60,7 +60,11 @@ const G = {
   levant: rect(34, 31, 37.2, 34.8),
   phoenicia: rect(34.6, 32.8, 36.4, 35.2),
   indus: rect(66, 23.5, 76, 32),
-  yellowRiver: rect(108, 32, 119, 41),
+  // Early China cultures (approximate educational outlines)
+  liangzhu: rect(119.2, 30.0, 121.2, 31.4), // Taihu / Hangzhou Bay
+  longshan: rect(110, 33, 119, 38), // middle–lower Yellow River
+  erlitou: rect(111.5, 33.8, 113.5, 35.2), // central Henan
+  sanxingdui: rect(103.5, 30.4, 105.0, 31.6), // Guanghan / Chengdu Plain
   shang: rect(110, 32, 120, 40),
   westernZhou: rect(105, 32, 118, 40),
   warringStates: poly([[104, 25], [122, 25], [123, 42], [108, 42], [100, 36], [104, 25]]),
@@ -177,7 +181,10 @@ const POLITIES = [
   { id: 'india', color: '#2e8b7a', name: N('Republic of India', 'Republik Indien', '印度共和国'), from: 1947, to: 2100, g: G.modernIndia, wiki: 'https://en.wikipedia.org/wiki/India' },
 
   // China
-  { id: 'yellow-river', color: '#c45c26', name: N('Yellow River cultures', 'Gelber-Fluss-Kulturen', '黄河流域文化'), from: -4600, to: -1601, g: G.yellowRiver, wiki: 'https://en.wikipedia.org/wiki/Yellow_River' },
+  { id: 'liangzhu', color: '#2e8b7a', name: N('Liangzhu culture', 'Liangzhu-Kultur', '良渚文明'), from: -3300, to: -2300, g: G.liangzhu, wiki: 'https://en.wikipedia.org/wiki/Liangzhu_culture' },
+  { id: 'longshan', color: '#c45c26', name: N('Longshan culture', 'Longshan-Kultur', '龙山文化'), from: -3000, to: -1900, g: G.longshan, wiki: 'https://en.wikipedia.org/wiki/Longshan_culture' },
+  { id: 'erlitou', color: '#b87333', name: N('Erlitou culture', 'Erlitou-Kultur', '二里头文化'), from: -1900, to: -1500, g: G.erlitou, wiki: 'https://en.wikipedia.org/wiki/Erlitou_culture' },
+  { id: 'sanxingdui', color: '#cd7f32', name: N('Sanxingdui culture', 'Sanxingdui-Kultur', '三星堆文明'), from: -1600, to: -1000, g: G.sanxingdui, wiki: 'https://en.wikipedia.org/wiki/Sanxingdui' },
   { id: 'shang', color: '#c45c26', name: N('Shang dynasty', 'Shang-Dynastie', '商朝'), from: -1600, to: -1046, g: G.shang, wiki: 'https://en.wikipedia.org/wiki/Shang_dynasty' },
   { id: 'zhou', color: '#c45c26', name: N('Zhou dynasty', 'Zhou-Dynastie', '周朝'), from: -1045, to: -771, g: G.westernZhou, wiki: 'https://en.wikipedia.org/wiki/Zhou_dynasty' },
   { id: 'eastern-zhou', color: '#c45c26', name: N('Eastern Zhou / Spring and Autumn', 'Östliche Zhou', '东周/春秋'), from: -770, to: -476, g: G.westernZhou, wiki: 'https://en.wikipedia.org/wiki/Eastern_Zhou' },
