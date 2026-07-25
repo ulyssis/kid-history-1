@@ -294,6 +294,16 @@ export const CURATED_RELATIONS: CuratedRelation[] = [
   },
   {
     a: 'egypt',
+    b: 'hittite',
+    overall: {
+      en: 'Egypt and the Hittites competed for Syria — climaxing at Kadesh, then sealed by one of history’s earliest surviving peace treaties.',
+      de: 'Ägypten und die Hethiter rivalisierten um Syrien — Höhepunkt bei Kadesch, danach einer der frühesten erhaltenen Friedensverträge.',
+      zh: '埃及与赫梯争夺叙利亚，在卡迭石大战后订立现存最早的和约之一。',
+    },
+    eventIds: ['battle-kadesh', 'sea-peoples'],
+  },
+  {
+    a: 'egypt',
     b: 'rome',
     overall: {
       en: 'Egypt became vital Roman grain land after Cleopatra’s fall; Alexandria stayed a cultural capital of the empire.',

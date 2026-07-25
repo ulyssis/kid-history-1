@@ -25,6 +25,8 @@ const only = onlyArg
 
 /** Prefer these Commons files when known-good. */
 const CURATED = {
+  'battle-kadesh':
+    'Battle_scene_from_the_Great_Kadesh_reliefs_of_Ramses_II_on_the_Walls_of_the_Ramesseum.jpg',
   'battle-muye': 'Shi_Qiang_pan.jpg',
   'western-zhou-start': 'Western_Zhou_bronze_vessel.jpg',
   'beacon-fire-lords': 'Western_Zhou.jpg',

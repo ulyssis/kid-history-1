@@ -380,6 +380,56 @@
     }
   },
   {
+    "id": "battle-kadesh",
+    "startYear": -1274,
+    "endYear": -1274,
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        36.52,
+        34.55
+      ]
+    },
+    "i18n": {
+      "en": {
+        "name": "Battle of Kadesh — Egypt vs Hittites",
+        "location": "Kadesh (Orontes River, Syria)",
+        "consequence": "Often called the earliest battle we can reconstruct in detail. Pharaoh Ramesses II fights the Hittite king Muwatalli II; neither side wins outright, and a later peace treaty follows."
+      },
+      "de": {
+        "name": "Schlacht bei Kadesch — Ägypten gegen Hethiter",
+        "location": "Kadesch (Orontes, Syrien)",
+        "consequence": "Oft die früheste gut bezeugte Schlacht genannt. Ramses II. kämpft gegen den Hethiterkönig Muwatalli II.; kein klarer Sieger, später folgt ein Friedensvertrag."
+      },
+      "zh": {
+        "name": "卡迭石之战——埃及对赫梯",
+        "location": "卡迭石（叙利亚奥龙特斯河）",
+        "consequence": "常被视为有详细记载的最早大战之一。拉美西斯二世与赫梯王穆瓦塔里二世交锋，未分出明确胜负，后来订立著名和约。"
+      }
+    },
+    "sources": [
+      {
+        "label": "Wikipedia — Battle of Kadesh",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Kadesh"
+      },
+      {
+        "label": "Encyclopaedia Britannica — Battle of Kadesh",
+        "url": "https://www.britannica.com/event/Battle-of-Kadesh"
+      },
+      {
+        "label": "British Museum",
+        "url": "https://www.britishmuseum.org/"
+      }
+    ],
+    "image": {
+      "url": "/images/events/battle-kadesh.jpg",
+      "credit": "Wikimedia Commons — Battle_scene_from_the_Great_Kadesh_reliefs_of_Ramses_II_on_the_Walls_of_the_Ramesseum.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Battle_scene_from_the_Great_Kadesh_reliefs_of_Ramses_II_on_the_Walls_of_the_Ramesseum.jpg",
+      "license": "Public Domain / CC (Wikimedia Commons)",
+      "origin": "wikimedia"
+    }
+  },
+  {
     "id": "exodus-memory",
     "startYear": -1250,
     "endYear": -1200,
