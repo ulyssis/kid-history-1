@@ -4850,6 +4850,76 @@
     }
   },
   {
+    "id": "japanese-missions-tang",
+    "startYear": 630,
+    "endYear": 894,
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            120,
+            30
+          ],
+          [
+            142,
+            30
+          ],
+          [
+            142,
+            41
+          ],
+          [
+            130,
+            41
+          ],
+          [
+            120,
+            35
+          ],
+          [
+            120,
+            30
+          ]
+        ]
+      ]
+    },
+    "i18n": {
+      "en": {
+        "name": "Japanese missions to Tang China",
+        "location": "East China Sea / Chang’an",
+        "consequence": "Japanese envoys (kentōshi) travel to Tang China to study laws, Buddhism, and writing — a major 7th–9th century cultural exchange."
+      },
+      "de": {
+        "name": "Japanische Gesandtschaften nach Tang-China",
+        "location": "Ostchinesisches Meer / Chang’an",
+        "consequence": "Japanische Gesandte (Kentōshi) reisen nach Tang-China, um Recht, Buddhismus und Schrift zu lernen — großer Kulturkontakt des 7.–9. Jh."
+      },
+      "zh": {
+        "name": "遣唐使",
+        "location": "东海/长安",
+        "consequence": "日本遣唐使赴唐朝学习律令、佛教与文字，是7–9世纪中日交流的重要篇章。"
+      }
+    },
+    "sources": [
+      {
+        "label": "Wikipedia — Japanese missions to Tang China",
+        "url": "https://en.wikipedia.org/wiki/Japanese_missions_to_Tang_China"
+      },
+      {
+        "label": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/"
+      }
+    ],
+    "image": {
+      "url": "/images/events/japanese-missions-tang.jpg",
+      "credit": "Wikimedia Commons — Japanese embassy to the Tang court.jpg",
+      "license": "Public Domain / CC (Wikimedia Commons)",
+      "origin": "wikimedia",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Japanese_embassy_to_the_Tang_court.jpg"
+    }
+  },
+  {
     "id": "taizong-eastern-turks",
     "startYear": 630,
     "endYear": 630,
@@ -4917,6 +4987,76 @@
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:TangTaizong.jpg",
       "license": "Public Domain / CC (Wikimedia Commons)",
       "origin": "wikimedia"
+    }
+  },
+  {
+    "id": "muslim-conquest-persia",
+    "startYear": 633,
+    "endYear": 651,
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            44,
+            25
+          ],
+          [
+            62,
+            25
+          ],
+          [
+            62,
+            40
+          ],
+          [
+            48,
+            40
+          ],
+          [
+            44,
+            32
+          ],
+          [
+            44,
+            25
+          ]
+        ]
+      ]
+    },
+    "i18n": {
+      "en": {
+        "name": "Muslim conquest of Sasanian Persia",
+        "location": "Iran & Mesopotamia",
+        "consequence": "Arab-Islamic armies defeat the Sasanian Empire. Persian lands join the caliphate; Iranian culture later helps shape Islamic learning."
+      },
+      "de": {
+        "name": "Islamische Eroberung des Sasanidenreichs",
+        "location": "Iran & Mesopotamien",
+        "consequence": "Arabisch-islamische Heere besiegen die Sasaniden. Persische Länder gehören zum Kalifat; iranische Kultur prägt später die islamische Gelehrsamkeit."
+      },
+      "zh": {
+        "name": "阿拉伯征服萨珊波斯",
+        "location": "伊朗与两河流域",
+        "consequence": "阿拉伯-伊斯兰军队击败萨珊帝国，波斯故地并入哈里发国家；伊朗文化后来深刻影响伊斯兰学术。"
+      }
+    },
+    "sources": [
+      {
+        "label": "Wikipedia — Muslim conquest of Persia",
+        "url": "https://en.wikipedia.org/wiki/Muslim_conquest_of_Persia"
+      },
+      {
+        "label": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/"
+      }
+    ],
+    "image": {
+      "url": "/images/events/muslim-conquest-persia.jpg",
+      "credit": "Wikimedia Commons — Qadisiyyah.jpg",
+      "license": "Public Domain / CC (Wikimedia Commons)",
+      "origin": "wikimedia",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Qadisiyyah.jpg"
     }
   },
   {

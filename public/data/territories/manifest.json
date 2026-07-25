@@ -5817,6 +5817,47 @@
       ]
     },
     {
+      "year": 633,
+      "sources": [
+        {
+          "label": "Wikipedia — historical period pages (see feature wiki URLs)",
+          "url": "https://en.wikipedia.org/wiki/History_of_Eurasia"
+        },
+        {
+          "label": "Wikipedia: Tang dynasty",
+          "url": "https://en.wikipedia.org/wiki/Tang_dynasty"
+        },
+        {
+          "label": "Wikipedia: Sasanian Empire",
+          "url": "https://en.wikipedia.org/wiki/Sasanian_Empire"
+        },
+        {
+          "label": "Wikipedia: Byzantine Empire",
+          "url": "https://en.wikipedia.org/wiki/Byzantine_Empire"
+        },
+        {
+          "label": "Wikipedia: Umayyad Caliphate",
+          "url": "https://en.wikipedia.org/wiki/Umayyad_Caliphate"
+        },
+        {
+          "label": "Wikipedia: Tibetan Empire",
+          "url": "https://en.wikipedia.org/wiki/Tibetan_Empire"
+        },
+        {
+          "label": "Wikipedia: Silla",
+          "url": "https://en.wikipedia.org/wiki/Silla"
+        },
+        {
+          "label": "Wikipedia: Yamato period",
+          "url": "https://en.wikipedia.org/wiki/Yamato_period"
+        },
+        {
+          "label": "Snapshot year 633 (variable grid + event years; approximate polygons)",
+          "url": "https://en.wikipedia.org/wiki/Historical_geography"
+        }
+      ]
+    },
+    {
       "year": 641,
       "sources": [
         {
@@ -5894,6 +5935,47 @@
         },
         {
           "label": "Snapshot year 650 (variable grid + event years; approximate polygons)",
+          "url": "https://en.wikipedia.org/wiki/Historical_geography"
+        }
+      ]
+    },
+    {
+      "year": 651,
+      "sources": [
+        {
+          "label": "Wikipedia — historical period pages (see feature wiki URLs)",
+          "url": "https://en.wikipedia.org/wiki/History_of_Eurasia"
+        },
+        {
+          "label": "Wikipedia: Tang dynasty",
+          "url": "https://en.wikipedia.org/wiki/Tang_dynasty"
+        },
+        {
+          "label": "Wikipedia: Sasanian Empire",
+          "url": "https://en.wikipedia.org/wiki/Sasanian_Empire"
+        },
+        {
+          "label": "Wikipedia: Byzantine Empire",
+          "url": "https://en.wikipedia.org/wiki/Byzantine_Empire"
+        },
+        {
+          "label": "Wikipedia: Umayyad Caliphate",
+          "url": "https://en.wikipedia.org/wiki/Umayyad_Caliphate"
+        },
+        {
+          "label": "Wikipedia: Tibetan Empire",
+          "url": "https://en.wikipedia.org/wiki/Tibetan_Empire"
+        },
+        {
+          "label": "Wikipedia: Silla",
+          "url": "https://en.wikipedia.org/wiki/Silla"
+        },
+        {
+          "label": "Wikipedia: Yamato period",
+          "url": "https://en.wikipedia.org/wiki/Yamato_period"
+        },
+        {
+          "label": "Snapshot year 651 (variable grid + event years; approximate polygons)",
           "url": "https://en.wikipedia.org/wiki/Historical_geography"
         }
       ]
@@ -6145,6 +6227,43 @@
         },
         {
           "label": "Snapshot year 850 (variable grid + event years; approximate polygons)",
+          "url": "https://en.wikipedia.org/wiki/Historical_geography"
+        }
+      ]
+    },
+    {
+      "year": 894,
+      "sources": [
+        {
+          "label": "Wikipedia — historical period pages (see feature wiki URLs)",
+          "url": "https://en.wikipedia.org/wiki/History_of_Eurasia"
+        },
+        {
+          "label": "Wikipedia: Tang dynasty",
+          "url": "https://en.wikipedia.org/wiki/Tang_dynasty"
+        },
+        {
+          "label": "Wikipedia: Byzantine Empire",
+          "url": "https://en.wikipedia.org/wiki/Byzantine_Empire"
+        },
+        {
+          "label": "Wikipedia: Abbasid Caliphate",
+          "url": "https://en.wikipedia.org/wiki/Abbasid_Caliphate"
+        },
+        {
+          "label": "Wikipedia: Kievan Rus%27",
+          "url": "https://en.wikipedia.org/wiki/Kievan_Rus%27"
+        },
+        {
+          "label": "Wikipedia: Silla",
+          "url": "https://en.wikipedia.org/wiki/Silla"
+        },
+        {
+          "label": "Wikipedia: History of Japan",
+          "url": "https://en.wikipedia.org/wiki/History_of_Japan"
+        },
+        {
+          "label": "Snapshot year 894 (variable grid + event years; approximate polygons)",
           "url": "https://en.wikipedia.org/wiki/Historical_geography"
         }
       ]

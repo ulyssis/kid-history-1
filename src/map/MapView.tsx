@@ -9,6 +9,24 @@ const EURASIA_BOUNDS: [[number, number], [number, number]] = [
   [155, 72],
 ]
 
+/** Expand the navigable frame to ~1.5× the core Eurasia extent. */
+function expandBounds(
+  bounds: [[number, number], [number, number]],
+  factor: number,
+): [[number, number], [number, number]] {
+  const [[w, s], [e, n]] = bounds
+  const cx = (w + e) / 2
+  const cy = (s + n) / 2
+  const halfW = ((e - w) / 2) * factor
+  const halfH = ((n - s) / 2) * factor
+  return [
+    [cx - halfW, Math.max(-85, cy - halfH)],
+    [cx + halfW, Math.min(85, cy + halfH)],
+  ]
+}
+
+const MAP_MAX_BOUNDS = expandBounds(EURASIA_BOUNDS, 1.5)
+
 const SATELLITE_STYLE: maplibregl.StyleSpecification = {
   version: 8,
   glyphs: 'https://demotiles.maplibre.org/font/{fontstack}/{range}.pbf',
@@ -144,6 +162,7 @@ export function MapView({
   const eventsRef = useRef(events)
   const hoveredPolityRef = useRef<string | null>(null)
   const selectedPolityIdsRef = useRef(selectedPolityIds)
+  const relationLineStartRef = useRef<[number, number] | null>(null)
   onSelectRef.current = onSelectEvent
   onHoverPolityRef.current = onHoverPolity
   onSelectPolityRef.current = onSelectPolity
@@ -151,6 +170,57 @@ export function MapView({
   territoriesRef.current = territories
   eventsRef.current = events
   selectedPolityIdsRef.current = selectedPolityIds
+
+  const setRelationLink = (
+    map: Map,
+    start: [number, number] | null,
+    end: [number, number] | null,
+  ) => {
+    const src = map.getSource('relations-link') as GeoJSONSource | undefined
+    if (!src) return
+    if (!start) {
+      src.setData(emptyCollection())
+      return
+    }
+    const features: Feature[] = [
+      {
+        type: 'Feature',
+        properties: { kind: 'start' },
+        geometry: { type: 'Point', coordinates: start },
+      },
+    ]
+    if (end) {
+      features.push({
+        type: 'Feature',
+        properties: { kind: 'link' },
+        geometry: { type: 'LineString', coordinates: [start, end] },
+      })
+    }
+    src.setData({ type: 'FeatureCollection', features })
+  }
+
+  const polityCentroid = (polityId: string): [number, number] | null => {
+    const fc = territoriesRef.current
+    if (!fc) return null
+    const f = fc.features.find((x) => x.properties?.polityId === polityId)
+    if (!f?.geometry) return null
+    const g = f.geometry as Geometry
+    let ring: Position[] | null = null
+    if (g.type === 'Polygon') ring = g.coordinates[0] ?? null
+    else if (g.type === 'MultiPolygon') ring = g.coordinates[0]?.[0] ?? null
+    if (!ring || ring.length === 0) return null
+    let sx = 0
+    let sy = 0
+    let n = 0
+    for (const p of ring) {
+      if (p.length < 2) continue
+      sx += p[0]
+      sy += p[1]
+      n++
+    }
+    if (n === 0) return null
+    return [sx / n, sy / n]
+  }
 
   useEffect(() => {
     if (!containerRef.current || mapRef.current) return
@@ -160,11 +230,9 @@ export function MapView({
       style: SATELLITE_STYLE,
       center: [55, 40],
       zoom: 2.4,
-      maxBounds: [
-        [EURASIA_BOUNDS[0][0] - 5, EURASIA_BOUNDS[0][1] - 5],
-        [EURASIA_BOUNDS[1][0] + 5, EURASIA_BOUNDS[1][1] + 5],
-      ],
-      minZoom: 2,
+      maxBounds: MAP_MAX_BOUNDS,
+      // ~1.5× the previous minimum viewable area (was minZoom 2)
+      minZoom: 1.4,
       maxZoom: 8,
       attributionControl: {},
     })
@@ -265,7 +333,37 @@ export function MapView({
         },
       })
 
+      map.addSource('relations-link', {
+        type: 'geojson',
+        data: emptyCollection(),
+      })
+      map.addLayer({
+        id: 'relations-link-line',
+        type: 'line',
+        source: 'relations-link',
+        paint: {
+          'line-color': '#2f5d48',
+          'line-width': 3,
+          'line-dasharray': [1.5, 1.2],
+          'line-opacity': 0.95,
+        },
+      })
+      map.addLayer({
+        id: 'relations-link-dot',
+        type: 'circle',
+        source: 'relations-link',
+        filter: ['==', ['geometry-type'], 'Point'],
+        paint: {
+          'circle-radius': 5,
+          'circle-color': '#2f5d48',
+          'circle-stroke-width': 2,
+          'circle-stroke-color': '#fff8ef',
+        },
+      })
+
       map.moveLayer('events-circle')
+      map.moveLayer('relations-link-line')
+      map.moveLayer('relations-link-dot')
 
       map.on('click', (e) => {
         if (relationsModeRef.current) {
@@ -275,7 +373,19 @@ export function MapView({
           const polityId = terrHits[0]?.properties?.polityId as
             | string
             | undefined
-          if (polityId) onSelectPolityRef.current?.(polityId)
+          if (!polityId) return
+          const prev = selectedPolityIdsRef.current
+          if (prev.length === 0) {
+            relationLineStartRef.current = [e.lngLat.lng, e.lngLat.lat]
+            setRelationLink(map, relationLineStartRef.current, null)
+          } else if (prev.length === 1) {
+            relationLineStartRef.current = null
+            setRelationLink(map, null, null)
+          } else {
+            relationLineStartRef.current = [e.lngLat.lng, e.lngLat.lat]
+            setRelationLink(map, relationLineStartRef.current, null)
+          }
+          onSelectPolityRef.current?.(polityId)
           return
         }
 
@@ -352,6 +462,10 @@ export function MapView({
             (terrHits[0]?.properties?.polityId as string | undefined) ?? null
           map.getCanvas().style.cursor = polityId ? 'pointer' : 'crosshair'
           setTerritoryHover(polityId)
+          const start = relationLineStartRef.current
+          if (start && selectedPolityIdsRef.current.length === 1) {
+            setRelationLink(map, start, [e.lngLat.lng, e.lngLat.lat])
+          }
           return
         }
 
@@ -436,6 +550,10 @@ export function MapView({
     const map = mapRef.current
     if (!map || !readyRef.current) return
     map.getCanvas().style.cursor = relationsMode ? 'crosshair' : ''
+    if (!relationsMode) {
+      relationLineStartRef.current = null
+      setRelationLink(map, null, null)
+    }
   }, [relationsMode])
 
   useEffect(() => {
@@ -447,6 +565,31 @@ export function MapView({
     })
     return () => window.cancelAnimationFrame(id)
   }, [layoutEpoch])
+
+  // Legend picks: start the rubber-band from the polity centroid.
+  useEffect(() => {
+    const map = mapRef.current
+    if (!map || !readyRef.current) return
+    if (!relationsMode) return
+    if (selectedPolityIds.length === 0) {
+      relationLineStartRef.current = null
+      setRelationLink(map, null, null)
+      return
+    }
+    if (selectedPolityIds.length === 1) {
+      if (!relationLineStartRef.current) {
+        const c = polityCentroid(selectedPolityIds[0])
+        if (c) {
+          relationLineStartRef.current = c
+          setRelationLink(map, c, null)
+        }
+      }
+      return
+    }
+    // Two selected: clear the temporary drag line.
+    relationLineStartRef.current = null
+    setRelationLink(map, null, null)
+  }, [selectedPolityIds, relationsMode, territories])
 
   return (
     <div

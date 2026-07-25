@@ -107,10 +107,16 @@ const SAME_FAMILY: Record<Lang, string> = {
   zh: '你选择的是同一文明系统下的两个区域。请改选两个不同的文明/国家。',
 }
 
-const FALLBACK: Record<Lang, string> = {
-  en: 'In this map’s stories they appear as distant contemporaries more often than as direct partners or enemies. Below are events that mention both sides when we can find them.',
-  de: 'In den Geschichten dieser Karte erscheinen sie oft eher als ferne Zeitgenossen als als direkte Partner oder Feinde. Darunter: Ereignisse, die beide Seiten nennen (soweit gefunden).',
-  zh: '在本地图收录的故事里，它们更多是同时代的远方社会，而非直接盟友或死敌。下方列出能同时关联双方的事件（如有）。',
+const FALLBACK_WITH_EVENTS: Record<Lang, string> = {
+  en: 'Here are map events that connect both sides. Tap one to learn more.',
+  de: 'Hier sind Karten-Ereignisse, die beide Seiten verbinden. Tippe eines an, um mehr zu erfahren.',
+  zh: '以下是同时关联双方的地图事件，点击可了解详情。',
+}
+
+const FALLBACK_EMPTY: Record<Lang, string> = {
+  en: 'No shared events are listed for this pair yet.',
+  de: 'Für dieses Paar sind noch keine gemeinsamen Ereignisse hinterlegt.',
+  zh: '这一对暂无收录的共同事件。',
 }
 
 export function buildRelation(
@@ -161,11 +167,14 @@ export function buildRelation(
 
   events.sort((a, b) => a.startYear - b.startYear || a.id.localeCompare(b.id))
 
-  const overall =
-    curated?.overall[lang] ??
-    curated?.overall.en ??
-    FALLBACK[lang] ??
-    FALLBACK.en
+  let overall: string
+  if (curated) {
+    overall = curated.overall[lang] ?? curated.overall.en
+  } else if (events.length > 0) {
+    overall = FALLBACK_WITH_EVENTS[lang] ?? FALLBACK_WITH_EVENTS.en
+  } else {
+    overall = FALLBACK_EMPTY[lang] ?? FALLBACK_EMPTY.en
+  }
 
   return {
     familyA,
