@@ -223,6 +223,16 @@ export const CURATED_RELATIONS: CuratedRelation[] = [
     eventIds: ['genghis', 'diaoyu-fortress', 'battle-of-yamen', 'yuan-invade-japan', 'ming-found', 'tumu-crisis'],
   },
   {
+    a: 'greece',
+    b: 'ottoman',
+    overall: {
+      en: 'Much of Greece lived under Ottoman rule for centuries. A Greek revolt won independence in the 1820s–1830, and the 1923 Treaty of Lausanne later fixed the modern frontier after a bitter war.',
+      de: 'Große Teile Griechenlands standen jahrhundertelang unter osmanischer Herrschaft. In den 1820er/1830er Jahren kam die Unabhängigkeit; 1923 regelte Lausanne die moderne Grenze nach einem harten Krieg.',
+      zh: '希腊大部曾长期处于奥斯曼统治下。19世纪20–30年代赢得独立；1923年洛桑条约在希土战争后确立现代边界。',
+    },
+    eventIds: ['constantinople-1453', 'ottoman-founding', 'ottoman-suleiman', 'battle-lepanto', 'greek-independence', 'treaty-lausanne'],
+  },
+  {
     a: 'mongol',
     b: 'russia',
     overall: {

@@ -1078,6 +1078,52 @@
     }
   },
   {
+    "id": "battle-salamis",
+    "startYear": -480,
+    "endYear": -480,
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        23.5,
+        37.95
+      ]
+    },
+    "i18n": {
+      "en": {
+        "name": "Battle of Salamis",
+        "location": "Saronic Gulf, Greece",
+        "consequence": "Greek ships defeat the Persian fleet near Athens — a turning point of the Persian Wars."
+      },
+      "de": {
+        "name": "Schlacht von Salamis",
+        "location": "Saronischer Golf, Griechenland",
+        "consequence": "Griechische Schiffe besiegen die persische Flotte nahe Athen — Wendepunkt der Perserkriege."
+      },
+      "zh": {
+        "name": "萨拉米斯海战",
+        "location": "希腊萨罗尼科斯湾",
+        "consequence": "希腊舰队在雅典附近击败波斯海军，成为希波战争转折点。"
+      }
+    },
+    "sources": [
+      {
+        "label": "Wikipedia — Battle of Salamis",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Salamis"
+      },
+      {
+        "label": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/"
+      }
+    ],
+    "image": {
+      "url": "/images/events/battle-salamis.jpg",
+      "credit": "Wikimedia Commons — Wrath of Xerxes at Battle of Salamis by Wilhelm von Kaulbach.jpg",
+      "license": "Public Domain / CC (Wikimedia Commons)",
+      "origin": "wikimedia",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Wrath_of_Xerxes_at_Battle_of_Salamis_by_Wilhelm_von_Kaulbach.jpg"
+    }
+  },
+  {
     "id": "buddha",
     "startYear": -480,
     "endYear": -400,
@@ -1165,6 +1211,72 @@
       "credit": "Original educational illustration created for Eurasia History Map",
       "license": "Original / no third-party photo IP",
       "origin": "generated"
+    }
+  },
+  {
+    "id": "peloponnesian-war",
+    "startYear": -431,
+    "endYear": -404,
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            20.5,
+            36.2
+          ],
+          [
+            24.5,
+            36.2
+          ],
+          [
+            24.5,
+            39.5
+          ],
+          [
+            20.5,
+            39.5
+          ],
+          [
+            20.5,
+            36.2
+          ]
+        ]
+      ]
+    },
+    "i18n": {
+      "en": {
+        "name": "Peloponnesian War",
+        "location": "Ancient Greece",
+        "consequence": "Athens and Sparta lead long wars between Greek cities. Greece is weakened before Macedon’s rise."
+      },
+      "de": {
+        "name": "Peloponnesischer Krieg",
+        "location": "Antikes Griechenland",
+        "consequence": "Athen und Sparta führen lange Kriege. Griechenland schwächt sich vor dem Aufstieg Makedoniens."
+      },
+      "zh": {
+        "name": "伯罗奔尼撒战争",
+        "location": "古希腊",
+        "consequence": "雅典与斯巴达率领城邦长期交战，希腊在马其顿崛起前元气大伤。"
+      }
+    },
+    "sources": [
+      {
+        "label": "Wikipedia — Peloponnesian War",
+        "url": "https://en.wikipedia.org/wiki/Peloponnesian_War"
+      },
+      {
+        "label": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/"
+      }
+    ],
+    "image": {
+      "url": "/images/events/peloponnesian-war.jpg",
+      "credit": "Wikimedia Commons — Before Peloponnesian War.png",
+      "license": "Public Domain / CC (Wikimedia Commons)",
+      "origin": "wikimedia",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Before_Peloponnesian_War.png"
     }
   },
   {
@@ -5694,6 +5806,56 @@
     }
   },
   {
+    "id": "ottoman-founding",
+    "startYear": 1299,
+    "endYear": 1299,
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        29.98,
+        40.15
+      ]
+    },
+    "i18n": {
+      "en": {
+        "name": "Ottoman beylik begins (traditional date)",
+        "location": "Bithynia, northwest Anatolia",
+        "consequence": "Osman’s small frontier state grows into the Ottoman Empire that later rules much of SE Europe and the Middle East."
+      },
+      "de": {
+        "name": "Beginn des Osmanischen Beyliks (Traditionsdatum)",
+        "location": "Bithynien, Nordwestanatolien",
+        "consequence": "Osmans kleines Grenzfürstentum wächst zum Osmanischen Reich heran."
+      },
+      "zh": {
+        "name": "奥斯曼贝伊国兴起（传统纪年）",
+        "location": "安纳托利亚西北（比提尼亚）",
+        "consequence": "奥斯曼的边疆小国逐渐壮大，日后成为统治东南欧与中东的奥斯曼帝国。"
+      }
+    },
+    "sources": [
+      {
+        "label": "Wikipedia — Osman I",
+        "url": "https://en.wikipedia.org/wiki/Osman_I"
+      },
+      {
+        "label": "Wikipedia — Ottoman Empire",
+        "url": "https://en.wikipedia.org/wiki/Ottoman_Empire"
+      },
+      {
+        "label": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/"
+      }
+    ],
+    "image": {
+      "url": "/images/events/ottoman-founding.jpg",
+      "credit": "Wikimedia Commons — I. Osman Han.jpg",
+      "license": "Public Domain / CC (Wikimedia Commons)",
+      "origin": "wikimedia",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:I._Osman_Han.jpg"
+    }
+  },
+  {
     "id": "battle-morgarten",
     "startYear": 1315,
     "endYear": 1315,
@@ -6553,6 +6715,52 @@
       "credit": "Original educational illustration created for Eurasia History Map",
       "license": "Original / no third-party photo IP",
       "origin": "generated"
+    }
+  },
+  {
+    "id": "battle-lepanto",
+    "startYear": 1571,
+    "endYear": 1571,
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        21.3,
+        38.2
+      ]
+    },
+    "i18n": {
+      "en": {
+        "name": "Battle of Lepanto",
+        "location": "Gulf of Patras / Ionian Sea",
+        "consequence": "A Christian Holy League fleet defeats the Ottomans at sea — a famous check on Ottoman naval power in the Mediterranean."
+      },
+      "de": {
+        "name": "Seeschlacht von Lepanto",
+        "location": "Golf von Patras / Ionisches Meer",
+        "consequence": "Eine christliche Heilige Liga besiegt die Osmanen zur See — berühmter Rückschlag osmanischer Seemacht."
+      },
+      "zh": {
+        "name": "勒班陀海战",
+        "location": "帕特雷湾/伊奥尼亚海",
+        "consequence": "神圣同盟舰队击败奥斯曼海军，成为地中海海权格局的重要转折。"
+      }
+    },
+    "sources": [
+      {
+        "label": "Wikipedia — Battle of Lepanto",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Lepanto"
+      },
+      {
+        "label": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/"
+      }
+    ],
+    "image": {
+      "url": "/images/events/battle-lepanto.jpg",
+      "credit": "Wikimedia Commons — Battle of Lepanto 1571.jpg",
+      "license": "Public Domain / CC (Wikimedia Commons)",
+      "origin": "wikimedia",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Battle_of_Lepanto_1571.jpg"
     }
   },
   {
@@ -7573,6 +7781,72 @@
     }
   },
   {
+    "id": "greek-independence",
+    "startYear": 1821,
+    "endYear": 1830,
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            20.5,
+            36.0
+          ],
+          [
+            24.5,
+            36.0
+          ],
+          [
+            24.5,
+            40.0
+          ],
+          [
+            20.5,
+            40.0
+          ],
+          [
+            20.5,
+            36.0
+          ]
+        ]
+      ]
+    },
+    "i18n": {
+      "en": {
+        "name": "Greek War of Independence",
+        "location": "Greece & Aegean",
+        "consequence": "Greeks revolt against Ottoman rule. By 1830 an independent Greek state is recognized — ending centuries of Ottoman control over much of Greece."
+      },
+      "de": {
+        "name": "Griechischer Unabhängigkeitskrieg",
+        "location": "Griechenland & Ägäis",
+        "consequence": "Griechen erheben sich gegen die Osmanen. 1830 wird ein unabhängiger griechischer Staat anerkannt."
+      },
+      "zh": {
+        "name": "希腊独立战争",
+        "location": "希腊与爱琴海",
+        "consequence": "希腊人反抗奥斯曼统治，约1830年独立获承认，结束奥斯曼对希腊大部地区的长期统治。"
+      }
+    },
+    "sources": [
+      {
+        "label": "Wikipedia — Greek War of Independence",
+        "url": "https://en.wikipedia.org/wiki/Greek_War_of_Independence"
+      },
+      {
+        "label": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/"
+      }
+    ],
+    "image": {
+      "url": "/images/events/greek-independence.jpg",
+      "credit": "Wikimedia Commons — Greek War of Independence.jpg",
+      "license": "Public Domain / CC (Wikimedia Commons)",
+      "origin": "wikimedia",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Greek_War_of_Independence.jpg"
+    }
+  },
+  {
     "id": "opium-war",
     "startYear": 1839,
     "endYear": 1842,
@@ -8350,6 +8624,52 @@
       "credit": "Original educational illustration created for Eurasia History Map",
       "license": "Original / no third-party photo IP",
       "origin": "generated"
+    }
+  },
+  {
+    "id": "treaty-lausanne",
+    "startYear": 1923,
+    "endYear": 1923,
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        6.63,
+        46.52
+      ]
+    },
+    "i18n": {
+      "en": {
+        "name": "Treaty of Lausanne",
+        "location": "Lausanne, Switzerland",
+        "consequence": "Greece and Turkey (and other powers) settle borders after the Greco-Turkish War. It becomes the main peace framework of the modern Greek–Turkish frontier."
+      },
+      "de": {
+        "name": "Vertrag von Lausanne",
+        "location": "Lausanne, Schweiz",
+        "consequence": "Griechenland und die Türkei (mit weiteren Mächten) regeln Grenzen nach dem Griechisch-Türkischen Krieg — Grundlage der modernen Grenze."
+      },
+      "zh": {
+        "name": "洛桑条约",
+        "location": "瑞士洛桑",
+        "consequence": "希土战争后，希腊与土耳其等国划定边界，成为现代希土国界的主要和平框架。"
+      }
+    },
+    "sources": [
+      {
+        "label": "Wikipedia — Treaty of Lausanne",
+        "url": "https://en.wikipedia.org/wiki/Treaty_of_Lausanne"
+      },
+      {
+        "label": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/"
+      }
+    ],
+    "image": {
+      "url": "/images/events/treaty-lausanne.jpg",
+      "credit": "Wikimedia Commons — Signing of the Treaty of Lausanne (1923).jpg",
+      "license": "Public Domain / CC (Wikimedia Commons)",
+      "origin": "wikimedia",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Signing_of_the_Treaty_of_Lausanne_%281923%29.jpg"
     }
   },
   {

@@ -1959,6 +1959,88 @@
       ]
     },
     {
+      "year": -431,
+      "sources": [
+        {
+          "label": "Wikipedia — historical period pages (see feature wiki URLs)",
+          "url": "https://en.wikipedia.org/wiki/History_of_Eurasia"
+        },
+        {
+          "label": "Wikipedia: Late Period of ancient Egypt",
+          "url": "https://en.wikipedia.org/wiki/Late_Period_of_ancient_Egypt"
+        },
+        {
+          "label": "Wikipedia: Phoenicia",
+          "url": "https://en.wikipedia.org/wiki/Phoenicia"
+        },
+        {
+          "label": "Wikipedia: Warring States period",
+          "url": "https://en.wikipedia.org/wiki/Warring_States_period"
+        },
+        {
+          "label": "Wikipedia: Classical Greece",
+          "url": "https://en.wikipedia.org/wiki/Classical_Greece"
+        },
+        {
+          "label": "Wikipedia: Achaemenid Empire",
+          "url": "https://en.wikipedia.org/wiki/Achaemenid_Empire"
+        },
+        {
+          "label": "Wikipedia: Roman Republic",
+          "url": "https://en.wikipedia.org/wiki/Roman_Republic"
+        },
+        {
+          "label": "Wikipedia: Ancient Carthage",
+          "url": "https://en.wikipedia.org/wiki/Ancient_Carthage"
+        },
+        {
+          "label": "Snapshot year -431 (variable grid + event years; approximate polygons)",
+          "url": "https://en.wikipedia.org/wiki/Historical_geography"
+        }
+      ]
+    },
+    {
+      "year": -404,
+      "sources": [
+        {
+          "label": "Wikipedia — historical period pages (see feature wiki URLs)",
+          "url": "https://en.wikipedia.org/wiki/History_of_Eurasia"
+        },
+        {
+          "label": "Wikipedia: Late Period of ancient Egypt",
+          "url": "https://en.wikipedia.org/wiki/Late_Period_of_ancient_Egypt"
+        },
+        {
+          "label": "Wikipedia: Phoenicia",
+          "url": "https://en.wikipedia.org/wiki/Phoenicia"
+        },
+        {
+          "label": "Wikipedia: Warring States period",
+          "url": "https://en.wikipedia.org/wiki/Warring_States_period"
+        },
+        {
+          "label": "Wikipedia: Classical Greece",
+          "url": "https://en.wikipedia.org/wiki/Classical_Greece"
+        },
+        {
+          "label": "Wikipedia: Achaemenid Empire",
+          "url": "https://en.wikipedia.org/wiki/Achaemenid_Empire"
+        },
+        {
+          "label": "Wikipedia: Roman Republic",
+          "url": "https://en.wikipedia.org/wiki/Roman_Republic"
+        },
+        {
+          "label": "Wikipedia: Ancient Carthage",
+          "url": "https://en.wikipedia.org/wiki/Ancient_Carthage"
+        },
+        {
+          "label": "Snapshot year -404 (variable grid + event years; approximate polygons)",
+          "url": "https://en.wikipedia.org/wiki/Historical_geography"
+        }
+      ]
+    },
+    {
       "year": -403,
       "sources": [
         {
@@ -7251,6 +7333,51 @@
       ]
     },
     {
+      "year": 1299,
+      "sources": [
+        {
+          "label": "Wikipedia — historical period pages (see feature wiki URLs)",
+          "url": "https://en.wikipedia.org/wiki/History_of_Eurasia"
+        },
+        {
+          "label": "Wikipedia: Delhi Sultanate",
+          "url": "https://en.wikipedia.org/wiki/Delhi_Sultanate"
+        },
+        {
+          "label": "Wikipedia: Yuan dynasty",
+          "url": "https://en.wikipedia.org/wiki/Yuan_dynasty"
+        },
+        {
+          "label": "Wikipedia: Byzantine Empire",
+          "url": "https://en.wikipedia.org/wiki/Byzantine_Empire"
+        },
+        {
+          "label": "Wikipedia: Mamluk Sultanate",
+          "url": "https://en.wikipedia.org/wiki/Mamluk_Sultanate"
+        },
+        {
+          "label": "Wikipedia: Holy Roman Empire",
+          "url": "https://en.wikipedia.org/wiki/Holy_Roman_Empire"
+        },
+        {
+          "label": "Wikipedia: Kingdom of France",
+          "url": "https://en.wikipedia.org/wiki/Kingdom_of_France"
+        },
+        {
+          "label": "Wikipedia: Golden Horde",
+          "url": "https://en.wikipedia.org/wiki/Golden_Horde"
+        },
+        {
+          "label": "Wikipedia: Ilkhanate",
+          "url": "https://en.wikipedia.org/wiki/Ilkhanate"
+        },
+        {
+          "label": "Snapshot year 1299 (variable grid + event years; approximate polygons)",
+          "url": "https://en.wikipedia.org/wiki/Historical_geography"
+        }
+      ]
+    },
+    {
       "year": 1300,
       "sources": [
         {
@@ -8461,6 +8588,51 @@
         },
         {
           "label": "Snapshot year 1566 (variable grid + event years; approximate polygons)",
+          "url": "https://en.wikipedia.org/wiki/Historical_geography"
+        }
+      ]
+    },
+    {
+      "year": 1571,
+      "sources": [
+        {
+          "label": "Wikipedia — historical period pages (see feature wiki URLs)",
+          "url": "https://en.wikipedia.org/wiki/History_of_Eurasia"
+        },
+        {
+          "label": "Wikipedia: Mughal Empire",
+          "url": "https://en.wikipedia.org/wiki/Mughal_Empire"
+        },
+        {
+          "label": "Wikipedia: Ming dynasty",
+          "url": "https://en.wikipedia.org/wiki/Ming_dynasty"
+        },
+        {
+          "label": "Wikipedia: Safavid Iran",
+          "url": "https://en.wikipedia.org/wiki/Safavid_Iran"
+        },
+        {
+          "label": "Wikipedia: Holy Roman Empire",
+          "url": "https://en.wikipedia.org/wiki/Holy_Roman_Empire"
+        },
+        {
+          "label": "Wikipedia: Kingdom of France",
+          "url": "https://en.wikipedia.org/wiki/Kingdom_of_France"
+        },
+        {
+          "label": "Wikipedia: Spain",
+          "url": "https://en.wikipedia.org/wiki/Spain"
+        },
+        {
+          "label": "Wikipedia: Polish%E2%80%93Lithuanian Commonwealth",
+          "url": "https://en.wikipedia.org/wiki/Polish%E2%80%93Lithuanian_Commonwealth"
+        },
+        {
+          "label": "Wikipedia: Habsburg monarchy",
+          "url": "https://en.wikipedia.org/wiki/Habsburg_monarchy"
+        },
+        {
+          "label": "Snapshot year 1571 (variable grid + event years; approximate polygons)",
           "url": "https://en.wikipedia.org/wiki/Historical_geography"
         }
       ]
@@ -9996,6 +10168,96 @@
       ]
     },
     {
+      "year": 1821,
+      "sources": [
+        {
+          "label": "Wikipedia — historical period pages (see feature wiki URLs)",
+          "url": "https://en.wikipedia.org/wiki/History_of_Eurasia"
+        },
+        {
+          "label": "Wikipedia: Mughal Empire",
+          "url": "https://en.wikipedia.org/wiki/Mughal_Empire"
+        },
+        {
+          "label": "Wikipedia: British Raj",
+          "url": "https://en.wikipedia.org/wiki/British_Raj"
+        },
+        {
+          "label": "Wikipedia: Qing dynasty",
+          "url": "https://en.wikipedia.org/wiki/Qing_dynasty"
+        },
+        {
+          "label": "Wikipedia: Qajar Iran",
+          "url": "https://en.wikipedia.org/wiki/Qajar_Iran"
+        },
+        {
+          "label": "Wikipedia: United Kingdom",
+          "url": "https://en.wikipedia.org/wiki/United_Kingdom"
+        },
+        {
+          "label": "Wikipedia: Habsburg monarchy",
+          "url": "https://en.wikipedia.org/wiki/Habsburg_monarchy"
+        },
+        {
+          "label": "Wikipedia: Kingdom of Prussia",
+          "url": "https://en.wikipedia.org/wiki/Kingdom_of_Prussia"
+        },
+        {
+          "label": "Wikipedia: Europe",
+          "url": "https://en.wikipedia.org/wiki/Europe"
+        },
+        {
+          "label": "Snapshot year 1821 (variable grid + event years; approximate polygons)",
+          "url": "https://en.wikipedia.org/wiki/Historical_geography"
+        }
+      ]
+    },
+    {
+      "year": 1830,
+      "sources": [
+        {
+          "label": "Wikipedia — historical period pages (see feature wiki URLs)",
+          "url": "https://en.wikipedia.org/wiki/History_of_Eurasia"
+        },
+        {
+          "label": "Wikipedia: Mughal Empire",
+          "url": "https://en.wikipedia.org/wiki/Mughal_Empire"
+        },
+        {
+          "label": "Wikipedia: British Raj",
+          "url": "https://en.wikipedia.org/wiki/British_Raj"
+        },
+        {
+          "label": "Wikipedia: Qing dynasty",
+          "url": "https://en.wikipedia.org/wiki/Qing_dynasty"
+        },
+        {
+          "label": "Wikipedia: Qajar Iran",
+          "url": "https://en.wikipedia.org/wiki/Qajar_Iran"
+        },
+        {
+          "label": "Wikipedia: United Kingdom",
+          "url": "https://en.wikipedia.org/wiki/United_Kingdom"
+        },
+        {
+          "label": "Wikipedia: Habsburg monarchy",
+          "url": "https://en.wikipedia.org/wiki/Habsburg_monarchy"
+        },
+        {
+          "label": "Wikipedia: Kingdom of Prussia",
+          "url": "https://en.wikipedia.org/wiki/Kingdom_of_Prussia"
+        },
+        {
+          "label": "Wikipedia: Europe",
+          "url": "https://en.wikipedia.org/wiki/Europe"
+        },
+        {
+          "label": "Snapshot year 1830 (variable grid + event years; approximate polygons)",
+          "url": "https://en.wikipedia.org/wiki/Historical_geography"
+        }
+      ]
+    },
+    {
       "year": 1832,
       "sources": [
         {
@@ -11157,6 +11419,51 @@
         },
         {
           "label": "Snapshot year 1919 (variable grid + event years; approximate polygons)",
+          "url": "https://en.wikipedia.org/wiki/Historical_geography"
+        }
+      ]
+    },
+    {
+      "year": 1923,
+      "sources": [
+        {
+          "label": "Wikipedia — historical period pages (see feature wiki URLs)",
+          "url": "https://en.wikipedia.org/wiki/History_of_Eurasia"
+        },
+        {
+          "label": "Wikipedia: British Raj",
+          "url": "https://en.wikipedia.org/wiki/British_Raj"
+        },
+        {
+          "label": "Wikipedia: China",
+          "url": "https://en.wikipedia.org/wiki/China"
+        },
+        {
+          "label": "Wikipedia: Qajar Iran",
+          "url": "https://en.wikipedia.org/wiki/Qajar_Iran"
+        },
+        {
+          "label": "Wikipedia: United Kingdom",
+          "url": "https://en.wikipedia.org/wiki/United_Kingdom"
+        },
+        {
+          "label": "Wikipedia: Europe",
+          "url": "https://en.wikipedia.org/wiki/Europe"
+        },
+        {
+          "label": "Wikipedia: Soviet Union",
+          "url": "https://en.wikipedia.org/wiki/Soviet_Union"
+        },
+        {
+          "label": "Wikipedia: Turkey",
+          "url": "https://en.wikipedia.org/wiki/Turkey"
+        },
+        {
+          "label": "Wikipedia: Japan",
+          "url": "https://en.wikipedia.org/wiki/Japan"
+        },
+        {
+          "label": "Snapshot year 1923 (variable grid + event years; approximate polygons)",
           "url": "https://en.wikipedia.org/wiki/Historical_geography"
         }
       ]
