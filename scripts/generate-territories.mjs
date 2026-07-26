@@ -1,6 +1,6 @@
 /**
  * Generate territory snapshots on a variable grid plus every event year:
- *   4600–800 BCE: every 100 years
+ *   3700–800 BCE: every 100 years
  *   800 BCE–1492 CE: every 50 years
  *   1492–2026 CE: every 20 years
  * Polities are approximate educational polygons timed from Wikipedia overviews.
@@ -283,8 +283,8 @@ function centuryYears() {
     if (y === 0) years.push(1)
     else years.push(y)
   }
-  // 4600 BCE → 800 BCE: every 100 years
-  for (let y = -4600; y <= -800; y += 100) push(y)
+  // 3700 BCE → 800 BCE: every 100 years
+  for (let y = -3700; y <= -800; y += 100) push(y)
   // 800 BCE → 1492 CE: every 50 years (skip astronomical year 0 → use 1)
   for (let y = -800 + 50; y < 1492; y += 50) push(y)
   push(1492)
@@ -345,11 +345,11 @@ for (const name of readdirSync(terrDir)) {
 const years = allTargetYears()
 const manifest = {
   intervalYears: {
-    from4600to800BCE: 100,
+    from3700to800BCE: 100,
     from800BCEto1492: 50,
     from1492to2026: 20,
   },
-  note: 'Snapshots every 100 years from 4600–800 BCE, every 50 years from 800 BCE–1492 CE, every 20 years from 1492–2026 CE, plus years of curated events. Polygons are approximate educational outlines timed from Wikipedia period pages.',
+  note: 'Snapshots every 100 years from 3700–800 BCE, every 50 years from 800 BCE–1492 CE, every 20 years from 1492–2026 CE, plus years of curated events. Polygons are approximate educational outlines timed from Wikipedia period pages.',
   snapshots: years.map((year) => {
     const features = politiesForYear(year)
     const fc = {

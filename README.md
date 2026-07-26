@@ -1,12 +1,12 @@
 # Eurasia History Map
 
-Interactive map for exploring approximate political territories and major historical events across Eurasia and North Africa from **4600 BCE to the present**. Built for curious learners (including kids) with English, German, and Chinese UI.
+Interactive map for exploring approximate political territories and major historical events across Eurasia and North Africa from **3700 BCE to the present**. Built for curious learners (including kids) with English, German, and Chinese UI.
 
 ## Features
 
 - MapLibre map with **satellite** basemap and approximate polity polygons (territory layer always on)
-- Timeline scrubber from 4600 BCE to the current year (1-year steps)
-- Territory snapshots: **100 years** (4600–800 BCE), **50 years** (800 BCE–1492 CE), **20 years** (1492–2026 CE), plus event years
+- Timeline scrubber from 3700 BCE to the current year (1-year steps)
+- Territory snapshots: **100 years** (3700–800 BCE), **50 years** (800 BCE–1492 CE), **20 years** (1492–2026 CE), plus event years
 - **Previous / next** buttons jump to the nearest event or territory-change year
 - Legend of polities visible in the selected year
 - Clickable events (points and areas) with multilingual popups and source links

@@ -1,128 +1,11 @@
 {
   "intervalYears": {
-    "from4600to800BCE": 100,
+    "from3700to800BCE": 100,
     "from800BCEto1492": 50,
     "from1492to2026": 20
   },
-  "note": "Snapshots every 100 years from 4600–800 BCE, every 50 years from 800 BCE–1492 CE, every 20 years from 1492–2026 CE, plus years of curated events. Polygons are approximate educational outlines timed from Wikipedia period pages.",
+  "note": "Snapshots every 100 years from 3700–800 BCE, every 50 years from 800 BCE–1492 CE, every 20 years from 1492–2026 CE, plus years of curated events. Polygons are approximate educational outlines timed from Wikipedia period pages.",
   "snapshots": [
-    {
-      "year": -4600,
-      "sources": [
-        {
-          "label": "Wikipedia — historical period pages (see feature wiki URLs)",
-          "url": "https://en.wikipedia.org/wiki/History_of_Eurasia"
-        },
-        {
-          "label": "Snapshot year -4600 (variable grid + event years; approximate polygons)",
-          "url": "https://en.wikipedia.org/wiki/Historical_geography"
-        }
-      ]
-    },
-    {
-      "year": -4500,
-      "sources": [
-        {
-          "label": "Wikipedia — historical period pages (see feature wiki URLs)",
-          "url": "https://en.wikipedia.org/wiki/History_of_Eurasia"
-        },
-        {
-          "label": "Snapshot year -4500 (variable grid + event years; approximate polygons)",
-          "url": "https://en.wikipedia.org/wiki/Historical_geography"
-        }
-      ]
-    },
-    {
-      "year": -4400,
-      "sources": [
-        {
-          "label": "Wikipedia — historical period pages (see feature wiki URLs)",
-          "url": "https://en.wikipedia.org/wiki/History_of_Eurasia"
-        },
-        {
-          "label": "Snapshot year -4400 (variable grid + event years; approximate polygons)",
-          "url": "https://en.wikipedia.org/wiki/Historical_geography"
-        }
-      ]
-    },
-    {
-      "year": -4300,
-      "sources": [
-        {
-          "label": "Wikipedia — historical period pages (see feature wiki URLs)",
-          "url": "https://en.wikipedia.org/wiki/History_of_Eurasia"
-        },
-        {
-          "label": "Snapshot year -4300 (variable grid + event years; approximate polygons)",
-          "url": "https://en.wikipedia.org/wiki/Historical_geography"
-        }
-      ]
-    },
-    {
-      "year": -4200,
-      "sources": [
-        {
-          "label": "Wikipedia — historical period pages (see feature wiki URLs)",
-          "url": "https://en.wikipedia.org/wiki/History_of_Eurasia"
-        },
-        {
-          "label": "Snapshot year -4200 (variable grid + event years; approximate polygons)",
-          "url": "https://en.wikipedia.org/wiki/Historical_geography"
-        }
-      ]
-    },
-    {
-      "year": -4100,
-      "sources": [
-        {
-          "label": "Wikipedia — historical period pages (see feature wiki URLs)",
-          "url": "https://en.wikipedia.org/wiki/History_of_Eurasia"
-        },
-        {
-          "label": "Snapshot year -4100 (variable grid + event years; approximate polygons)",
-          "url": "https://en.wikipedia.org/wiki/Historical_geography"
-        }
-      ]
-    },
-    {
-      "year": -4000,
-      "sources": [
-        {
-          "label": "Wikipedia — historical period pages (see feature wiki URLs)",
-          "url": "https://en.wikipedia.org/wiki/History_of_Eurasia"
-        },
-        {
-          "label": "Snapshot year -4000 (variable grid + event years; approximate polygons)",
-          "url": "https://en.wikipedia.org/wiki/Historical_geography"
-        }
-      ]
-    },
-    {
-      "year": -3900,
-      "sources": [
-        {
-          "label": "Wikipedia — historical period pages (see feature wiki URLs)",
-          "url": "https://en.wikipedia.org/wiki/History_of_Eurasia"
-        },
-        {
-          "label": "Snapshot year -3900 (variable grid + event years; approximate polygons)",
-          "url": "https://en.wikipedia.org/wiki/Historical_geography"
-        }
-      ]
-    },
-    {
-      "year": -3800,
-      "sources": [
-        {
-          "label": "Wikipedia — historical period pages (see feature wiki URLs)",
-          "url": "https://en.wikipedia.org/wiki/History_of_Eurasia"
-        },
-        {
-          "label": "Snapshot year -3800 (variable grid + event years; approximate polygons)",
-          "url": "https://en.wikipedia.org/wiki/Historical_geography"
-        }
-      ]
-    },
     {
       "year": -3700,
       "sources": [
@@ -10281,6 +10164,51 @@
         },
         {
           "label": "Snapshot year 1799 (variable grid + event years; approximate polygons)",
+          "url": "https://en.wikipedia.org/wiki/Historical_geography"
+        }
+      ]
+    },
+    {
+      "year": 1801,
+      "sources": [
+        {
+          "label": "Wikipedia — historical period pages (see feature wiki URLs)",
+          "url": "https://en.wikipedia.org/wiki/History_of_Eurasia"
+        },
+        {
+          "label": "Wikipedia: Mughal Empire",
+          "url": "https://en.wikipedia.org/wiki/Mughal_Empire"
+        },
+        {
+          "label": "Wikipedia: British Raj",
+          "url": "https://en.wikipedia.org/wiki/British_Raj"
+        },
+        {
+          "label": "Wikipedia: Qing dynasty",
+          "url": "https://en.wikipedia.org/wiki/Qing_dynasty"
+        },
+        {
+          "label": "Wikipedia: Qajar Iran",
+          "url": "https://en.wikipedia.org/wiki/Qajar_Iran"
+        },
+        {
+          "label": "Wikipedia: Holy Roman Empire",
+          "url": "https://en.wikipedia.org/wiki/Holy_Roman_Empire"
+        },
+        {
+          "label": "Wikipedia: First French Empire",
+          "url": "https://en.wikipedia.org/wiki/First_French_Empire"
+        },
+        {
+          "label": "Wikipedia: Spain",
+          "url": "https://en.wikipedia.org/wiki/Spain"
+        },
+        {
+          "label": "Wikipedia: United Kingdom",
+          "url": "https://en.wikipedia.org/wiki/United_Kingdom"
+        },
+        {
+          "label": "Snapshot year 1801 (variable grid + event years; approximate polygons)",
           "url": "https://en.wikipedia.org/wiki/Historical_geography"
         }
       ]

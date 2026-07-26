@@ -45,6 +45,76 @@
     }
   },
   {
+    "id": "liangzhu-culture",
+    "startYear": -3300,
+    "endYear": -2300,
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            119.2,
+            30
+          ],
+          [
+            121.2,
+            30
+          ],
+          [
+            121.2,
+            31.4
+          ],
+          [
+            119.2,
+            31.4
+          ],
+          [
+            119.2,
+            30
+          ]
+        ]
+      ]
+    },
+    "i18n": {
+      "en": {
+        "name": "Liangzhu culture",
+        "location": "Taihu / Hangzhou Bay",
+        "consequence": "A late Neolithic jade civilization around Taihu — famous for cong tubes and ritual sites."
+      },
+      "de": {
+        "name": "Liangzhu-Kultur",
+        "location": "Taihu / Hangzhou-Bucht",
+        "consequence": "Spätneolithische Jade-Zivilisation am Taihu — bekannt für Cong-Röhren und Ritualstätten."
+      },
+      "zh": {
+        "name": "良渚文化",
+        "location": "太湖／杭州湾一带",
+        "consequence": "环太湖晚期新石器玉器文明，以玉琮与大型祭坛遗址闻名。"
+      }
+    },
+    "sources": [
+      {
+        "label": "Wikipedia — Liangzhu culture",
+        "url": "https://en.wikipedia.org/wiki/Liangzhu_culture"
+      },
+      {
+        "label": "百度百科 — 良渚文化",
+        "url": "https://baike.baidu.com/item/%E8%89%AF%E6%B8%9A%E6%96%87%E5%8C%96"
+      },
+      {
+        "label": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/"
+      }
+    ],
+    "image": {
+      "url": "/images/events/liangzhu-culture.jpg",
+      "credit": "Wikimedia Commons — Liangzhu Culture Jade Cong 07.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Liangzhu_Culture_Jade_Cong_07.jpg",
+      "license": "Public Domain / CC (Wikimedia Commons)",
+      "origin": "wikimedia"
+    }
+  },
+  {
     "id": "cuneiform",
     "startYear": -3200,
     "endYear": -3000,
@@ -132,6 +202,76 @@
       "credit": "Original educational illustration created for Eurasia History Map",
       "license": "Original / no third-party photo IP",
       "origin": "generated"
+    }
+  },
+  {
+    "id": "longshan-culture",
+    "startYear": -3000,
+    "endYear": -1900,
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            110,
+            33
+          ],
+          [
+            119,
+            33
+          ],
+          [
+            119,
+            38
+          ],
+          [
+            110,
+            38
+          ],
+          [
+            110,
+            33
+          ]
+        ]
+      ]
+    },
+    "i18n": {
+      "en": {
+        "name": "Longshan culture",
+        "location": "Middle–lower Yellow River",
+        "consequence": "Black pottery and town walls mark a late Neolithic society on the Yellow River plain."
+      },
+      "de": {
+        "name": "Longshan-Kultur",
+        "location": "Mittlerer–unterer Gelber Fluss",
+        "consequence": "Schwarze Keramik und Stadtmauern kennzeichnen eine spätneolithische Gesellschaft an der Gelben Fluss-Ebene."
+      },
+      "zh": {
+        "name": "龙山文化",
+        "location": "黄河中下游",
+        "consequence": "以黑陶与城墙聚落为代表的黄河流域晚期新石器文化。"
+      }
+    },
+    "sources": [
+      {
+        "label": "Wikipedia — Longshan culture",
+        "url": "https://en.wikipedia.org/wiki/Longshan_culture"
+      },
+      {
+        "label": "百度百科 — 龙山文化",
+        "url": "https://baike.baidu.com/item/%E9%BE%99%E5%B1%B1%E6%96%87%E5%8C%96"
+      },
+      {
+        "label": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/"
+      }
+    ],
+    "image": {
+      "url": "/images/events/longshan-culture.jpg",
+      "credit": "Wikimedia Commons — Longshan Black Pottery Vase. Musée Guimet MA 5978.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Longshan_Black_Pottery_Vase._Mus%C3%A9e_Guimet_MA_5978.jpg",
+      "license": "Public Domain / CC (Wikimedia Commons)",
+      "origin": "wikimedia"
     }
   },
   {
@@ -380,6 +520,76 @@
     }
   },
   {
+    "id": "sanxingdui-culture",
+    "startYear": -1600,
+    "endYear": -1000,
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            103.5,
+            30.4
+          ],
+          [
+            105,
+            30.4
+          ],
+          [
+            105,
+            31.6
+          ],
+          [
+            103.5,
+            31.6
+          ],
+          [
+            103.5,
+            30.4
+          ]
+        ]
+      ]
+    },
+    "i18n": {
+      "en": {
+        "name": "Sanxingdui culture",
+        "location": "Guanghan, Sichuan",
+        "consequence": "A Bronze Age center in the Chengdu Plain — huge bronze masks and trees, distinct from Shang art."
+      },
+      "de": {
+        "name": "Sanxingdui-Kultur",
+        "location": "Guanghan, Sichuan",
+        "consequence": "Ein bronzezeitliches Zentrum in der Chengdu-Ebene — riesige Bronzemasken und -bäume, anders als die Shang-Kunst."
+      },
+      "zh": {
+        "name": "三星堆文明",
+        "location": "四川广汉",
+        "consequence": "成都平原青铜时代中心，巨型青铜面具与神树风格独特，与商文明有联系亦多未解之谜。"
+      }
+    },
+    "sources": [
+      {
+        "label": "Wikipedia — Sanxingdui",
+        "url": "https://en.wikipedia.org/wiki/Sanxingdui"
+      },
+      {
+        "label": "百度百科 — 三星堆",
+        "url": "https://baike.baidu.com/item/%E4%B8%89%E6%98%9F%E5%A0%86"
+      },
+      {
+        "label": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/"
+      }
+    ],
+    "image": {
+      "url": "/images/events/sanxingdui-culture.jpg",
+      "credit": "Wikimedia Commons — Bronze Animal Mask from Sanxingdui 8.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bronze_Animal_Mask_from_Sanxingdui_8.jpg",
+      "license": "Public Domain / CC (Wikimedia Commons)",
+      "origin": "wikimedia"
+    }
+  },
+  {
     "id": "battle-kadesh",
     "startYear": -1274,
     "endYear": -1274,
@@ -475,51 +685,6 @@
     }
   },
   {
-    "id": "iron-age",
-    "startYear": -1200,
-    "endYear": -800,
-    "geometry": {
-      "type": "Point",
-      "coordinates": [
-        40,
-        38
-      ]
-    },
-    "i18n": {
-      "en": {
-        "name": "Spread of ironworking",
-        "location": "Near East",
-        "consequence": "Iron tools and weapons become more common."
-      },
-      "de": {
-        "name": "Ausbreitung der Eisenverarbeitung",
-        "location": "Naher Osten",
-        "consequence": "Eisenwerkzeuge und -waffen werden häufiger."
-      },
-      "zh": {
-        "name": "铁器工艺传播",
-        "location": "近东",
-        "consequence": "铁制工具与武器日益普及。"
-      }
-    },
-    "sources": [
-      {
-        "label": "Metropolitan Museum of Art – Heilbrunn Timeline",
-        "url": "https://www.metmuseum.org/toah/"
-      },
-      {
-        "label": "Encyclopaedia Britannica",
-        "url": "https://www.britannica.com/"
-      }
-    ],
-    "image": {
-      "url": "/images/events/iron-age.jpg",
-      "credit": "Original educational illustration created for Eurasia History Map",
-      "license": "Original / no third-party photo IP",
-      "origin": "generated"
-    }
-  },
-  {
     "id": "sea-peoples",
     "startYear": -1200,
     "endYear": -1175,
@@ -559,6 +724,51 @@
     ],
     "image": {
       "url": "/images/events/sea-peoples.jpg",
+      "credit": "Original educational illustration created for Eurasia History Map",
+      "license": "Original / no third-party photo IP",
+      "origin": "generated"
+    }
+  },
+  {
+    "id": "iron-age",
+    "startYear": -1200,
+    "endYear": -800,
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        40,
+        38
+      ]
+    },
+    "i18n": {
+      "en": {
+        "name": "Spread of ironworking",
+        "location": "Near East",
+        "consequence": "Iron tools and weapons become more common."
+      },
+      "de": {
+        "name": "Ausbreitung der Eisenverarbeitung",
+        "location": "Naher Osten",
+        "consequence": "Eisenwerkzeuge und -waffen werden häufiger."
+      },
+      "zh": {
+        "name": "铁器工艺传播",
+        "location": "近东",
+        "consequence": "铁制工具与武器日益普及。"
+      }
+    },
+    "sources": [
+      {
+        "label": "Metropolitan Museum of Art – Heilbrunn Timeline",
+        "url": "https://www.metmuseum.org/toah/"
+      },
+      {
+        "label": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/"
+      }
+    ],
+    "image": {
+      "url": "/images/events/iron-age.jpg",
       "credit": "Original educational illustration created for Eurasia History Map",
       "license": "Original / no third-party photo IP",
       "origin": "generated"
@@ -3551,51 +3761,6 @@
     }
   },
   {
-    "id": "pair-105-paper-trajan",
-    "startYear": 105,
-    "endYear": 117,
-    "geometry": {
-      "type": "Point",
-      "coordinates": [
-        70,
-        40
-      ]
-    },
-    "i18n": {
-      "en": {
-        "name": "Same era: Trajan’s peak Rome & paper in Han China",
-        "location": "Mediterranean & China",
-        "consequence": "Rome reaches a territorial high while Han China improves paper for writing."
-      },
-      "de": {
-        "name": "Gleiche Epoche: Trajans Rom-Höhepunkt & Papier in Han-China",
-        "location": "Mittelmeer & China",
-        "consequence": "Rom erreicht territoriale Höhe, Han-China verbessert Papier."
-      },
-      "zh": {
-        "name": "同时代：图拉真罗马极盛与汉朝造纸",
-        "location": "地中海与中国",
-        "consequence": "罗马疆域接近极盛，东汉改进造纸术。"
-      }
-    },
-    "sources": [
-      {
-        "label": "Wikipedia — Trajan",
-        "url": "https://en.wikipedia.org/wiki/Trajan"
-      },
-      {
-        "label": "Wikipedia — Cai Lun",
-        "url": "https://en.wikipedia.org/wiki/Cai_Lun"
-      }
-    ],
-    "image": {
-      "url": "/images/events/paper-cai-lun.jpg",
-      "credit": "Original educational illustration created for Eurasia History Map",
-      "license": "Original / no third-party photo IP",
-      "origin": "generated"
-    }
-  },
-  {
     "id": "paper-cai-lun",
     "startYear": 105,
     "endYear": 105,
@@ -3641,6 +3806,51 @@
     }
   },
   {
+    "id": "pair-105-paper-trajan",
+    "startYear": 105,
+    "endYear": 117,
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        70,
+        40
+      ]
+    },
+    "i18n": {
+      "en": {
+        "name": "Same era: Trajan’s peak Rome & paper in Han China",
+        "location": "Mediterranean & China",
+        "consequence": "Rome reaches a territorial high while Han China improves paper for writing."
+      },
+      "de": {
+        "name": "Gleiche Epoche: Trajans Rom-Höhepunkt & Papier in Han-China",
+        "location": "Mittelmeer & China",
+        "consequence": "Rom erreicht territoriale Höhe, Han-China verbessert Papier."
+      },
+      "zh": {
+        "name": "同时代：图拉真罗马极盛与汉朝造纸",
+        "location": "地中海与中国",
+        "consequence": "罗马疆域接近极盛，东汉改进造纸术。"
+      }
+    },
+    "sources": [
+      {
+        "label": "Wikipedia — Trajan",
+        "url": "https://en.wikipedia.org/wiki/Trajan"
+      },
+      {
+        "label": "Wikipedia — Cai Lun",
+        "url": "https://en.wikipedia.org/wiki/Cai_Lun"
+      }
+    ],
+    "image": {
+      "url": "/images/events/paper-cai-lun.jpg",
+      "credit": "Original educational illustration created for Eurasia History Map",
+      "license": "Original / no third-party photo IP",
+      "origin": "generated"
+    }
+  },
+  {
     "id": "trajan-peak",
     "startYear": 117,
     "endYear": 117,
@@ -3676,51 +3886,6 @@
     ],
     "image": {
       "url": "/images/events/trajan-peak.jpg",
-      "credit": "Original educational illustration created for Eurasia History Map",
-      "license": "Original / no third-party photo IP",
-      "origin": "generated"
-    }
-  },
-  {
-    "id": "pair-184-commodus",
-    "startYear": 184,
-    "endYear": 192,
-    "geometry": {
-      "type": "Point",
-      "coordinates": [
-        60,
-        40
-      ]
-    },
-    "i18n": {
-      "en": {
-        "name": "Same decades: Yellow Turbans & late Antonine Rome",
-        "location": "China & Rome",
-        "consequence": "Han China faces massive revolt while Rome slides from the Antonine calm."
-      },
-      "de": {
-        "name": "Gleiche Jahrzehnte: Gelbe Turbane & spätes Antoninen-Rom",
-        "location": "China & Rom",
-        "consequence": "Han-China erlebt Massenaufstand, Rom verlässt die Antoninenruhe."
-      },
-      "zh": {
-        "name": "同时代：黄巾起义与安东尼王朝晚期罗马",
-        "location": "中国与罗马",
-        "consequence": "东汉爆发黄巾起义，罗马走出五贤帝后的平稳期。"
-      }
-    },
-    "sources": [
-      {
-        "label": "Wikipedia — Yellow Turbans",
-        "url": "https://en.wikipedia.org/wiki/Yellow_Turban_Rebellion"
-      },
-      {
-        "label": "Wikipedia — Commodus",
-        "url": "https://en.wikipedia.org/wiki/Commodus"
-      }
-    ],
-    "image": {
-      "url": "/images/events/yellow-turban.jpg",
       "credit": "Original educational illustration created for Eurasia History Map",
       "license": "Original / no third-party photo IP",
       "origin": "generated"
@@ -3782,6 +3947,51 @@
       {
         "label": "Encyclopaedia Britannica",
         "url": "https://www.britannica.com/"
+      }
+    ],
+    "image": {
+      "url": "/images/events/yellow-turban.jpg",
+      "credit": "Original educational illustration created for Eurasia History Map",
+      "license": "Original / no third-party photo IP",
+      "origin": "generated"
+    }
+  },
+  {
+    "id": "pair-184-commodus",
+    "startYear": 184,
+    "endYear": 192,
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        60,
+        40
+      ]
+    },
+    "i18n": {
+      "en": {
+        "name": "Same decades: Yellow Turbans & late Antonine Rome",
+        "location": "China & Rome",
+        "consequence": "Han China faces massive revolt while Rome slides from the Antonine calm."
+      },
+      "de": {
+        "name": "Gleiche Jahrzehnte: Gelbe Turbane & spätes Antoninen-Rom",
+        "location": "China & Rom",
+        "consequence": "Han-China erlebt Massenaufstand, Rom verlässt die Antoninenruhe."
+      },
+      "zh": {
+        "name": "同时代：黄巾起义与安东尼王朝晚期罗马",
+        "location": "中国与罗马",
+        "consequence": "东汉爆发黄巾起义，罗马走出五贤帝后的平稳期。"
+      }
+    },
+    "sources": [
+      {
+        "label": "Wikipedia — Yellow Turbans",
+        "url": "https://en.wikipedia.org/wiki/Yellow_Turban_Rebellion"
+      },
+      {
+        "label": "Wikipedia — Commodus",
+        "url": "https://en.wikipedia.org/wiki/Commodus"
       }
     ],
     "image": {
@@ -4850,76 +5060,6 @@
     }
   },
   {
-    "id": "japanese-missions-tang",
-    "startYear": 630,
-    "endYear": 894,
-    "geometry": {
-      "type": "Polygon",
-      "coordinates": [
-        [
-          [
-            120,
-            30
-          ],
-          [
-            142,
-            30
-          ],
-          [
-            142,
-            41
-          ],
-          [
-            130,
-            41
-          ],
-          [
-            120,
-            35
-          ],
-          [
-            120,
-            30
-          ]
-        ]
-      ]
-    },
-    "i18n": {
-      "en": {
-        "name": "Japanese missions to Tang China",
-        "location": "East China Sea / Chang’an",
-        "consequence": "Japanese envoys (kentōshi) travel to Tang China to study laws, Buddhism, and writing — a major 7th–9th century cultural exchange."
-      },
-      "de": {
-        "name": "Japanische Gesandtschaften nach Tang-China",
-        "location": "Ostchinesisches Meer / Chang’an",
-        "consequence": "Japanische Gesandte (Kentōshi) reisen nach Tang-China, um Recht, Buddhismus und Schrift zu lernen — großer Kulturkontakt des 7.–9. Jh."
-      },
-      "zh": {
-        "name": "遣唐使",
-        "location": "东海/长安",
-        "consequence": "日本遣唐使赴唐朝学习律令、佛教与文字，是7–9世纪中日交流的重要篇章。"
-      }
-    },
-    "sources": [
-      {
-        "label": "Wikipedia — Japanese missions to Tang China",
-        "url": "https://en.wikipedia.org/wiki/Japanese_missions_to_Tang_China"
-      },
-      {
-        "label": "Encyclopaedia Britannica",
-        "url": "https://www.britannica.com/"
-      }
-    ],
-    "image": {
-      "url": "/images/events/japanese-missions-tang.jpg",
-      "credit": "Wikimedia Commons — Japanese embassy to the Tang court.jpg",
-      "license": "Public Domain / CC (Wikimedia Commons)",
-      "origin": "wikimedia",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Japanese_embassy_to_the_Tang_court.jpg"
-    }
-  },
-  {
     "id": "taizong-eastern-turks",
     "startYear": 630,
     "endYear": 630,
@@ -4987,6 +5127,76 @@
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:TangTaizong.jpg",
       "license": "Public Domain / CC (Wikimedia Commons)",
       "origin": "wikimedia"
+    }
+  },
+  {
+    "id": "japanese-missions-tang",
+    "startYear": 630,
+    "endYear": 894,
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            120,
+            30
+          ],
+          [
+            142,
+            30
+          ],
+          [
+            142,
+            41
+          ],
+          [
+            130,
+            41
+          ],
+          [
+            120,
+            35
+          ],
+          [
+            120,
+            30
+          ]
+        ]
+      ]
+    },
+    "i18n": {
+      "en": {
+        "name": "Japanese missions to Tang China",
+        "location": "East China Sea / Chang’an",
+        "consequence": "Japanese envoys (kentōshi) travel to Tang China to study laws, Buddhism, and writing — a major 7th–9th century cultural exchange."
+      },
+      "de": {
+        "name": "Japanische Gesandtschaften nach Tang-China",
+        "location": "Ostchinesisches Meer / Chang’an",
+        "consequence": "Japanische Gesandte (Kentōshi) reisen nach Tang-China, um Recht, Buddhismus und Schrift zu lernen — großer Kulturkontakt des 7.–9. Jh."
+      },
+      "zh": {
+        "name": "遣唐使",
+        "location": "东海/长安",
+        "consequence": "日本遣唐使赴唐朝学习律令、佛教与文字，是7–9世纪中日交流的重要篇章。"
+      }
+    },
+    "sources": [
+      {
+        "label": "Wikipedia — Japanese missions to Tang China",
+        "url": "https://en.wikipedia.org/wiki/Japanese_missions_to_Tang_China"
+      },
+      {
+        "label": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/"
+      }
+    ],
+    "image": {
+      "url": "/images/events/japanese-missions-tang.jpg",
+      "credit": "Wikimedia Commons — Japanese embassy to the Tang court.jpg",
+      "license": "Public Domain / CC (Wikimedia Commons)",
+      "origin": "wikimedia",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Japanese_embassy_to_the_Tang_court.jpg"
     }
   },
   {
@@ -5246,6 +5456,47 @@
     }
   },
   {
+    "id": "charlemagne",
+    "startYear": 800,
+    "endYear": 800,
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        5.57,
+        50.63
+      ]
+    },
+    "i18n": {
+      "en": {
+        "name": "Charlemagne crowned emperor",
+        "location": "Aachen / Rome",
+        "consequence": "Western Europe gains a new imperial model."
+      },
+      "de": {
+        "name": "Karl der Große zum Kaiser gekrönt",
+        "location": "Aachen / Rom",
+        "consequence": "Westeuropa erhält ein neues Kaisermodell."
+      },
+      "zh": {
+        "name": "查理曼加冕皇帝",
+        "location": "亚琛/罗马",
+        "consequence": "西欧获得新的帝国模式。"
+      }
+    },
+    "sources": [
+      {
+        "label": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/"
+      }
+    ],
+    "image": {
+      "url": "/images/events/charlemagne.jpg",
+      "credit": "Original educational illustration created for Eurasia History Map",
+      "license": "Original / no third-party photo IP",
+      "origin": "generated"
+    }
+  },
+  {
     "id": "baghdad-house",
     "startYear": 800,
     "endYear": 900,
@@ -5285,47 +5536,6 @@
     ],
     "image": {
       "url": "/images/events/baghdad-house.jpg",
-      "credit": "Original educational illustration created for Eurasia History Map",
-      "license": "Original / no third-party photo IP",
-      "origin": "generated"
-    }
-  },
-  {
-    "id": "charlemagne",
-    "startYear": 800,
-    "endYear": 800,
-    "geometry": {
-      "type": "Point",
-      "coordinates": [
-        5.57,
-        50.63
-      ]
-    },
-    "i18n": {
-      "en": {
-        "name": "Charlemagne crowned emperor",
-        "location": "Aachen / Rome",
-        "consequence": "Western Europe gains a new imperial model."
-      },
-      "de": {
-        "name": "Karl der Große zum Kaiser gekrönt",
-        "location": "Aachen / Rom",
-        "consequence": "Westeuropa erhält ein neues Kaisermodell."
-      },
-      "zh": {
-        "name": "查理曼加冕皇帝",
-        "location": "亚琛/罗马",
-        "consequence": "西欧获得新的帝国模式。"
-      }
-    },
-    "sources": [
-      {
-        "label": "Encyclopaedia Britannica",
-        "url": "https://www.britannica.com/"
-      }
-    ],
-    "image": {
-      "url": "/images/events/charlemagne.jpg",
       "credit": "Original educational illustration created for Eurasia History Map",
       "license": "Original / no third-party photo IP",
       "origin": "generated"
@@ -7814,6 +8024,56 @@
     }
   },
   {
+    "id": "elgin-marbles",
+    "startYear": 1801,
+    "endYear": 1812,
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        23.726,
+        37.971
+      ]
+    },
+    "i18n": {
+      "en": {
+        "name": "Elgin removes Parthenon sculptures",
+        "location": "Athens → British Museum, London",
+        "consequence": "Thomas Bruce, 7th Earl of Elgin, takes Parthenon reliefs to Britain. Left: marbles in the British Museum; right: the scarred Acropolis today."
+      },
+      "de": {
+        "name": "Elgin entfernt Parthenon-Skulpturen",
+        "location": "Athen → British Museum, London",
+        "consequence": "Thomas Bruce, 7. Earl of Elgin, bringt Parthenon-Reliefs nach Britannien. Links: Elgin Marbles im British Museum; rechts: die Narben der Akropolis heute."
+      },
+      "zh": {
+        "name": "埃尔金劫取帕特农浮雕",
+        "location": "雅典 → 伦敦大英博物馆",
+        "consequence": "第七代埃尔金伯爵托马斯·布鲁斯将帕特农神庙浮雕运往英国。左：大英博物馆中的埃尔金大理石；右：今日残损的卫城。"
+      }
+    },
+    "sources": [
+      {
+        "label": "Wikipedia — Elgin Marbles",
+        "url": "https://en.wikipedia.org/wiki/Elgin_Marbles"
+      },
+      {
+        "label": "Wikipedia — Thomas Bruce, 7th Earl of Elgin",
+        "url": "https://en.wikipedia.org/wiki/Thomas_Bruce,_7th_Earl_of_Elgin"
+      },
+      {
+        "label": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/"
+      }
+    ],
+    "image": {
+      "url": "/images/events/elgin-marbles.jpg",
+      "credit": "Composite: Wikimedia Commons — Parthenon sculptures, British Museum (14063376069).jpg (left); The East Facade of the Parthenon on March 22, 2021.jpg (right)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/Elgin_Marbles",
+      "license": "Public Domain / CC (Wikimedia Commons composite)",
+      "origin": "wikimedia"
+    }
+  },
+  {
     "id": "napoleon-russia-1812",
     "startYear": 1812,
     "endYear": 1812,
@@ -7980,23 +8240,23 @@
         [
           [
             20.5,
-            36.0
+            36
           ],
           [
             24.5,
-            36.0
+            36
           ],
           [
             24.5,
-            40.0
+            40
           ],
           [
             20.5,
-            40.0
+            40
           ],
           [
             20.5,
-            36.0
+            36
           ]
         ]
       ]
@@ -8273,6 +8533,60 @@
       "url": "/images/events/second-opium-war.jpg",
       "credit": "Wikimedia Commons — Second Opium War-guangzhou.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Second_Opium_War-guangzhou.jpg",
+      "license": "Public Domain / CC (Wikimedia Commons)",
+      "origin": "wikimedia"
+    }
+  },
+  {
+    "id": "yuanmingyuan-1860",
+    "startYear": 1860,
+    "endYear": 1860,
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        116.312,
+        40.009
+      ]
+    },
+    "i18n": {
+      "en": {
+        "name": "Looting and burning of Yuanmingyuan",
+        "location": "Old Summer Palace, Beijing",
+        "consequence": "James Bruce, 8th Earl of Elgin, orders Anglo-French forces to loot and burn the Old Summer Palace."
+      },
+      "de": {
+        "name": "Plünderung und Brand von Yuanmingyuan",
+        "location": "Alter Sommerpalast, Peking",
+        "consequence": "James Bruce, 8. Earl of Elgin, befiehlt anglo-französischen Truppen, den Alten Sommerpalast zu plündern und niederzubrennen."
+      },
+      "zh": {
+        "name": "火烧圆明园",
+        "location": "北京圆明园",
+        "consequence": "第八代埃尔金伯爵詹姆斯·布鲁斯下令英法联军劫掠并焚毁圆明园。"
+      }
+    },
+    "sources": [
+      {
+        "label": "Wikipedia — Old Summer Palace",
+        "url": "https://en.wikipedia.org/wiki/Old_Summer_Palace"
+      },
+      {
+        "label": "Wikipedia — James Bruce, 8th Earl of Elgin",
+        "url": "https://en.wikipedia.org/wiki/James_Bruce,_8th_Earl_of_Elgin"
+      },
+      {
+        "label": "百度百科 — 火烧圆明园",
+        "url": "https://baike.baidu.com/item/%E7%81%AB%E7%83%A7%E5%9C%86%E6%98%8E%E5%9B%AD"
+      },
+      {
+        "label": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/"
+      }
+    ],
+    "image": {
+      "url": "/images/events/yuanmingyuan-1860.jpg",
+      "credit": "Wikimedia Commons — Ruins of Old Summer Palace (Yuanmingyuan) - 2019 - 11.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ruins_of_Old_Summer_Palace_(Yuanmingyuan)_-_2019_-_11.jpg",
       "license": "Public Domain / CC (Wikimedia Commons)",
       "origin": "wikimedia"
     }
@@ -9380,6 +9694,56 @@
     }
   },
   {
+    "id": "japan-surrender",
+    "startYear": 1945,
+    "endYear": 1945,
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        139.75,
+        35.68
+      ]
+    },
+    "i18n": {
+      "en": {
+        "name": "Japan surrenders",
+        "location": "Tokyo Bay / Japan",
+        "consequence": "World War II ends in Asia. Occupation and rebuilding begin."
+      },
+      "de": {
+        "name": "Japan kapituliert",
+        "location": "Bucht von Tokio / Japan",
+        "consequence": "Der Zweite Weltkrieg endet in Asien. Besatzung und Wiederaufbau beginnen."
+      },
+      "zh": {
+        "name": "日本投降",
+        "location": "东京湾/日本",
+        "consequence": "日本宣布无条件投降，亚洲战场结束。"
+      }
+    },
+    "sources": [
+      {
+        "label": "Wikipedia — Surrender of Japan",
+        "url": "https://en.wikipedia.org/wiki/Surrender_of_Japan"
+      },
+      {
+        "label": "百度百科 — 日本投降",
+        "url": "https://baike.baidu.com/item/%E6%97%A5%E6%9C%AC%E6%8A%95%E9%99%8D"
+      },
+      {
+        "label": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/"
+      }
+    ],
+    "image": {
+      "url": "/images/events/japan-surrender.jpg",
+      "credit": "Wikimedia Commons — Surrender of Japan - USS Missouri (restored).jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Surrender_of_Japan_-_USS_Missouri_%28restored%29.jpg",
+      "license": "Public Domain / CC (Wikimedia Commons)",
+      "origin": "wikimedia"
+    }
+  },
+  {
     "id": "chinese-civil-war",
     "startYear": 1945,
     "endYear": 1949,
@@ -9445,56 +9809,6 @@
       "url": "/images/events/chinese-civil-war.jpg",
       "credit": "Wikimedia Commons — Mao proclaiming establishment of PRC.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mao_proclaiming_establishment_of_PRC.jpg",
-      "license": "Public Domain / CC (Wikimedia Commons)",
-      "origin": "wikimedia"
-    }
-  },
-  {
-    "id": "japan-surrender",
-    "startYear": 1945,
-    "endYear": 1945,
-    "geometry": {
-      "type": "Point",
-      "coordinates": [
-        139.75,
-        35.68
-      ]
-    },
-    "i18n": {
-      "en": {
-        "name": "Japan surrenders",
-        "location": "Tokyo Bay / Japan",
-        "consequence": "World War II ends in Asia. Occupation and rebuilding begin."
-      },
-      "de": {
-        "name": "Japan kapituliert",
-        "location": "Bucht von Tokio / Japan",
-        "consequence": "Der Zweite Weltkrieg endet in Asien. Besatzung und Wiederaufbau beginnen."
-      },
-      "zh": {
-        "name": "日本投降",
-        "location": "东京湾/日本",
-        "consequence": "日本宣布无条件投降，亚洲战场结束。"
-      }
-    },
-    "sources": [
-      {
-        "label": "Wikipedia — Surrender of Japan",
-        "url": "https://en.wikipedia.org/wiki/Surrender_of_Japan"
-      },
-      {
-        "label": "百度百科 — 日本投降",
-        "url": "https://baike.baidu.com/item/%E6%97%A5%E6%9C%AC%E6%8A%95%E9%99%8D"
-      },
-      {
-        "label": "Encyclopaedia Britannica",
-        "url": "https://www.britannica.com/"
-      }
-    ],
-    "image": {
-      "url": "/images/events/japan-surrender.jpg",
-      "credit": "Wikimedia Commons — Surrender of Japan - USS Missouri (restored).jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Surrender_of_Japan_-_USS_Missouri_%28restored%29.jpg",
       "license": "Public Domain / CC (Wikimedia Commons)",
       "origin": "wikimedia"
     }
