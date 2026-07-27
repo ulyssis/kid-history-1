@@ -18,9 +18,9 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v6
 
-      - uses: actions/setup-node@v4
+      - uses: actions/setup-node@v6
         with:
           node-version: 22
           cache: npm
@@ -29,16 +29,16 @@ jobs:
         run: |
           npm ci
           npm run build
-        env:
-          GITHUB_ACTIONS: true
 
-      - name: Verify Pages base path
+      - name: Verify build output
         run: |
           test -f dist/index.html
-          grep -q '/kid-history-1/assets/' dist/index.html
+          test -f dist/CNAME
+          grep -q 'history4kids.org' dist/CNAME
+          grep -Eq 'src="(/assets/|https://)' dist/index.html || grep -q '/assets/' dist/index.html
           test -f dist/data/events.json
 
-      - uses: actions/upload-pages-artifact@v3
+      - uses: actions/upload-pages-artifact@v5
         with:
           path: dist
 
@@ -50,4 +50,4 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - id: deployment
-        uses: actions/deploy-pages@v4
+        uses: actions/deploy-pages@v5

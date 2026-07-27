@@ -30,11 +30,11 @@ If `npm` is “command not found”, keep the `PATH` line above. If port 5173 is
 
 ## GitHub Pages (public website)
 
-Site URL: `https://ulyssis.github.io/kid-history-1/`
+Site URL: **https://history4kids.org/** (custom domain; GitHub Pages + Cloudflare DNS)
 
 Deploys automatically via GitHub Actions (`.github/workflows/deploy.yml`) on every push to `main`. Pages **Source** must be **GitHub Actions** (not “Deploy from a branch”).
 
-Local vs Pages base path is handled in `vite.config.ts` (`/` locally, `/kid-history-1/` in CI).
+Vite `base` is `/` (root) for the custom domain. Keep `public/CNAME` as `history4kids.org`.
 
 ## Scripts
 
