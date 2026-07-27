@@ -231,8 +231,9 @@ export function MapView({
       center: [55, 40],
       zoom: 2.4,
       maxBounds: MAP_MAX_BOUNDS,
-      // ~1.5× the previous minimum viewable area (was minZoom 2)
-      minZoom: 1.4,
+      // Allow enough zoom-out for the western Mediterranean and China
+      // to stay visible together even on narrower screens.
+      minZoom: 0.7,
       maxZoom: 8,
       attributionControl: {},
     })
