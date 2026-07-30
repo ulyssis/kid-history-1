@@ -235,13 +235,14 @@ export function MapView({
       // to stay visible together even on narrower screens.
       minZoom: 0.7,
       maxZoom: 8,
-      attributionControl: {},
+      attributionControl: false,
     })
 
     map.addControl(
       new maplibregl.NavigationControl({ showCompass: false }),
       'top-right',
     )
+    map.addControl(new maplibregl.AttributionControl({ compact: true }))
     mapRef.current = map
 
     map.on('load', () => {
