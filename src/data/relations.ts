@@ -44,6 +44,7 @@ export const POLITY_FAMILY: Record<string, string> = {
   ming: 'china',
   qing: 'china',
   'roc-prc': 'china',
+  cycladic: 'greece',
   minoan: 'greece',
   mycenae: 'greece',
   'classical-greece': 'greece',
@@ -145,7 +146,7 @@ export const CURATED_RELATIONS: CuratedRelation[] = [
       de: 'Historiker haben Verbindungen zwischen Sanxingdui und der Shang-Welt bestätigt, doch viele Rätsel um Sanxingdui sind ungelöst.',
       zh: '历史学家已经证实两者之间存在联系，但围绕三星堆仍有大量的未解之谜。',
     },
-    eventIds: ['sanxingdui-culture'],
+    eventIds: ['sanxingdui-culture', 'shang-dynasty'],
   },
   {
     a: 'rome',

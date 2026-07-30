@@ -160,6 +160,75 @@
     }
   },
   {
+    "id": "cycladic-civilization",
+    "startYear": -3200,
+    "endYear": -2000,
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            24.2,
+            36.3
+          ],
+          [
+            26,
+            36.3
+          ],
+          [
+            26,
+            37.9
+          ],
+          [
+            24.2,
+            37.9
+          ],
+          [
+            24.2,
+            36.3
+          ]
+        ]
+      ]
+    },
+    "i18n": {
+      "en": {
+        "name": "Cycladic civilization",
+        "location": "Cyclades islands, Aegean Sea",
+        "consequence": "An early Aegean maritime culture famous for minimalist marble figurines."
+      },
+      "de": {
+        "name": "Kykladische Zivilisation",
+        "location": "Kykladen, Ägäis",
+        "consequence": "Frühe ägäische Seefahrerkultur, berühmt für schlichte Marmorfiguren."
+      },
+      "zh": {
+        "name": "基克拉迪文明",
+        "location": "爱琴海基克拉迪群岛",
+        "consequence": "早期爱琴海航海文化，以简约大理石人偶闻名。"
+      }
+    },
+    "sources": [
+      {
+        "label": "Wikipedia — Cycladic culture",
+        "url": "https://en.wikipedia.org/wiki/Cycladic_culture"
+      },
+      {
+        "label": "Metropolitan Museum of Art – Heilbrunn Timeline",
+        "url": "https://www.metmuseum.org/toah/"
+      },
+      {
+        "label": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/"
+      }
+    ],
+    "image": {
+      "url": "/images/events/cycladic-civilization.jpg",
+      "credit": "User-provided map of the Cyclades (Greece)",
+      "license": "User-provided educational image",
+      "origin": "other-pd"
+    }
+  },
+  {
     "id": "egypt-unification",
     "startYear": -3100,
     "endYear": -3100,
@@ -272,6 +341,79 @@
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Longshan_Black_Pottery_Vase._Mus%C3%A9e_Guimet_MA_5978.jpg",
       "license": "Public Domain / CC (Wikimedia Commons)",
       "origin": "wikimedia"
+    }
+  },
+  {
+    "id": "minoan-palaces",
+    "startYear": -3000,
+    "endYear": -1450,
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            23.2,
+            34.7
+          ],
+          [
+            26.5,
+            34.7
+          ],
+          [
+            26.5,
+            35.7
+          ],
+          [
+            23.2,
+            35.7
+          ],
+          [
+            23.2,
+            34.7
+          ]
+        ]
+      ]
+    },
+    "i18n": {
+      "en": {
+        "name": "Minoan civilization",
+        "location": "Crete",
+        "consequence": "Europe’s first major palace civilization — advanced seafaring, trade, and art. Used Linear A (still undeciphered)."
+      },
+      "de": {
+        "name": "Minoische Zivilisation",
+        "location": "Kreta",
+        "consequence": "Europas erste große Palastzivilisation — Seefahrt, Handel und Kunst. Schrift Linear A (noch unentziffert)."
+      },
+      "zh": {
+        "name": "米诺斯文明",
+        "location": "克里特岛",
+        "consequence": "欧洲最早的大型宫殿文明，擅长航海、贸易与艺术；使用尚未破译的线性文字A。"
+      }
+    },
+    "sources": [
+      {
+        "label": "Wikipedia — Minoan civilization",
+        "url": "https://en.wikipedia.org/wiki/Minoan_civilization"
+      },
+      {
+        "label": "Wikipedia — Linear A",
+        "url": "https://en.wikipedia.org/wiki/Linear_A"
+      },
+      {
+        "label": "Metropolitan Museum of Art – Heilbrunn Timeline",
+        "url": "https://www.metmuseum.org/toah/"
+      },
+      {
+        "label": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/"
+      }
+    ],
+    "image": {
+      "url": "/images/events/minoan-palaces.jpg",
+      "credit": "Composite: Minoan palace illustration (left); map of Minoan Crete sites (right)",
+      "license": "User-provided educational composite",
+      "origin": "other-pd"
     }
   },
   {
@@ -430,51 +572,6 @@
     }
   },
   {
-    "id": "minoan-palaces",
-    "startYear": -1900,
-    "endYear": -1450,
-    "geometry": {
-      "type": "Point",
-      "coordinates": [
-        24.8,
-        35.3
-      ]
-    },
-    "i18n": {
-      "en": {
-        "name": "Minoan palaces",
-        "location": "Crete",
-        "consequence": "Palace centers run trade across the Aegean Sea."
-      },
-      "de": {
-        "name": "Minoische Paläste",
-        "location": "Kreta",
-        "consequence": "Palastzentren steuern den Handel in der Ägäis."
-      },
-      "zh": {
-        "name": "米诺斯宫殿",
-        "location": "克里特",
-        "consequence": "宫殿中心掌管爱琴海贸易。"
-      }
-    },
-    "sources": [
-      {
-        "label": "Metropolitan Museum of Art – Heilbrunn Timeline",
-        "url": "https://www.metmuseum.org/toah/"
-      },
-      {
-        "label": "Encyclopaedia Britannica",
-        "url": "https://www.britannica.com/"
-      }
-    ],
-    "image": {
-      "url": "/images/events/minoan-palaces.jpg",
-      "credit": "Original educational illustration created for Eurasia History Map",
-      "license": "Original / no third-party photo IP",
-      "origin": "generated"
-    }
-  },
-  {
     "id": "hammurabi",
     "startYear": -1754,
     "endYear": -1750,
@@ -517,6 +614,157 @@
       "credit": "Original educational illustration created for Eurasia History Map",
       "license": "Original / no third-party photo IP",
       "origin": "generated"
+    }
+  },
+  {
+    "id": "mycenaean-civilization",
+    "startYear": -1600,
+    "endYear": -1100,
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            21,
+            36
+          ],
+          [
+            27,
+            36
+          ],
+          [
+            27,
+            39.2
+          ],
+          [
+            21,
+            39.2
+          ],
+          [
+            21,
+            36
+          ]
+        ]
+      ]
+    },
+    "i18n": {
+      "en": {
+        "name": "Mycenaean civilization",
+        "location": "Mainland Greece (Mycenae, Pylos…)",
+        "consequence": "Militarized palace kingdoms that absorbed Minoan Crete after c. 1450 BC. Linear B holds the oldest known written Greek — a direct predecessor of later Ancient Greece."
+      },
+      "de": {
+        "name": "Mykenische Zivilisation",
+        "location": "Festlandgriechenland (Mykene, Pylos…)",
+        "consequence": "Militarisierte Palastreiche; nach ca. 1450 v. Chr. übernahmen sie minoisches Kreta. Linear B birgt das älteste bekannte Griechisch — Vorläufer des späteren Antiken Griechenlands."
+      },
+      "zh": {
+        "name": "迈锡尼文明",
+        "location": "希腊本土（迈锡尼、皮洛斯等）",
+        "consequence": "军事化宫殿王国；约前1450年后征服或吸收米诺斯克里特。线性文字B保留已知最古老的希腊文，是后来古希腊文明的直接前身。"
+      }
+    },
+    "sources": [
+      {
+        "label": "Wikipedia — Mycenaean Greece",
+        "url": "https://en.wikipedia.org/wiki/Mycenaean_Greece"
+      },
+      {
+        "label": "Wikipedia — Linear B",
+        "url": "https://en.wikipedia.org/wiki/Linear_B"
+      },
+      {
+        "label": "Wikipedia — Lion Gate",
+        "url": "https://en.wikipedia.org/wiki/Lion_Gate"
+      },
+      {
+        "label": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/"
+      }
+    ],
+    "image": {
+      "url": "/images/events/mycenaean-civilization.jpg",
+      "credit": "Composite: Lion Gate, Mycenae (Wikimedia); Mask of Agamemnon (Wikimedia); British archaeology facts panel",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lion_Gate,_Mycenae,_201510.jpg",
+      "license": "Public Domain / CC (Wikimedia Commons) + educational text panel",
+      "origin": "wikimedia"
+    }
+  },
+  {
+    "id": "shang-dynasty",
+    "startYear": -1600,
+    "endYear": -1046,
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            110,
+            32
+          ],
+          [
+            120,
+            32
+          ],
+          [
+            120,
+            40
+          ],
+          [
+            110,
+            40
+          ],
+          [
+            110,
+            32
+          ]
+        ]
+      ]
+    },
+    "i18n": {
+      "en": {
+        "name": "Shang dynasty",
+        "location": "Yellow River plain (Anyang / Yinxu)",
+        "consequence": "Bronze-age kings, ritual tombs, and oracle-bone writing — among the earliest written Chinese records."
+      },
+      "de": {
+        "name": "Shang-Dynastie",
+        "location": "Ebene des Gelben Flusses (Anyang / Yinxu)",
+        "consequence": "Bronzezeitliche Könige, Ritualgräber und Orakelknochen-Schrift — früheste chinesische Schriftzeugnisse."
+      },
+      "zh": {
+        "name": "商朝",
+        "location": "黄河中下游（安阳殷墟）",
+        "consequence": "青铜时代王朝，以礼器墓葬与甲骨文著称——甲骨文是已知最早的汉字记录之一。"
+      }
+    },
+    "sources": [
+      {
+        "label": "Wikipedia — Shang dynasty",
+        "url": "https://en.wikipedia.org/wiki/Shang_dynasty"
+      },
+      {
+        "label": "Wikipedia — Oracle bone",
+        "url": "https://en.wikipedia.org/wiki/Oracle_bone"
+      },
+      {
+        "label": "Wikipedia — Tomb of Fu Hao",
+        "url": "https://en.wikipedia.org/wiki/Tomb_of_Fu_Hao"
+      },
+      {
+        "label": "百度百科 — 商朝",
+        "url": "https://baike.baidu.com/item/%E5%95%86%E6%9C%9D"
+      },
+      {
+        "label": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/"
+      }
+    ],
+    "image": {
+      "url": "/images/events/shang-dynasty.jpg",
+      "credit": "Composite: Tomb of Fu Hao, Yinxu (left); Shang inscribed tortoise plastron / oracle bone (right)",
+      "license": "User-provided educational composite",
+      "origin": "other-pd"
     }
   },
   {

@@ -213,60 +213,6 @@ export default function App() {
             />
           )}
           <div className="map-overlays">
-            <div className="map-chrome">
-              <button
-                type="button"
-                className={
-                  mapFocus
-                    ? 'map-focus-btn map-focus-btn--active'
-                    : 'map-focus-btn'
-                }
-                onClick={() => setMapFocus((on) => !on)}
-                aria-pressed={mapFocus}
-                aria-label={
-                  mapFocus ? t('mapFocusExitAria') : t('mapFocusEnterAria')
-                }
-                title={
-                  mapFocus ? t('mapFocusExitAria') : t('mapFocusEnterAria')
-                }
-              >
-                <span className="map-focus-btn__icon" aria-hidden="true">
-                  {mapFocus ? (
-                    <svg viewBox="0 0 24 24" width="18" height="18">
-                      <path
-                        fill="currentColor"
-                        d="M5 16h3v3h2v-5H5v2zm3-8H5v2h5V5H8v3zm6 11h2v-3h3v-2h-5v5zm2-11V5h-2v5h5V8h-3z"
-                      />
-                    </svg>
-                  ) : (
-                    <svg viewBox="0 0 24 24" width="18" height="18">
-                      <path
-                        fill="currentColor"
-                        d="M7 14H5v5h5v-2H7v-3zm-2-4h2V7h3V5H5v5zm12 7h-3v2h5v-5h-2v3zM14 5v2h3v3h2V5h-5z"
-                      />
-                    </svg>
-                  )}
-                </span>
-                <span className="map-focus-btn__label">
-                  {mapFocus ? t('mapFocusExit') : t('mapFocusEnter')}
-                </span>
-              </button>
-              <button
-                type="button"
-                className={
-                  relationsMode
-                    ? 'relations-btn relations-btn--active'
-                    : 'relations-btn'
-                }
-                onClick={toggleRelationsMode}
-                aria-pressed={relationsMode}
-              >
-                {t('relationsButton')}
-              </button>
-              {relationsMode && (
-                <p className="relations-hint">{relationsHint}</p>
-              )}
-            </div>
             <Legend
               polities={polities}
               highlightedPolityId={hoveredPolityId}
@@ -278,19 +224,86 @@ export default function App() {
         </div>
 
         <footer className="app-footer">
-          {!mapFocus && <p className="app-hint">{t('eventsHint')}</p>}
-          <Timeline
-            year={Math.min(MAX_YEAR, Math.max(MIN_YEAR, year))}
-            onChange={setYear}
-            onPrevMilestone={() => {
-              if (prevMilestone != null) setYear(prevMilestone)
-            }}
-            onNextMilestone={() => {
-              if (nextMilestone != null) setYear(nextMilestone)
-            }}
-            canPrev={prevMilestone != null}
-            canNext={nextMilestone != null}
-          />
+          <div className="footer-main">
+            <div className="footer-chrome">
+              <p className="footer-hint">{t('eventsHint')}</p>
+              <div className="footer-chrome__buttons">
+                <button
+                  type="button"
+                  className={
+                    mapFocus
+                      ? 'map-focus-btn map-focus-btn--active'
+                      : 'map-focus-btn'
+                  }
+                  onClick={() => setMapFocus((on) => !on)}
+                  aria-pressed={mapFocus}
+                  aria-label={
+                    mapFocus ? t('mapFocusExitAria') : t('mapFocusEnterAria')
+                  }
+                  title={
+                    mapFocus ? t('mapFocusExitAria') : t('mapFocusEnterAria')
+                  }
+                >
+                  <span className="map-focus-btn__icon" aria-hidden="true">
+                    {mapFocus ? (
+                      <svg viewBox="0 0 24 24" width="18" height="18">
+                        <path
+                          fill="currentColor"
+                          d="M5 16h3v3h2v-5H5v2zm3-8H5v2h5V5H8v3zm6 11h2v-3h3v-2h-5v5zm2-11V5h-2v5h5V8h-3z"
+                        />
+                      </svg>
+                    ) : (
+                      <svg viewBox="0 0 24 24" width="18" height="18">
+                        <path
+                          fill="currentColor"
+                          d="M7 14H5v5h5v-2H7v-3zm-2-4h2V7h3V5H5v5zm12 7h-3v2h5v-5h-2v3zM14 5v2h3v3h2V5h-5z"
+                        />
+                      </svg>
+                    )}
+                  </span>
+                  <span className="map-focus-btn__label">
+                    {mapFocus ? t('mapFocusExit') : t('mapFocusEnter')}
+                  </span>
+                </button>
+                <button
+                  type="button"
+                  className={
+                    relationsMode
+                      ? 'relations-btn relations-btn--active'
+                      : 'relations-btn'
+                  }
+                  onClick={toggleRelationsMode}
+                  aria-pressed={relationsMode}
+                >
+                  {t('relationsButton')}
+                </button>
+              </div>
+              {relationsMode && (
+                <p className="relations-hint">{relationsHint}</p>
+              )}
+            </div>
+            <Timeline
+              year={Math.min(MAX_YEAR, Math.max(MIN_YEAR, year))}
+              onChange={setYear}
+              onPrevMilestone={() => {
+                if (prevMilestone != null) setYear(prevMilestone)
+              }}
+              onNextMilestone={() => {
+                if (nextMilestone != null) setYear(nextMilestone)
+              }}
+              canPrev={prevMilestone != null}
+              canNext={nextMilestone != null}
+            />
+          </div>
+          <div className="site-meta">
+            <a className="site-meta__contact" href="mailto:info@history4kids.org">
+              info@history4kids.org
+            </a>
+            <p className="site-meta__copyright">
+              © 2026 history4kids.org · MIT License (code &amp; original text) ·
+              Image credits on each event
+            </p>
+          </div>
         </footer>
       </main>
 

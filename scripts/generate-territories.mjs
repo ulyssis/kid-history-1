@@ -77,6 +77,7 @@ const G = {
   ming: rect(100, 18, 123, 42),
   qing: poly([[73, 18], [135, 18], [140, 50], [100, 55], [70, 45], [73, 18]]),
   prc: poly([[73, 18], [135, 18], [135, 48], [100, 53], [73, 42], [73, 18]]),
+  cycladic: rect(24.2, 36.3, 26.0, 37.9),
   minoan: rect(23.2, 34.7, 26.5, 35.7),
   mycenae: rect(21, 36, 27, 39.2),
   greece: rect(19.5, 36, 28.5, 41.5),
@@ -202,7 +203,8 @@ const POLITIES = [
   { id: 'roc-prc', color: '#c45c26', name: N('China (ROC / PRC)', 'China (Republik / VR)', '中国（民国/中华人民共和国）'), from: 1912, to: 2100, g: G.prc, wiki: 'https://en.wikipedia.org/wiki/China' },
 
   // Aegean / Greece
-  { id: 'minoan', color: '#4a6fa5', name: N('Minoan Crete', 'Minoisches Kreta', '米诺斯克里特'), from: -2000, to: -1450, g: G.minoan, wiki: 'https://en.wikipedia.org/wiki/Minoan_civilization' },
+  { id: 'cycladic', color: '#6b8cae', name: N('Cycladic culture', 'Kykladische Kultur', '基克拉迪文化'), from: -3200, to: -2000, g: G.cycladic, wiki: 'https://en.wikipedia.org/wiki/Cycladic_culture' },
+  { id: 'minoan', color: '#4a6fa5', name: N('Minoan Crete', 'Minoisches Kreta', '米诺斯克里特'), from: -3000, to: -1450, g: G.minoan, wiki: 'https://en.wikipedia.org/wiki/Minoan_civilization' },
   { id: 'mycenae', color: '#4a6fa5', name: N('Mycenaean Greece', 'Mykenisches Griechenland', '迈锡尼希腊'), from: -1600, to: -1100, g: G.mycenae, wiki: 'https://en.wikipedia.org/wiki/Mycenaean_Greece' },
   { id: 'classical-greece', color: '#4a6fa5', name: N('Classical Greek world', 'Klassisches Griechenland', '古典希腊世界'), from: -500, to: -338, g: G.greece, wiki: 'https://en.wikipedia.org/wiki/Classical_Greece' },
   { id: 'macedon', color: '#4a6fa5', name: N('Kingdom of Macedon', 'Königreich Makedonien', '马其顿王国'), from: -359, to: -331, g: G.macedonia, wiki: 'https://en.wikipedia.org/wiki/Macedonia_(ancient_kingdom)' },
