@@ -223,10 +223,10 @@ export default function App() {
           </div>
         </div>
 
-        <footer className="app-footer">
+        <footer className={mapFocus ? 'app-footer app-footer--focus' : 'app-footer'}>
           <div className="footer-main">
             <div className="footer-chrome">
-              <p className="footer-hint">{t('eventsHint')}</p>
+              {!mapFocus && <p className="footer-hint">{t('eventsHint')}</p>}
               <div className="footer-chrome__buttons">
                 <button
                   type="button"
@@ -295,15 +295,17 @@ export default function App() {
               canNext={nextMilestone != null}
             />
           </div>
-          <div className="site-meta">
-            <a className="site-meta__contact" href="mailto:info@history4kids.org">
-              info@history4kids.org
-            </a>
-            <p className="site-meta__copyright">
-              © 2026 history4kids.org · MIT License (code &amp; original text) ·
-              Image credits on each event
-            </p>
-          </div>
+          {!mapFocus && (
+            <div className="site-meta">
+              <a className="site-meta__contact" href="mailto:info@history4kids.org">
+                info@history4kids.org
+              </a>
+              <p className="site-meta__copyright">
+                © 2026 history4kids.org · MIT License (code &amp; original text) ·
+                Image credits on each event
+              </p>
+            </div>
+          )}
         </footer>
       </main>
 

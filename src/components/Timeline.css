@@ -73,3 +73,38 @@
   margin-top: 0.15rem;
   padding: 0 2.95rem;
 }
+
+@media (max-width: 640px) {
+  .timeline-year {
+    gap: 0.45rem;
+    margin-bottom: 0.14rem;
+  }
+
+  .timeline-year-label {
+    font-size: 0.7rem;
+  }
+
+  .timeline-year-value {
+    font-size: 1.2rem;
+  }
+
+  .timeline-controls {
+    gap: 0.35rem;
+  }
+
+  .timeline-nav {
+    width: 2rem;
+    height: 2rem;
+    font-size: 1.25rem;
+  }
+
+  .timeline-slider {
+    height: 1.15rem;
+  }
+
+  .timeline-ends {
+    font-size: 0.66rem;
+    margin-top: 0.05rem;
+    padding: 0 2.3rem;
+  }
+}
