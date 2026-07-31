@@ -64,17 +64,31 @@ const G = {
   liangzhu: rect(119.2, 30.0, 121.2, 31.4), // Taihu / Hangzhou Bay
   longshan: rect(110, 33, 119, 38), // middle–lower Yellow River
   erlitou: rect(111.5, 33.8, 113.5, 35.2), // central Henan
+  xia: rect(110, 33, 117, 37.5), // Yellow River core (traditional Xia)
   sanxingdui: rect(103.5, 30.4, 105.0, 31.6), // Guanghan / Chengdu Plain
   shang: rect(110, 32, 120, 40),
   westernZhou: rect(105, 32, 118, 40),
   warringStates: poly([[104, 25], [122, 25], [123, 42], [108, 42], [100, 36], [104, 25]]),
   qin: poly([[105, 28], [118, 28], [120, 40], [108, 41], [102, 34], [105, 28]]),
   han: poly([[98, 20], [122, 20], [126, 42], [108, 45], [95, 38], [98, 20]]),
+  // Jin / Northern & Southern period (approximate educational outlines)
+  chinaSouth: rect(108, 22, 122, 33), // Yangtze / south
+  chinaNorth: rect(105, 33, 122, 42), // Yellow River / north
+  chinaNorthEast: rect(112, 33, 122, 42), // east after 535
+  chinaNorthWest: rect(105, 33, 114, 40), // west Guanzhong after 535
   tang: poly([[85, 22], [125, 22], [128, 45], [100, 48], [80, 40], [85, 22]]),
-  song: rect(108, 22, 122, 38),
-  southSong: rect(110, 22, 122, 34),
+  song: rect(108, 22, 122, 36), // Northern Song — south of Yan–Yun line
+  // Southern Song: Huai frontier + Yangtze + Sichuan / southwest (not Yunnan/Dali)
+  southSong: poly([[102, 22], [122, 22], [122, 34], [112, 34], [105, 32], [102, 28], [102, 22]]),
+  // Liao / Jin / Xia period (approximate educational outlines)
+  liao: poly([[110, 38], [130, 38], [135, 48], [115, 50], [105, 45], [110, 38]]), // Mongolia–Manchuria–Yan
+  westernLiao: rect(65, 38, 90, 48), // Qara Khitai / Central Asia
+  jinJurchen: poly([[108, 32], [130, 32], [135, 48], [112, 48], [105, 40], [108, 32]]), // north China + Manchuria
+  westernXia: rect(100, 35, 110, 42), // Ordos / Ningxia / Hexi
   yuan: poly([[80, 20], [135, 18], [140, 50], [100, 55], [75, 42], [80, 20]]),
   ming: rect(100, 18, 123, 42),
+  // Mongolian Plateau after Yuan court flees north (Northern Yuan / Ming-era Mongolia)
+  mingMongolia: poly([[87, 41], [120, 41], [125, 50], [105, 53], [85, 48], [87, 41]]),
   qing: poly([[73, 18], [135, 18], [140, 50], [100, 55], [70, 45], [73, 18]]),
   prc: poly([[73, 18], [135, 18], [135, 48], [100, 53], [73, 42], [73, 18]]),
   cycladic: rect(24.2, 36.3, 26.0, 37.9),
@@ -185,6 +199,7 @@ const POLITIES = [
   { id: 'liangzhu', color: '#2e8b7a', name: N('Liangzhu culture', 'Liangzhu-Kultur', '良渚文明'), from: -3300, to: -2300, g: G.liangzhu, wiki: 'https://en.wikipedia.org/wiki/Liangzhu_culture' },
   { id: 'longshan', color: '#c45c26', name: N('Longshan culture', 'Longshan-Kultur', '龙山文化'), from: -3000, to: -1900, g: G.longshan, wiki: 'https://en.wikipedia.org/wiki/Longshan_culture' },
   { id: 'erlitou', color: '#b87333', name: N('Erlitou culture', 'Erlitou-Kultur', '二里头文化'), from: -1900, to: -1500, g: G.erlitou, wiki: 'https://en.wikipedia.org/wiki/Erlitou_culture' },
+  { id: 'xia', color: '#c17a3a', name: N('Xia dynasty', 'Xia-Dynastie', '夏朝'), from: -2070, to: -1601, g: G.xia, wiki: 'https://en.wikipedia.org/wiki/Xia_dynasty' },
   { id: 'sanxingdui', color: '#cd7f32', name: N('Sanxingdui culture', 'Sanxingdui-Kultur', '三星堆文明'), from: -1600, to: -1000, g: G.sanxingdui, wiki: 'https://en.wikipedia.org/wiki/Sanxingdui' },
   { id: 'shang', color: '#c45c26', name: N('Shang dynasty', 'Shang-Dynastie', '商朝'), from: -1600, to: -1046, g: G.shang, wiki: 'https://en.wikipedia.org/wiki/Shang_dynasty' },
   { id: 'zhou', color: '#c45c26', name: N('Zhou dynasty', 'Zhou-Dynastie', '周朝'), from: -1045, to: -771, g: G.westernZhou, wiki: 'https://en.wikipedia.org/wiki/Zhou_dynasty' },
@@ -193,12 +208,25 @@ const POLITIES = [
   { id: 'qin', color: '#c45c26', name: N('Qin dynasty', 'Qin-Dynastie', '秦朝'), from: -221, to: -207, g: G.qin, wiki: 'https://en.wikipedia.org/wiki/Qin_dynasty' },
   { id: 'han', color: '#c45c26', name: N('Han dynasty', 'Han-Dynastie', '汉朝'), from: -206, to: 220, g: G.han, wiki: 'https://en.wikipedia.org/wiki/Han_dynasty' },
   { id: 'three-kingdoms', color: '#c45c26', name: N('Three Kingdoms China', 'Drei Reiche', '三国'), from: 220, to: 280, g: G.han, wiki: 'https://en.wikipedia.org/wiki/Three_Kingdoms' },
-  { id: 'jin-sui', color: '#c45c26', name: N('Jin / Northern & Southern / Sui', 'Jin / Nord-Süd / Sui', '晋/南北朝/隋'), from: 281, to: 617, g: G.han, wiki: 'https://en.wikipedia.org/wiki/Sui_dynasty' },
-  { id: 'tang', color: '#c45c26', name: N('Tang dynasty', 'Tang-Dynastie', '唐朝'), from: 618, to: 907, g: G.tang, wiki: 'https://en.wikipedia.org/wiki/Tang_dynasty' },
+  { id: 'western-jin', color: '#c45c26', name: N('Western Jin', 'Westliche Jin', '西晋'), from: 281, to: 316, g: G.han, wiki: 'https://en.wikipedia.org/wiki/Western_Jin' },
+  { id: 'sixteen-kingdoms', color: '#a85a2a', name: N('Sixteen Kingdoms', 'Sechzehn Königreiche', '十六国'), from: 304, to: 438, g: G.chinaNorth, wiki: 'https://en.wikipedia.org/wiki/Sixteen_Kingdoms' },
+  { id: 'eastern-jin', color: '#c45c26', name: N('Eastern Jin', 'Östliche Jin', '东晋'), from: 317, to: 419, g: G.chinaSouth, wiki: 'https://en.wikipedia.org/wiki/Eastern_Jin_(265–420)' },
+  { id: 'northern-wei', color: '#8b5a2b', name: N('Northern Wei', 'Nördliche Wei', '北魏'), from: 439, to: 534, g: G.chinaNorth, wiki: 'https://en.wikipedia.org/wiki/Northern_Wei' },
+  { id: 'southern-dynasties', color: '#c45c26', name: N('Southern dynasties', 'Südliche Dynastien', '南朝'), from: 420, to: 587, g: G.chinaSouth, wiki: 'https://en.wikipedia.org/wiki/Northern_and_Southern_dynasties' },
+  { id: 'northern-east', color: '#9a6430', name: N('Eastern Wei / Northern Qi', 'Östliche Wei / Nördliche Qi', '东魏/北齐'), from: 535, to: 580, g: G.chinaNorthEast, wiki: 'https://en.wikipedia.org/wiki/Northern_Qi' },
+  { id: 'northern-west', color: '#7a4a28', name: N('Western Wei / Northern Zhou', 'Westliche Wei / Nördliche Zhou', '西魏/北周'), from: 535, to: 580, g: G.chinaNorthWest, wiki: 'https://en.wikipedia.org/wiki/Northern_Zhou' },
+  { id: 'sui', color: '#c45c26', name: N('Sui dynasty', 'Sui-Dynastie', '隋朝'), from: 581, to: 617, g: G.han, wiki: 'https://en.wikipedia.org/wiki/Sui_dynasty' },
+  { id: 'tang', color: '#c45c26', name: N('Tang dynasty', 'Tang-Dynastie', '唐朝'), from: 618, to: 906, g: G.tang, wiki: 'https://en.wikipedia.org/wiki/Tang_dynasty' },
+  { id: 'five-dynasties', color: '#b86b3a', name: N('Five Dynasties and Ten Kingdoms', 'Fünf Dynastien und Zehn Reiche', '五代十国'), from: 907, to: 959, g: G.song, wiki: 'https://en.wikipedia.org/wiki/Five_Dynasties_and_Ten_Kingdoms_period' },
+  { id: 'liao', color: '#6b8e23', name: N('Liao dynasty', 'Liao-Dynastie', '辽朝'), from: 907, to: 1125, g: G.liao, wiki: 'https://en.wikipedia.org/wiki/Liao_dynasty' },
   { id: 'song', color: '#c45c26', name: N('Song dynasty', 'Song-Dynastie', '宋朝'), from: 960, to: 1126, g: G.song, wiki: 'https://en.wikipedia.org/wiki/Song_dynasty' },
+  { id: 'western-xia', color: '#cd853f', name: N('Western Xia', 'Westliche Xia', '西夏'), from: 1038, to: 1227, g: G.westernXia, wiki: 'https://en.wikipedia.org/wiki/Western_Xia' },
+  { id: 'jin-jurchen', color: '#8b4513', name: N('Jin dynasty (Jurchen)', 'Jin-Dynastie (Jurchen)', '金朝'), from: 1115, to: 1234, g: G.jinJurchen, wiki: 'https://en.wikipedia.org/wiki/Jin_dynasty_(1115–1234)' },
+  { id: 'western-liao', color: '#556b2f', name: N('Western Liao (Qara Khitai)', 'Westliche Liao (Kara Kitai)', '西辽'), from: 1124, to: 1218, g: G.westernLiao, wiki: 'https://en.wikipedia.org/wiki/Qara_Khitai' },
   { id: 'south-song', color: '#c45c26', name: N('Southern Song', 'Südliche Song', '南宋'), from: 1127, to: 1279, g: G.southSong, wiki: 'https://en.wikipedia.org/wiki/Song_dynasty' },
-  { id: 'yuan', color: '#8b0000', name: N('Yuan dynasty', 'Yuan-Dynastie', '元朝'), from: 1271, to: 1368, g: G.yuan, wiki: 'https://en.wikipedia.org/wiki/Yuan_dynasty' },
+  { id: 'yuan', color: '#8b0000', name: N('Yuan dynasty', 'Yuan-Dynastie', '元朝'), from: 1271, to: 1367, g: G.yuan, wiki: 'https://en.wikipedia.org/wiki/Yuan_dynasty' },
   { id: 'ming', color: '#c45c26', name: N('Ming dynasty', 'Ming-Dynastie', '明朝'), from: 1368, to: 1643, g: G.ming, wiki: 'https://en.wikipedia.org/wiki/Ming_dynasty' },
+  { id: 'ming-mongolia', color: '#8b0000', name: N('Ming-period Mongolia', 'Mongolen der Ming-Zeit', '明代蒙古'), from: 1368, to: 1636, g: G.mingMongolia, wiki: 'https://en.wikipedia.org/wiki/Northern_Yuan' },
   { id: 'qing', color: '#c45c26', name: N('Qing dynasty', 'Qing-Dynastie', '清朝'), from: 1644, to: 1911, g: G.qing, wiki: 'https://en.wikipedia.org/wiki/Qing_dynasty' },
   { id: 'roc-prc', color: '#c45c26', name: N('China (ROC / PRC)', 'China (Republik / VR)', '中国（民国/中华人民共和国）'), from: 1912, to: 2100, g: G.prc, wiki: 'https://en.wikipedia.org/wiki/China' },
 
@@ -306,8 +334,23 @@ function eventYears() {
   return [...set]
 }
 
+function polityBoundaryYears() {
+  const set = new Set()
+  for (const p of POLITIES) {
+    set.add(p.from)
+    set.add(p.to)
+  }
+  return [...set]
+}
+
 function allTargetYears() {
-  const set = new Set([...centuryYears(), ...eventYears()])
+  const set = new Set([
+    ...centuryYears(),
+    ...eventYears(),
+    ...polityBoundaryYears(),
+  ])
+  // No astronomical year 0
+  set.delete(0)
   return [...set].sort((a, b) => a - b)
 }
 

@@ -572,6 +572,75 @@
     }
   },
   {
+    "id": "xia-dynasty",
+    "startYear": -2070,
+    "endYear": -1600,
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            110,
+            33
+          ],
+          [
+            117,
+            33
+          ],
+          [
+            117,
+            37.5
+          ],
+          [
+            110,
+            37.5
+          ],
+          [
+            110,
+            33
+          ]
+        ]
+      ]
+    },
+    "i18n": {
+      "en": {
+        "name": "Xia dynasty",
+        "location": "Yellow River plain (China)",
+        "consequence": "The Xia dynasty is traditionally considered the first dynasty in China, lasting from about 2070 to 1600 BCE, though its absolute historical reality remains debated by scholars."
+      },
+      "de": {
+        "name": "Xia-Dynastie",
+        "location": "Ebene des Gelben Flusses (China)",
+        "consequence": "The Xia dynasty is traditionally considered the first dynasty in China, lasting from about 2070 to 1600 BCE, though its absolute historical reality remains debated by scholars."
+      },
+      "zh": {
+        "name": "夏朝",
+        "location": "黄河中下游",
+        "consequence": "是中国史书中记载的第一个奴隶制朝代。一般认为夏朝的政治形态是由多个部落联盟或复杂酋邦形式联合组成。"
+      }
+    },
+    "sources": [
+      {
+        "label": "Wikipedia — Xia dynasty",
+        "url": "https://en.wikipedia.org/wiki/Xia_dynasty"
+      },
+      {
+        "label": "百度百科 — 夏朝",
+        "url": "https://baike.baidu.com/item/%E5%A4%8F%E6%9C%9D"
+      },
+      {
+        "label": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/"
+      }
+    ],
+    "image": {
+      "url": "/images/events/xia-dynasty.jpg",
+      "credit": "User-provided map — Xia dynasty",
+      "license": "User-provided educational image",
+      "origin": "other-pd"
+    }
+  },
+  {
     "id": "hammurabi",
     "startYear": -1754,
     "endYear": -1750,
@@ -4975,6 +5044,60 @@
     }
   },
   {
+    "id": "rome-partition-395",
+    "startYear": 395,
+    "endYear": 395,
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        28.98,
+        41.01
+      ]
+    },
+    "i18n": {
+      "en": {
+        "name": "Permanent split of the Roman Empire",
+        "location": "Roman Empire (East & West)",
+        "consequence": "From AD 395 onwards the Roman Empire was divided into two independent entities, when Theodosius I partitioned the realm between his two sons, permanently splitting the West and East."
+      },
+      "de": {
+        "name": "Dauerhafte Teilung des Römischen Reichs",
+        "location": "Römisches Reich (Ost & West)",
+        "consequence": "Ab 395 n. Chr. war das Römische Reich in zwei unabhängige Teile geteilt: Theodosius I. übergab das Reich seinen beiden Söhnen und trennte West und Ost dauerhaft."
+      },
+      "zh": {
+        "name": "罗马帝国永久分裂",
+        "location": "罗马帝国（东、西）",
+        "consequence": "自公元395年起，罗马帝国分裂为两个独立政权：狄奥多西一世将帝国分给两个儿子，西罗马与东罗马永久分立。"
+      }
+    },
+    "sources": [
+      {
+        "label": "Wikipedia — Theodosius I",
+        "url": "https://en.wikipedia.org/wiki/Theodosius_I"
+      },
+      {
+        "label": "Wikipedia — Western Roman Empire",
+        "url": "https://en.wikipedia.org/wiki/Western_Roman_Empire"
+      },
+      {
+        "label": "Wikipedia — Byzantine Empire",
+        "url": "https://en.wikipedia.org/wiki/Byzantine_Empire"
+      },
+      {
+        "label": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/"
+      }
+    ],
+    "image": {
+      "url": "/images/events/rome-partition-395.jpg",
+      "credit": "Wikimedia Commons — Roman-empire-395AD.svg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Roman-empire-395AD.svg",
+      "license": "Public Domain / CC (Wikimedia Commons)",
+      "origin": "wikimedia"
+    }
+  },
+  {
     "id": "alaric-sack-rome",
     "startYear": 410,
     "endYear": 410,
@@ -5017,76 +5140,6 @@
       "credit": "Original educational illustration created for Eurasia History Map",
       "license": "Original / no third-party photo IP",
       "origin": "generated"
-    }
-  },
-  {
-    "id": "northern-southern-dynasties",
-    "startYear": 420,
-    "endYear": 589,
-    "geometry": {
-      "type": "Polygon",
-      "coordinates": [
-        [
-          [
-            100,
-            20
-          ],
-          [
-            122,
-            20
-          ],
-          [
-            122,
-            42
-          ],
-          [
-            100,
-            42
-          ],
-          [
-            100,
-            20
-          ]
-        ]
-      ]
-    },
-    "i18n": {
-      "en": {
-        "name": "Northern and Southern dynasties",
-        "location": "China",
-        "consequence": "China stays split for generations — many courts, cultures, and wars — until Sui reunites."
-      },
-      "de": {
-        "name": "Nördliche und Südliche Dynastien",
-        "location": "China",
-        "consequence": "China bleibt lange geteilt — viele Höfe und Kriege — bis die Sui wieder einen."
-      },
-      "zh": {
-        "name": "南北朝",
-        "location": "中国",
-        "consequence": "南北长期对峙，政权更迭频繁，直到隋朝再统一。"
-      }
-    },
-    "sources": [
-      {
-        "label": "Wikipedia — Northern and Southern dynasties",
-        "url": "https://en.wikipedia.org/wiki/Northern_and_Southern_dynasties"
-      },
-      {
-        "label": "百度百科 — 南北朝",
-        "url": "https://baike.baidu.com/item/%E5%8D%97%E5%8C%97%E6%9C%9D"
-      },
-      {
-        "label": "Encyclopaedia Britannica",
-        "url": "https://www.britannica.com/"
-      }
-    ],
-    "image": {
-      "url": "/images/events/northern-southern-dynasties.jpg",
-      "credit": "Wikimedia Commons — Tomb Brick of Wei, Jin, or Southern-Northern Dynasties - 1.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ATomb%20Brick%20of%20Wei%2C%20Jin%2C%20or%20Southern-Northern%20Dynasties%20-%201.jpg",
-      "license": "Public Domain / CC (Wikimedia Commons)",
-      "origin": "wikimedia"
     }
   },
   {
@@ -5211,9 +5264,9 @@
     ],
     "image": {
       "url": "/images/events/sui-canal.jpg",
-      "credit": "Original educational illustration created for Eurasia History Map",
-      "license": "Original / no third-party photo IP",
-      "origin": "generated"
+      "credit": "Composite: Grand Canal photo (left); Grand Canal route maps / Sui dynasty (right)",
+      "license": "User-provided educational composite",
+      "origin": "other-pd"
     }
   },
   {
@@ -5840,6 +5893,158 @@
     }
   },
   {
+    "id": "five-dynasties-ten-kingdoms",
+    "startYear": 907,
+    "endYear": 960,
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            108,
+            22
+          ],
+          [
+            122,
+            22
+          ],
+          [
+            122,
+            38
+          ],
+          [
+            108,
+            38
+          ],
+          [
+            108,
+            22
+          ]
+        ]
+      ]
+    },
+    "i18n": {
+      "en": {
+        "name": "Five Dynasties and Ten Kingdoms",
+        "location": "China",
+        "consequence": "After the Tang falls, north China sees rapid dynastic change while many southern kingdoms rule separately — until the Song reunites much of China."
+      },
+      "de": {
+        "name": "Fünf Dynastien und Zehn Reiche",
+        "location": "China",
+        "consequence": "Nach dem Ende der Tang wechseln im Norden rasch die Dynastien, während im Süden viele Königreiche bestehen — bis die Song große Teile Chinas wieder einen."
+      },
+      "zh": {
+        "name": "五代十国",
+        "location": "中国",
+        "consequence": "唐朝灭亡后，北方五代更迭频繁，南方十国并立，直到宋朝基本完成统一。"
+      }
+    },
+    "sources": [
+      {
+        "label": "Wikipedia — Five Dynasties and Ten Kingdoms",
+        "url": "https://en.wikipedia.org/wiki/Five_Dynasties_and_Ten_Kingdoms_period"
+      },
+      {
+        "label": "Wikipedia (DE) — Fünf Dynastien und Zehn Reiche",
+        "url": "https://de.wikipedia.org/wiki/F%C3%BCnf_Dynastien_und_Zehn_Reiche"
+      },
+      {
+        "label": "百度百科 — 五代十国",
+        "url": "https://baike.baidu.com/item/%E4%BA%94%E4%BB%A3%E5%8D%81%E5%9B%BD"
+      },
+      {
+        "label": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/"
+      }
+    ],
+    "image": {
+      "url": "/images/events/five-dynasties-ten-kingdoms.jpg",
+      "credit": "Wikimedia Commons — Five Dynasties and Ten Kingdoms 907-979.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Five_Dynasties_and_Ten_Kingdoms_907-979.jpg",
+      "license": "Public Domain / CC (Wikimedia Commons)",
+      "origin": "wikimedia"
+    }
+  },
+  {
+    "id": "sixteen-prefectures-936",
+    "startYear": 936,
+    "endYear": 938,
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            114,
+            38.5
+          ],
+          [
+            119.5,
+            38.5
+          ],
+          [
+            119.5,
+            41.5
+          ],
+          [
+            114,
+            41.5
+          ],
+          [
+            114,
+            38.5
+          ]
+        ]
+      ]
+    },
+    "i18n": {
+      "en": {
+        "name": "Cession of the Sixteen Prefectures",
+        "location": "Yan–Yun (Beijing, northern Hebei & Shanxi)",
+        "consequence": "In 936 Shi Jingtang sought Khitan (Liao) military aid against Later Tang and promised the Sixteen Prefectures. After founding Later Jin, he ceded this strategic Great Wall frontier (formal transfer 938), leaving the Central Plains open to northern cavalry for centuries."
+      },
+      "de": {
+        "name": "Abtretung der Sechzehn Präfekturen",
+        "location": "Yan–Yun (Peking, Nord-Hebei & Shanxi)",
+        "consequence": "936 bat Shi Jingtang die Kitan (Liao) um Hilfe gegen die Spätere Tang und versprach die Sechzehn Präfekturen. Nach Gründung der Späteren Jin trat er dieses strategische Grenzgebiet ab (formell 938) — laut deutschen und englischen Artikeln eine entscheidende Schwächung Nordchinas gegenüber den Kitan."
+      },
+      "zh": {
+        "name": "石敬瑭割让燕云十六州",
+        "location": "燕云（今北京及冀晋北部）",
+        "consequence": "936年石敬瑭为争帝位求契丹出兵，许以燕云十六州。后晋建立后将该战略要地割让（正式交割约在938年），使中原失去长城防线，长期受北方政权威胁。"
+      }
+    },
+    "sources": [
+      {
+        "label": "Wikipedia — Sixteen Prefectures",
+        "url": "https://en.wikipedia.org/wiki/Sixteen_Prefectures"
+      },
+      {
+        "label": "Wikipedia — Shi Jingtang",
+        "url": "https://en.wikipedia.org/wiki/Shi_Jingtang"
+      },
+      {
+        "label": "Wikipedia (DE) — Liao-Dynastie",
+        "url": "https://de.wikipedia.org/wiki/Liao-Dynastie"
+      },
+      {
+        "label": "百度百科 — 燕云十六州",
+        "url": "https://baike.baidu.com/item/%E7%87%95%E4%BA%91%E5%8D%81%E5%85%AD%E5%B7%9E"
+      },
+      {
+        "label": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/"
+      }
+    ],
+    "image": {
+      "url": "/images/events/sixteen-prefectures-936.jpg",
+      "credit": "Wikimedia Commons — Sixteen Prefectures.png",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sixteen_Prefectures.png",
+      "license": "Public Domain / CC (Wikimedia Commons)",
+      "origin": "wikimedia"
+    }
+  },
+  {
     "id": "song-unify",
     "startYear": 979,
     "endYear": 979,
@@ -5970,9 +6175,9 @@
     ],
     "image": {
       "url": "/images/events/crusades-start.jpg",
-      "credit": "Original educational illustration created for Eurasia History Map",
-      "license": "Original / no third-party photo IP",
-      "origin": "generated"
+      "credit": "Jean-Victor Schnetz — The Battle of Ascalon, August 12, 1099 (user-provided)",
+      "license": "User-provided educational image",
+      "origin": "other-pd"
     }
   },
   {
@@ -6286,10 +6491,9 @@
     ],
     "image": {
       "url": "/images/events/diaoyu-fortress.jpg",
-      "credit": "Wikimedia Commons — Hechuan.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hechuan.jpg",
-      "license": "Public Domain / CC (Wikimedia Commons)",
-      "origin": "wikimedia"
+      "credit": "Composite: Diaoyucheng siege diorama (left); Huguo Gate / fortress stairs (right)",
+      "license": "User-provided educational composite",
+      "origin": "other-pd"
     }
   },
   {
